@@ -1,0 +1,17 @@
+
+state={
+	id=771
+	name="STATE_771"
+
+	history={
+		owner = PRC
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		1089 7120 10076 996 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
