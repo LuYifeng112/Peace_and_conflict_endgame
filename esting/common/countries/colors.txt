@@ -1,7 +1,23 @@
 #reload countrycolors
+TUN = {
+	color = rgb {219 11 192}
+	color_ui = rgb {121 111 199}
+}
+MAC = {
+	color = rgb { 91 219 111 }
+	color_ui = rgb { 111 219 200 }
+}
+KOS = {
+	color = rgb { 11 91 21 }
+	color_ui = rgb {219 111 213 }
+}
 BOS = {
 	color = rgb { 32 12 11 }
-	color_ui = rgb { 111 231 222}
+	color_ui = rgb { 111 231 222 }
+}
+SLV = {
+	color = rgb { 11 222 191 }
+	color_ui = rgb { 111 231 111 }
 }
 ### new countries
 GER = {

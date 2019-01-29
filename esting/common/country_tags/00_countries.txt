@@ -1,3 +1,7 @@
+TUN = "countries/Tunisia.txt"
+KOS = "countries/Kosovo.txt"
+MAC = "countries/Macedonia.txt"
+SLV = "countries/Slovenia.txt"
 BOS = "countries/Bosnia.txt"
 ###
 GER	= "countries/Germany.txt"

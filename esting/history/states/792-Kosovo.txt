@@ -1,0 +1,13 @@
+state={
+	id=792
+	name="STATE_792"
+	provinces={
+		6940 6953 9849 9874 9890 
+	}
+	history = {
+	owner = KOS
+	add_core_of = KOS
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
