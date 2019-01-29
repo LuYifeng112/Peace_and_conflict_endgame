@@ -1,4 +1,16 @@
 #reload countrycolors
+WSH = {
+	color = rgb {1 2 111}
+	color_ui = rgb {1 2 210}
+}
+MRC = {
+	color = rgb {192 111 1}
+	color_ui = rgb {121 1 222}
+}
+ALG = {
+	color = rgb { 113  121  8 }
+	color_ui = rgb {111 222 1}
+}
 TUN = {
 	color = rgb {219 11 192}
 	color_ui = rgb {121 111 199}

@@ -1,3 +1,6 @@
+WSH = "countries/West Sahara.txt"
+MRC = "countries/Morroco.txt"
+ALG = "countries/Algeria.txt"
 TUN = "countries/Tunisia.txt"
 KOS = "countries/Kosovo.txt"
 MAC = "countries/Macedonia.txt"
