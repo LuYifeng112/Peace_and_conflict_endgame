@@ -1,0 +1,15 @@
+state={
+	id=787
+	name="STATE_787"
+
+	history={
+		owner = MON
+
+	}
+
+	provinces={
+		1723 1853 4856 12612 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

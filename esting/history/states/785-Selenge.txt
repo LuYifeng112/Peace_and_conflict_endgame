@@ -1,0 +1,15 @@
+state={
+	id=785
+	name="STATE_785"
+
+	history={
+		owner = MON
+
+	}
+
+	provinces={
+		4732 4801 4862 7717 10554 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
