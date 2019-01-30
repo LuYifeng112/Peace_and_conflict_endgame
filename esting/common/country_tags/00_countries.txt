@@ -1,3 +1,4 @@
+CYP = "countries/Cyprus.txt"
 WSH = "countries/West Sahara.txt"
 MRC = "countries/Morroco.txt"
 ALG = "countries/Algeria.txt"
