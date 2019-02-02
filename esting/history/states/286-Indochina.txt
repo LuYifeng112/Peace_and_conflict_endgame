@@ -7,20 +7,17 @@ state={
 	}
 
 	history={
-		#add_core_of = 
-		#owner = 
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 2
-			
 
 		}
 
 	}
 
 	provinces={
-	12260 13209
+		12260 
 	}
 	manpower=5245000
 	buildings_max_level_factor=1.000

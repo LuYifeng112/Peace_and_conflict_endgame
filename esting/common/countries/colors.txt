@@ -1,4 +1,32 @@
 #reload countrycolors
+GHN = {
+	color = rgb {99 99 100}
+	color_ui = rgb {100 200 150}
+}
+BEN = {
+	color = rgb {50 50 200}
+	color_ui = rgb {100 200 100}
+}
+TOG = {
+	color = rgb {299 299 299}
+	color_ui = rgb {200 200 11}
+}
+CDI = {
+	color = rgb {100 109 59}
+	color_ui = rgb {9 9 9 }
+}
+GIN = {
+	color = rgb {100 2 2}
+	color_ui = rgb { 100 100 2}
+}
+SRL = {
+	color = rgb {5 100 100}
+	color_ui = rgb {9 9 200}
+}
+GUI = {
+	color = rgb {100 100 10}
+	color_ui = rgb {2 10 100}
+}
 MAI = {
 	color = rgb {10 10 100}
 	color_ui = rgb {5 50 5}

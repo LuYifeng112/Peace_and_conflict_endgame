@@ -1,11 +1,11 @@
+
 state={
 	id=274
 	name="STATE_274"
-	
-	state_category = rural
 
 	history={
-		owner = ENG
+		owner = GHN
+		add_core_of = GHN
 		victory_points = {
 			10862 1 
 		}
@@ -21,8 +21,9 @@ state={
 	}
 
 	provinces={
-		8039 8096 10862 12742 12785 12787 13136 
+		8039 8096 10862 12742 12787 13136 
 	}
 	manpower=3163600
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

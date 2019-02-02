@@ -1,0 +1,13 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		5013 5070 8065 8122 10762 10803 
+	}
+	history = {
+	owner = CDI
+	add_core_of = CDI
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
