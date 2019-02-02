@@ -1,4 +1,20 @@
 #reload countrycolors
+MAI = {
+	color = rgb {10 10 100}
+	color_ui = rgb {5 50 5}
+}
+MAU = {
+	color = rgb {50 50 5}
+	color_ui = rgb {10 10 200}
+}
+GAM = {
+	color = rgb {199 9 9}
+	color_ui = rgb { 9 111 111}
+}
+SEN = {
+	color = rgb {19 21 199}
+	color_ui = rgb {9 100 200}
+}
 CYP = {
 	color = rgb {9 1 200}
 	color_ui = rgb {1 2 90}

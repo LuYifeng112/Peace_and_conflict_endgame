@@ -1,3 +1,7 @@
+MAI = "countries/Mali.txt"
+MAU = "countries/Mauritania.txt"
+GAM = "countries/Gambia.txt"
+SEN = "countries/Senegal.txt"
 CYP = "countries/Cyprus.txt"
 WSH = "countries/West Sahara.txt"
 MRC = "countries/Morroco.txt"
