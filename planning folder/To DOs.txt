@@ -30,4 +30,5 @@ misc
 -draft ideologies 
 -Assign leaders
 -fix the bookmarks without messing up the code
- 
+ -RECRUIT CURRENT EVENT RESEARCHERS 
+ -Increase mod recognition 
