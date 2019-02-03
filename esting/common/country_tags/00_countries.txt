@@ -1,3 +1,7 @@
+CHA = "countries/Chad.txt"
+NER = "countries/Niger.txt"
+NIG = "countries/Nigeria.txt"
+BRF = "countries/Burkina Faso.txt"
 GHN = "countries/Ghana.txt"
 BEN = "countries/Benin.txt"
 TOG = "countries/Togo.txt"

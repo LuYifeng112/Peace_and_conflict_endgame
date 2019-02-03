@@ -1,0 +1,13 @@
+state={
+	id=845
+	name="STATE_845"
+	provinces={
+		1473 3123 3181 4897 4902 4978 5136 9152 10893 
+	}
+	history = {
+	owner = CHA
+	add_core_of = CHA
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
