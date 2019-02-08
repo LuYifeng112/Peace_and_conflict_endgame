@@ -1,0 +1,12 @@
+state={
+	id=884
+	name="STATE_884"
+	provinces={
+		7427 
+	}
+	history = {
+	owner = MAL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

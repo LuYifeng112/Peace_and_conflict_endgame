@@ -1,0 +1,15 @@
+state={
+	id=886
+	name="STATE_886"
+
+	history={
+		owner = MAL
+
+	}
+
+	provinces={
+		1306 1335 4282 4338 7358 7371 10143 10199 10212 10240 12186 12228 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
