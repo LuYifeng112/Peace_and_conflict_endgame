@@ -4,6 +4,12 @@ state={
 	provinces={
 		12150 
 	}
+	history = {
+	owner = VIN
+	}
+	history = {
+	owner = VIN
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

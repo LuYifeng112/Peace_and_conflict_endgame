@@ -1,11 +1,11 @@
 state={
-	id=838
-	name="STATE_838"
+	id=873
+	name="STATE_873"
 	provinces={
-		12288 
+		10425 12373 12388 
 	}
 	history = {
-	owner = VIN
+	owner = SIA
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
