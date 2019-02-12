@@ -1,11 +1,15 @@
+
 state={
 	id=884
 	name="STATE_884"
-	provinces={
-		7427 
+
+	history={
+		owner = MAL
+
 	}
-	history = {
-	owner = MAL
+
+	provinces={
+		4412 7427 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
