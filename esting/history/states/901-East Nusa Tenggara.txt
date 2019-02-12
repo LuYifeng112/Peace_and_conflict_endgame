@@ -1,0 +1,12 @@
+state={
+	id=901
+	name="STATE_901"
+	provinces={
+		1298 1339 1355 4301 4358 7321 10175 10219 12151 12219 12234 
+	}
+	history = {
+	owner = INS
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=898
+	name="STATE_898"
+
+	history={
+		owner = INS
+
+	}
+
+	provinces={
+		1209 4306 4390 4608 7654 10479 10491 12472 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
