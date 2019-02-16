@@ -1,0 +1,15 @@
+state={
+	id=923
+	name="STATE_923"
+
+	history={
+		owner = IRQ
+
+	}
+
+	provinces={
+		1631 3795 4951 12046 12413 12839 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

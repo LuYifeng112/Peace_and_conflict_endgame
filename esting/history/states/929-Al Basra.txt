@@ -1,0 +1,12 @@
+state={
+	id=929
+	name="STATE_929"
+	provinces={
+		2089 
+	}
+	history = {
+	owner = IRQ
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
