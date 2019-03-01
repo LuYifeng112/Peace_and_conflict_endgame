@@ -1,101 +1,5 @@
 #reload countrycolors
-CHA = {
-	color = rgb { 150  40  70 }
-	color_ui = rgb {20 20 100}
-}
-NER = {
-	color = rgb { 90  270  270 }
-	color_ui = rgb { 10 20 10}
-}
-NIG = {
-	color = rgb {190 150 290}
-	color_ui = rgb {300 200 100}
-}
-BRF = {
-	color = rgb {200 200 1}
-	color_ui = rgb { 20 20 100}
-}
-GHN = {
-	color = rgb {99 99 100}
-	color_ui = rgb {100 200 150}
-}
-BEN = {
-	color = rgb {50 50 200}
-	color_ui = rgb {100 200 100}
-}
-TOG = {
-	color = rgb {299 299 299}
-	color_ui = rgb {200 200 11}
-}
-CDI = {
-	color = rgb {100 109 59}
-	color_ui = rgb {9 9 9 }
-}
-GIN = {
-	color = rgb {100 2 2}
-	color_ui = rgb { 100 100 2}
-}
-SRL = {
-	color = rgb {5 100 100}
-	color_ui = rgb {9 9 200}
-}
-GUI = {
-	color = rgb {100 100 10}
-	color_ui = rgb {2 10 100}
-}
-MAI = {
-	color = rgb {10 10 100}
-	color_ui = rgb {5 50 5}
-}
-MAU = {
-	color = rgb {50 50 5}
-	color_ui = rgb {10 10 200}
-}
-GAM = {
-	color = rgb {199 9 9}
-	color_ui = rgb { 9 111 111}
-}
-SEN = {
-	color = rgb {19 21 199}
-	color_ui = rgb {9 100 200}
-}
-CYP = {
-	color = rgb {9 1 200}
-	color_ui = rgb {1 2 90}
-}
-WSH = {
-	color = rgb {1 2 111}
-	color_ui = rgb {1 2 210}
-}
-MRC = {
-	color = rgb {192 111 1}
-	color_ui = rgb {121 1 222}
-}
-ALG = {
-	color = rgb { 113  121  8 }
-	color_ui = rgb {111 222 1}
-}
-TUN = {
-	color = rgb {219 11 192}
-	color_ui = rgb {121 111 199}
-}
-MAC = {
-	color = rgb { 91 219 111 }
-	color_ui = rgb { 111 219 200 }
-}
-KOS = {
-	color = rgb { 11 91 21 }
-	color_ui = rgb {219 111 213 }
-}
-BOS = {
-	color = rgb { 32 12 11 }
-	color_ui = rgb { 111 231 222 }
-}
-SLV = {
-	color = rgb { 11 222 191 }
-	color_ui = rgb { 111 231 111 }
-}
-### new countries
+
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -318,7 +222,7 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 152 130 191 }
+	color = rgb { 195 107 160 }
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
@@ -395,8 +299,8 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 170  10  10 }
-	color_ui = rgb { 200  10  10 }
+	color = rgb { 204 102 0 }
+	color_ui = rgb { 255 128 0 }
 }
 
 CRO = {
@@ -566,6 +470,10 @@ KOR = {
 ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
+}
+CSA = {
+	color = rgb { 145 163 176  }
+	color_ui = rgb { 186 205 219 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

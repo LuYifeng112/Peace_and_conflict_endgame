@@ -7,8 +7,7 @@ state={
 	
 	history=
 	{
-		owner = SRL
-		victory_points = {
+		owner = 		victory_points = {
 			2038 1 
 		}
 		buildings = {
