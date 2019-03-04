@@ -1,12 +1,14 @@
+
 state={
 	id=844
 	name="STATE_844"
-	provinces={
-		1956 1975 2056 4913 7939 8028 8128 10758 10780 10805 10917 12707 
+
+	history={
+
 	}
-	history = {
-	owner = NER
-	add_core_of = NER
+
+	provinces={
+		1956 4913 7939 8028 8128 10758 10780 10805 10917 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

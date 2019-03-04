@@ -5,9 +5,8 @@ state={
 		5013 5070 8065 8122 10762 10803 
 	}
 	history = {
-	owner = CDI
-	add_core_of = CDI
-	}
+	#owner = 	
+	#add_core_of = 	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

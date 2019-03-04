@@ -1,12 +1,14 @@
+
 state={
 	id=843
 	name="STATE_843"
-	provinces={
-		1951 10919 12762 12843 12874 
+
+	history={
+
 	}
-	history = {
-	owner = BEN
-	add_core_of = BEN
+
+	provinces={
+		1951 12843 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

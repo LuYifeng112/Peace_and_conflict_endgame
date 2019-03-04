@@ -1,0 +1,15 @@
+state={
+	id=951
+	name="STATE_951"
+
+	history={
+		owner = MON
+
+	}
+
+	provinces={
+		10558 10689 12539 12541 12669 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

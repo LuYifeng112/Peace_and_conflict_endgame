@@ -1,0 +1,18 @@
+state={
+	id=939
+	name="STATE_939"
+	provinces={
+		7214
+	}
+	history = {
+			owner = CHI
+			add_core_of = PRC
+
+			buildings = {
+				infrastructure = 7
+				industrial_complex = 1
+			}
+	}
+	manpower=567132
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+
+state={
+	id=940
+	name="STATE_940"
+
+	history={
+		owner = PRC
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		 11982
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

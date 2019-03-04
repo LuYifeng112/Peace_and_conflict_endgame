@@ -1,10 +1,8 @@
 
 state={
 	id=780
-	name="STATE_780" # Guinea
-	manpower = 195041
-	
-	state_category = pastoral
+	name="STATE_780"
+
 	history={
 		owner = FRA
 		add_core_of = GNA
@@ -15,11 +13,17 @@ state={
 			infrastructure = 3
 			1909 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		1909 4957 5039 8008 12802 12858
+		4957 12802 12858 
 	}
+	manpower=195041
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }
