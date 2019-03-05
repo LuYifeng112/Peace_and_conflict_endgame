@@ -1,45 +1,47 @@
+
 state={
 	id=672
 	name="STATE_672"
-	manpower = 8254900
-	
-	state_category = town
-	
 	resources={
-		rubber=150 # was: 268
-		oil=12 # was: 24
-		aluminium=28 # was: 50
+		rubber=150.000
+		oil=12.000
+		aluminium=28.000
 	}
 
-
-	history=
-	{
+	history={
 		owner = INS
 		add_core_of = INS
 		victory_points = {
 			4652 1 
 		}
-		
 		victory_points = {
 			12268 1 
 		}
-
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
 			4652 = {
 				naval_base = 3
+
 			}
 			1648 = {
 				naval_base = 1
+
 			}
 			12268 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
+
 	provinces={
-	13218 13216 13215 13214 13209 11984 	 
+		11984 13209 13214 13215 13218 
 	}
+	manpower=8254900
+	buildings_max_level_factor=1.000
+	state_category=town
 }

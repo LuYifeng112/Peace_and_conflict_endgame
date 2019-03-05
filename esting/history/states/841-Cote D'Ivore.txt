@@ -1,12 +1,19 @@
+
 state={
 	id=841
 	name="STATE_841"
-	provinces={
-		5013 5070 8065 8122 10762 10803 
+
+	history={
+	owner = IVO
+	add_core_of = IVO
+		manpower = 0
+		buildings_max_level_factor = 1.000
+
 	}
-	history = {
-	#owner = 	
-	#add_core_of = 	}
+
+	provinces={
+		5013 8122 10803 
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 }

@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		#owner = 
-		#add_core_of = 		
+	owner = TOG
+	add_core_of = TOG
 		buildings = {
 			infrastructure = 3
 
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		2001 7950 7983 8071 10836 12851 
+		13223 
 	}
 	manpower=14844500
 	buildings_max_level_factor=1.000
