@@ -1,14 +1,14 @@
-
 state={
-	id=839
-	name="STATE_839"
+	id=965
+	name="STATE_965"
 
 	history={
+		owner = NZL
 
 	}
 
 	provinces={
-		2012 4927 5045 10812 10829 10915 12751 
+		4615 10334 10373 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

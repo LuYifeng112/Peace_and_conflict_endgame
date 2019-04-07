@@ -1,11 +1,11 @@
 state={
-	id=925
-	name="STATE_925"
+	id=964
+	name="STATE_964"
 	provinces={
-		10876 
+		12604 
 	}
 	history = {
-	owner = IRQ
+	owner = NZL
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
