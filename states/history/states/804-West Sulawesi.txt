@@ -1,0 +1,12 @@
+state={
+	id=804
+	name="STATE_804"
+	provinces={
+		1561 4308 7336 7598 
+	}
+	history = {
+	owner = INS
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

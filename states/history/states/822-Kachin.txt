@@ -1,0 +1,15 @@
+state={
+	id=822
+	name="STATE_822"
+
+	history={
+		owner = BRM
+
+	}
+
+	provinces={
+		1934 4318 4996 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
