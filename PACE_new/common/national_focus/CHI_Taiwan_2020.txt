@@ -1,0 +1,173 @@
+focus_tree = { 
+id = Taiwan_2020
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = CHI 
+} 
+} 
+#Focus for Address the housing crisis
+focus = { 
+id = CHI_addressthehousingcrisis
+icon = GFX_goal_unknown
+x = 13
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_addresssocialissues } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Enact the public housing act
+focus = { 
+id = CHI_enactthepublichousingact
+icon = GFX_goal_unknown
+x = 10
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_addressthehousingcrisis } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Enact urban planning initiatives
+focus = { 
+id = CHI_enacturbanplanninginitiatives
+icon = GFX_goal_unknown
+x = 12
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_addressthehousingcrisis } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand health insurance aims
+focus = { 
+id = CHI_expandhealthinsuranceaims
+icon = GFX_goal_unknown
+x = 17
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_addresssocialissues } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand worker's rights
+focus = { 
+id = CHI_expandworkersrights
+icon = GFX_goal_unknown
+x = 16
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_expandhealthinsuranceaims } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Begin open diplomacy with the Mainland government
+focus = { 
+id = CHI_beginopendiplomacywiththemainlandgovernment
+icon = GFX_goal_unknown
+x = 1
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_themainlandthreat } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Form the home security department of Taiwan
+focus = { 
+id = CHI_formthehomesecuritydepartmentoftaiwan
+icon = GFX_goal_unknown
+x = 5
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_themainlandthreat } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Address Social issues
+focus = { 
+id = CHI_addresssocialissues
+icon = GFX_goal_unknown
+x = 15
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Improve factory standards
+focus = { 
+id = CHI_improvefactorystandards
+icon = GFX_goal_unknown
+x = 18
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = CHI_expandhealthinsuranceaims } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Mainland threat
+focus = { 
+id = CHI_themainlandthreat
+icon = GFX_goal_unknown
+x = 3
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Prepare the defense of Taiwan
+focus = { 
+id = CHI_preparethedefenseoftaiwan
+icon = GFX_goal_unknown
+x = 25
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }
