@@ -1,0 +1,12 @@
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		10156 
+	}
+	history = {
+	owner = SIA
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

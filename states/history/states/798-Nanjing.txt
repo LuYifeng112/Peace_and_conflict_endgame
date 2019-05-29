@@ -1,0 +1,12 @@
+state={
+	id=798
+	name="STATE_798"
+	provinces={
+		996 11913 11982 
+	}
+	history = {
+	owner = PRC
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

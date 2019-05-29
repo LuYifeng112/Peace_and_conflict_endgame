@@ -1,0 +1,12 @@
+state={
+	id=790
+	name="STATE_790"
+	provinces={
+		4367 4424 10313 
+	}
+	history = {
+	owner = MAL
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
