@@ -1,0 +1,34 @@
+state={
+	id=792
+	name="STATE_792"
+	state_category = large_town
+
+	history={
+		owner = MAL
+	buildings = {
+		infrastructure = 6
+		industrial_complex = 4
+		arms_factory = 3
+		air_base = 6
+		dockyard = 2
+		12215 =	{
+			naval_base = 3
+		}
+	}
+	victory_points = {
+		1364 25 #Ipoh
+	}
+	victory_points = {
+		1291 20 #Kedah
+	}
+	victory_points = {
+		7342 15 #Sungai Petani
+	}
+	}
+
+	provinces={
+		1291 1364 1376 4310 7342 12215 
+	}
+	manpower=2447000
+	buildings_max_level_factor=1.000
+}

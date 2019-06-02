@@ -1,0 +1,355 @@
+focus_tree = { 
+id = KOR-2020
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = KOR 
+} 
+} 
+#Focus for Nordpolitik
+focus = { 
+id = KOR_nordpolitik
+icon = GFX_goal_unknown
+x = 30
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_prounificationdiplomacy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Contact the committee for the 5 northern Korean provinces
+focus = { 
+id = KOR_contactthecommitteeforthe5northernkoreanprovinces
+icon = GFX_goal_unknown
+x = 24
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_prounificationdiplomacy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Joint pacific naval exercises
+focus = { 
+id = KOR_jointpacificnavalexercises
+icon = GFX_goal_unknown
+x = 3
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_twoenemiesonecontintent } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand humanitarian aid efforts
+focus = { 
+id = KOR_expandhumanitarianaidefforts
+icon = GFX_goal_unknown
+x = 17
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_continuethesunshinepolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Establish a defense doctrine
+focus = { 
+id = KOR_establishadefensedoctrine
+icon = GFX_goal_unknown
+x = 15
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_continuethesunshinepolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Inter Korean Non-aggression pact
+focus = { 
+id = KOR_interkoreannonaggressionpact
+icon = GFX_goal_unknown
+x = 13
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_continuethesunshinepolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pro-unification diplomacy
+focus = { 
+id = KOR_prounificationdiplomacy
+icon = GFX_goal_unknown
+x = 30
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_sdqpVhZa } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Continue the Sunshine policy
+focus = { 
+id = KOR_continuethesunshinepolicy
+icon = GFX_goal_unknown
+x = 15
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_sdqpVhZa } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Align with America
+focus = { 
+id = KOR_alignwithamerica
+icon = GFX_goal_unknown
+x = 5
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_twoenemiesonecontintent } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Introduce civilian evacuation procedures
+focus = { 
+id = KOR_introducecivilianevacuationprocedures
+icon = GFX_goal_unknown
+x = 9
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_investinseoul } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Anti Air fortifications
+focus = { 
+id = KOR_antiairfortifications
+icon = GFX_goal_unknown
+x = 7
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_investinseoul } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Visit Washington
+focus = { 
+id = KOR_visitwashington
+icon = GFX_goal_unknown
+x = 1
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_jointpacificnavalexercises } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Approach Taiwan
+focus = { 
+id = KOR_approachtaiwan
+icon = GFX_goal_unknown
+x = 3
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Two enemies one contintent
+focus = { 
+id = KOR_twoenemiesonecontintent
+icon = GFX_goal_unknown
+x = 5
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The North Korean regime
+focus = { 
+id = KOR_sdqpVhZa
+icon = GFX_goal_unknown
+x = 20
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power= 200
+ } 
+
+ } 
+
+#Focus for Invest in Seoul
+focus = { 
+id = KOR_investinseoul
+icon = GFX_goal_unknown
+x = 7
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_twoenemiesonecontintent } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Visit Moscow
+focus = { 
+id = KOR_visitmoscow
+icon = GFX_goal_unknown
+x = 28
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_nordpolitik } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Establish an offensive doctrine
+focus = { 
+id = KOR_establishanoffensivedoctrine
+icon = GFX_goal_unknown
+x = 37
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_prounificationdiplomacy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Plan up a stronghold procedure for cities
+focus = { 
+id = KOR_planupastrongholdprocedureforcities
+icon = GFX_goal_unknown
+x = 16
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_establishadefensedoctrine } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Introduce new training programs
+focus = { 
+id = KOR_wrFWjpiE
+icon = GFX_goal_unknown
+x = 14
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_establishadefensedoctrine } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Visit Sofia
+focus = { 
+id = KOR_visitsofia
+icon = GFX_goal_unknown
+x = 32
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_nordpolitik } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Visit Beijing
+focus = { 
+id = KOR_visitbeijing
+icon = GFX_goal_unknown
+x = 30
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Claim the Northern Korean states
+focus = { 
+id = KOR_claimthenorthernkoreanstates
+icon = GFX_goal_unknown
+x = 23
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = KOR_contactthecommitteeforthe5northernkoreanprovinces } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }
