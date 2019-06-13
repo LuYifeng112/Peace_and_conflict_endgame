@@ -2,7 +2,7 @@
 state={
 	id=443
 	name="STATE_443" # Sind
-	manpower = 3887000
+	manpower = 6810000
 	
 	state_category = rural
 

@@ -1,0 +1,12 @@
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+		1177 
+	}
+	history = {
+	owner = KOR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -18,6 +18,16 @@ state={
 			industry_complex = 4
 		}
 
+		1938.10.25 = {
+			controller = JAP
+		}
+		
+		1939.1.1 = {
+			
+			owner = PRC
+			controller = MEN
+
+		}
 	}
 	manpower=582544
 	buildings_max_level_factor=1.000

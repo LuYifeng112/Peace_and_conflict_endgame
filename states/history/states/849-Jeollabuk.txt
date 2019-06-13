@@ -1,0 +1,15 @@
+state={
+	id=849
+	name="STATE_849"
+
+	history={
+		owner = KOR
+
+	}
+
+	provinces={
+		7175 11977 
+	}
+	manpower=1870000
+	buildings_max_level_factor=1.000
+}

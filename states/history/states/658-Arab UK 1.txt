@@ -2,12 +2,12 @@
 state={
 	id=658
 	name="STATE_658"
-	manpower = 170200
+	manpower = 9400000
 	resources={
 		oil=5 # was: 6
 	}
 	
-	state_category = pastoral
+	state_category = megapolis
 
 
 	history={

@@ -10,6 +10,9 @@ state={
 	history={
 		owner = MAL
 		victory_points = {
+			7371 1 
+		}
+		victory_points = {
 			1208 1 
 		}
 		buildings = {
@@ -18,7 +21,10 @@ state={
 				naval_base = 1
 
 			}
+			7371 = {
+				naval_base = 2
 
+			}
 
 		}
 		add_core_of = MAL
@@ -26,7 +32,7 @@ state={
 	}
 
 	provinces={
-		1208 2117 4216 4396 7443 8091 10269 10285 12283 12905 
+		1208 2117 4216 4396 7387 7443 8091 10269 10285 12283 12905 
 	}
 	manpower=889800
 	buildings_max_level_factor=1.000

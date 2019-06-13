@@ -5,7 +5,10 @@ state={
 	history={
 		owner = INS
 		add_core_of = INS
-
+	buildings = {
+			infratructure = 6
+			arms_factory = 1
+	}
 	}
 
 	provinces={

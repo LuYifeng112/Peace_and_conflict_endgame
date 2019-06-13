@@ -1,0 +1,15 @@
+state={
+	id=846
+	name="STATE_846"
+
+	history={
+		owner = KOR
+
+	}
+
+	provinces={
+		4103 7121 11912 12011 
+	}
+	manpower=2700000
+	buildings_max_level_factor=1.000
+}

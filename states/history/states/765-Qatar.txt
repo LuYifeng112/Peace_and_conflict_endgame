@@ -2,8 +2,8 @@
 state={
 	id=765
 	name="STATE_765"
-	manpower = 51600
-	state_category = pastoral
+	manpower = 2639000
+	state_category = metropolis
 
 	history={
 		add_core_of = QAT
