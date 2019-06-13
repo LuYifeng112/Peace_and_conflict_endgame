@@ -10,20 +10,10 @@ state={
 	history={
 		owner = INS
 		add_core_of = INS
-		victory_points = {
-			10237 1 
-		}
+
 		buildings = {
 			infrastructure = 2
-			10237 = {
-				naval_base = 3
-
-			}
 			1316 = {
-				naval_base = 1
-
-			}
-			10325 = {
 				naval_base = 1
 
 			}

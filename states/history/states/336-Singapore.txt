@@ -14,12 +14,6 @@ state={
 		victory_points = {
 			12299 10 
 		}
-		victory_points = {
-			7329 1 
-		}
-		victory_points = {
-			10297 1 
-		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -29,14 +23,7 @@ state={
 				coastal_bunker = 3
 
 			}
-			7329 = {
-				naval_base = 1
 
-			}
-			10297 = {
-				naval_base = 5
-
-			}
 
 		}
 		add_core_of = MAL

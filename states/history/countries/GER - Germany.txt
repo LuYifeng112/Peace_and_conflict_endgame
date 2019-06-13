@@ -282,28 +282,20 @@ create_import = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 60
-		}
-		
-		communism = {
-			popularity = 20
-			banned = yes #default is no
-		}
-	}
-	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = yes
-
+	elections_allowed = no
 }
+set_popularities = {
+	democratic = 20
+	fascism = 60
+	communism = 20
+}
+
+create_faction = Axis
+add_to_faction = GER
+
 
 add_ideas = {
 	sour_loser
@@ -328,7 +320,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Angela Merkel"
+	name = "Konrad Adenauer"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 	expire = "1965.1.1"

@@ -13,7 +13,7 @@ state={
 		}
 		add_core_of = RAJ
 		add_claim_by = PAK
-		set_demilitirized_zone = yes
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

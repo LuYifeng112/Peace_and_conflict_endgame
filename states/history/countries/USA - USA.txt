@@ -260,26 +260,14 @@ set_convoys = 400
 
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 99
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 1
-			#banned = no #default is no
-		}
-	}
-	
 	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 99
+	communism = 1
 }
 
 add_ideas = {
@@ -298,24 +286,7 @@ set_autonomy = {
 }
 
 1939.1.1 = {
-
 	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 99
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 1
-				#banned = no #default is no
-			}
-		}
-		
 		ruling_party = democratic
 		last_election = "1936.11.3"
 		election_frequency = 48
@@ -324,7 +295,7 @@ set_autonomy = {
 }
 
 create_country_leader = {
-	name = "Donald John Trump"
+	name = "Franklin Delano Roosevelt"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1947.1.1"
