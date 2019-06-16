@@ -33,9 +33,7 @@ set_technology = {
 
 }
 
-
-
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1199
 	
@@ -127,15 +125,30 @@ set_technology = {
 set_convoys = 400
 
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1932.11.8"
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
-}
-set_popularities = {
-	neutrality = 99
-	communism = 1
 }
 
 add_ideas = {
@@ -146,12 +159,33 @@ add_ideas = {
 	neutrality_idea
 }
 
-1939.1.1 = {
+2030.1.1 = {
+
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
 	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.11.3"
-		election_frequency = 48
-		elections_allowed = yes
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 	}
 }
 

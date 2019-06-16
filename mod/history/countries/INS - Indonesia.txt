@@ -46,19 +46,40 @@ if = {
 }
 
 set_convoys = 25
-set_popularities = {
-	democratic = 10
-	fascism = 10
-	communism = 30
-	neutrality = 50
+
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
 }
 
+
 create_country_leader = {
-	name = "Sukarno"
+	name = "Joko Widodo"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	picture = "gfx/leaders/INS/Joko.dds"
 	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
+	ideology = conservatism #Marhaenism his own unique mix of stuff
 	traits = {
 		
 	}
@@ -69,7 +90,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_indonesia_at_van_starkenborgh"
 	expire = "1953.3.1"
-	ideology = conservatism 
+	ideology = rexism 
 	traits = {
 		
 	}
@@ -124,9 +145,7 @@ if = {
 	}
 }
 
-set_cosmetic_tag = INS_HOL # Netherlands East Indies
-
-1939.1.1 = {
+2030.1.1 = {
 	add_political_power = 1198
 
 	oob = "INS_1939" #straight copy of INS 1936

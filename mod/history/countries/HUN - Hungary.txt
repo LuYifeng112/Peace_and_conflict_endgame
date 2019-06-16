@@ -28,7 +28,7 @@ if = {
 	}
 }
 
-1939.1.1 = {
+2030.1.1 = {
 	remove_ideas = HUN_treaty_of_triannon
 
 	add_political_power = 1198
@@ -124,16 +124,30 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.3.31"
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 25
-	fascism = 31
-	neutrality = 44
 }
 
 #Start Horty as neutral if DOD
@@ -193,37 +207,34 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
-	if = {
-		limit = {
-			has_dlc = "Death or Dishonor"
-		}
-		#Remove neutral Horty add fascist
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-			traits = {
-				anti_communist
-			}
-			id = 503 #Horty fascist
-		}
-	}
+2030.1.1 = {
 
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1939.5.29"
-		election_frequency = 48
-		elections_allowed = yes
-	}
 	set_popularities = {
-		democratic = 27
-		fascism = 70
-		communism = 3
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
 	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
 }
 
 

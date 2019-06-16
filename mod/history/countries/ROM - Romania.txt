@@ -78,7 +78,7 @@ if = {
 
 
 set_convoys = 10
-1939.1.1 = {
+2030.1.1 = {
 	
 	remove_ideas = neutrality_idea
 
@@ -211,32 +211,58 @@ set_convoys = 10
 	}
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.12.20"
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = {
-	democratic = 20
-	fascism = 18
-	communism = 2
-	neutrality = 60
-}
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.7.15"
-		election_frequency = 48
-		elections_allowed = no
-	}
+2030.1.1 = {
 	set_popularities = {
-		democratic = 20
-		fascism = 35
-		communism = 2
-		neutrality = 43
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
 	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 }
 
 create_country_leader = {
@@ -244,7 +270,7 @@ create_country_leader = {
 	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
 	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = centrist
 	traits = {
 		#
 	}

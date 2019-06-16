@@ -72,7 +72,7 @@ if = {
 	}
 }
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	
@@ -258,16 +258,30 @@ if = {
 
 set_convoys = 50
 
-set_politics = {
-	ruling_party = communism
-	last_election = "1933.7.1"
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	elections_allowed = yes
 }
 
 create_faction = Comintern
@@ -282,11 +296,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
+	name = "Vladimir Putin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = socialism
 	traits = {
 		
 	}
@@ -308,7 +322,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
 	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = socialism
+	ideology = stalinism
 	traits = {
 		
 	}

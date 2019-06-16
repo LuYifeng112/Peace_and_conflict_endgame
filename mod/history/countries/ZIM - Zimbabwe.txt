@@ -10,7 +10,7 @@ set_technology = {
 
 set_convoys = 5
 
-1939.1.1 = {
+2030.1.1 = {
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
@@ -44,24 +44,73 @@ set_convoys = 5
 		dispersed_industry2 = 1
 	}
 }
-
-# A colongy of Italy in 1939, however if independent it would have the same politics as in 1936
-set_politics = {
-	ruling_party = neutrality
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = {
-	neutrality = 100
-}
-
 create_country_leader = {
+	
 	name = " Marcus James Hugins"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = { 
 		prince_of_terror
-	}
+		
+			}
 }
+
+
+}
+
+
+#Now a colony of Italy  However, if independent it would have
+2030.1.1 = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+}
+

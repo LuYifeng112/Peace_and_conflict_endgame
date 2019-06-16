@@ -129,43 +129,69 @@ set_country_flag = monroe_doctrine
 }
 
 set_convoys = 120
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1931.11.8"
-	election_frequency = 72
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 12
-	neutrality = 78
 }
 
 create_country_leader = {
-	name = "Agustín Pedro Justo"
+	name = "Mauricio Macri"
 	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
 	picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = sub_progressive
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1937.9.5"
-		election_frequency = 108
-		elections_allowed = yes
+2030.1.1 = {
+		set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
 	}
-
-	set_popularities = {
-		democratic = 5
-		fascism = 5
-		communism = 12
-		neutrality = 78
+	set_politics = {
+	ruling_party = nationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 	}
 
 	create_country_leader = {

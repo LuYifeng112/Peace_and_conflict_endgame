@@ -14,7 +14,7 @@ set_war_support = 0.7
 save_global_event_target_as = WTT_communist_china
 
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	oob = "PRC_1939"
@@ -128,15 +128,86 @@ save_global_event_target_as = WTT_communist_china
 		concentrated_industry3 = 1
 	}
 }
-
-set_politics = {
-	ruling_party = communism
+#######Trade
+create_import = {
+		resource = oil
+		factories = 4
+		exporter = KOR
+}
+create_import = {
+		resource = aluminium
+		factories = 2
+		exporter = USA
+}
+create_import = {
+		resource = steel
+		factories = 1
+		exporter = JAP
+}
+create_import = {
+		resource = steel
+		factories = 1
+		exporter = GER
+}
+create_import = {
+		resource = tungsten
+		factories = 1
+		exporter = AST
+}
+#######political
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 0
+		progressive = 0
+		centrist = 0
+		socialist = 0
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 100
+	}
+	set_politics = {
+	ruling_party = Chinese_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {
-	communism = 100
+
+
+2030.1.1 = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = Chinese_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 }
 
 add_ideas = {
@@ -160,13 +231,12 @@ if = {
 add_opinion_modifier = { target = CHI modifier = hostile_status }
 
 create_country_leader = {
-	name = "Mao Zedong"
+	name = "Xi Jin Ping"
 	desc = "POLITICS_MAO_ZEDONG_DESC"
 	picture = "GFX_portrait_prc_mao_zedong"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = socialism_with_chinese_characterisitcs
 	traits = {
-		cornered_fox
 	}
 }
 

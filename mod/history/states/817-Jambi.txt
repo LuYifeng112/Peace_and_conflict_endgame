@@ -9,6 +9,6 @@ state={
 	owner = INS
 	add_core_of = INS
 	}
-	manpower=0
+	manpower=529118
 	buildings_max_level_factor=1.000
 }

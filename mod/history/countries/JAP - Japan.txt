@@ -115,7 +115,7 @@ create_import = {
 		exporter = USA
 }
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	
@@ -251,58 +251,61 @@ create_import = {
 
 set_convoys = 400
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-		not = { has_dlc = "Waking the Tiger" }
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_integrated_puppet
-	}
-}
-if = {
-	limit = { 
-		not = {
-			has_dlc = "Waking the Tiger"
-			has_dlc = "Together for Victory"
-		}
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = { 
-		has_dlc = "Waking the Tiger"
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
-}
 
-set_politics = {
-	ruling_party = fascism
+
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
-set_popularities = {
-	fascism = 100
+
+
+2030.1.1 = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 }
 
 create_country_leader = {
@@ -330,11 +333,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tetsu Katayama"
+	name = "Abe Shinzo"
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "GFX_Portrait_tetsu_katayama"
 	expire = "1989.1.1"
-	ideology = liberalism
+	ideology = sub_progressive
 	traits = {
 	}
 }

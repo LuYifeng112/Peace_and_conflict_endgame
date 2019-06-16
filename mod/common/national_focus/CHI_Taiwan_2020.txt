@@ -114,7 +114,7 @@ ai_will_do = {
 #Focus for Approach Republic of Korea
 focus = { 
 id = CHI_approachrepublicofkorea
-icon = GFX_goal_unknown
+icon = GFX_approachrepublicofkorea
 x = 43
 y = 2
 cost = 10
@@ -143,7 +143,7 @@ ai_will_do = {
 #Focus for The Mainland threat
 focus = { 
 id = CHI_themainlandthreat
-icon = GFX_goal_unknown
+icon = GFX_themainlandthreat
 x = 3
 y = 0
 cost = 10
@@ -157,7 +157,7 @@ ai_will_do = {
 #Focus for Prepare the defense of Taiwan
 focus = { 
 id = CHI_preparethedefenseoftaiwan
-icon = GFX_goal_unknown
+icon = GFX_preparethedefenseoftaiwan
 x = 22
 y = 0
 cost = 10
@@ -249,19 +249,13 @@ ai_will_do = {
 #Focus for Taiwanese intitative
 focus = { 
 id = CHI_taiwaneseintitative
-icon = GFX_goal_unknown
+icon = GFX_focus_generic_china1
 x = 46
 y = 0
 cost = 10
 available_if_capitulated = yes 
 ai_will_do = { 
  factor = 1
- } 
-available = { 
-has_opinion= {
-target = USA 
-value >90
-}
  } 
 
  } 
@@ -284,7 +278,7 @@ ai_will_do = {
 #Focus for Request foreign aid
 focus = { 
 id = CHI_requestforeignaid
-icon = GFX_goal_unknown
+icon = GFX_focus_generic_concessions
 x = 46
 y = 1
 cost = 10
@@ -299,7 +293,7 @@ ai_will_do = {
 #Focus for Approach Japan
 focus = { 
 id = CHI_approachjapan
-icon = GFX_goal_unknown
+icon = GFX_approachjapan
 x = 39
 y = 2
 cost = 10
@@ -344,7 +338,7 @@ ai_will_do = {
 #Focus for Second civil war
 focus = { 
 id = CHI_secondcivilwar
-icon = GFX_goal_unknown
+icon = GFX_secondcivilwar
 x = 45
 y = 7
 cost = 10
@@ -430,7 +424,7 @@ ai_will_do = {
 
 #Focus for Artillery production efficiency
 focus = { 
-id = CHI_uztecsmU
+id = CHI_UKbNuelM
 icon = GFX_goal_unknown
 x = 32
 y = 2
@@ -834,7 +828,7 @@ ai_will_do = {
 #Focus for Fund the PRC intelligence division
 focus = { 
 id = CHI_fundtheprcintelligencedivision
-icon = GFX_goal_unknown
+icon = GFX_fundtheprcintelligencedivision
 x = 47
 y = 2
 cost = 10
@@ -849,7 +843,7 @@ ai_will_do = {
 #Focus for Operation Coast Sweep
 focus = { 
 id = CHI_operationcoastsweep
-icon = GFX_goal_unknown
+icon = GFX_operationcoastsweep
 x = 45
 y = 3
 cost = 10
@@ -864,7 +858,7 @@ ai_will_do = {
 #Focus for Bribe officials
 focus = { 
 id = CHI_bribeofficials
-icon = GFX_goal_unknown
+icon = GFX_bribeofficials
 x = 38
 y = 4
 cost = 10
@@ -879,7 +873,7 @@ ai_will_do = {
 #Focus for Contact ROC loyalists
 focus = { 
 id = CHI_contactrocloyalists
-icon = GFX_goal_unknown
+icon = GFX_contactrocloyalists
 x = 45
 y = 4
 cost = 10
@@ -893,7 +887,7 @@ ai_will_do = {
 #Focus for Cooperate with triads
 focus = { 
 id = CHI_cooperatewithtriads
-icon = GFX_goal_unknown
+icon = GFX_cooperatewithtriads
 x = 52
 y = 4
 cost = 10
@@ -1164,7 +1158,7 @@ ai_will_do = {
 #Focus for International intelligence effort
 focus = { 
 id = CHI_internationalintelligenceeffort
-icon = GFX_goal_unknown
+icon = GFX_internationalintelligenceeffort
 x = 63
 y = 2
 cost = 10
@@ -1209,7 +1203,7 @@ ai_will_do = {
 #Focus for Expand the National security Bureau
 focus = { 
 id = CHI_expandthenationalsecuritybureau
-icon = GFX_goal_unknown
+icon = GFX_expandthenationalsecuritybureau
 x = 54
 y = 1
 cost = 10
@@ -1616,7 +1610,7 @@ ai_will_do = {
 #Focus for Air force expansion
 focus = { 
 id = CHI_airforceexpansion
-icon = GFX_goal_unknown
+icon = GFX_airforceexpansion
 x = 16
 y = 1
 cost = 10
@@ -1631,7 +1625,7 @@ ai_will_do = {
 #Focus for Naval investments
 focus = { 
 id = CHI_navalinvestments
-icon = GFX_goal_unknown
+icon = GFX_navalinvestments
 x = 22
 y = 1
 cost = 10
@@ -1646,7 +1640,7 @@ ai_will_do = {
 #Focus for Army Intitative
 focus = { 
 id = CHI_armyintitative
-icon = GFX_goal_unknown
+icon = GFX_armyintitative
 x = 28
 y = 1
 cost = 10
@@ -1736,7 +1730,7 @@ ai_will_do = {
 #Focus for Spiritual war
 focus = { 
 id = CHI_spiritualwar
-icon = GFX_goal_unknown
+icon = GFX_spiritualwar
 x = 12
 y = 2
 cost = 10
@@ -1834,7 +1828,7 @@ x = 10
 y = 4
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = CHI_CIoxSLBQ } 
+prerequisite = { focus = CHI_DUvGEgHN } 
 prerequisite = { focus = CHI_centralizewarpreparation } 
 ai_will_do = { 
  factor = 1
@@ -1988,7 +1982,7 @@ ai_will_do = {
 
 #Focus for Education reforms
 focus = { 
-id = CHI_CIoxSLBQ
+id = CHI_DUvGEgHN
 icon = GFX_goal_unknown
 x = 9
 y = 3

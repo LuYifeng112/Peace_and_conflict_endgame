@@ -10,7 +10,7 @@ ideologies = {
 			pope = {
 			}
 			
-			Constituional_monarchist = {
+			parliamentary_monarchist = {
 			}
 			
 		}
@@ -24,17 +24,20 @@ ideologies = {
 			"FACTION_NAME_MONARCHIST_6"
 		}
 		
-		color = { 70 0 70 }
+		color = { 142 29 139 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
 		
 		rules = {
-			can_guarantee_other_ideologies = yes
+			can_declare_war_on_same_ideology = no
 			can_force_government = no
-			can_send_volunteers = yes
+			can_send_volunteers = no
 			can_puppet = no
 			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+			can_boost_other_ideologies = yes
 		}
 		
 		modifiers = {

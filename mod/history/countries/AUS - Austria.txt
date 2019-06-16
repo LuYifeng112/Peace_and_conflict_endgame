@@ -14,28 +14,40 @@ set_technology = {
 	early_fighter = 1
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1930.11.9"
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	neutrality = 48
-	fascism = 50
-	democratic = 1
-	communism = 1
+	elections_allowed = yes
 }
 
 set_stability = 0.50
 
 create_country_leader = {
-	name = "Kurt Schuschnigg"
+	name = "Alexander Van der Bellen"
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = centrist
 	traits = {
 		#
 	}

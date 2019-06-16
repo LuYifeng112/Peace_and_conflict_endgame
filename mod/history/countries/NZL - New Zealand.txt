@@ -46,7 +46,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	oob = "NZL_1939"
@@ -147,16 +147,31 @@ if = {
 		}
 	}
 }
-set_politics = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
 	ruling_party = democratic
-	last_election = "1935.11.27"
-	election_frequency = 36
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = {
-	democratic = 100
-}
-
 create_country_leader = {
 	name = "Michael Joseph Savage"
 	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
@@ -173,7 +188,7 @@ create_country_leader = {
 	desc = "POLITICS_SIDNEY_HOLLAND_DESC"
 	picture = "GFX_NZL_sidney_holland"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = centrist
 	traits = {
 		#
 	}
@@ -203,12 +218,32 @@ create_country_leader = {
 
 set_convoys = 70
 
-1939.1.1 = {
+2030.1.1 = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
 	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.10.15"
-		election_frequency = 60
-		elections_allowed = yes
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 	}
 
 	# Didn't take office until '40, added for flavor
@@ -222,7 +257,7 @@ set_convoys = 70
 			#
 		}
 	}
-	set_convoys = 80
+	set_convoys = 50
 }
 
 create_corps_commander = {
@@ -319,7 +354,7 @@ if = {
 }
 
 # 1939 Start #
-1939.1.1 = {
+2030.1.1 = {
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		# Ship variants #

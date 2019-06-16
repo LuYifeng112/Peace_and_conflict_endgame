@@ -24,7 +24,7 @@ ideologies = {
 			"FACTION_NAME_CENTRIST_6"
 		}
 		
-		color = { 255 170 30 }
+		color = { 247 221 54 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1

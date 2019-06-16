@@ -8,6 +8,6 @@ state={
 	history = {
 	owner = MAL
 	}
-	manpower=0
+	manpower=2619000
 	buildings_max_level_factor=1.000
 }

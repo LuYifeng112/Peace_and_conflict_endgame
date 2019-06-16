@@ -74,8 +74,32 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-set_popularities = {	democratic = 33	communism = 33	neutrality = 34
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = progressive
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
 }
+
 
 create_country_leader = {
 	name = "Onn Jaafar"
@@ -93,7 +117,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_malaya_shenton_thomas"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = libertarian
 	traits = {
 		
 	}
@@ -123,7 +147,7 @@ create_country_leader = {
 
 set_cosmetic_tag = MAL_UK # British Malaya
 
-1939.1.1 = {
+2030.1.1 = {
 	add_political_power = 1198
 	
 	#generic focuses

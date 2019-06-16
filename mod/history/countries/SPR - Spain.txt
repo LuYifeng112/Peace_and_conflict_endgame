@@ -58,22 +58,36 @@ if = {
 	}
 }
 
-set_politics = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
 	ruling_party = democratic
-	last_election = "1933.2.16"
-	election_frequency = 36
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 47
-	fascism = 46
-	communism = 7
 }
 
 set_convoys = 150
 set_stability = 0.5
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	
@@ -153,17 +167,31 @@ set_stability = 0.5
 		}
 	}
 
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1934.3.26"
-		election_frequency = 60
-		elections_allowed = no
-	}
 	set_popularities = {
-		democratic = 22
-		fascism = 76
-		communism = 2
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
 	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 
 	set_global_flag = scw_over
 	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
@@ -207,7 +235,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = centrist
 	traits = {
 		#
 	}

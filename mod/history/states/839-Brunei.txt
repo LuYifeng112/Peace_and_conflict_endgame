@@ -1,0 +1,13 @@
+state={
+	id=839
+	name="STATE_839"
+	state_category = large_city
+	provinces={
+		7371 
+	}
+	history = {
+	owner = MAL
+	}
+	manpower=428697
+	buildings_max_level_factor=1.000
+}

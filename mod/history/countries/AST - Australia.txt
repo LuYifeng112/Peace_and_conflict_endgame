@@ -67,7 +67,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+2030.1.1 = {
 	add_political_power = 1198
 	oob = "AST_1939"
 	
@@ -170,24 +170,38 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1934.9.15"
-	election_frequency = 36
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
 
-set_popularities = {
-	democratic = 98
-	communism = 2
-}
-
 create_country_leader = {
-	name = "John Curtin"
+	name = "Scott Morrisson"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
 	picture = "Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = sub_progressive
 	traits = {
 		#
 	}
@@ -220,7 +234,7 @@ create_country_leader = {
 	desc = "POLITICS_EARLE_PAGE_DESC"
 	picture = "GFX_AST_earle_page"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = centrist
 	traits = {
 		#
 	}
@@ -239,19 +253,33 @@ create_country_leader = {
 
 set_convoys = 100
 
-1939.1.1 = {
+2030.1.1 = {
+		set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
 	set_politics = {
-		ruling_party = democratic
-		last_election = "1937.10.23"
-		election_frequency = 36
-		elections_allowed = yes
+	ruling_party = nationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 	}
-
-	set_popularities = {
-		democratic = 99
-		communism = 1
-	}
-
 	set_convoys = 100
 }
 

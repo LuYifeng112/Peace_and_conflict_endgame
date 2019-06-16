@@ -73,7 +73,7 @@ set_research_slots = 4
 set_convoys = 50
 set_stability = 0.75
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1197
 	
@@ -134,18 +134,32 @@ set_stability = 0.75
 	}
 }
 
-set_politics = {
-	ruling_party = communism
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
 
-}
-set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
-}
 
 add_ideas = {
 }
@@ -238,7 +252,7 @@ create_equipment_variant = {
 }
 
 ## 1939 Start ##
-1939.1.1 = {
+2030.1.1 = {
 	# Submarines #
 	create_equipment_variant = {
 		name = "Type VIIA"

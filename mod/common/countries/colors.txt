@@ -1,8 +1,4 @@
 #reload countrycolors
-SIN = {
-	color = rgb {192 202 155}
-	color_ui = rgb {192 22 1}
-}
 
 GER = {
 	color = HSV { 0.1 0.15 0.4 }

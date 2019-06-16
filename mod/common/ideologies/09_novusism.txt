@@ -21,17 +21,20 @@ ideologies = {
 			"FACTION_NAME_NOVUSISM_6"
 		}
 		
-		color = { 100 200 10 }
+		color = { 127 255 0 }
 		
 		war_impact_on_world_tension = 1.95
 		faction_impact_on_world_tension = 1.95
 		
 		rules = {
-			can_guarantee_other_ideologies = no
+			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = yes
-			can_puppet = no
+			can_puppet = yes
 			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+			can_boost_other_ideologies = yes
 		}
 		
 		modifiers = {
@@ -39,5 +42,5 @@ ideologies = {
 		}
 		
 	}
-
+	ai_democratic = yes
 }

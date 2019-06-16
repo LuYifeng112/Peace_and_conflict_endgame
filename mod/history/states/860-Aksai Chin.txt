@@ -1,0 +1,23 @@
+state={
+	id=860
+	name="STATE_860"
+	provinces={
+		5042 
+	}
+	history={
+		owner = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = RAJ
+		add_core_of = PRC
+		add_core_of = CHI
+		set_demilitarized_zone = yes
+
+	}
+
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

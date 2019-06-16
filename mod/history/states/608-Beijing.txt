@@ -24,10 +24,6 @@ state={
 		victory_points = {
 			10068 1 
 		}
-
-		1938.10.25 = {
-			controller = JAP
-		}
 	}
 
 	provinces={

@@ -24,7 +24,7 @@ if = {
 
 set_convoys = 20
 
-1939.1.1 = {#placeholder same tech as ENG
+2030.1.1 = {#placeholder same tech as ENG
 	#generic focuses
 
 	add_political_power = 1198
@@ -88,26 +88,38 @@ set_convoys = 20
 	}
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.11.14"
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
-set_popularities = {
-	democratic = 17
-	fascism = 2
-	communism = 1
-	neutrality = 80
-}
-
 
 create_country_leader = {
 	name = "Qazi Muhammad Essa"
 	
 	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 	expire = "1960.1.1"
-	ideology = centrism
+	ideology = centrist
 	traits = {
 		
 	}
@@ -118,7 +130,7 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 	expire = "1960.1.1"
-	ideology = liberalism
+	ideology = socialism
 	traits = {
 		
 	}

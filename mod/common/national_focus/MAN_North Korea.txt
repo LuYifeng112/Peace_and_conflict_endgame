@@ -1,0 +1,25 @@
+focus_tree = { 
+id = North Korea
+country = { 
+factor = 0 
+	modifier = { 
+		add = 10 
+		tag = MAN 
+	} 
+} 
+#Focus for State Juche
+focus = { 
+id = MAN_statejuche
+icon = GFX_goal_unknown
+x = 13
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

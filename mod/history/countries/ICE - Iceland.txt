@@ -18,7 +18,7 @@ set_technology = {
 	tech_recon = 1
 }
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	
@@ -71,31 +71,57 @@ set_technology = {
 set_convoys = 30
 set_stability = 0.75
 
-set_politics = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
 	ruling_party = democratic
-	last_election = "1933.10.16"
-	election_frequency = 36
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.10.19"
-		election_frequency = 36
-		elections_allowed = yes
-	}
+2030.1.1 = {
 	set_popularities = {
-		democratic = 84
-		fascism = 2
-		communism = 2
-		neutrality = 12
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
 	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 }
 
 create_country_leader = {
@@ -125,7 +151,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = centrist
 	traits = {
 		#
 	}

@@ -41,7 +41,7 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 10
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	
@@ -101,15 +101,30 @@ set_convoys = 10
 }
 
 set_convoys = 5
-set_politics = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
 	ruling_party = democratic
-	last_election = "1934.2.11"
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 99
-	communism = 1
 }
 
 create_country_leader = {
@@ -117,7 +132,7 @@ create_country_leader = {
 	desc = "POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
 	picture = "GFX_Portrait_columbia_alfonso_lopez"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = socialism
 	traits = {
 		#
 	}
@@ -128,23 +143,39 @@ create_country_leader = {
 	desc = "POLITICS_MARIANO_OSPINA_PEREZ_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = centrist
 	traits = {
 		#
 	}
 }
 
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.5.1"
-		election_frequency = 48  
-		elections_allowed = yes
+2030.1.1 = {
+		set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
 	}
-
-	set_popularities = {
-		democratic = 100
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 	}
 
 	create_country_leader = {
@@ -152,7 +183,7 @@ create_country_leader = {
 		desc = "POLITICS_EDUARDO_SANTOS_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
 		expire = "1965.1.1"
-		ideology = liberalism
+		ideology = socialism
 		traits = {
 			#
 		}

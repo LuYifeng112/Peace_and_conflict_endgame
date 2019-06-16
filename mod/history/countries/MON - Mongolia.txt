@@ -11,7 +11,7 @@ add_ideas = {
 	limited_conscription
 }
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	
@@ -56,14 +56,30 @@ add_ideas = {
 	}
 }
 
-set_politics = {
-	ruling_party = communism
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	communism = 100
+	elections_allowed = yes
 }
 
 create_country_leader = {
@@ -77,9 +93,37 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
+2030.1.1 = {
+
 	add_ideas = {
-		limited_conscription
+	limited_conscription
+	}	
+
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 	}
 
 	create_country_leader = {

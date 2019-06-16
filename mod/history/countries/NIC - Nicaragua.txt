@@ -13,7 +13,7 @@ set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 10
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	
@@ -60,17 +60,30 @@ set_convoys = 10
 	}
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1934.11.8"
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 15
-	fascism = 5
-	communism = 10
-	neutrality = 70
+	elections_allowed = yes
 }
 
 create_country_leader = {
@@ -78,28 +91,47 @@ create_country_leader = {
 	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = socialism
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
+2030.1.1 = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
 	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.12.8"
-		election_frequency = 48
-		elections_allowed = no
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
 	}
-}
 
-create_country_leader = {
-	name = "Anastasio Somoza García"
-	desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
-	picture = "GFX_portrait_nicaragua_portrait_anastasio_somoza_garcia"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
 }
+	create_country_leader = {
+		name = "Anastasio Somoza García"
+		desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
+		picture = "GFX_portrait_nicaragua_portrait_anastasio_somoza_garcia"
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {
+			#
+		}
+	}

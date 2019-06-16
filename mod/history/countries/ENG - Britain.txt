@@ -22,7 +22,7 @@ set_war_support = 0.1
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1
+	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
 	motorised_infantry = 1
@@ -112,48 +112,6 @@ add_ideas = {
 
 set_convoys = 800
 
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	else = {
-		puppet = MAL
-		puppet = RAJ
-	}
-}
 
 
 if = {
@@ -162,7 +120,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	
@@ -188,7 +146,7 @@ create_country_leader = {
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 	picture = "Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = socialism
 	traits = {
 		chamberlain_appeaser rearmer
 	}
@@ -321,28 +279,32 @@ create_country_leader = {
 	set_convoys = 200
 }
 
-set_politics = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
 	ruling_party = democratic
-	last_election = "1935.11.14"
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
-}
-set_popularities = {	democratic = 97	fascism = 2
-	communism = 1
+	elections_allowed = yes
 }
 
-
-create_faction = Allies
-add_to_faction = ENG
-#add_to_faction = FRA
-add_to_faction = CAN
-add_to_faction = AST
-add_to_faction = NZL
-add_to_faction = SAF
-
-give_military_access = RAJ
-add_to_faction = RAJ		# Must be after puppet
-add_to_faction = MAL
 
 #give_guarantee = CZE
 
@@ -365,7 +327,7 @@ create_country_leader = {
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
 	expire = "1938.1.1"
-	ideology = liberalism
+	ideology = conservatism
 	traits = {
 		conservative_grandee
 	}
@@ -376,7 +338,7 @@ create_country_leader = {
 #	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 #	picture = "Portrait_Britain_Neville_Chamberlain.dds"
 #	expire = "1965.1.1"
-#	ideology = liberalism
+#	ideology = conservatism
 #	traits = {
 #		
 #	}
