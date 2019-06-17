@@ -9,9 +9,9 @@ if = {
 	}
 }
 
-set_research_slots = 4
+set_research_slots = 5
 set_stability = 0.75
-set_war_support = 0
+set_war_support = 0.3
 set_variable = { var = senators_support value = 48 }
 set_variable = { var = senators_total value = 96 }
 set_variable = { var = representatives_support value = 218 }
@@ -95,30 +95,6 @@ if = {
 	}
 	add_ideas = MTG_naval_treaty_adherent
 }
-
-#Monroe Doctrine
-give_guarantee = CAN
-give_guarantee = MEX
-give_guarantee = CUB
-give_guarantee = HAI
-give_guarantee = DOM
-give_guarantee = GUA
-give_guarantee = HON
-give_guarantee = ELS
-give_guarantee = NIC
-give_guarantee = COS
-give_guarantee = PAN
-give_guarantee = VEN
-give_guarantee = COL
-give_guarantee = ECU
-give_guarantee = PRU
-give_guarantee = BRA
-give_guarantee = BOL
-give_guarantee = CHL
-give_guarantee = PAR
-give_guarantee = ARG
-give_guarantee = URG
-
 2030.1.1 = {
 
 	add_political_power = 1199
@@ -254,10 +230,43 @@ give_guarantee = URG
 }
 
 
+################################diplomacy########################
+USA = { diplomatic_relation = { country = JAP relation = guarantee  active = yes } }
+USA = { diplomatic_relation = { country = NZL relation = guarantee  active = yes } }
+USA = { diplomatic_relation = { country = KOR relation = guarantee  active = yes } }
 
+#NATO
+USA = { diplomatic_relation = { country = FRA relation = military_access active = yes } }   #France
+USA = { diplomatic_relation = { country = CAN relation = military_access active = yes } }   #Canada
+USA = { diplomatic_relation = { country = HOL relation = military_access active = yes } }   #Netherlands
+USA = { diplomatic_relation = { country = BEL relation = military_access active = yes } }   #Belgium
+USA = { diplomatic_relation = { country = LUX relation = military_access active = yes } }   #Luxemborg
+USA = { diplomatic_relation = { country = ITA relation = military_access active = yes } }   #Italy 
+USA = { diplomatic_relation = { country = ICE relation = military_access active = yes } }   #Iceland
+USA = { diplomatic_relation = { country = NOR relation = military_access active = yes } }   #Norway
+USA = { diplomatic_relation = { country = DEN relation = military_access active = yes } }   #Denmark
+USA = { diplomatic_relation = { country = ENG relation = military_access active = yes } }   #UK
+USA = { diplomatic_relation = { country = POR relation = military_access active = yes } }   #Portugal
+USA = { diplomatic_relation = { country = GER relation = military_access active = yes } }   #Germany
+USA = { diplomatic_relation = { country = TUR relation = military_access active = yes } }   #Turket
+USA = { diplomatic_relation = { country = GRE relation = military_access active = yes } }   #Greece
+USA = { diplomatic_relation = { country = SPR relation = military_access active = yes } }   #Spain
+USA = { diplomatic_relation = { country = CZE relation = military_access active = yes } }   #Czech Republic
+USA = { diplomatic_relation = { country = HUN relation = military_access active = yes } }   #Hungary
+USA = { diplomatic_relation = { country = POL relation = military_access active = yes } }   #Poland
+USA = { diplomatic_relation = { country = BUL relation = military_access active = yes } }   #Bulgaria
+USA = { diplomatic_relation = { country = EST relation = military_access active = yes } }   #Estonia
+USA = { diplomatic_relation = { country = LAT relation = military_access active = yes } }   #Latvia
+USA = { diplomatic_relation = { country = LIT relation = military_access active = yes } }   #Lithuania
+USA = { diplomatic_relation = { country = ROM relation = military_access active = yes } }   #Romania
+USA = { diplomatic_relation = { country = SLO relation = military_access active = yes } }   #Slovakia
+USA = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
+
+
+add_opinion_modifier = { target = PRC modifier = hostile_status }
 
 set_convoys = 400
-
+######################politics#######################################
 
 	set_popularities = {
 		democratic = 5 
@@ -280,7 +289,7 @@ set_convoys = 400
 	}
 	set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "2016.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -291,13 +300,6 @@ add_ideas = {
 	disarmed_nation
 	free_trade
 	home_of_the_free
-}
-
-
-# DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
 }
 
 2030.1.1 = {
@@ -323,7 +325,7 @@ set_autonomy = {
 	}
 	set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "2028.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -335,6 +337,11 @@ create_country_leader = {
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1947.1.1"
 	ideology = socialism
+	traits = {
+	anti_communist
+	dealbroker
+	rearmer
+	}
 }
 
 create_country_leader = {

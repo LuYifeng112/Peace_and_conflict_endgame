@@ -339,6 +339,7 @@ create_country_leader = {
 	expire = "1989.1.1"
 	ideology = sub_progressive
 	traits = {
+	champion_of_peace_5
 	}
 }
 

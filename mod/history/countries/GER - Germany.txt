@@ -282,22 +282,22 @@ create_import = {
 }
 
 	set_popularities = {
-		democratic = 5 
-		fascism = 0
+		democratic = 0 
+		fascism = 25
 		communism = 0
 		neutrality = 0
 		salafist = 0
 		nationalism = 0
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 40
+		progressive = 15
 		centrist = 0
-		socialist = 5
+		socialist = 0
 		Novusism = 0
 		authoritarianism = 0
 		imperialism = 0
-		liberalism = 20
+		liberalism = 10
 		Chinese_socialism = 0
 	}
 	set_politics = {

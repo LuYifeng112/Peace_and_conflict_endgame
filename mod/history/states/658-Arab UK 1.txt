@@ -3,13 +3,10 @@ state={
 	id=658
 	name="STATE_658"
 	manpower = 9400000
+	state_category = megapolis
 	resources={
 		oil=5 # was: 6
 	}
-	
-	state_category = megapolis
-
-
 	history={
 		add_core_of = UAE
 		owner = UAE

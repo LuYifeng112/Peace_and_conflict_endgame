@@ -70,8 +70,6 @@ if = {
 
 set_convoys = 5
 
-set_politics = {
-
 	set_popularities = {
 		democratic = 5 
 		fascism = 0

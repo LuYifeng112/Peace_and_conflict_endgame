@@ -67,36 +67,37 @@ set_convoys = 5
 }
 
 	set_popularities = {
-		democratic = 5 
+		democratic = 5
 		fascism = 0
 		communism = 0
+		radical_right = 35
 		neutrality = 0
 		salafist = 0
-		nationalism = 0
+		nationalism = 20
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 22
+		progressive = 3
 		centrist = 0
-		socialist = 5
+		socialist = 0
 		Novusism = 0
 		authoritarianism = 0
 		imperialism = 0
-		liberalism = 20
+		liberalism = 15
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = radical_right
+	last_election = "2013.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Manuel Luis Quezón"
+	name = "Duterte"
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
 	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = right_libertarian
 	traits = {
 		#
 	}

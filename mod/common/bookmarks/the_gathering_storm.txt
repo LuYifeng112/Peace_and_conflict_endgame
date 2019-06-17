@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 2020.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "PRC"
 
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
@@ -59,9 +59,9 @@ bookmarks = {
 				PRC_power_struggles
 			}
 			focuses = {
-				PRC_infiltration
-				PRC_maoism
-				PRC_anti_japanese_expedition
+				PRC_corruptioncrackdowncampaign
+				PRC_onebeltoneroad
+				PRC_thexijinpingpresidency
 			}
 		}
 		"GER"={

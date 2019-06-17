@@ -253,19 +253,7 @@ ideologies = {
 		
 		types = {
 		
-			Anti_fascist = {	#Robert Mugabe
-			}
-		
-			Totalitarian_orwellian = {	#Hitler
-			}
-			
-			Military_unity = {	#Mussolini
-			}
-			
-			Dictatorship = {			#Franco
-			}
-			
-			Neo_nationalism = {				#Belgian Fascists
+			right_libertarian = {	#Robert Mugabe
 			}
 			
 		}

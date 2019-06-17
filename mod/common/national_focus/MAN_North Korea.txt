@@ -4,8 +4,8 @@ country = {
 factor = 0 
 	modifier = { 
 		add = 10 
-		tag = MAN 
-	} 
+		tag = DRK 
+} 
 } 
 #Focus for State Juche
 focus = { 

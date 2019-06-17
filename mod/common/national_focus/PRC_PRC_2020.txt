@@ -1197,8 +1197,7 @@ y = 9
 cost = 10
 available_if_capitulated = yes 
 mutually_exclusive = { focus = PRC_mainlanddominancepolicies } 
-mutually_exclusive = { focus = PRC_independencepolicies } 
-mutually_exclusive = { focus = PRC_ } 
+mutually_exclusive = { focus = PRC_independencepolicies }  
 ai_will_do = { 
  factor = 1
  } 

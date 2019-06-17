@@ -1,11 +1,30 @@
-﻿capital = 622
+﻿capital = 608
 
 oob = "PRC_1936"
-
+set_research_slots = 5
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	mass_assault = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	superior_firepower = 1
+	base_strike = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
 }
 set_stability = 0.6
 set_war_support = 0.7
@@ -40,7 +59,7 @@ save_global_event_target_as = WTT_communist_china
 		complete_national_focus = PRC_provoke_japan
 		complete_national_focus = PRC_mobile_warfare
 
-		set_research_slots = 3
+		set_research_slots = 5
 
 		add_ideas = {
 			PRC_revolutionary_military_commission
@@ -65,13 +84,6 @@ save_global_event_target_as = WTT_communist_china
 			complete_national_focus = construction_effort
 			complete_national_focus = production_effort
 		}
-	}
-	
-	# Chinese Popular Front effects
-	add_to_war = {
-		targeted_alliance = CHI
-		enemy = JAP
-		hostility_reason = asked_to_join
 	}
 	set_country_flag = PRC_joined_CHI_against_JAP
 	remove_opinion_modifier = { target = CHI modifier = hostile_status }
@@ -128,7 +140,7 @@ save_global_event_target_as = WTT_communist_china
 		concentrated_industry3 = 1
 	}
 }
-#######Trade
+#############################Trade#######################################################
 create_import = {
 		resource = oil
 		factories = 4
@@ -154,7 +166,7 @@ create_import = {
 		factories = 1
 		exporter = AST
 }
-#######political
+################################political##########################################################
 	set_popularities = {
 		democratic = 0
 		fascism = 0
@@ -176,7 +188,7 @@ create_import = {
 	}
 	set_politics = {
 	ruling_party = Chinese_socialism
-	last_election = "1936.1.1"
+	last_election = "2010.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -184,27 +196,27 @@ create_import = {
 
 2030.1.1 = {
 	set_popularities = {
-		democratic = 5 
+		democratic = 0 
 		fascism = 0
 		communism = 0
 		neutrality = 0
 		salafist = 0
-		nationalism = 0
+		nationalism = 3
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 0
+		progressive = 0
 		centrist = 0
-		socialist = 5
+		socialist = 0
 		Novusism = 0
-		authoritarianism = 0
+		authoritarianism = 7
 		imperialism = 0
-		liberalism = 20
-		Chinese_socialism = 0
+		liberalism = 0
+		Chinese_socialism = 90
 	}
 	set_politics = {
 	ruling_party = Chinese_socialism
-	last_election = "1936.1.1"
+	last_election = "2010.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -216,19 +228,15 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_the_long_march_1
-		PRC_low_popular_support_3
-		PRC_power_struggles
-		PRC_red_army_weakened
-	}
-}
-
 add_opinion_modifier = { target = CHI modifier = hostile_status }
+add_opinion_modifier = { target = USA modifier = hostile_status }
+USA = { diplomatic_relation = { country = PAK relation = guarantee  active = yes } }
+
+###################################################ideology influence####################
+
+
+
+################################################Leaders############################
 
 create_country_leader = {
 	name = "Xi Jin Ping"
@@ -237,9 +245,12 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism_with_chinese_characterisitcs
 	traits = {
+	One_country_two_systems
+	anti_democrat
+	dictator
 	}
 }
-
+###############################################Miiitary leaders#########################
 create_field_marshal = {
 	name = "Mao Zedong"
 	gfx = "GFX_portrait_prc_mao_zedong"

@@ -6,7 +6,8 @@ state={
 		7371 
 	}
 	history = {
-	owner = MAL
+	owner = BRU
+	add_core_of = BRU
 	}
 	manpower=428697
 	buildings_max_level_factor=1.000

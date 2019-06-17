@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = MAL
+		owner = SIN
 		victory_points = {
 			12299 50 
 		}
@@ -21,7 +21,7 @@ state={
 
 		}
 		add_core_of = MAL
-
+		add_core_of = SIN
 	}
 
 	provinces={

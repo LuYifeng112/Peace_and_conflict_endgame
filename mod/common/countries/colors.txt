@@ -4,6 +4,14 @@ GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
+BRU = {
+  	color = rgb { 244 167 66 }
+  	color_ui = rgb { 234 234 82 }
+}
+DRK = {
+  	color = rgb { 201 38 38  }
+  	color_ui = rgb { 226 24 24 }
+}
 ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
@@ -142,8 +150,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
+	color = rgb { 29 11 229 }
+	color_ui = rgb { 21 0 255 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -182,8 +190,8 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 42 178 133 }
+	color_ui = rgb { 44 232 169 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -309,8 +317,8 @@ CRO = {
 }
 
 PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
+	color = rgb { 229, 2, 2 }
+	color_ui = rgb { 255 0 0 }
 }
 
 GXC = {
@@ -399,8 +407,8 @@ INS = {
 }
 
 VIN = {
-	color = rgb { 230  223  50 }
-	color_ui = rgb { 230  223  50 }
+	color = rgb { 173 33 5 }
+	color_ui = rgb { 211 42 8 }
 }
 
 CAM = {
@@ -464,8 +472,8 @@ DDR = {
     color_ui = rgb { 150 180 120 }
 }
 KOR = {
-	color = rgb { 255  240  195 }
-	color_ui = rgb { 255 248 229 }	
+	color = rgb { 82 173 196 }
+	color_ui = rgb { 68 197 229 }	
 }
 ISR = {
 	color = rgb { 152  130  191 }
