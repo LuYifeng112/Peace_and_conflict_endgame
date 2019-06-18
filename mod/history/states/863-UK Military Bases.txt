@@ -1,0 +1,13 @@
+state={
+	id=863
+	name="STATE_863"
+	provinces={
+		13223 13227 
+	}
+	history = {
+	owner = ISR
+	add_core_of = ISR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
