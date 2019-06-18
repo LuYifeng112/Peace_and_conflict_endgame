@@ -1,8 +1,8 @@
-﻿capital = 10297 #Kuala Lumpur
+﻿capital = 795 #Kuala Lumpur
 
 oob = "MAL_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
 # Starting tech
 # clone of UK
@@ -109,13 +109,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Shenton Thomas"
+	name = "Mahathir Mohamad"
 	desc = ""
 	picture = "GFX_portrait_malaya_shenton_thomas"
 	expire = "1953.3.1"
 	ideology = libertarian
 	traits = {
-		
+	Look_East_Policy
+	champion_of_peace_1
 	}
 }
 

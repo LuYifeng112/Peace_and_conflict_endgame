@@ -29,10 +29,6 @@ set_technology = {
 set_stability = 0.6
 set_war_support = 0.7
 
-
-save_global_event_target_as = WTT_communist_china
-
-
 2030.1.1 = {
 
 	add_political_power = 1198
@@ -85,23 +81,6 @@ save_global_event_target_as = WTT_communist_china
 			complete_national_focus = production_effort
 		}
 	}
-	set_country_flag = PRC_joined_CHI_against_JAP
-	remove_opinion_modifier = { target = CHI modifier = hostile_status }
-	add_state_claim = 612
-	add_state_claim = 611
-	add_state_claim = 714
-	add_state_claim = 717
-	add_state_claim = 328
-	add_state_claim = 716
-	add_state_claim = 715
-	add_state_claim = 610
-	add_state_claim = 609
-	add_state_claim = 597
-	add_state_claim = 614
-	add_state_claim = 525
-	add_state_claim = 608
-	add_state_claim = 615
-	add_state_claim = 527
 
 	add_ideas = {
 		#laws
@@ -230,7 +209,7 @@ add_ideas = {
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }
 add_opinion_modifier = { target = USA modifier = hostile_status }
-USA = { diplomatic_relation = { country = PAK relation = guarantee  active = yes } }
+PRC = { diplomatic_relation = { country = PAK relation = guarantee  active = yes } }
 
 ###################################################ideology influence####################
 
@@ -252,8 +231,8 @@ create_country_leader = {
 }
 ###############################################Miiitary leaders#########################
 create_field_marshal = {
-	name = "Mao Zedong"
-	gfx = "GFX_portrait_prc_mao_zedong"
+	name = "PRC General"
+	gfx = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
 	traits = { defensive_doctrine trait_cautious politically_connected }
 	skill = 4
 	attack_skill = 2

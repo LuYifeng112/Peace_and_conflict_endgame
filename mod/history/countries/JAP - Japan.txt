@@ -2,21 +2,11 @@
 
 oob = "JAP_1936"
 
-set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
-set_war_support = 0.8
+set_stability = 0.4 #baseline, THE EMPEROR PROTECTS
+set_war_support = 0.4
 
-set_research_slots = 4
+set_research_slots = 5
 set_fuel_ratio = 1.0
-add_ideas = {
-	state_shintoism
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
-	JAP_zaibatsus
-	JAP_duplicate_research_efforts
-	JAP_militarism
-}
 
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
@@ -159,10 +149,10 @@ create_import = {
 	complete_national_focus = JAP_bicycle_battalions
 	complete_national_focus = JAP_small_arms_modernization
 
-	declare_war_on = {
-		target = CHI
-		type = puppet_wargoal_focus
-	}
+	#declare_war_on = {
+	#	target = CHI
+	#	type = puppet_wargoal_focus
+	#}
 	#declare_war_on = {
 	#	target = GXC
 	#	type = puppet_focus
@@ -309,10 +299,10 @@ set_convoys = 400
 }
 
 create_country_leader = {
-	name = "Hirohito"
+	name = "Naruhito"
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "Portrait_Japan_Hirohito.dds"
-	expire = "1989.1.1"
+	expire = "2075.1.1"
 	ideology = fascism_ideology
 	traits = {
 		warrior_code
@@ -336,10 +326,11 @@ create_country_leader = {
 	name = "Abe Shinzo"
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "GFX_Portrait_tetsu_katayama"
-	expire = "1989.1.1"
 	ideology = sub_progressive
 	traits = {
 	champion_of_peace_5
+	rearmer
+	deal_broker
 	}
 }
 

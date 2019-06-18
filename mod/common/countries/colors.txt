@@ -4,6 +4,14 @@ GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
+HKG = {
+  	color = rgb { 81 211 255 }
+  	color_ui = rgb { 56 199 247 }
+}
+MCU = {
+  	color = rgb { 15 79 11 }
+  	color_ui = rgb { 27 137 20 }
+}
 BRU = {
   	color = rgb { 244 167 66 }
   	color_ui = rgb { 234 234 82 }
@@ -317,7 +325,7 @@ CRO = {
 }
 
 PRC = {
-	color = rgb { 229, 2, 2 }
+	color = rgb { 229 2 2 }
 	color_ui = rgb { 255 0 0 }
 }
 

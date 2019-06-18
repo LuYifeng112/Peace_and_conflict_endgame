@@ -1,12 +1,13 @@
 focus_tree = { 
-id = North Korea
+id = PRC_2020
 country = { 
 factor = 0 
-	modifier = { 
-		add = 10 
-		tag = DRK 
+modifier = { 
+add = 10 
+tag = DRK
 } 
-} 
+}  
+
 #Focus for State Juche
 focus = { 
 id = MAN_statejuche

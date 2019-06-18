@@ -1,0 +1,84 @@
+﻿###Written by LYF (Daoko Lover)
+
+
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+
+Rule_the_pacific = {
+	enable = {
+		OR = { 
+			tag = PRC
+			tag = USA
+			tag = CHI
+			tag = JAP
+		}
+	}
+
+
+	abort_when_not_enabled = yes
+		
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = 100
+	}
+}
+CHI_dont_mess_with_the_commies = {
+
+	enable = {
+		original_tag = CHI
+		
+		NOT = { has_war_with = SOV }
+	}
+	
+	abort = {
+		has_war_with = PRC
+	}
+
+	ai_strategy = {
+		type = contain
+		id = "PRC"			
+		value = -200
+	}
+}
+PRC_dont_mess_with_the_true_china = {
+
+	enable = {
+		original_tag = PRC
+		
+		NOT = { has_war_with = SOV }
+	}
+	
+	abort = {
+		has_war_with = CHI
+	}
+
+	ai_strategy = {
+		type = contain
+		id = "CHI"			
+		value = -200
+	}
+}
+USA_only_bother_with_volunteers_if_chi_losing = {
+	enable = {
+		tag = USA
+		CHI = { surrender_progress < 0.4 }
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CHI"
+		value = -100
+	}
+}
+####Get a strategy for protecting Okinawa as a strategic launchpad in Asia. 

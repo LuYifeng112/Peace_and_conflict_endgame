@@ -1,5 +1,46 @@
 leader_traits = {
+
+	Look_East_Policy = {
+		random = no
+		ai_strategy = {
+			type = antagonize
+			id = "ENG"			
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USA"			
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "FRA"			
+			value = 200
+		}
+		ai_strategy = {
+			type = support
+			id = "PRC"			
+			value = 100
+		}
+		ai_strategy = {
+			type = support
+			id = "JAP"			
+			value = 100
+		}
+		ai_strategy = {
+			type = support
+			id = "KOR"			
+			value = 100
+		}
+	}
 	
+	Defender_of_the_people = {
+		random = no
+		ai_strategy = {
+		type = garrison
+		value = -50
+		}
+	}
 	dictator = {
 		random = no
 		political_power_factor = 0.25
@@ -369,6 +410,16 @@ leader_traits = {
 			type = antagonize
 			id = "CHI"			
 			value = 200
+		}
+		ai_strategy = {
+		type = consider_weak
+		id = "CHI"
+		value = 100
+		}
+		ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 20
 		}
 		
 		ai_will_do = {
