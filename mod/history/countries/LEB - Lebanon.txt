@@ -76,17 +76,17 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Hashim al-Atassi"
-	desc = ""
+	name = "Michel Aoun"
+	desc = "POLITICS_MICHEL)AUON_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
-	ideology = socialism
+	ideology = sub_progressive
 	traits = {
 		#
 	}

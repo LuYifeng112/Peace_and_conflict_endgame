@@ -106,7 +106,7 @@ set_convoys = 20
 
 create_country_leader = {
 	name = "Abdelaziz Bouteflika"
-	desc = ""
+	desc = "POLITICS_ABDELAZIZ_BOUTEFLIKA_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
 	ideology = national_democrat
 	traits = {

@@ -48,11 +48,10 @@ set_research_slots = 3
 }
 
 create_country_leader = {
-	name = "Edvard Beneš"
-	desc = "POLITICS_EDVARD_BENES_DESC"
+	name = "Miloš Zeman"
+	desc = "POLITICS_MILOS_ZEMAN_DESC"
 	picture = "Portrait_Czech_Edvard_Benes.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = socialism
 	traits = {
 		#
 	}

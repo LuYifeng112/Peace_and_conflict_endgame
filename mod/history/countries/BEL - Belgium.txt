@@ -123,7 +123,7 @@ set_technology = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -134,7 +134,7 @@ set_convoys = 80
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Hubert Pierlot"
+	name = "Charles Michel"
 	desc = "POLITICS_HUBERT_PIERLOT_DESC"
 	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"

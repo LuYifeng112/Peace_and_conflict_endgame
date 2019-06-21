@@ -107,7 +107,7 @@ set_stability = 0.8
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -115,11 +115,10 @@ set_stability = 0.8
 	}
 
 	create_country_leader = {
-		name = "Pierre Dupong"
-		desc = "POLITICS_PIERRE_DUPONG_DESC"
+		name = "Xavier Bettel"
+		desc = "POLITICS_XAVIER_BETTEL_DESC"
 		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-		expire = "1965.1.1"
-		ideology = conservatism
+		ideology = sub_progressive
 		traits = {
 			#
 		}

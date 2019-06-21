@@ -1,0 +1,18 @@
+state={
+	id=880
+	name="STATE_880"
+	state_category = city
+	history={
+		owner = IRQ
+		add_core_of = KUR
+		add_core_of = IRQ
+		add_core_of = ISS
+
+	}
+
+	provinces={
+		2004 7994 
+	}
+	manpower=1134000
+	buildings_max_level_factor=1.000
+}

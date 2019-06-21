@@ -1,6 +1,13 @@
 ﻿l_english:
+ ROJ_democratic:0 "Autonomous Administration of North and East Syria "
  HKG_democratic:0 "Hong Kong Special Administrative Region of the People's Republic of China"
+ ISS_salafist:0 "Islamic State iof Iraq and the Levant"
+ KUR_democratic:0 "Republic of Kurdistan"
+ SDF_democratic:0 "Syrian Democratic Forces"
  MCU_democratic:0 "Macao Special Administrative Region of the People's Republic of China"
+ TIM_democratic:0 "Democratic Republic of Timor-Leste"
+ PLU_democratic:0 "Republic of Palau"
+ FDM_democratic:0 "Federated States of Micronesia"
  SIN_democratic:0 "Republic of Singapore"
  SIN_Chinese_socialism:0 "People's Republic of Singapore"
  DRK_communism:0 "Democratic People's Republic of Korea"

@@ -182,10 +182,9 @@ if = {
 set_convoys = 40
 
 create_country_leader = {
-	name = "Thorvald Stauning"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
+	name = "Mette Frederiksen"
+	desc = "POLITICS_METTE_FREDERIKSEN_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
-	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
 		#

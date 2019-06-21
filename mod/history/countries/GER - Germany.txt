@@ -331,9 +331,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Angela Merkel"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	desc = "POLITICS_ANGELA_MERKEL_DESC"
 	picture = "Portrait_Germany_Konrad_Adenauer.dds"
-	expire = "1965.1.1"
 	ideology = christian_democrat
 	traits = {
 	}

@@ -98,3 +98,12 @@ set_convoys = 5
 	elections_allowed = yes
 }
 }
+create_country_leader = {
+		name = "Nicos Anastasiades"
+		desc = "POLITICS_NICOS_ANASTASIADES_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		ideology = socialism
+		traits = {
+			#
+		}
+	}

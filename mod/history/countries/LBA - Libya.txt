@@ -84,8 +84,8 @@ set_convoys = 20
 }
 
 create_country_leader = {
-	name = "Bashir es Sadawi"
-	desc = ""
+	name = "Fayez al-Sarraj"
+	desc = "POLITICS_FAYEZ_SARRAJ_DESC"
 	picture = "Portrait_Arabia_Generic_democratic1.dds"
 	ideology = socialism
 	traits = {

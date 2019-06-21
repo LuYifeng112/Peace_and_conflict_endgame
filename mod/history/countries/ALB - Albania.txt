@@ -40,7 +40,7 @@ set_convoys = 5
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
 	name = "Ilir Meta"
-	desc = "POLITICS_KING_ZOG_DESC"
+	desc = "POLITICS_ILIR_META_DESC"
 	picture = "Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
 	ideology = reformist_socialist

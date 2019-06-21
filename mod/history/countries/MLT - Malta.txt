@@ -97,3 +97,13 @@ set_convoys = 5
 }
 }
 
+create_country_leader = {
+	
+	name = "George Vella"
+	desc = "POLITICS_GEORGE_VELLA_DESC"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	ideology = socialism
+	traits = {
+		#
+	}
+}

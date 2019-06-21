@@ -205,17 +205,16 @@ if = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Lázaro Cárdenas"
-	desc = "POLITICS_LAZARO_CARDENAS_DESC"
+	name = "Andrés Manuel López Obrador"
+	desc = "POLITICS_ANDRES_OBRADOR_DESC"
 	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
+	ideology = cardenism
 	traits = {
 		#
 	}

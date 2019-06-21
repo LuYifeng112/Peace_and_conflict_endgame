@@ -38,12 +38,11 @@ set_convoys = 5
 
 create_country_leader = {
 	name = "Moon Jae In"
-	desc = ""
+	desc = "POLITICS_MOON_JAE_IN_DESC"
 	picture = "gfx/leaders/KOR/Portrait_moon_jae_in.dds"
-	expire = "1965.1.1"
 	ideology = sub_progressive
 	traits = {
-		#
+	sunshine_policy
 	}
 }
 

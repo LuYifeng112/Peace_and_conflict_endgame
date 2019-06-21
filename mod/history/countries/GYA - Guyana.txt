@@ -68,16 +68,16 @@ set_convoys = 5
 	election_frequency = 48
 	elections_allowed = yes
 }
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "David A. Granger"
+	desc = "POLITICS_DAVID_GRANGER_DESC"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
 
 
 }

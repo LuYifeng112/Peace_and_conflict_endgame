@@ -198,7 +198,7 @@ if = {
 
 create_country_leader = {
 	name = "Scott Morrisson"
-	desc = "POLITICS_JOHN_CURTIN_DESC"
+	desc = "POLITICS_SCOTT_MORRISON_DESC"
 	picture = "Portrait_Australia_John_Curtin.dds"
 	expire = "1965.1.1"
 	ideology = sub_progressive

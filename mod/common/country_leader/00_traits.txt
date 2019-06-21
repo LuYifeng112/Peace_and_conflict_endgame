@@ -1,6 +1,6 @@
 leader_traits = {
 
-	Look_East_Policy = {
+	Look_East_Policy = {     #Mahathir for Malaysia
 		random = no
 		ai_strategy = {
 			type = antagonize
@@ -33,12 +33,48 @@ leader_traits = {
 			value = 100
 		}
 	}
+	sunshine_policy = {          #moon Jae_in for Korea
+		random = no
+		ai_strategy = {
+			type = befriend
+			id = "DRK"			
+			value = 80
+		}
+		ai_strategy = {
+			type = support
+			id = "DRK"
+			value = 50
+		}
+	}
+	nordpolitik = {           #policy shift in korea trait
+		random = no
+		ai_strategy = {
+			type = befriend
+			id = "PRC"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "SOV"			
+			value = 200
+		}
+		ai_strategy = {
+			type = support
+			id = "PRC"			
+			value = 100
+		}
+		ai_strategy = {
+			type = support
+			id = "SOV"			
+			value = 100
+		}
+	}
 	
 	Defender_of_the_people = {
 		random = no
 		ai_strategy = {
 		type = garrison
-		value = -50
+		value = 100
 		}
 	}
 	dictator = {

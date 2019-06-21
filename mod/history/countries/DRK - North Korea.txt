@@ -22,12 +22,12 @@ set_convoys = 20
 		conservative = 0
 		progressive = 0
 		centrist = 0
-		socialist = 0
+		socialist = 5
 		Novusism = 0
-		authoritarianism = 0
+		authoritarianism = 3
 		imperialism = 0
 		liberalism = 0
-		Chinese_socialism = 0
+		Chinese_socialism = 2
 	}
 	set_politics = {
 	ruling_party = communism
@@ -38,7 +38,7 @@ set_convoys = 20
 
 create_country_leader = {
 	name = "Kim Jong-Un"
-	
+	desc = "POLITICS_KIM_JONG_UN_DESC"
 	picture = "gfx/leaders/MAN/kim_jong_un.dds"
 	expire = "2030.1.1"
 	ideology = juche

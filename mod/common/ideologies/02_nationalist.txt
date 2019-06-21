@@ -13,6 +13,21 @@ ideologies = {
 			autocrat = {
 			}
 			
+			patriot = {
+			}
+
+			Pancasila = {
+			}
+
+			kurdish_nationalism = {
+			}
+
+			african_nationalism = {
+			}
+
+			cardenism = {
+			}
+			
 		}
 		
 		dynamic_faction_names = {

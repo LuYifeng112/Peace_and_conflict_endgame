@@ -110,7 +110,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Mahathir Mohamad"
-	desc = ""
+	desc = "POLITICS_MAHATHIR_MOHAMMAD_DESC"
 	picture = "GFX_portrait_malaya_shenton_thomas"
 	expire = "1953.3.1"
 	ideology = libertarian

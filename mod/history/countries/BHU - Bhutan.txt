@@ -51,7 +51,7 @@ set_stability = 0.8
 }
 
 	set_popularities = {
-		democratic = 5 
+		democratic = 40
 		fascism = 0
 		communism = 0
 		neutrality = 0
@@ -60,7 +60,7 @@ set_stability = 0.8
 		monarchist = 0
 		reactionary = 0
 		conservative = 30
-		progressive = 40
+		progressive = 5
 		centrist = 0
 		socialist = 5
 		Novusism = 0
@@ -71,16 +71,16 @@ set_stability = 0.8
 	}
 	set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "2018.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Jigme Wangchuck"
-	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
+	name = "Lotay Tshering"
+	desc = "POLITICS_LOTAY_TSHERING_DESC"
 	picture = "GFX_portrait_buthan_jigme_wangchuk"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = socialism
 	traits = {
 		#
 	}

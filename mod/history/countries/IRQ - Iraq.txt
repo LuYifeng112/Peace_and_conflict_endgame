@@ -95,11 +95,10 @@ set_convoys = 5
 }
 
 create_country_leader = {
-	name = "Ghazi I"
-	desc = "POLITICS_GHAZI_I_DESC"
+	name = "Barham Salih"
+	desc = "POLITICS_BARHAM_SALIH_DESC"
 	picture = "GFX_portrait_iraq_ghazi"
-	expire = "1965.1.1"
-	ideology = despotism
+	ideology = socialism
 	traits = {
 		#
 	}

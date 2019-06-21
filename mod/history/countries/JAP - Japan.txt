@@ -324,13 +324,13 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Abe Shinzo"
-	desc = "POLITICS_Hirohito_DESC"
+	desc = "POLITICS_ABE_SHINZO_DESC"
 	picture = "GFX_Portrait_tetsu_katayama"
 	ideology = sub_progressive
 	traits = {
 	champion_of_peace_5
 	rearmer
-	deal_broker
+	dealbroker
 	}
 }
 

@@ -160,7 +160,7 @@ set_convoys = 10
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -168,11 +168,10 @@ set_convoys = 10
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
+	name = "Prokopis Pavlopoulos"
+	desc = "POLITICS_PROPKOPIS_PAVLOPOULOS_DESC"
 	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	ideology = constitutionalist
 	traits = {
 		#
 	}

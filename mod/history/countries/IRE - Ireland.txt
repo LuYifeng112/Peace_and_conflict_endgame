@@ -107,18 +107,17 @@ set_convoys = 10
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 }
 create_country_leader = {
-	name = "Éamon de Valera"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	name = "Michael D. Higgins"
+	desc = "POLITICS_MICHAEL_D_HIGGINS_DESC"
 	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = sub_progressive
 	traits = {
 		#
 	}

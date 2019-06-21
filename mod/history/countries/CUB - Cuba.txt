@@ -84,11 +84,10 @@ set_convoys = 20
 }
 
 create_country_leader = {
-	name = "José Agripino Barnet"
-	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
+	name = "Miguel Díaz-Canel"
+	desc = "POLITICS_MIGUEL_DIAZ_CANEL_DESC"
 	picture = "GFX_portrait_cuba_jose_barnet"
-	expire = "1965.1.1"
-	ideology = socialism
+	ideology = marxism
 	traits = {
 		#
 	}

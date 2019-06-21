@@ -9,6 +9,9 @@ ideologies = {
 		
 			socialism = {
 			}
+
+			green = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -216,6 +219,12 @@ ideologies = {
 			Right_wing_islam = {
 			}
 			
+			islamic_radical = {
+		    }
+
+		    islamic_democracy = {
+		    }		
+			
 		}
 		
 		dynamic_faction_names = {
@@ -289,7 +298,7 @@ ideologies = {
 	ai_fascist = yes	
 	}
 ###########################################################
-	nationalist = {
+	nationalism = {
 		
 		types = {
 		
@@ -303,6 +312,18 @@ ideologies = {
 			}
 
 			patriot = {
+			}
+
+			Pancasila = {
+			}
+
+			kurdish_nationalism = {
+			}
+
+			african_nationalism = {
+			}
+
+			cardenism = {
 			}
 			
 		}
@@ -348,8 +369,7 @@ ideologies = {
 			pope = {
 			}
 			
-			Constituional_monarchist = {
-			}
+			
 			
 		}
 		
@@ -452,6 +472,8 @@ ideologies = {
 			
 			old_progressive = {
 			}
+
+			social_conservatism
 			
 		}
 		
@@ -670,6 +692,8 @@ ideologies = {
 			
 			old_guard = {
 			}
+			post_communist = {
+			}
 			
 		}
 		
@@ -759,7 +783,8 @@ ideologies = {
 
 			sub_progressive = {
 			}
-			
+			national_liberalism = {
+			}
 		}
 		
 		dynamic_faction_names = {

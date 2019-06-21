@@ -79,6 +79,16 @@ set_convoys = 0
 	election_frequency = 48
 	elections_allowed = yes
 }
+create_country_leader = {
+	
+	name = "Faustin-Archange Touadéra"
+	desc = "POLITICS_FAUSTIN_ARCHANGE_TOUADERA_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
 
 2030.1.1 = {
 		set_popularities = {

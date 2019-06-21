@@ -67,7 +67,7 @@ set_convoys = 25
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -76,10 +76,9 @@ set_convoys = 25
 
 create_country_leader = {
 	name = "Joko Widodo"
-	desc = ""
+	desc = "POLITICS_JOKO_WIDODO_DESC"
 	picture = "gfx/leaders/INS/Joko.dds"
-	expire = "1953.3.1"
-	ideology = conservatism #Marhaenism his own unique mix of stuff
+	ideology = Pancasila
 	traits = {
 		
 	}

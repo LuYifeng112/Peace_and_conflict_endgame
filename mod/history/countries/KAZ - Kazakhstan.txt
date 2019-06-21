@@ -80,18 +80,17 @@ if = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = authoritarianism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Nikolay Aleksandrovich Skvortsov"
-	desc = ""
+	name = "Kassym-Jomart Tokayev"
+	desc = "POLITICS_KASSYM_TOKAYEV"
 	picture = "Portrait_KAZ_Nikolay_Skvortsov.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = post_communist
 	traits = {
 		
 	}

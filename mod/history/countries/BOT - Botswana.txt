@@ -65,7 +65,7 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -73,16 +73,13 @@ set_convoys = 5
 
 create_country_leader = {
 	
-	name = "Tshekedi Khama"
+	name = "Mokgweetsi Masisi"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_democrat_ideology
 	traits = {
 		#
 	}
-}
-
-
 }
 
 

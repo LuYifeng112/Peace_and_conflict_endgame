@@ -6,7 +6,7 @@ state=
 	manpower = 21729
 	history=
 	{
-		owner = JAP
+		owner = PLU
 		buildings = {
 			infrastructure = 3
 			air_base = 1

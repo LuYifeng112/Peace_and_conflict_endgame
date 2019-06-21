@@ -131,10 +131,19 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+create_country_leader = {
+	name = "Kersti Kaljulaid"
+	desc = "POLITICS_KERSTI_KALJULAID_DESC"
+	picture = "GFX_Portrait_estonia_konstantin_pats"
+	ideology = christian_democrat
+	traits = {
+		#
+	}
 }
 
 2030.1.1 = {

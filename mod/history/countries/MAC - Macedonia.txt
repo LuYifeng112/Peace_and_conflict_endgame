@@ -65,4 +65,13 @@ if = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+	create_country_leader = {
+		name = "Stevo Pendarovski"
+		desc = "POLITICS_STEVO_PENDAROVSKI_DESC"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+		ideology = socialism
+		traits = {
+			#
+		}
+	}
+}

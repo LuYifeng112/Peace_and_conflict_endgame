@@ -1,7 +1,5 @@
 #reload countrycolors
 
-
-
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -14,9 +12,45 @@ MCU = {
   	color = rgb { 15 79 11 }
   	color_ui = rgb { 27 137 20 }
 }
+ TIM = {
+  	color = rgb { 119 239 59 }
+  	color_ui = rgb { 112 247 44 }
+}
 BRU = {
   	color = rgb { 244 167 66 }
   	color_ui = rgb { 234 234 82 }
+}
+SDF = {
+  	color = rgb { 255, 229, 127 }
+  	color_ui = rgb { 252 212 58 }
+}
+ROJ = {
+  	color = rgb { 237 193 26 }
+  	color_ui = rgb { 237, 189, 9 }
+}
+ISS = {
+  	color = rgb { 30 30 30 }
+  	color_ui = rgb { 12 12 12 }
+}
+KUR = {
+  	color = rgb { 72 214 157 }
+  	color_ui = rgb { 61 244 171 }
+}
+VAN = {
+  	color = rgb { 43 247 131 }
+  	color_ui = rgb { 22 244 118 }
+}
+PLU = {
+  	color = rgb { 29 196 193 }
+  	color_ui = rgb { 17 216 213 }
+}
+FDM = {
+  	color = rgb { 29 145 196 }
+  	color_ui = rgb { 23 154 21 }
+}
+SOL = {
+  	color = rgb { 46 165 90 }
+  	color_ui = rgb { 37 186 92 }
 }
 DRK = {
   	color = rgb { 201 38 38  }
@@ -327,8 +361,8 @@ CRO = {
 }
 
 PRC = {
-	color = rgb { 229 2 2 }
-	color_ui = rgb { 255 0 0 }
+	color = rgb { 219 10 10 }
+	color_ui = rgb { 209 12 12 }
 }
 
 GXC = {
@@ -406,11 +440,6 @@ ARM = {
 	color_ui = rgb { 176  102  180 }
 }
 
-LAO = {
-	color = rgb { 176  102  136 }
-	color_ui = rgb { 176  102  136 }
-}
-
 INS = {
 	color = rgb { 128  158  118 }
 	color_ui = rgb { 128  158  118 }
@@ -420,7 +449,10 @@ VIN = {
 	color = rgb { 173 33 5 }
 	color_ui = rgb { 211 42 8 }
 }
-
+LAO = {
+	color = rgb { 173 33 5 }
+	color_ui = rgb { 211 42 8 }
+}
 CAM = {
 	color = rgb { 100  71  150 }
 	color_ui = rgb { 100  71  150 }

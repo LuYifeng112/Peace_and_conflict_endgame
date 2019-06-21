@@ -75,24 +75,23 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Maximiliano Hernández Martínez"
-	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
+	name = "Nayib Bukele"
+	desc = "POLITICS_NAYIB_BUKELE_DESC"
 	picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = moderatism
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
+2030.1.1 = {
 	set_politics = {
 
 		parties = {

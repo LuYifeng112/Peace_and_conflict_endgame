@@ -18,6 +18,9 @@ ideologies = {
 			
 			rexist = {				#Belgian Fascists
 			}
+
+			Far_right_conservative = {
+			}
 			
 		}
 		

@@ -78,7 +78,7 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -94,7 +94,15 @@ create_country_leader = {
 		#
 	}
 }
-
+create_country_leader = {
+		name = "Jimmy Morales"
+		desc = "POLITICS_HIMMY_MORALES_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		ideology = national_democrat
+		traits = {
+			#
+		}
+	}
 2030.1.1 = {
 	set_popularities = {
 		democratic = 5 

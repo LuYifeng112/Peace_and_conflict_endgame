@@ -84,10 +84,9 @@ set_convoys = 5
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Federico Páez"
-	desc = "POLITICS_FEDERICO_PAEZ_DESC"
+	name = "Lenín Moreno"
+	desc = "POLITICS_LENIN_MORENO_DESC"
 	picture = "GFX_Portrait_ecuador_federico_paez"
-	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
 		#

@@ -53,8 +53,8 @@ set_convoys = 5
 		nationalism = 0
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 40
+		progressive = 30
 		centrist = 0
 		socialist = 5
 		Novusism = 0
@@ -64,22 +64,22 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Dean Oliver Barrow"
+	desc = "POLITICS_DEAN_OLIVER_BARROW_DESC"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	ideology = constitutionalist
+	traits = {
+		#
+	}
+}
 
 
 }

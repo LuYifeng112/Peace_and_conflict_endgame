@@ -1,4 +1,4 @@
-﻿capital = 12299
+﻿capital = 326
 
 oob = "SIA_1936"
 if = {
@@ -201,18 +201,17 @@ set_convoys = 250
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = Chinese_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Lee Hsien Loong"
-	desc = "POLITICS_PHRAYA_PHAHON_DESC"
+	name = "Carrie Lam"
+	desc = "POLITICS_CARRIE_LAM_DESC"
 	picture = "Portrait_Siam_Phraya_Phahon.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	ideology = socialism_with_chinese_characterisitcs 
 	traits = {
 		#
 	}

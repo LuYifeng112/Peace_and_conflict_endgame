@@ -189,18 +189,17 @@ if = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = liberialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Mackenzie King"
-	desc = "POLITICS_MACKENZIE_KING_DESC"
+	name = "Justin Trudeau"
+	desc = "POLITICS_JUSTIN_TRUDEAU_DESC"
 	picture = "Portrait_Canada_Mackenzie_King.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	ideology = sub_progressive
 	traits = {
 		#
 	}

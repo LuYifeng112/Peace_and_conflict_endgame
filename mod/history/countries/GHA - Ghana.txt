@@ -72,11 +72,20 @@ set_convoys = 15
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
+create_country_leader = {
+		name = "Nana Akufo-Addo"
+		desc = "POLITICS_NANA_AKUFO-ADDO_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		ideology = sub_progressive
+		traits = {
+			#
+		}
+	}
 2030.1.1 = {
 	set_popularities = {
 		democratic = 5 

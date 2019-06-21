@@ -59,9 +59,19 @@ if = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
+create_country_leader = {
+	
+	name = "Milorad Dodik"
+	desc = "POLITICS_MILORAD_DODRIK_DESC"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	ideology = national_democrat
+	traits = {
+		#
+	}
+}

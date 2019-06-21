@@ -243,10 +243,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ferruccio Parri"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	name = "Sergio Mattarella"
+	desc = "POLITICS_SERGIO_MATTARELLA_DESC"
 	picture = "GFX_portrait_italy_ferruccio_parri"
-	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
 		

@@ -76,17 +76,17 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = monarchist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Hashim Kheir"
-	desc = ""
+	name = " King Abdullah II"
+	desc = "POLITICS_ABDULLAH_II_DESC"
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = conservatism
+	ideology = absolute_monarchist
 	traits = {
 		#
 	}

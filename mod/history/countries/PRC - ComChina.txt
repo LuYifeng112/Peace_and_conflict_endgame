@@ -207,6 +207,7 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
+############################################Diplomacy############################################
 add_opinion_modifier = { target = CHI modifier = hostile_status }
 add_opinion_modifier = { target = USA modifier = hostile_status }
 PRC = { diplomatic_relation = { country = PAK relation = guarantee  active = yes } }

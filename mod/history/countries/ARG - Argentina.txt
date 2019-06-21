@@ -51,7 +51,7 @@ if = {
 
 set_country_flag = monroe_doctrine
 
-1939.1.1 = {
+2030.1.1 = {
 
 	add_political_power = 1198
 	
@@ -157,7 +157,7 @@ set_convoys = 120
 
 create_country_leader = {
 	name = "Mauricio Macri"
-	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
+	desc = "POLITICS_AGUSTIN_MAURICIO_MARCI_DESC"
 	picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
 	expire = "1965.1.1"
 	ideology = sub_progressive

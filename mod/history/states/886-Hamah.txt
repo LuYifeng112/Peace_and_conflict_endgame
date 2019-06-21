@@ -1,0 +1,19 @@
+state={
+	id=886
+	name="STATE_886"
+
+	history={
+		owner = KUR
+		add_core_of = ROJ
+		add_core_of = SYR
+		add_core_of = SDF
+		add_core_of = ISS
+
+	}
+
+	provinces={
+		1056 1072 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

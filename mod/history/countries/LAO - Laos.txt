@@ -96,16 +96,15 @@ if = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = communist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Souphanouvong"
-	desc = ""
+	name = "Bounnhang Vorachith"
+	desc = "POLITICS_BOUNNHANG_VORAVITCH_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
-	expire = "1953.3.1"
 	ideology = marxism
 	traits = {
 		

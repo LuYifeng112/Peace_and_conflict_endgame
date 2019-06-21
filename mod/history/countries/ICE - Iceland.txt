@@ -125,11 +125,10 @@ set_stability = 0.75
 }
 
 create_country_leader = {
-	name = "Sveinn Björnsson"
-	desc = ""
+	name = "Guðni Th. Jóhannesson"
+	desc = "POLITICS_GUONI_JOHANESSON_DESC"
 	picture = "portrait_ice_sveinn_bjornsson.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = socialism
 	traits = {
 		#
 	}

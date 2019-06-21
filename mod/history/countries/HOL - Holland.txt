@@ -230,7 +230,7 @@ if = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -239,16 +239,15 @@ if = {
 set_convoys = 150
 set_stability = 0.75				
 
-#create_country_leader = {
-#	name = "Dirk Jan de Geer"
-#	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
-#	picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
-#	expire = "1965.1.1"
-#	ideology = conservatism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	name = "Mark Rutte"
+	desc = "POLITICS_MARK_RUTTE_DESC"
+	picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
+	ideology = sub_progressive
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
 	name = "Hendrikus Colijn"

@@ -77,17 +77,17 @@ set_convoys = 20
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Muhammad Naguib"
-	desc = ""
+	name = "Abdel Fattah el-Sisi"
+	desc = "POLITICS_ABDEL_FATTAH_EL_SISI_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
-	ideology = socialism
+	ideology = sub_progressive
 	traits = {
 		#
 	}

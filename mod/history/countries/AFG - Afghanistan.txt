@@ -87,7 +87,7 @@ set_technology = {
 # Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
 	name = "Ashraf Ghani"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	desc = "POLITICS_ASHRAD_GHANI_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
 	ideology = constitutionalist

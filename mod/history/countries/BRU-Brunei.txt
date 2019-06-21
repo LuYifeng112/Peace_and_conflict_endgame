@@ -88,7 +88,7 @@ set_convoys = 25
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = monarchist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -96,11 +96,10 @@ set_convoys = 25
 
 
 create_country_leader = {
-	name = "Onn Jaafar"
-	desc = ""
+	name = "Hassanal Bolkiah"
+	desc = "POLITICS_HASSANAL_BOLKIAH_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = absolute_monarchist
 	traits = {
 		
 	}

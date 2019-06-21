@@ -78,6 +78,15 @@ set_convoys = 10
 	election_frequency = 48
 	elections_allowed = yes
 }
+create_country_leader = {
+		name = "José Mário Vaz"
+		desc = "POLITICS_JOSE_VAZ_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		ideology = reformist_socialist
+		traits = {
+			#
+		}
+	}
 2030.1.1 = {
 	set_popularities = {
 		democratic = 5 

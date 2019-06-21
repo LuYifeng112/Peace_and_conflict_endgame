@@ -195,9 +195,8 @@ set_convoys = 40
 
 create_country_leader = {
 	name = "Tsai Ing Wen"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	desc = "POLITICS_TSAI_ING_WEN_DESC"
 	picture = "Portrait_China_Chiang_Kai_Shek.dds"
-	expire = "1965.1.1"
 	ideology = sub_progressive
 	traits = {
 	}

@@ -78,18 +78,17 @@ set_convoys = 10
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Tiburcio Carías Andino"
-	desc = "POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
+	name = "Juan Orlando Hernández"
+	desc = "POLITICS_JUAN_ORLANDO_HERNANDEZ_DESC"
 	picture = "GFX_portrait_honduras_portrait_tiburcio_carias_andino"
-	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = right_wing_conservative
 	traits = {
 		#
 	}

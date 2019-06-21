@@ -81,10 +81,9 @@ set_convoys = 10
 }
 
 create_country_leader = {
-	name = "Ricardo Jiménez Oreamuno"
-	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+	name = "Carlos Alvarado Quesada"
+	desc = "POLITICS_CARLOS_QUESADA_DESC"
 	picture = "GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
-	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
 		#
