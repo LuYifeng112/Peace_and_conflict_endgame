@@ -1,14 +1,19 @@
+
 state={
 	id=864
 	name="STATE_864"
+
+	history={
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = ISR
+
+	}
+
 	provinces={
 		13220 
 	}
-	history = {
-	owner = PAL
-	add_core_of = PAL
-	add_core_of = ISR
-	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=city
 }

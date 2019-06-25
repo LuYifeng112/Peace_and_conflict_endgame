@@ -2,7 +2,7 @@
 state={
 	id=525
 	name="STATE_525"
-	state_category = megapolis
+	state_category = megalopolis
 	history={
 		owner = KOR
 		buildings = {

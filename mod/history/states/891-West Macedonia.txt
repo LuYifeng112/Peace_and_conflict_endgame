@@ -1,12 +1,16 @@
+
 state={
 	id=891
 	name="STATE_891"
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+
+	}
+
 	provinces={
 		841 3980 9837 
-	}
-	history = {
-	owner = GRE
-	add_core_of = GRE
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

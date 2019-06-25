@@ -1,8 +1,10 @@
 ﻿l_english:
  sunshine_policy:0 "Sunshine Policy"
+ sunshine_policy_desc:0 "The Sunshine Policy is a less antagonising way to make way for a North korean unification."
  nordpolitik:0 "Nordpolitik Policy"
  Defender_of_the_people:0 "Defender of the nation"
  Look_East_Policy:0 "Look East Policy"
+ Look_East_Policy_desc:0 "This policy centres around being close to East Asia then Western countries."
   One_country_two_systems:0 "One Country Two Systems"
  cc_leader:0 "General"
  fm_leader:0 "Field Marshal"
