@@ -171,7 +171,7 @@ set_stability = 0.7
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -179,11 +179,10 @@ set_stability = 0.7
 }
 
 create_country_leader = {
-	name = "Johan Nygaardsvold"
-	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
-	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	name = "Erna Solberg"
+	desc = "POLITICS_ERNA_SOLBERG_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	ideology = constitutionalist
 	traits = {
 		#
 	}

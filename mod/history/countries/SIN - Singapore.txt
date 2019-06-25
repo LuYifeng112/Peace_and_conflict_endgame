@@ -209,10 +209,9 @@ set_convoys = 250
 
 create_country_leader = {
 	name = "Lee Hsien Loong"
-	desc = "POLITICS_PHRAYA_PHAHON_DESC"
-	picture = "Portrait_Siam_Phraya_Phahon.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	desc = "POLITICS_LEE_HSIEN_LOONG"
+	picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
+	ideology = social_conservatism
 	traits = {
 		#
 	}
@@ -248,10 +247,9 @@ create_country_leader = {
 
 	create_country_leader = {
 		name = "Lee Hsien Long"
-		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
-		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-		expire = "1965.1.1"
-		ideology = conservatism
+		desc = "POLITICS_LEE_HSIEN_LOONG_DESC"
+		picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
+		ideology = social_conservatism
 		traits = {
 			#
 		}

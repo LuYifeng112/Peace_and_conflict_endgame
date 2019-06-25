@@ -68,11 +68,10 @@ if = {
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Sekula Drljević"
-	desc = ""
+	name = "Milo Đukanović"
+	desc = "POLITICS_MILO_DUKANOVIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = socialism
 	traits = {
 		
 	}

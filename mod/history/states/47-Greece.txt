@@ -39,7 +39,7 @@ state={
 	}
 
 	provinces={
-		863 3864 3973 6930 11786 13236 
+		863 3864 3973 6930 
 	}
 	manpower=2312500
 	buildings_max_level_factor=1.000

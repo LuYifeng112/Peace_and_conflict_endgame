@@ -73,10 +73,20 @@ set_convoys = 0
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+create_country_leader = {
+	
+	name = "Peter Mutharika"
+	desc = "POLITICS_PETER_MUTHARIKA_DESC"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	ideology = sub_progressive
+	traits = {
+		#
+	}
 }
 2030.1.1 = {
 	set_popularities = {

@@ -37,7 +37,7 @@ ideologies = {
 		modifiers = {
 			join_faction_tension = 0.6
 		}
-		
+	ai_communist = yes	
 	}
-	ai_communist = yes
+	
 }

@@ -1,0 +1,12 @@
+﻿#EaW Deadly Nukes, written by Yard1 for Equestria at War
+on_actions = {
+	#FROM is state the nuke got dropped on
+	on_nuke_drop = {
+
+		effect = {
+			FROM = {
+				decrease_population_on_nuke = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_NAME" #Name of GFX to be called on
+		texturefile = "gfx/PATH/BACKGROUND_FILE.dds" 				#GFX File the animation uses as a still background
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"			#you can apply an effect if you wish
+		animation = {
+			animationmaskfile = "gfx/PATH/MASK_FILE.dds" 			#opaque shape that the animated file stays within, you can use this to create cutout shapes.
+			animationtexturefile = "gfx/PATH/ANIMATION_FILE.dds" 	# <- the animated file itself, can be a single image
+			animationrotation = 170									# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes									# yes/no
+			animationtime = 12.0									# in seconds, though it seems to lie sometimes
+			animationdelay = 0.0									# in seconds
+			animationblendmode = "add"       						#add, multiply, overlay
+			animationtype = "scrolling"      						#scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 } 				#No clue what this does
+			animationtexturescale = { x = 0.3 y = 0.3 } 			#you can resize the file and it will just loop
+		}
+		legacy_lazy_load = no 										#no clue what this does
+	}
+}

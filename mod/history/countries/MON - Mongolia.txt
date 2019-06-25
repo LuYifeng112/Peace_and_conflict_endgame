@@ -76,18 +76,17 @@ add_ideas = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Anandyn Amar"
-	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	name = "Khaltmaagiin Battulga"
+	desc = "POLITICS_KHALTMAAGIIIN_BATTULGA_DESC"
 	picture = GFX_portrait_mon_anandyn_amar
-	expire = "1965.1.1"
-	ideology = marxism
+	ideology = national_democrat
 	traits = {
 		#
 	}

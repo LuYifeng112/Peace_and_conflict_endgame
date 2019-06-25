@@ -78,6 +78,9 @@ ideologies = {
 
 			juche = {
 			}
+
+			communist_democrat = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -325,6 +328,9 @@ ideologies = {
 
 			cardenism = {
 			}
+
+			sandinistism = {
+			}
 			
 		}
 		
@@ -473,7 +479,8 @@ ideologies = {
 			old_progressive = {
 			}
 
-			social_conservatism
+			social_conservatism = {
+			}
 			
 		}
 		
@@ -819,7 +826,7 @@ ideologies = {
 	}
 #####################################################################
 	Chinese_socialism = {
-		
+		ai_communist = yes
 		types = {
 		
 			socialism_with_chinese_characterisitcs = {

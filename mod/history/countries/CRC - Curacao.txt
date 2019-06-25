@@ -72,7 +72,7 @@ set_convoys = 5
 
 create_country_leader = {
 	
-	name = "Bernard "Ben" Denzil Whiteman"
+	name = "Bernard Ben Denzil Whiteman"
 	desc = "POLITICS_BERNARD_WHITEMAN_DESC"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
 	ideology = libertarian

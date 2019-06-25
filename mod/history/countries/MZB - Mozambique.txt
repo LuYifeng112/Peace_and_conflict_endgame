@@ -72,20 +72,14 @@ set_convoys = 5
 create_country_leader = {
 	
 	
-	name = "Eduardo Tsonga"
+	name = "Filipe Nyusi"
+	desc = "POLITICS_FILIPE_NYUSI_DESC"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	ideology = socialism
 	traits = {
 		#
 	}
 }
-
-
-}
-
-
-
 2030.1.1 = {
 	set_popularities = {
 		democratic = 5 

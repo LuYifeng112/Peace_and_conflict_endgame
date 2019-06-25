@@ -73,12 +73,20 @@ set_convoys = 20
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = centrist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+create_country_leader = {
+	name = "Mohamed Ould Abdel Aziz"
+	desc = "POLITICS_MOHAMED_AZIZ_DESC"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	ideology = centrist
+	traits = {
+		#
+	}
+}
 2030.1.1 = {
 	set_popularities = {
 		democratic = 5 
