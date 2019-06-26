@@ -1,0 +1,15 @@
+state={
+	id=826
+	name="STATE_826"
+	state_category = town
+	history={
+		owner = SIA
+
+	}
+
+	provinces={
+		1281 1308 
+	}
+	manpower=500575
+	buildings_max_level_factor=1.000
+}

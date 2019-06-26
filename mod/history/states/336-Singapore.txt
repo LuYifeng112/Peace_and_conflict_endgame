@@ -1,0 +1,33 @@
+
+state={
+	id=336
+	name="STATE_336"
+	resources={
+		rubber=342.000
+		steel=20.000
+		tungsten=189.000
+		aluminium=15.000
+	}
+
+	history={
+		owner = SIN
+		victory_points = {
+			12299 50 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 6
+
+		}
+		add_core_of = MAL
+		add_core_of = SIN
+	}
+
+	provinces={
+		12113 12299 
+	}
+	manpower=5612000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

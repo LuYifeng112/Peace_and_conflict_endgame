@@ -1,0 +1,16 @@
+state={
+	id=871
+	name="STATE_871"
+	state_category = city
+	provinces={
+		5014 
+	}
+	history = {
+	owner = KUR
+	add_core_of = KUR
+	add_core_of = IRQ
+	add_core_of = ISS
+	}
+	manpower=852500
+	buildings_max_level_factor=1.000
+}

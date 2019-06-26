@@ -112,7 +112,7 @@ add_opinion_modifier = { target = RAJ modifier = hostile_status }
 		Chinese_socialism = 8
 	}
 	set_politics = {
-	ruling_party = nationalist
+	ruling_party = nationalism
 	last_election = "2013.1.1"
 	election_frequency = 48
 	elections_allowed = yes

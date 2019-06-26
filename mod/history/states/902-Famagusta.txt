@@ -1,0 +1,14 @@
+state={
+	id=902
+	name="STATE_902"
+	provinces={
+		11984 
+	}
+	history = {
+	owner = CYP #NCY
+	add_core_of = CYP
+	#add_core_of = NCY
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

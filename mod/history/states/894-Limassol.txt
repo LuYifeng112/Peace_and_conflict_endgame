@@ -1,0 +1,15 @@
+state={
+	id=894
+	name="STATE_894"
+	state_category = city
+	provinces={
+		13225 
+	}
+	history = {
+	owner = CYP
+	add_core_of = CYP
+	#add_core_of = NCY
+	}
+	manpower=101000
+	buildings_max_level_factor=1.000
+}

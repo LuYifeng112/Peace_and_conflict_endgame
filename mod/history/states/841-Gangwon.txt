@@ -1,0 +1,32 @@
+state={
+	id=841
+	name="STATE_841"
+	state_category = large_city
+	history={
+		owner = KOR
+		add_core_of = KOR
+	buildings = {
+		infrastructure = 9
+		industrial_complex = 7
+		arms_factory = 4
+		air_base = 8
+	}
+	victory_points = {
+		11958 15 #Soseong
+	}
+	victory_points  {
+		4004 20 #Chuncheon
+	}
+	victory_points = {
+		1148 15 #Gangneung
+	}
+	victory_points = {
+		7021 10
+	}
+	}
+	provinces={
+		1148 4004 7021 11958 
+	}
+	manpower=1565000
+	buildings_max_level_factor=1.000
+}

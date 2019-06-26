@@ -63,7 +63,7 @@ set_convoys = 20
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = liberal
+	ruling_party = liberalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes

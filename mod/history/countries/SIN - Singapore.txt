@@ -242,9 +242,9 @@ create_country_leader = {
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
-}
 	}
-
+}
+}
 	create_country_leader = {
 		name = "Lee Hsien Long"
 		desc = "POLITICS_LEE_HSIEN_LOONG_DESC"
