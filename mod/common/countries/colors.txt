@@ -21,7 +21,7 @@ BRU = {
   	color_ui = rgb { 234 234 82 }
 }
 SDF = {
-  	color = rgb { 255, 229, 127 }
+  	color = rgb { 255 229 127 }
   	color_ui = rgb { 252 212 58 }
 }
 ROJ = {
