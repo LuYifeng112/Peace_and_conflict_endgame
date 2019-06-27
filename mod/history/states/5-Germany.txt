@@ -13,12 +13,12 @@ state={
 		#	11386 1
 		#}
 		owner = POL
-		add_core_of = POL
+		controller = GER
 		
 		buildings = {
 			infrastructure = 6
 		}
-		
+		add_core_of = GER
 	}
 
 	provinces={

@@ -220,7 +220,7 @@ PRC = { diplomatic_relation = { country = PAK relation = guarantee  active = yes
 
 create_country_leader = {
 	name = "Xi Jin Ping"
-	desc = "POLITICS_MAO_ZEDONG_DESC"
+	desc = "POLITICS_XI_JIN_PING_DESC"
 	picture = "GFX_portrait_prc_mao_zedong"
 	expire = "1965.1.1"
 	ideology = socialism_with_chinese_characterisitcs

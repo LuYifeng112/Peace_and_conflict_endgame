@@ -90,7 +90,7 @@ create_country_leader = {
 	name = "Daniel Ortega"
 	desc = "POLITICS_DANIEL_ORTEGA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-	ideology = sandistism
+	ideology = sandinistism
 	traits = {
 		#
 	}

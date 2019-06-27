@@ -1,17 +1,14 @@
-
 state={
 	id=888
 	name="STATE_888"
-
-	history={
-		owner = GRE
-		add_core_of = GRE
-
-	}
-
+	state_category = city
 	provinces={
 		10203 
 	}
-	manpower=0
+	history = {
+	owner = GRE
+	add_core_of = GRE
+	}
+	manpower=207855
 	buildings_max_level_factor=1.000
 }

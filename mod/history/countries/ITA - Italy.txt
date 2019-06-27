@@ -196,7 +196,6 @@ if = {
 	}
 	
 	set_stability = 0.8
-	GER = { add_to_faction = ITA }
 }
 
 

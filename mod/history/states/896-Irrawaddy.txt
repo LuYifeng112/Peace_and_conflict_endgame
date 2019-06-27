@@ -1,0 +1,14 @@
+state={
+	id=896
+	name="STATE_896"
+	state_category = city
+	provinces={
+		7254 7382 10223 12197 12267 
+	}
+	history = {
+	owner = BRM
+	add_core_of = BRM
+	}
+	manpower=6185000
+	buildings_max_level_factor=1.000
+}

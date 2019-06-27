@@ -265,7 +265,10 @@ ideologies = {
 		
 		types = {
 		
-			right_libertarian = {	#Robert Mugabe
+			right_libertarian = {	
+			}
+
+			Far_right_conservative = {
 			}
 			
 		}
@@ -735,7 +738,7 @@ ideologies = {
 		
 	}
 ###############################################################
-	imperialist = {
+	imperialism = {
 		
 		types = {
 		
@@ -746,6 +749,9 @@ ideologies = {
 			}
 
 			old_nationalist = {
+			}
+
+			fascist_monarchy = {
 			}
 			
 		}

@@ -1,7 +1,6 @@
 state={
 	id=89
 	name="STATE_89"
-
 	history={
 		victory_points = {
 			11411 1

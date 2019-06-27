@@ -2,16 +2,19 @@
 state={
 	id=186
 	name="STATE_186"
+	manpower=945000
+	
+	state_category = town
 
 	history={
 		victory_points = {
-			7211 5 
+			7211 5
 		}
 		victory_points = {
-			7096 1 
+			7096 1
 		}
 		victory_points = {
-			11965 1 
+			11965 1
 		}
 		owner = GRE
 		buildings = {
@@ -33,9 +36,6 @@ state={
 	}
 
 	provinces={
-		4193 
+		4193
 	}
-	manpower=945000
-	buildings_max_level_factor=1.000
-	state_category=town
 }
