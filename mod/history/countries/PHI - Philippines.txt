@@ -93,10 +93,9 @@ set_convoys = 5
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Duterte"
-	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
+	name = "Rodrigo Duterte"
+	desc = "POLITICS_DUTERTE_DESC"
 	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
-	expire = "1965.1.1"
 	ideology = right_libertarian
 	traits = {
 		#

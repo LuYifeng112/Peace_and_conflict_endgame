@@ -1,0 +1,15 @@
+state={
+	id=920
+	name="STATE_920"
+	provinces={
+		12068 
+	}
+	state_category = city
+	history = {
+	owner = CHI
+	add_core_of = CHI
+	add_core_of = PRC
+	}
+	manpower=2773000
+	buildings_max_level_factor=1.000
+}

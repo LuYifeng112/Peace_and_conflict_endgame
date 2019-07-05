@@ -1,0 +1,15 @@
+state={
+	id=917
+	name="STATE_917"
+	provinces={
+		7070 7171 10065 
+	}
+	state_category = town
+	history = {
+	owner = DRK
+	add_core_of = DRK
+	add_core_of = KOR
+	}
+	manpower=310000
+	buildings_max_level_factor=1.000
+}

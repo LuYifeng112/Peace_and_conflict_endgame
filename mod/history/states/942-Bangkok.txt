@@ -1,0 +1,14 @@
+state={
+	id=942
+	name="STATE_942"
+	provinces={
+		7408 
+	}
+	state_category = city
+	history = {
+	owner = SIA
+	add_core_of = SIA
+	}
+	manpower=15931300
+	buildings_max_level_factor=1.000
+}

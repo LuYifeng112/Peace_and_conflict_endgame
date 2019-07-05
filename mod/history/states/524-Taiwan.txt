@@ -1,12 +1,9 @@
-state=
-{
+
+state={
 	id=524
 	name="STATE_524"
-	manpower = 23580000
-	
-	state_category = large_town
-	history=
-	{
+
+	history={
 		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
@@ -16,7 +13,9 @@ state=
 			air_base = 6
 			12068 = {
 				naval_base = 10
+
 			}
+
 		}
 		victory_points = {
 			7186 5 
@@ -26,7 +25,11 @@ state=
 		}
 
 	}
+
 	provinces={
-		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068
-		}
+		7186 
+	}
+	manpower=23580000
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

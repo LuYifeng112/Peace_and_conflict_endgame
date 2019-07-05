@@ -85,18 +85,17 @@ set_convoys = 10
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = salafist
+	last_election = "2017.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Reza Shah Pahlavi"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	name = "Ali Khamenei"
+	desc = "POLITICS_ALI_KHAMENEI_DESC"
 	picture = "Portrait_Iran_Reza_Shah_Pahlavi.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	ideology = islamic_democracy
 	traits = {
 		#
 	}

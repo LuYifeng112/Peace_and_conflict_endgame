@@ -76,16 +76,16 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Ahmed Hilmi Pasha"
-	desc = ""
+	name = "Mahmoud Abbas"
+	desc = "POLITICS_MAHMOUD_ABBAS_DESC"
 	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_navy_1.dds"
-	ideology = socialism
+	ideology = palestinian_nationalism
 	traits = {
 		#
 	}

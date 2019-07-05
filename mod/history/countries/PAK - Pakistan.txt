@@ -119,11 +119,10 @@ add_opinion_modifier = { target = RAJ modifier = hostile_status }
 }
 
 create_country_leader = {
-	name = "Qazi Muhammad Essa"
-	
+	name = "Imran Khan"
+	desc = "POLITICS_IMRAN_KHAN_DESC"	
 	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-	expire = "1960.1.1"
-	ideology = centrist
+	ideology = pakistani_nationalism
 	traits = {
 		
 	}

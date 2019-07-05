@@ -68,7 +68,15 @@ set_convoys = 20
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+create_country_leader = {
+	name = "Thomas Remengesau Jr."
+	desc = "POLITICS_THOMAS_REMENGESAU_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
 
 
 }

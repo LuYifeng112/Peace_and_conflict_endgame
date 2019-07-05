@@ -173,10 +173,9 @@ if = {
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Michael Joseph Savage"
-	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
+	name = "Jacinda Adern"
+	desc = "POLITICS_JACINDA_ADERN_DESC"
 	picture = "GFX_NZL_michael_joseph_savage"
-	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
 		#

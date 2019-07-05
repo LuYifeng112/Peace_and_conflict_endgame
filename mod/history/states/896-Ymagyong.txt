@@ -1,0 +1,14 @@
+state={
+	id=896
+	name="STATE_896"
+	provinces={
+		906 3904 6963 9899 11878 
+	}
+	history = {
+	owner = DRK
+	add_core_of = DRK
+	add_core_of = KOR
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

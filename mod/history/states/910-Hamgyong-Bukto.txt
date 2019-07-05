@@ -1,0 +1,16 @@
+
+state={
+	id=910
+	name="STATE_910"
+	provinces={
+		898 959 6822 6944 
+	}
+	state_category = large_city
+	history = {
+	owner = DRK
+	add_core_of = DRK
+	add_core_of = KOR
+	}
+	manpower=327000
+	buildings_max_level_factor=1.000
+}
