@@ -98,7 +98,7 @@ set_convoys = 25
 create_country_leader = {
 	name = "Hassanal Bolkiah"
 	desc = "POLITICS_HASSANAL_BOLKIAH_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+	picture = "gfx/leaders/BRU/Hassanal_Bolkiah.dds"
 	ideology = absolute_monarchist
 	traits = {
 		

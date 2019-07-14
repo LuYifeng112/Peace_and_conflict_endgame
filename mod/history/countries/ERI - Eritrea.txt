@@ -82,7 +82,7 @@ create_country_leader = {
 	
 	name = "Isaias Afwerki"
 	desc = "POLITICS_ISAIAS_AFWERKI_DESC"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	picture = "gfx/leaders/ERI/ERI_Isaias_Afwerki.dds"
 	ideology = autocrat
 	traits = {
 		compassionate_gentleman

@@ -1,0 +1,52 @@
+scripted_gui = {
+		
+		show_ruling_party_title ={
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "Ruling_title"
+
+		visible = {
+		always = yes
+		}
+
+		effect = {
+		}
+
+		}
+		show_ruling_party_addon_info = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ruling_party_addon_info"
+		
+		visible = {
+		  always = yes
+		}
+		
+		effects = { }
+	}
+	
+	show_approval_rating_container = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "approval_rating_container"
+		
+		visible = {
+		  always = yes
+		}
+
+		effects = { 
+			
+		}
+	}
+	
+	tha_list_of_parties = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "list_of_parties_politics_tab"
+		
+		visible = {
+		  always = yes
+		}
+		
+		effects = { }
+	}

@@ -139,7 +139,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Kersti Kaljulaid"
 	desc = "POLITICS_KERSTI_KALJULAID_DESC"
-	picture = "GFX_Portrait_estonia_konstantin_pats"
+	picture = "gfx/leaders/EST/EST_Kersti_Kaljulaid.dds"
 	ideology = christian_democrat
 	traits = {
 		#

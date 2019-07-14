@@ -74,7 +74,7 @@ set_convoys = 20
 create_country_leader = {
 	name = "Jioji Konrote"
 	desc = "POLITICS_JIOJI_KONROTE_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	picture = "gfx/leaders/FIJ/FIJ_Jioji_Konrot.dds"
 	ideology = sub_progressive
 	traits = {
 		#

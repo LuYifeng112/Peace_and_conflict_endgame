@@ -198,7 +198,7 @@ if = {
 create_country_leader = {
 	name = "Justin Trudeau"
 	desc = "POLITICS_JUSTIN_TRUDEAU_DESC"
-	picture = "Portrait_Canada_Mackenzie_King.dds"
+	picture = "gfx/leaders/CAN/Justin_Trudeau.dds"
 	ideology = sub_progressive
 	traits = {
 		#

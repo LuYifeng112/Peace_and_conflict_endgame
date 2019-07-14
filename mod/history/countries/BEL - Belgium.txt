@@ -135,9 +135,8 @@ set_stability = 0.75
 
 create_country_leader = {
 	name = "Charles Michel"
-	desc = "POLITICS_HUBERT_PIERLOT_DESC"
-	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
-	expire = "1965.1.1"
+	desc = "POLITICS_CHARLES_MICHEL_DESC"
+	picture = "gfx/leaders/BEL/Charles_Michel.dds"
 	ideology = conservatism
 	traits = {
 		#

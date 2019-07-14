@@ -166,7 +166,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Sauli Niinistö"
 	desc = "POLITICS_SAULI_NIINITSO_DESC"
-	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
+	picture = "gfx/leaders/FIN/FIN_Sauli_Niinistö.dds"
 	ideology = socialism
 	traits = {
 		#

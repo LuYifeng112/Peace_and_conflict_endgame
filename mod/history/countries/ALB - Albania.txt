@@ -41,8 +41,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Ilir Meta"
 	desc = "POLITICS_ILIR_META_DESC"
-	picture = "Portrait_Albania_King_Zog.dds"
-	expire = "1965.1.1"
+	picture = "gfx/leaders/ALB/Ilir_meta.dds"
 	ideology = reformist_socialist
 	traits = {
 		#

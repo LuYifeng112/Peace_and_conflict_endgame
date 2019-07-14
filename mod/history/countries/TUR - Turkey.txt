@@ -135,7 +135,7 @@ if = {
 	}
 	set_autonomy = {
 		target = SDF
-		autonomous_state = autonomy_army_occupation
+		autonomous_state = satellite
 	}
 }
 if = {

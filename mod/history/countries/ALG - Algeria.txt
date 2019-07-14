@@ -76,6 +76,17 @@ set_convoys = 20
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+	}
+
+
+	create_country_leader = {
+	name = "Abdelaziz Bouteflika"
+	desc = "POLITICS_ABDELAZIZ_BOUTEFLIKA_DESC"
+	picture = "gfx/leaders/ALG/Bouteflika.dds"
+	ideology = national_democrat
+	traits = {
+		#
+	}
 }
 2030.1.1 = {
 		set_popularities = {
@@ -107,7 +118,7 @@ set_convoys = 20
 create_country_leader = {
 	name = "Abdelaziz Bouteflika"
 	desc = "POLITICS_ABDELAZIZ_BOUTEFLIKA_DESC"
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	picture = "gfx/leaders/ALG/Bouteflika.dds"
 	ideology = national_democrat
 	traits = {
 		#

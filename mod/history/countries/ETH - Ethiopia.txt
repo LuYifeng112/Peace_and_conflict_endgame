@@ -74,7 +74,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Sahle-Work Zewde"
 	desc = "POLITICS_SAHLE_WORK_ZEWDE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
+	picture = "gfx/leaders/ETH/ETH_Sahle-Work_Zewde.dds"
 	ideology = post_communist
 	traits = {
 		#

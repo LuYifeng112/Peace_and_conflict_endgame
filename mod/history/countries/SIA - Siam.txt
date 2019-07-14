@@ -133,18 +133,17 @@ set_convoys = 15
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Phraya Phahon"
+	name = "Prayuth Chan-Ocha"
 	desc = "POLITICS_PHRAYA_PHAHON_DESC"
 	picture = "Portrait_Siam_Phraya_Phahon.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	ideology = thai_nationalism
 	traits = {
 		#
 	}
