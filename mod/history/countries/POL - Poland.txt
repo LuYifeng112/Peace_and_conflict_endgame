@@ -229,11 +229,10 @@ set_convoys = 10
 }
 
 create_country_leader = {
-	name = "Władysław Sikorski"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
+	name = "Andrzej Duda"
+	desc = "POLITICS_ANDRZEJ_DUDA_DESC"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = socialism
 	traits = {
 		#
 	}
@@ -256,17 +255,6 @@ create_country_leader = {
 	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wincenty Witos"
-	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "GFX_POL_wincenty_witos"
-	expire = "1965.1.1"
-	ideology = conservatism
 	traits = {
 		#
 	}

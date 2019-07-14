@@ -84,7 +84,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Nayib Bukele"
 	desc = "POLITICS_NAYIB_BUKELE_DESC"
-	picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
+	picture = "gfx/leaders/ELS/ELS_Nayib_Bukele.dds"
 	ideology = moderatism
 	traits = {
 		#
@@ -92,27 +92,27 @@ create_country_leader = {
 }
 
 2030.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-				#banned = yes #default is no
-			}
-
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = yes #default is no
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1939.1.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+#	set_politics = {
+#
+#		parties = {
+#			democratic = { 
+#				popularity = 0
+#				#banned = yes #default is no
+#			}
+#
+#			fascism = {
+#				popularity = 100
+#			}
+#			
+#			communism = {
+#				popularity = 0
+#				#banned = yes #default is no
+#			}
+#		}
+#		
+#		ruling_party = fascism
+#		last_election = "1939.1.3"
+#		election_frequency = 48
+#		elections_allowed = yes
+#	}
 }

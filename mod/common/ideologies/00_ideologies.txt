@@ -335,6 +335,14 @@ ideologies = {
 			sandinistism = {
 			}
 			
+			pakistani_nationalism = {
+			}
+
+			palestinian_nationalism = {
+			}
+
+			thai_nationalism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -378,6 +386,8 @@ ideologies = {
 			pope = {
 			}
 			
+			emir = {
+			}
 			
 			
 		}
@@ -796,7 +806,14 @@ ideologies = {
 
 			sub_progressive = {
 			}
+
 			national_liberalism = {
+			}
+
+			economic_liberalism = {
+			}
+
+			conservative_liberalism = {
 			}
 		}
 		

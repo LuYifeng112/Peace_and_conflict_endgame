@@ -136,7 +136,7 @@ set_convoys = 20
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = progressive
+	ruling_party = radical_right
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -144,11 +144,10 @@ set_convoys = 20
 
 
 create_country_leader = {
-	name = "Lord Linlithgow"
-	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	name = "Ram Nath Kovind"
+	desc = "POLITICS_RAM_KOVIND_DESC"
 	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	ideology = far_right_conservative
 	traits = {
 		
 	}
