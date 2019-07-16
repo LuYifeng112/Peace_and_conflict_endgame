@@ -86,7 +86,7 @@ set_convoys = 20
 create_country_leader = {
 	name = "Abdel Fattah el-Sisi"
 	desc = "POLITICS_ABDEL_FATTAH_EL_SISI_DESC"
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
+	picture = "gfx/leaders/EGY/EGY_Abdel_Fattah_el-Sisi.dds"
 	ideology = sub_progressive
 	traits = {
 		#

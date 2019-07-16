@@ -81,7 +81,7 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Teodoro Obiang Nguema Mbasogo"
 		desc = "POLITICS_TEODORO_MBASOGO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		picture = "gfx/leaders/EQG/EQG_Teodoro_Obiang_Nguema_Mbasogo.dds"
 		ideology = autocrat
 		traits = {
 			#

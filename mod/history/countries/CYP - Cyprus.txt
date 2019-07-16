@@ -99,9 +99,9 @@ set_convoys = 5
 }
 }
 create_country_leader = {
-		name = "Nicos Anastasiades"
+		name = ""
 		desc = "POLITICS_NICOS_ANASTASIADES_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		picture = "gfx/leaders/CYP/CYP_Nicos_Anastasiades.dds"
 		ideology = socialism
 		traits = {
 			#

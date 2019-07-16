@@ -139,7 +139,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Kolinda Grabar-Kitarović"
 	desc = "POLITICS_KOLINDA_KITAROVIC_DESC"
-	picture = "Portrait_Croatia_Ante_Pavelic.dds"
+	picture = "gfx/leaders/CRO/CRO_Kolinda_Grabar-Kitarovic.dds"
 	ideology = christian_democrat
 	traits = {
 		#

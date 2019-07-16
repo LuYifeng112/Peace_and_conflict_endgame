@@ -74,7 +74,7 @@ create_country_leader = {
 	
 	name = "Rodolphe Alexandre"
 	desc = "RPOLITICS_ODOLPHE_ALEXANDRE_DESC"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	picture = "gfx/leaders/CAY/Rodolphe_Alexandre.dds"
 	ideology = reformist_socialist
 	traits = {
 		#

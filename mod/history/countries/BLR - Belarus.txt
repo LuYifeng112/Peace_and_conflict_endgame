@@ -80,7 +80,7 @@ if = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = neutrality
+	ruling_party = centrist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -89,8 +89,7 @@ if = {
 create_country_leader = {
     name = "Alexander Lukashenko"
     desc = "POLITICS_ALEXANDER_LUSHENKO_DESC"
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-    expire = "1965.1.1"
+    picture = "gfx/leaders/BLR/Alexander_Lukashenko.dds"
     ideology = centrist
     traits = {
         #

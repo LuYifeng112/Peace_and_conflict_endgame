@@ -81,7 +81,7 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Ismaïl Omar Guelleh"
 		desc = "POLITICS_ISMAIL_OMAR_GUELLEH_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		picture = "gfx/leaders/DJI/DJI_Ismaïl_Omar_Guelleh.dds"
 		ideology = reformist_socialist
 		traits = {
 			#

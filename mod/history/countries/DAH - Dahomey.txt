@@ -82,7 +82,7 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Patrice Talon"
 		desc = "POLITICS_PATRICE_TALON_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		picture = "gfx/leaders/DAH/DAH_Patrice_Talon.dds"
 		ideology = libertarian
 		traits = {
 			#

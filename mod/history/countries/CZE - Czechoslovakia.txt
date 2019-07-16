@@ -50,7 +50,7 @@ set_research_slots = 3
 create_country_leader = {
 	name = "Miloš Zeman"
 	desc = "POLITICS_MILOS_ZEMAN_DESC"
-	picture = "Portrait_Czech_Edvard_Benes.dds"
+	picture = "gfx/leaders/CZE/CZE_Miloš_Zeman.dds"
 	ideology = socialism
 	traits = {
 		#
