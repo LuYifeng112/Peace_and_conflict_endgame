@@ -94,40 +94,17 @@ declare_war_on = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Ghazi I"
-	desc = "POLITICS_GHAZI_I_DESC"
-	picture = "GFX_portrait_iraq_ghazi"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rashid Ali al-Gaylani"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yusuf Salman Yusuf"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
-	expire = "1965.1.1"
-	ideology = leninism
+	name = "Abdullah Öcalan"
+	desc = "POLITICS_ABDULLAH_OCALAN_DESC"
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
+	ideology = libertarian_socialist
 	traits = {
 		#
 	}

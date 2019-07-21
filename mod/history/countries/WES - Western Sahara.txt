@@ -100,7 +100,7 @@ set_convoys = 20
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -108,10 +108,10 @@ set_convoys = 20
 }
 
 create_country_leader = {
-	name = "El-Ouali Mustapha Sayed"
-	desc = ""
+	name = "Brahim Ghali"
+	desc = "POLITICS_BRAHIM_GHALI_DESC"
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = centrist
+	ideology = arab_nationalism
 	traits = {
 		#
 	}

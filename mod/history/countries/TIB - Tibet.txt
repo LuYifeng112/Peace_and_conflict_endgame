@@ -67,18 +67,17 @@ set_technology = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = monarchist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Jamphel Yeshe Gyaltsen"
+	name = "Lobsang Sangay"
 	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
 	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	ideology = dalai_lama
 	traits = {
 		#
 	}
@@ -105,7 +104,7 @@ create_country_leader = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = monarchist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes

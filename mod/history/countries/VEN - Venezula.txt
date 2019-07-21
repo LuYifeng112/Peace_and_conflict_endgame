@@ -81,29 +81,17 @@ set_convoys = 10
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Eleazar López Contreras"
-	desc = "POLITICS_ELEAZAR_LOPEZ_CONTRERAS_DESC"
+	name = "Nicolás Maduro"
+	desc = "POLITICS_NICOLAS_MADURO_DESC"
 	picture = "Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Juan Bautista Fuenmayor"
-	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
+	ideology = communist_democrat
 	traits = {
 		#
 	}

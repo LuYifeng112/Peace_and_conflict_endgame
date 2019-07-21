@@ -258,7 +258,7 @@ set_convoys = 10
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -266,11 +266,10 @@ set_convoys = 10
 }
 
 create_country_leader = {
-	name = "Gheorghe Tatarescu"
-	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
+	name = "Klaus Iohannis"
+	desc = "POLITICS_KLAUS_IOHANNIS_DESC"
 	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
-	expire = "1965.1.1"
-	ideology = centrist
+	ideology democratic_socialist
 	traits = {
 		#
 	}

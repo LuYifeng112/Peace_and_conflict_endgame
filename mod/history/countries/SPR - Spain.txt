@@ -193,16 +193,13 @@ set_stability = 0.5
 	elections_allowed = yes
 }
 
-	set_global_flag = scw_over
-	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
-}
+
 
 create_country_leader = {
-	name = "Manuel Azana"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
+	name = "Pedro Sánchez"
+	desc = "POLITICS_PEDRO_SANCHEZ_DESC"
 	picture = "Portrait_Spain_Manuel_Azana.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = socialism
 	traits = {
 		#
 	}

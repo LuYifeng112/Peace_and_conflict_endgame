@@ -73,12 +73,20 @@ set_convoys = 0
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+create_country_leader = {
+	name = "Roch Marc Christian Kaboré"
+	desc = "POLITICS_ROCH_MARC_CHRISTIAN_KABORE_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	ideology = democratic_socialist
+	traits = {
+		
+	}
+}
 2030.1.1 = {
 	set_popularities = {
 		democratic = 5 

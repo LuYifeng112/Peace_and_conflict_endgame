@@ -112,17 +112,16 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Gabriel Terra"
-	desc = "POLITICS_GABRIEL_TERRA_DESC"
+	name = "Tabaré Vázquez"
+	desc = "POLITICS_TABARE_VAZQUEZ_DESC"
 	picture = "GFX_portrait_uruguay_portrait_gabriel_terra"
-	expire = "1965.1.1"
-	ideology = socialism
+	ideology = democratic_socialist
 	traits = {
 		#
 	}

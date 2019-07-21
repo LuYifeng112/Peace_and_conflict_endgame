@@ -78,18 +78,17 @@ set_technology = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Jozef Tiso"
-	desc = "POLITICS_JOZEF_TISO_DESC"
-	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "Zuzana Čaputová"
+	desc = "POLITICS_ZUZANA_CAPUTOVA_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+	ideology = libertarian_socialist
 	traits = {
 		#
 	}

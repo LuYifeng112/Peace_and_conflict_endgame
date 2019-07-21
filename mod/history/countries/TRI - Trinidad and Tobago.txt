@@ -63,22 +63,22 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	
+	name = "Paula-Mae Weekes"
+	desc = "POLITICS_PAULE_MAE_WEEKES_DESC"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
 
 
 }

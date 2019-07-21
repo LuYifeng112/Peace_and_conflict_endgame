@@ -179,6 +179,7 @@ set_convoys = 250
 		remove_ideas = MTG_naval_treaty_adherent
 		add_ideas = MTG_naval_treaty_adherent_reduced
 	}
+	}
 
 
 	set_popularities = {

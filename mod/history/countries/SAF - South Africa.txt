@@ -152,7 +152,7 @@ set_convoys = 25
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -160,11 +160,10 @@ set_convoys = 25
 
 
 create_country_leader = {
-	name = "J. B. M. Hertzog"
-	desc = "POLITICS_J_B_M_HERTZOG_DESC"
-	picture = "GFX_SAF_james_hertzog"
-	expire = "1965.1.1"
-	ideology = conservatism
+	name = "Cyril Ramaphosa"
+	desc = "POLITICS_CYRIL_RAMAPHOSA_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	ideology = african_nationalism
 	traits = {
 		#
 	}

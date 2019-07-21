@@ -38,10 +38,18 @@ set_technology = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-
+create_country_leader = {
+	name = "Borut Pahor"
+	desc = "POLITICS_BORUT_PAHOR_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
+	ideology = democratic_socialist
+	traits = {
+		#
+	}
+}

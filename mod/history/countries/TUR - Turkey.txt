@@ -200,40 +200,17 @@ set_stability = 0.55
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = salafist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-	}
-
-	create_country_leader = {
-		name = "Ismet Inönü"
-		desc = "POLITICS_ISMET_INÖNÜ_DESC"
-		picture = "Portrait_Turkey_Ismet_Inonu.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-
-	if = {
-		limit = { 
-			has_unit_leader = 59
-		}
-		remove_unit_leader = 59
-	}
-
 }
-
-# Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
 create_country_leader = {
-	name = "Ismet Inönü"
-	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	name = "Recep Tayyip Erdoğan"
+	desc = "POLITICS_RECEP_TAYYIP_ERDOGAN_DESC"
 	picture = "Portrait_Turkey_Ismet_Inonu.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	ideology = islamic_democracy
 	traits = {
 		#
 	}

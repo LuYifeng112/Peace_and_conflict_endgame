@@ -222,7 +222,6 @@ create_country_leader = {
 	name = "Xi Jin Ping"
 	desc = "POLITICS_XI_JIN_PING_DESC"
 	picture = "GFX_portrait_prc_mao_zedong"
-	expire = "1965.1.1"
 	ideology = socialism_with_chinese_characterisitcs
 	traits = {
 	One_country_two_systems

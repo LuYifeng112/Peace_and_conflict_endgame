@@ -76,17 +76,17 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Hashim al-Atassi"
-	desc = ""
+	name = "Bashar al-Assad"
+	desc = "POLITICS_BASHAR_AL_ASSAD_DESC"
 	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_navy_1.dds"
-	ideology = sub_progressive
+	ideology = arab_nationalism
 	traits = {
 		#
 	}

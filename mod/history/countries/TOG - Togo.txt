@@ -78,6 +78,17 @@ set_convoys = 10
 	election_frequency = 48
 	elections_allowed = yes
 }
+create_country_leader = {
+	
+	name = "Faure Gnassingbé"
+	desc = "POLITICS_FAURE_GNASSINGBE_DESC"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	ideology = african_nationalism
+	traits = {
+		#
+	}
+}
+
 2030.1.1 = {
 	set_popularities = {
 		democratic = 5 

@@ -86,7 +86,7 @@ set_technology = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -113,7 +113,7 @@ set_technology = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -128,11 +128,10 @@ add_ideas = {
 set_stability = 0.85
 
 create_country_leader = {
-	name = "Federal Council"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	name = "Ueli Maurer"
+	desc = "POLITICS_UELI_MAURER_DESC"
 	picture = "Portrait_Switzerland_Federal_council.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = swiss_nationalism
 	traits = {
 		#
 	}

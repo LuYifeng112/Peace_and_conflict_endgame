@@ -62,52 +62,47 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = monarchist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
-
-
-}
-
-
-2030.1.1 = {
-	set_popularities = {
-		democratic = 5 
-		fascism = 0
-		communism = 0
-		neutrality = 0
-		salafist = 0
-		nationalism = 0
-		monarchist = 0
-		reactionary = 0
-		conservative = 30
-		progressive = 40
-		centrist = 0
-		socialist = 5
-		Novusism = 0
-		authoritarianism = 0
-		imperialism = 0
-		liberalism = 20
-		Chinese_socialism = 0
+create_country_leader = {
+	
+	name = "Khalifa bin Zayed Al Nahyan"
+	desc = "POLITICS_KHALIFA_BIN_ZAYED_AL_NAHYAN_DESC"
+	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	ideology = emir
+	traits = {
+		#
 	}
-	set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
 }
-}
+
+#2030.1.1 = {
+#	set_popularities = {
+#		democratic = 5 
+#		fascism = 0
+#		communism = 0
+#		neutrality = 0
+#		salafist = 0
+#		nationalism = 0
+#		monarchist = 0
+#		reactionary = 0
+#		conservative = 30
+#		progressive = 40
+#		centrist = 0
+#		socialist = 5
+#		Novusism = 0
+#		authoritarianism = 0
+#		imperialism = 0
+#		liberalism = 20
+#		Chinese_socialism = 0
+#	}
+#	set_politics = {
+#	ruling_party = democratic
+#	last_election = "1936.1.1"
+#	election_frequency = 48
+#	elections_allowed = yes
+#}
+#}
 

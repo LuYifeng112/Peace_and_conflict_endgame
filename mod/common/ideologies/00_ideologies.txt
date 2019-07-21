@@ -6,9 +6,6 @@ ideologies = {
 			
 			conservatism = {
 			}
-		
-			socialism = {
-			}
 
 			green = {
 			}
@@ -80,6 +77,9 @@ ideologies = {
 			}
 
 			communist_democrat = {
+			}
+
+			ho_chi_minh_thought = {
 			}
 		}
 		
@@ -343,6 +343,15 @@ ideologies = {
 
 			thai_nationalism = {
 			}
+
+			civic_nationalism = {
+			}
+
+			swiss_nationalism = {
+			}
+
+			arab_nationalism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -387,6 +396,9 @@ ideologies = {
 			}
 			
 			emir = {
+			}
+
+			dalai_lama  {
 			}
 			
 			
@@ -493,6 +505,9 @@ ideologies = {
 			}
 
 			social_conservatism = {
+			}
+
+			national_conservatism  {
 			}
 			
 		}
@@ -617,11 +632,35 @@ ideologies = {
 	socialist = {
 		
 		types = {
-		
-			social_democrat_ideology = {
-			}
 			
 			reformist_socialist = {
+			}
+
+			libertarian_socialist = {
+			}
+
+			democratic_socialist = {
+			}
+
+			socialism = {
+			}
+			
+			democratic_socialist = {
+			}
+			
+			market_socialism = {
+			}
+			
+			royal_socialism = {
+			}
+			
+			neocommunism = {
+			}
+			
+			african_socialism = {
+			}
+			
+			labor_zionism_mapai = {
 			}
 			
 		}
@@ -713,6 +752,9 @@ ideologies = {
 			old_guard = {
 			}
 			post_communist = {
+			}
+
+			emerging_strucutralist = {
 			}
 			
 		}
@@ -814,6 +856,9 @@ ideologies = {
 			}
 
 			conservative_liberalism = {
+			}
+
+			centre_liberalism  {
 			}
 		}
 		

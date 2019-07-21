@@ -265,7 +265,7 @@ USA = { diplomatic_relation = { country = SLV relation = military_access active 
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }
 
-set_convoys = 400
+set_convoys = 1200
 ######################politics#######################################
 
 	set_popularities = {
@@ -295,9 +295,6 @@ set_convoys = 400
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
 	free_trade
 	home_of_the_free
 }
@@ -324,7 +321,7 @@ add_ideas = {
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "2028.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -335,8 +332,7 @@ create_country_leader = {
 	name = "Donald John Trump"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = socialism
+	ideology = social_conservatism
 	traits = {
 	anti_communist
 	dealbroker

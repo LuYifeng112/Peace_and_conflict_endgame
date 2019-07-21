@@ -69,17 +69,16 @@ set_convoys = 5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 create_country_leader = {
-	name = "Imam Yahya"
-	desc = "POLITICS_IMAM_YAHYA_DESC"
+	name = "Mahdi al-Mashat"
+	desc = "POLITICS_MAHDI_AL_MASHAT_DESC"
 	picture = "GFX_portrait_yemen_imam_yahya"
-	expire = "1965.1.1"
-	ideology = despotism
+	ideology = autocrat
 	traits = {
 		#
 	}
