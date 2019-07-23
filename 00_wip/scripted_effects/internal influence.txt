@@ -1,0 +1,56 @@
+#Internal Influence system 
+
+#Oligarchy 
+#Legislative organisations 
+#Mafia Organisations 
+#Civilian
+#Military organisations 
+
+
+startup_internal_factions = {
+	sort_internal_factions = yes
+}
+
+calc_internal_factions = {
+	sort_internal_factions = yes
+}
+
+Setup_ogligarchy = {
+	set_variable = { oligarchy_influence = num_of_factories }
+	add_to_variable = {oligarchy_influence = num_of_subjects }
+	add_to_variable = {oligarchy_influence = industrial_complex_level }
+}
+
+setup_legislative = {
+	set_variable = {legislative_influence = stability }
+	add_to_variable = {legislative_influence = political_power }
+	add_to_variable = {legislative_influence = num_owned_states }
+}
+
+setup_mafia = { #godfather's back
+	set_variable = { mafia_influence = manpower_per_military_factory }
+	add_to_variable = { mafia_influence = casualties }
+	#add_to_variable = {mafia influence = (low legislative_influence) }
+}
+
+setup_civilian = {
+	set_variable = { civilian_influence = stability }
+	add_to_variable = { civilian_influence = num_of_factories }
+	add_to_variable = { civilian_influence = manpower }
+}
+
+setup_military_org = {
+	set_variable = { military_org = command_power }
+	add_to_variable = {military_org = command_power }
+	add_to_variable = {military_org = any_war_score }
+	add_to_variable = {military_org = attack_level}
+	add_to_variable = {military_org = num_battle_plans }
+	add_to_variable = {military_org = num_divisions }
+	add_to_variable = {military_org = num_infantry }
+	add_to_variable = {military_org = num_rocket }
+	add_to_variable = {military_org = num_motorized }
+}
+
+#making percetanges - oof
+
+

@@ -1,0 +1,66 @@
+#Civilian stats
+
+#Literacy rate
+#unemployment rate
+#Population
+
+
+
+#VAR list
+#ai_irrationality
+#ai_wants_divisions
+#alliance_naval_strength_ratio
+#alliance_strength_ratio
+#amount_manpower_in_deployment_queue
+#amount_research_slots
+#any_war_score
+#casualties
+#command_power
+#command_power_daily
+#compare_autonomy_progress_ratio
+#days_mission_timeout (usage days_mission_timeout@GER_mefo_bills_mission or other missions)
+#enemies_naval_strength_ratio
+#enemies_strength_ratio
+#has_added_tension_amount
+#has_political_power
+#has_stability
+#has_war_support
+#land_doctrine_level
+#manpower
+#manpower_per_military_factory
+#max_available_manpower
+#max_manpower
+#max_manpower_k
+#modifier (usage modifier@stability_weekly or any other modifier. Gives you value of a modifier at country)
+#num_controlled_states
+#num_core_states
+#num_divisions
+#num_faction_members
+#num_occupied_states
+#num_of_available_civilian_factories
+#num_of_available_military_factories
+#num_of_available_naval_factories
+#num_of_civilian_factories
+#num_of_civilian_factories_available_for_projects
+#num_of_controlled_states
+#num_of_factories
+#num_of_military_factories
+#num_of_naval_factories
+#num_of_nukes
+#num_owned_controlled_states
+#num_owned_states
+#num_subjects
+#num_tech_sharing_groups
+#opinion (usage opinion@country)
+#original_research_slots
+#party_popularity (usage party_popularity@neutrality or any other ideology or party_popularity@ruling_party)
+#political_power
+#political_power_daily
+#political_power_growth
+#resource   (usage resource@steel or other resources)
+#resource_consumed (usage resource_consumed@steel or other resources)
+#resource_exported (usage resource_exported@steel or other resources)
+#resource_imported (usage resource_imported@steel or other resources)
+#resource_produced (usage resource_produced@steel or other resources)
+#stability
+#surrender_progress
