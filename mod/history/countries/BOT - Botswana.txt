@@ -77,7 +77,7 @@ create_country_leader = {
 	desc = "POLITICS_MOKGWEETSI_MASISI_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = democratic_socialism
+	ideology = democratic_socialist
 	traits = {
 		#
 	}

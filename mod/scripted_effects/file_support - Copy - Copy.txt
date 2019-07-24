@@ -1,3 +1,0 @@
-#economic stats
-
-#Pie_Chart - primary, secondary, tertiary, quarternary

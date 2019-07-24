@@ -1,0 +1,14 @@
+opinion_modifiers = {
+	new_emb = {
+	trade = yes
+	value = -500
+	}
+	new_emb_opinion = {
+	value = -50
+	}
+	emb_lifted = {
+	value = 50
+	days = 10
+	decay = 25
+	}
+}

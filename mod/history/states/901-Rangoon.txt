@@ -1,6 +1,7 @@
 state={
 	id=901
 	name="STATE_901"
+	state_category = city
 	provinces={
 		1330 10154 10267 
 	}
@@ -8,6 +9,6 @@ state={
 	owner = BRM
 	add_core_of = BRM
 	}
-	manpower=0
+	manpower=7360703
 	buildings_max_level_factor=1.000
 }

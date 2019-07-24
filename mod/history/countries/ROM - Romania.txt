@@ -269,7 +269,7 @@ create_country_leader = {
 	name = "Klaus Iohannis"
 	desc = "POLITICS_KLAUS_IOHANNIS_DESC"
 	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
-	ideology democratic_socialist
+	ideology = democratic_socialist
 	traits = {
 		#
 	}

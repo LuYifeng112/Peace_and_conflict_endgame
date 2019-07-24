@@ -1,0 +1,15 @@
+state={
+	id=980
+	name="STATE_980"
+	state_category = large_city
+	provinces={
+		13222 
+	}
+	history = {
+		owner = ISR
+		add_core_of = ISR
+		add_core_of = PAL
+	}
+	manpower=1253900
+	buildings_max_level_factor=1.000
+}

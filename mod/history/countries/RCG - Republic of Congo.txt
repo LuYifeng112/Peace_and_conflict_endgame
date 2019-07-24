@@ -83,7 +83,7 @@ create_country_leader = {
 	name = "Félix Tshisekedi"
 	desc = "POLITICS_FELIX_TSHISEKEDI_DESC"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-	ideology = democratic_socialism
+	ideology = democratic_socialist
 	traits = {
 		#
 	}

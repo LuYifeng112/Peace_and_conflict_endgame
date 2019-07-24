@@ -1,6 +1,7 @@
 state={
 	id=902
 	name="STATE_902"
+	state_category = city
 	provinces={
 		11984 
 	}
@@ -9,6 +10,6 @@ state={
 	add_core_of = CYP
 	#add_core_of = NCY
 	}
-	manpower=0
+	manpower=50465
 	buildings_max_level_factor=1.000
 }

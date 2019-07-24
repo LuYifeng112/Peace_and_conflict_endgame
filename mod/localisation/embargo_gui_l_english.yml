@@ -1,0 +1,8 @@
+﻿l_english:
+
+#Interface
+EMBARGO_NATION_TOOLTIP:0 "Embargo [From.GetNameDef]."
+EMBARGO_NATION_TOOLTIP_DELAYED:0 "§GREQUIREMENTS: \n you're at peace with this nation \n you're not fighting a war on this nations side \n this nation is not in your faction or your subject \n you don't have a non-aggression pact with this nation \n this nation is fully independent \n if your nation is democratic the nation needs to add at least 10 world tension§"
+CEASE_EMBARGO_TOOLTIP:0 "Cease the embargo for [From.GetNameDef]."
+CEASE_EMBARGO_TOOLTIP_DELAYED:0 "§GREQUIREMENTS: \n you're not at war with this nation \n this nation is fully independent§"
+

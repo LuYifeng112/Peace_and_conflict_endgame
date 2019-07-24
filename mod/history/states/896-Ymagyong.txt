@@ -1,14 +1,18 @@
+
 state={
 	id=896
 	name="STATE_896"
+	state_category = city
+	history={
+		owner = DRK
+		add_core_of = DRK
+		add_core_of = KOR
+
+	}
+
 	provinces={
-		9899 
+		3803 3860 3904 6963 9899 11878 
 	}
-	history = {
-	owner = DRK
-	add_core_of = DRK
-	add_core_of = KOR
-	}
-	manpower=0
+	manpower=719269
 	buildings_max_level_factor=1.000
 }

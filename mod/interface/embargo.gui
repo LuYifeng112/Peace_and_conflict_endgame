@@ -1,0 +1,64 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "embargo_container"
+		position = { x = 53%% y = 97%%} #53 91
+		clipping = no	
+		
+		fade_time = 1500
+		fade_type = linear
+		moveable = yes
+		
+		buttonType ={
+			name ="embargo_button"
+			quadTextureSprite ="GFX_diplo_actions_bg"
+			position = { x=2 y=-70 } #2 -70
+			clicksound = click_action
+			pdx_tooltip = "EMBARGO_NATION_TOOLTIP"
+			pdx_tooltip_delayed = "EMBARGO_NATION_TOOLTIP_DELAYED"
+		}
+
+		instantTextBoxType = {
+			name ="embargo_nation"
+			position = { x= 8 y = -66 } # 8 4
+			font = "hoi_18mbs"
+			text = "Embargo"
+			maxWidth = 190
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			allwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
+		name = "cease_embargo_container"
+		position = { x = 53%% y = 97%%}
+		clipping = no
+
+		fade_time = 1500
+		fade_type = linear
+		moveable = yes		
+		
+		buttonType ={
+			name ="cease_embargo_button"
+			quadTextureSprite ="GFX_diplo_actions_bg"
+			position = { x=2 y=-70 } #x=2 y=-40
+			clicksound = click_action
+			pdx_tooltip = "CEASE_EMBARGO_TOOLTIP"
+			pdx_tooltip_delayed = "CEASE_EMBARGO_TOOLTIP_DELAYED"
+		}
+
+		instantTextBoxType = {
+			name ="cease_embargo"
+			position = { x= 8 y = -66 } #8 -36
+			font = "hoi_18mbs"
+			text = "Cease Embargo"
+			maxWidth = 190
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			allwaystransparent = yes
+		}
+	}
+}
