@@ -1,0 +1,15 @@
+state={
+	id=982
+	name="STATE_982"
+	state_category = small_island
+	provinces={
+		4088 
+	}
+	history = {
+	owner = CHI
+	add_core_of = CHI
+	add_core_of = PRC
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

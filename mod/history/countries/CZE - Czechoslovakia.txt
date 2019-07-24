@@ -135,12 +135,4 @@ if = {
 	give_guarantee = ROM
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
-	}
-}
 

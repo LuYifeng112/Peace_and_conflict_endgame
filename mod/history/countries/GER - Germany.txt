@@ -105,7 +105,6 @@ create_import = {
 }
 
 2030.1.1 = {
-	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
 	set_war_support = 0.7
 
 	add_political_power = 1197
@@ -127,18 +126,7 @@ create_import = {
 	
 	oob = "GER_1939"
 	
-	set_autonomy = {
-		target = SLO
-		autonomous_state = autonomy_puppet
-	}
 	
-	give_military_access = SLO
-	create_wargoal = {
-		type = take_state_focus
-		target = POL
-		generator = { 72 88 90 87 86 } # Zaolzie Krakow Kielce Lodz Poznan
-	}
-
 #Trade
 	create_import = {
 			resource = oil

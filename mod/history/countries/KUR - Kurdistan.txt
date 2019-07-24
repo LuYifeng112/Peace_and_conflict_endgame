@@ -68,26 +68,10 @@ set_convoys = 5
 	}
 }
 #############################################war##############################################
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = ROJ
-		autonomous_state = autonomy_army_occupation
-	}
-}
-if = {
-	limit = { 
-		not = {
-			has_dlc = "Together for Victory"
-		}
-	}
 	set_autonomy = {
 		target = ROJ
 		autonomous_state = autonomy_puppet
 	}
-}
 ####################################popularity##################################
 	set_popularities = {
 		democratic = 5 

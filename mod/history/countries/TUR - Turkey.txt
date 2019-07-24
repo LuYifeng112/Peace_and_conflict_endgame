@@ -129,26 +129,11 @@ if = {
 	}
 }
 ####################################war#############################
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = SDF
-		autonomous_state = satellite
-	}
-}
-if = {
-	limit = { 
-		not = {
-			has_dlc = "Together for Victory"
-		}
-	}
 	set_autonomy = {
 		target = SDF
 		autonomous_state = autonomy_puppet
 	}
-}
+
 #########################################################################
 	set_popularities = {
 		democratic = 5 
