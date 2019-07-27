@@ -62,45 +62,45 @@ errors:
 
 
 
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country PER : Ideology salafist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country PRU : Ideology liberalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country SAF : Ideology nationalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country SAU : Ideology monarchist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country SIA : Ideology nationalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country TIB : Ideology monarchist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country URG : Ideology socialist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country MON : Ideology nationalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country PAR : Ideology conservative : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country HAI : Ideology liberalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country YEM : Ideology nationalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country OMA : Ideology monarchist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country SLO : Ideology socialist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country CRO : Ideology conservative : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country CAM : Ideology authoritarianism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country KAZ : Ideology authoritarianism : Path gfx/flags/ : File not found
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country ANG : Ideology liberalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country ZIM : Ideology socialist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country KEN : Ideology nationalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country BOT : Ideology socialist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country BLZ : Ideology conservative : Path gfx/flags/ : File not found
 [11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country CRC : Ideology Progressive : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country JAM : Ideology nationalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country MAD : Ideology nationalism : Path gfx/flags/ : File not found
 [11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country PUE : Ideology Progressive : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country QAT : Ideology monarchist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country SUR : Ideology socialist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country TAJ : Ideology nationalism : Path gfx/flags/ : File not found
 [11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country TMS : Ideology nationalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country UZB : Ideology authoritarianism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country KUW : Ideology conservative : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country ALG : Ideology nationalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country MOR : Ideology monarchist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country SUD : Ideology salafist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country ERI : Ideology nationalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country DJI : Ideology socialist : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country SOM : Ideology nationalism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country UGA : Ideology authoritarianism : Path gfx/flags/ : File not found
-[11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country RWA : Ideology nationalism : Path gfx/flags/ : File not found
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country BRD : Ideology nationalism : Path gfx/flags/ : File not found
 [11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country TZN : Ideology socialist : Path gfx/flags/ : File not found
 [11:42:38][flagtextureatlas.cpp:462]: Error loading flag for country ZAM : Ideology socialist : Path gfx/flags/ : File not found
