@@ -1,0 +1,25 @@
+focus_tree = { 
+id = Venezuela_2020
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = VEN 
+} 
+} 
+#Focus for Hyperinflation crisis
+focus = { 
+id = VEN_hyperinflationcrisis
+icon = GFX_goal_unknown
+x = 11
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

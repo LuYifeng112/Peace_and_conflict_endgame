@@ -18,6 +18,10 @@ state={
 
 		}
 
+		victory_points = {
+			10289 30 #Phnom Penh
+		}
+
 	}
 
 	provinces={

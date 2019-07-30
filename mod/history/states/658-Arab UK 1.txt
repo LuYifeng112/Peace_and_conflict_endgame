@@ -11,7 +11,7 @@ state={
 		add_core_of = UAE
 		owner = UAE
 		victory_points = {
-			7960 1 
+			7960 30 
 		}
 		buildings = {
 			infrastructure = 2

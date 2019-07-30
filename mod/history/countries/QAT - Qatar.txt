@@ -1,4 +1,4 @@
-﻿capital = 658
+﻿capital = 765 #It's only one province for now
 
 #oob = ""
 

@@ -14,9 +14,9 @@ state={
 
 	history={
 		owner = GRE
-		victory_points = {
-			4109 20 
-		}
+		#victory_points = {
+		#	4109 20 
+		#}
 		victory_points = {
 			3973 3
 		}

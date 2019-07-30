@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ISS
+		owner = IRQ
 		buildings = {
 			infrastructure = 3
 
@@ -18,6 +18,10 @@ state={
 		add_core_of = IRQ
 		add_core_of = KUR
 		add_core_of = ISS
+
+		ISS = {
+			set_province_controller = 1938
+		}
 
 	}
 

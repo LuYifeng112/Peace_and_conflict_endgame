@@ -91,7 +91,7 @@ if = {
 
 	add_political_power = 1198
 	
-	#white_peace = ETH
+	
 	if = {
 		limit = {
 			has_dlc = "Man the Guns"
@@ -221,7 +221,7 @@ set_convoys = 200
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -245,7 +245,7 @@ create_country_leader = {
 	name = "Sergio Mattarella"
 	desc = "POLITICS_SERGIO_MATTARELLA_DESC"
 	picture = "GFX_portrait_italy_ferruccio_parri"
-	ideology = socialism
+	ideology = socialism 
 	traits = {
 		
 	}

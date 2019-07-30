@@ -105,7 +105,7 @@ x = 30
 y = 1
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = KOR_rQJdwfci } 
+prerequisite = { focus = KOR_MerFKUkn } 
 ai_will_do = { 
  factor = 1
  } 
@@ -120,7 +120,7 @@ x = 15
 y = 1
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = KOR_rQJdwfci } 
+prerequisite = { focus = KOR_MerFKUkn } 
 ai_will_do = { 
  factor = 1
  } 
@@ -217,7 +217,7 @@ ai_will_do = {
 
 #Focus for The North Korean regime
 focus = { 
-id = KOR_rQJdwfci
+id = KOR_MerFKUkn
 icon = GFX_goal_unknown
 x = 20
 y = 0
@@ -294,7 +294,7 @@ ai_will_do = {
 
 #Focus for Introduce new training programs
 focus = { 
-id = KOR_lbEYMgWc
+id = KOR_vqgnNLBr
 icon = GFX_goal_unknown
 x = 14
 y = 3

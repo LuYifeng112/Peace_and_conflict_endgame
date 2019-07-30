@@ -1,4 +1,4 @@
-﻿capital = 12299
+﻿capital = 336
 
 oob = "SIA_1936"
 if = {
@@ -200,7 +200,7 @@ set_convoys = 250
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes

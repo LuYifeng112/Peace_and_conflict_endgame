@@ -1,0 +1,25 @@
+focus_tree = { 
+id = Indonesia_2020
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = INS 
+} 
+} 
+#Focus for The Indonesian economy
+focus = { 
+id = INS_theindonesianeconomy
+icon = GFX_goal_unknown
+x = 8
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

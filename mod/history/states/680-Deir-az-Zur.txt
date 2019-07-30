@@ -17,6 +17,9 @@ state={
 		add_core_of = ISS
 		add_core_of = KUR
 
+		ISS = {
+			set_province_controller = 2013
+		}
 	}
 
 	provinces={

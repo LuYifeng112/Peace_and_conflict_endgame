@@ -19,7 +19,7 @@ ai_will_do = {
  factor = 1
  } 
 completion_reward = { 
-add_political_power= 200
+add_political_power= 200add_ideas= PRC_national_reforms
  } 
 
  } 
@@ -1197,7 +1197,8 @@ y = 9
 cost = 10
 available_if_capitulated = yes 
 mutually_exclusive = { focus = PRC_mainlanddominancepolicies } 
-mutually_exclusive = { focus = PRC_independencepolicies }  
+mutually_exclusive = { focus = PRC_independencepolicies } 
+mutually_exclusive = { focus = PRC_ } 
 ai_will_do = { 
  factor = 1
  } 

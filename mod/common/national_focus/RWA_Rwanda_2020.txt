@@ -1,18 +1,17 @@
 focus_tree = { 
-id = PRC_2020
+id = Rwanda_2020
 country = { 
 factor = 0 
 modifier = { 
 add = 10 
-tag = DRK
+tag = RWA 
 } 
-}  
-
-#Focus for State Juche
+} 
+#Focus for The Singapore of Africa
 focus = { 
-id = MAN_statejuche
+id = RWA_thesingaporeofafrica
 icon = GFX_goal_unknown
-x = 13
+x = 8
 y = 0
 cost = 10
 available_if_capitulated = yes 

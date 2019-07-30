@@ -4,7 +4,7 @@ state={
 	provinces={
 		1959 3427 4960 4986 10451 10854 12706 
 	}
-	state_category = pastoral
+	state_category = city
 	
 	
 	history=
@@ -15,7 +15,7 @@ state={
 		
 		buildings = {
 			infrastructure = 5
-			industry_complex = 4
+			industrial_complex = 4
 		}
 		
 		2030.1.1 = {

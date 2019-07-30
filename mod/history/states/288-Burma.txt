@@ -9,9 +9,9 @@ state={
 	history={
 		add_core_of = BRM
 		owner = BRM
-		victory_points = {
-			1330 5 
-		}
+		#victory_points = {
+		#	1330 5 
+		#}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

@@ -165,6 +165,9 @@ available_if_capitulated = yes
 ai_will_do = { 
  factor = 1
  } 
+completion_reward = { 
+add_political_power= 200
+ } 
 
  } 
 
@@ -424,7 +427,7 @@ ai_will_do = {
 
 #Focus for Artillery production efficiency
 focus = { 
-id = CHI_UKbNuelM
+id = CHI_grdONnHU
 icon = GFX_goal_unknown
 x = 32
 y = 2
@@ -1828,7 +1831,7 @@ x = 10
 y = 4
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = CHI_DUvGEgHN } 
+prerequisite = { focus = CHI_RkQojgBs } 
 prerequisite = { focus = CHI_centralizewarpreparation } 
 ai_will_do = { 
  factor = 1
@@ -1982,7 +1985,7 @@ ai_will_do = {
 
 #Focus for Education reforms
 focus = { 
-id = CHI_DUvGEgHN
+id = CHI_RkQojgBs
 icon = GFX_goal_unknown
 x = 9
 y = 3

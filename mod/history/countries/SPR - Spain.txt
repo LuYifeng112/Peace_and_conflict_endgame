@@ -58,31 +58,7 @@ if = {
 	}
 }
 
-	set_popularities = {
-		democratic = 5 
-		fascism = 0
-		communism = 0
-		neutrality = 0
-		salafist = 0
-		nationalism = 0
-		monarchist = 0
-		reactionary = 0
-		conservative = 30
-		progressive = 40
-		centrist = 0
-		socialist = 5
-		Novusism = 0
-		authoritarianism = 0
-		imperialism = 0
-		liberalism = 20
-		Chinese_socialism = 0
-	}
-	set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
+
 
 set_convoys = 150
 set_stability = 0.5
@@ -166,7 +142,6 @@ set_stability = 0.5
 			basic_light_battery = 1
 		}
 	}
-
 	set_popularities = {
 		democratic = 5 
 		fascism = 0
@@ -187,19 +162,17 @@ set_stability = 0.5
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-
-
 create_country_leader = {
 	name = "Pedro Sánchez"
 	desc = "POLITICS_PEDRO_SANCHEZ_DESC"
 	picture = "Portrait_Spain_Manuel_Azana.dds"
-	ideology = socialism
+	ideology = socialism 
 	traits = {
 		#
 	}

@@ -53,4 +53,16 @@ resources = {
 	 	cic = 0.166
 	 	convoys = 0.01
 	 }
+
+	 uranium = {
+	 	icon_frame = 9
+	 	cic = 0.166
+	 	convoys = 0.2
+	 }
+
+	 food = {
+	 	icon_frame = 10
+	 	cic = 0.166
+	 	convoys = 0.2
+	 }
 }

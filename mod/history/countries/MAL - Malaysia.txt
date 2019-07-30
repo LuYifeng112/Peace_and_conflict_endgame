@@ -1,4 +1,4 @@
-﻿capital = 795 #Kuala Lumpur
+﻿capital = 794 #Kuala Lumpur
 
 oob = "MAL_1936"
 
