@@ -1,15 +1,31 @@
 state={
-	id=919
+	id=919  #高雄市
 	name="STATE_919"
 	provinces={
-		11914 
+		12068
 	}
-	state_category = city
+	manpower=839001
+	state_category = metropolis
 	history = {
 	owner = CHI
 	add_core_of = CHI
 	add_core_of = PRC
+	buildings = {
+		infrastructure = 7
+		arms_factory = 4
+		industrial_complex  = 4
+		air_base = 6
+		12068 = {
+				naval_base = 10
+		}
+
 	}
-	manpower=839001
+	
+	victory_points = {
+			12068 10
+	}
+	}
+	
+	
 	buildings_max_level_factor=1.000
 }

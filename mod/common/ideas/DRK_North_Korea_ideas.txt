@@ -1,0 +1,53 @@
+ideas = {
+	country = {
+		
+		DRK_sanctions_idea = {
+			picture = usa_great_depression_2
+			modifier = {
+				#MONTHLY_POPULATION = -0.2
+				#research_speed_factor = -0.05
+				#production_factory_max_efficiency_factor = -0.1 
+				#consumer_goods_factor = 0.1
+				#local_resources_factor = -0.25
+				#industrial_capacity_factory = -0.1 
+				#industrial_capacity_dockyard = -0.1 
+				#production_speed_buildings_factor = -0.1 
+			}
+		}
+		
+		DRK_severe_sanctions_idea = {
+			picture = usa_great_depression_3
+			modifier = {
+				#stuff
+			}
+		}
+		
+		DRK_juche_idea = {
+			picture = generic_victors_of_ww1
+			modifier = {
+				
+			}
+		}
+		
+		DRK_new_juche_idea = { #new radicalism branch change
+			picture = generic_victors_of_ww1
+			modifier = {
+				
+			}
+		}
+		
+		DRK_nomenklatura_idea = {
+			picture = MEX_callistas
+			modifier = {
+			
+			}
+		}
+		
+		DRK_social_change_demand_idea = {
+			picture = generic_disjointed_gov
+			modifier = {
+			
+			}
+		}
+	}
+}

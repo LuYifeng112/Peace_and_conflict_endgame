@@ -1,0 +1,308 @@
+ideas = {
+	country = {
+		SIN_public_order_act = {
+
+			allowed = {
+				always = no
+			}
+
+			picture = HUN_treaty_of_triannon
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.1
+				subversive_activites_upkeep = -0.2
+				political_power_gain = 0.5
+				foreign_subversive_activites = -0.75
+			}
+		}
+
+		four_asian_tigers = {
+
+			allowed = {
+				always = no
+			}
+
+			picture = HUN_treaty_of_triannon #generic - need a GFX 
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				local_resources_factor = 0.10
+				production_speed_buildings_factor = 0.15
+				ai_focus_defense_factor = 0.5
+			}
+		}
+
+		SIN_singapore_model = {
+
+			allowed = {
+				always = yes
+			}
+
+			picture = HUN_treaty_of_triannon #Need better GFX
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.5
+				mobilization_laws_cost_factor = 0.25
+				surrender_limit = 0.4
+				command_power_gain = 0.5
+				improve_relations_maintain_cost_factor = -0.75
+			}
+		}
+	}
+
+
+	# TECHNOLOGY
+
+	material_manufacturer = {
+		SIN_ST_kinetics = {
+			
+			
+			allowed = {
+				original_tag = SIN
+			}
+			
+
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+
+			cost = 200
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes 
+
+		SIN_ST_marines = {
+			
+			
+			allowed = {
+				original_tag = SIN
+			}
+			
+
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+
+			cost = 500
+			
+			traits = { 
+			coastal_defence_naval_manufacture
+			raiding_fleet_naval_manufacturer
+			pacific_fleet_naval_manufacturer
+			}
+			
+			modifier = {
+			}
+		}
+	}
+	
+	aircraft_manufacturer = { #
+			
+		designer = yes
+		
+		SIN_ST_aerospace = {
+
+			picture = generic_air_manufacturer_3
+
+			allowed = {
+				always = no
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+
+			cost = 300
+			
+			traits = { medium_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	industrial_concern = {
+
+		SIN_ST_engineering = {
+
+			picture = generic_industrial_concern_3	#add logo soon	
+			
+			available = {
+				always = no
+			}
+
+			allowed = {
+				original_tag = SIN
+			}
+
+			cost = 150
+			
+			ai_will_do = {
+				factor = 1
+			}
+
+			research_bonus = {
+				industry = 0.15
+				air_doctrine = 0.08
+			}
+
+			traits = {
+				idustrial_concern
+			}
+
+			modifier = {
+				
+			}
+		}
+
+		SIN_US_flextronics = {
+
+			picture = generic_industrial_concern_3	#add logo soon	
+			
+			available = {
+				always = no
+			}
+
+			allowed = {
+				OR = {
+				original_tag = SIN
+				original_tag = USA
+				}
+			}
+
+			cost = 150
+			
+			ai_will_do = {
+				factor = 1
+			}
+
+			research_bonus = {
+				electronics = 0.15
+			}
+
+			traits = {
+				electronics_concern
+			}
+
+			modifier = {
+		}
+
+	}
+		SIN_creative_technology = {
+
+			picture = generic_industrial_concern_3	#add logo soon	
+			
+			available = {
+				always = no
+			}
+
+			allowed = {
+				original_tag = SIN
+			}
+
+			cost = 150
+			
+			ai_will_do = {
+				factor = 1
+			}
+
+			research_bonus = {
+				electronics = 0.2
+			}
+
+			traits = {
+				electronics_concern
+			}
+
+			modifier = {
+		}
+
+	}
+
+		SIN_singapore_power = {
+
+			picture = generic_industrial_concern_3	#add logo soon	
+			
+			available = {
+				always = no
+			}
+
+			allowed = {
+				original_tag = SIN
+			}
+
+			cost = 150
+			
+			ai_will_do = {
+				factor = 1
+			}
+
+			research_bonus = {
+				
+			}
+
+			traits = {
+				electronics_concern
+			}
+
+			modifier = {
+			#makes electriicty
+		}
+
+	}
+
+
+
+		SIN_China_oil_aviation = {
+			
+			
+			allowed = {
+				original_tag = SIN
+			}
+			
+			picture = generic_industrial_concern_3	#add logo soon
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			modifier = {
+			trade_opinion_factor = 0.25
+			}
+		}
+	}
+
+}

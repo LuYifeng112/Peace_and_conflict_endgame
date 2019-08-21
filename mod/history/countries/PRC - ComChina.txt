@@ -29,6 +29,14 @@ set_technology = {
 set_stability = 0.6
 set_war_support = 0.7
 
+add_ideas = {
+	PRC_one_china_policy
+	PRC_peace_disease
+	PRC_superpower
+	PRC_trade_war
+	PRC_triad_1
+	PRC_corporate_irregulation
+}
 2030.1.1 = {
 
 	add_political_power = 1198

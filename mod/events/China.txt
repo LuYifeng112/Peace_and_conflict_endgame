@@ -1,0 +1,6 @@
+﻿###########################
+# People's Republic of China Events
+###########################
+
+add_namespace = People Republic of China
+

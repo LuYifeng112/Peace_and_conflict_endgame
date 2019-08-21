@@ -1,0 +1,134 @@
+﻿###########################
+# startup Event
+###########################
+
+add_namespace = gcg_nuclearstartup
+
+
+country_event = {
+	id = gcg_nuclearstartup.1
+	title = gcg_nuclearstartup.1.t
+	desc = gcg_nuclearstartup.1.d
+	is_triggered_only = yes
+
+	
+	option = {
+		name = gcg_nuclearstartup.1.a
+		set_global_flag = gcg_startup_event
+		ROOT = { country_event = { days = 0 id = gcg_nuclearstartup.2 } }
+	}
+	
+	option = {
+		name = gcg_nuclearstartup.1.c
+		set_global_flag = gcg_startup_event
+		ROOT = { country_event = { days = 0 id = gcg_nuclearstartup.4 } }
+	}
+	
+	option = {
+		name = gcg_nuclearstartup.1.e
+		set_global_flag = gcg_startup_event
+		ROOT = { country_event = { days = 0 id = gcg_nuclearstartup.5 } }
+	}
+	
+	option = {
+		name = gcg_nuclearstartup.1.b
+		set_global_flag = gcg_radiation_startup_event
+	}
+
+
+}
+
+country_event = {
+	id = gcg_nuclearstartup.2
+	title = gcg_nuclearstartup.2.t
+	desc = gcg_nuclearstartup.2.d
+	is_triggered_only = yes
+
+	
+	option = {
+		name = gcg_nuclearstartup.2.a
+		set_global_flag = gcg_startup_event
+		ROOT = { country_event = { days = 0 id = gcg_nuclearstartup.3 } }
+	}
+	
+	option = {
+		name = gcg_nuclearstartup.1.b
+		set_global_flag = gcg_radiation_startup_event
+	}
+
+
+}
+
+country_event = {
+	id = gcg_nuclearstartup.3
+	title = gcg_nuclearstartup.3.t
+	desc = gcg_nuclearstartup.3.d
+	is_triggered_only = yes
+
+	
+	option = {
+		name = gcg_nuclearstartup.3.a
+		set_global_flag = gcg_startup_event
+		ROOT = { country_event = { days = 0 id = gcg_nuclearstartup.1 } }
+	}
+	
+	option = {
+		name = gcg_nuclearstartup.1.b
+		set_global_flag = gcg_radiation_startup_event
+	}
+
+
+}
+
+
+country_event = {
+	id = gcg_nuclearstartup.4
+	title = gcg_nuclearstartup.4.t
+	desc = gcg_nuclearstartup.4.d
+	is_triggered_only = yes
+
+	
+	option = {
+		name = gcg_nuclearstartup.3.a
+		ROOT = { country_event = { days = 0 id = gcg_nuclearstartup.1 } }
+	}
+	
+	option = {
+		name = gcg_nuclearstartup.4.a
+		set_global_flag = gcg_radiation_startup_event
+		set_global_flag = gcg_debug_nuclear_apocalypse
+		every_country = { add_nuclear_bombs = 100 }
+	}
+	
+	option = {
+		name = gcg_nuclearstartup.4.b
+		set_global_flag = gcg_radiation_startup_event
+	}
+
+
+}
+
+
+
+country_event = {
+	id = gcg_nuclearstartup.5
+	title = gcg_nuclearstartup.5.t
+	desc = gcg_nuclearstartup.5.d
+	is_triggered_only = yes
+
+	
+	option = {
+		name = gcg_nuclearstartup.3.a
+		ROOT = { country_event = { days = 0 id = gcg_nuclearstartup.1 } }
+	}
+	
+	option = {
+		name = gcg_nuclearstartup.1.b
+		set_global_flag = gcg_radiation_startup_event
+	}
+
+
+}
+
+
+

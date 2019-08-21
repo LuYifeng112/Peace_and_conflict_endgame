@@ -36,6 +36,16 @@ set_convoys = 20
 	elections_allowed = yes
 }
 
+add_ideas = {
+	limited_exports
+
+	#add generic ideas?
+	DRK_sanctions_idea
+	DRK_juche_idea
+	DRK_nomenklatura_idea
+	DRK_social_change_demand_idea
+}
+
 create_country_leader = {
 	name = "Kim Jong-Un"
 	desc = "POLITICS_KIM_JONG_UN_DESC"

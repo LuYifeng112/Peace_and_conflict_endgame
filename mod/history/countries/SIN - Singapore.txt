@@ -81,6 +81,10 @@ if = {
 }
 set_convoys = 250
 
+add_ideas = {
+	SIN_public_order_act
+}
+
 2030.1.1 = {
 
 	add_political_power = 1198

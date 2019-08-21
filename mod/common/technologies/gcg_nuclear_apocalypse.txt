@@ -1,0 +1,88 @@
+technologies = {
+
+
+	gcg_nbc_minor_tech = {
+		
+		category_army = { reliability = -0.005 }
+		gcg_nbc_unit = { reliability_factor = 0.09 }
+		
+		research_cost = 1
+		
+		ai_will_do = {
+			factor = 0		
+		}
+		
+		
+	}
+	
+	gcg_nbc_moderate_tech = {
+		
+		category_army = { reliability = -0.01 }
+		gcg_nbc_unit = { reliability_factor = 0.16 }
+		
+		research_cost = 1
+		
+		ai_will_do = {
+			factor = 0		
+		}
+		
+		
+	}
+	
+	gcg_nbc_medium_tech = {
+		
+		category_army = { reliability = -0.015 }
+		gcg_nbc_unit = { reliability_factor = 0.23 }
+		
+		research_cost = 1
+		
+		ai_will_do = {
+			factor = 0		
+		}
+		
+		
+	}
+	
+	gcg_nbc_high_tech = {
+		
+		category_army = { reliability = -0.02 }
+		gcg_nbc_unit = { reliability_factor = 0.30 }
+		
+		research_cost = 1
+		
+		ai_will_do = {
+			factor = 0		
+		}
+		
+		
+	}
+	
+	gcg_nbc_extreme_tech = {
+		
+		category_army = { reliability_factor = -0.025 }
+		gcg_nbc_unit = { reliability_factor = 0.37 }
+		
+		research_cost = 1
+		
+		ai_will_do = {
+			factor = 0		
+		}
+		
+		
+	}
+	
+	gcg_nbc_apocalypse_tech = {
+		
+		category_army = { reliability_factor = -0.03 }
+		gcg_nbc_unit = { reliability_factor = 0.44 }
+		
+		research_cost = 1
+		
+		ai_will_do = {
+			factor = 0		
+		}
+		
+		
+	}
+	
+	}

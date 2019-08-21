@@ -1,14 +1,29 @@
 state={
-	id=925
+	id=925  # 新竹-宜蘭
 	name="STATE_925"
 	provinces={
-		11959 
+		7214 9955 
 	}
-	state_category = city
+	state_category = large_city
 	history = {
 	owner = CHI
 	add_core_of = CHI
 	add_core_of = PRC
+	buildings = {
+		infrastructure = 7
+		arms_factory = 3
+		industrial_complex  = 3
+		air_base = 10
+		9955 = {
+			naval_base = 5
+		}
+	}
+	victory_points = {
+			7214 10
+	}
+	victory_points = {
+			9955 2
+	}
 	}
 	manpower=567132
 	buildings_max_level_factor=1.000

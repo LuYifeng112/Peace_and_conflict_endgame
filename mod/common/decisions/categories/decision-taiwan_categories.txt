@@ -1,0 +1,12 @@
+taiwan_war = {
+	icon = generic_political_discourse
+		allowed = {
+		}
+		available = {
+		
+		}
+		visible = {
+			tag = chi
+		}
+
+}

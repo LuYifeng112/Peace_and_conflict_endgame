@@ -13233,4 +13233,6 @@
 13232;202;120;180;land;false;mountain;1
 13233;76;248;175;land;false;hills;1
 13234;7;251;239;land;false;plains;1
-
+13235;161;255;201;land;true;hills;6
+13236;244;239;245;land;true;plains;6
+13237;201;196;145;land;true;mountain;6

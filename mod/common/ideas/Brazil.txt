@@ -1,0 +1,56 @@
+ideas = {
+	country = {
+		BRA_high_crime_3 = {
+
+			allowed = {
+				always = no
+			}
+
+			picture = generic_army_war_college
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.4
+				political_advisor_cost_factor = -0.1
+				army_chief_cost_factor = -0.05
+				air_chief_cost_factor = -0.05
+				navy_chief_cost_factor = -0.05
+				high_command_cost_factor = -0.05
+				theorist_cost_factor = -0.05
+				aircraft_manufacturer_cost_factor = -0.05
+				economy_cost_factor = -0.2
+				trade_laws_cost_factor = -0.25
+				mobilization_laws_cost_factor = -0.2
+				industrial_concern_cost_facto = -0.2
+			}
+		}
+		BRA_strong_economy = {
+
+			allowed = {
+				always = yes
+			}
+
+			picture = generic_disjointed_gov
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				local_resources_factor = 0.25
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		
+
+	}
+}

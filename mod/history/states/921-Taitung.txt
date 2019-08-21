@@ -1,14 +1,25 @@
 state={
-	id=921
+	id=921 ##嘉義-台南
 	name="STATE_921"
 	provinces={
-		1175 
+		1091 13235
 	}
 	state_category = city
 	history = {
 	owner = CHI
 	add_core_of = CHI
 	add_core_of = PRC
+	buildings = {
+		infrastructure = 5
+		industrial_complex  = 4
+	}
+	
+	victory_points = {
+			1091 5
+	}
+	victory_points = {
+			13235 1
+	}
 	}
 	manpower=224470
 	buildings_max_level_factor=1.000

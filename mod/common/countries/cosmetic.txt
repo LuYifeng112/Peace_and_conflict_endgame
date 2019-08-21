@@ -215,3 +215,8 @@ HOL_benelux_unified = {
 	color = rgb { 255 128 0 }
 	color_ui = rgb { 255 128 0 }
 }
+
+communist_nation_generic = {
+	color = rgb { 177 33 5}
+	color_ui = rgb { 211 42 8 }
+}

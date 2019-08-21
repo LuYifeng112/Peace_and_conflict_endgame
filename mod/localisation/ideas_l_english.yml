@@ -828,8 +828,14 @@
  #ROM_generic_democratic_reformer:0 "Iuliu Maniu"
  ROM_iuliu_maniu:0 "Iuliu Maniu"
  #ROM_generic_communist_revolutionary:0 "Gheorghe Gheorghiu-Dej"
+ #SIN_singapore ideas
  SIN_public_order_act:0 "Public Order Act"
  SIN_public_order_act_desc:0 "An Act to regulate assemblies and processions in public places, to provide powers necessary for preserving public order and the safety of individuals at special event areas, to supplement other laws relating to the preservation and maintenance of public order in public places. \n This law has become controverisal despite it's effectivness against the rise of extreme ideologies and keeps the stability of internal and domestic politics intact and balanced. Despite the recent controversies it seems the act is here to stay."
+ four_asian_tigers:0 "Four Asian Tigers"
+ four_asian_tigers_desc:0 "The four asian tigers are the economies of Hong Kong, Singapore, South Korea and Taiwan, which underwent rapid industrialization and maintained exceptionally high growth rates between the early 1960s (mid-1950s for Hong Kong) and 1990s. By the early 21st century, all four had developed into high-income economies (developed countries), specializing in areas of competitive advantage."
+ SIN_singapore_model:0 "Singapore model"
+ SIN_singapore_model_desc:0 "Singapore's unique combination of a strong almost authoritarian government with an emphasis on meritocracy and good governance is known as the "Singapore model", and is regarded as a key factor behind Singapore's political stability, economic growth, and harmonious social order."
+
  ROM_gheorghe_gheorghiu_dej:0 "Gheorghe Gheorghiu-Dej"
  ROM_armand_calinescu:0 "Armand Calinescu"
  ROM_gheorghe_argeseanu:0 "Gheorghe Argeseanu"
@@ -2591,3 +2597,22 @@
  GER_carl_friedrich_goerdeler:0 "Carl Friedrich Goerdeler"
  GER_julius_leber:0 "Julius Leber"
  GER_theodor_heuss:0 "Theodor Heuss"
+
+
+ #KOR
+ KOR_N_war_conscription:0 "Korean Draft for national defense"
+ KOR_N_war_conscription_desc:0 ""
+ KOR_authoritarian_past:0 "Authoritarian Past"
+ KOR_authoritarian_past_desc:0 ""
+
+
+#CHI
+CHI_mainland_threat:0 "Mainland Threat"
+CHI_authoritarian_past:0 "Belief in Democracy"
+
+
+#BRA
+BRA_high_crime_3:0 "Extreme Crime rate"
+BRA_high_crime_3_desc:0 ""
+BRA_strong_economy:0 "Strong improving Economy"
+BRA_strong_economy_desc:0 ""
