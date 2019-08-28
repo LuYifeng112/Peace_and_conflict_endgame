@@ -41,15 +41,12 @@ if = {
 	}
 }
 ## 2020
-add_ideas = {
-	german_advisors
-	
+add_ideas = {	
 	FSSR_low
 	limited_recognition_taiwan
 		
 	quasi_war_state
-	unawareness
-	communist_infiltration
+	CHI_low_legitimacy_5
 	
 }
 

@@ -29,12 +29,12 @@ guiTypes = {
 		hide_animation_type = accelerated
 		animation_time = 300
 		orientation = lower_left
-		size = { width=436 height=496 }
+		size = { width=436 height=550 }
 		
 		containerWindowType = {
 			name = "state_info_window"
 			position = { x = 0 y = 0 }
-			size = { width=780 height=774 }
+			size = { width=780 height=900 }
 			
 			
 			background = {

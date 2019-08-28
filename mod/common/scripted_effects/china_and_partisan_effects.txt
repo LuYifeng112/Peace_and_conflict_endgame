@@ -20,6 +20,102 @@ taiwan_unites_china = {
 	CHI = { country_event = taiwan.1 }
 }
 
+calculate_Taiwan_partisan_state = {
+	random_state = {
+		limit = {
+			is_fully_controlled_by = CHI
+			is_owned_by = CHI
+			is_on_continent = asia
+		}
+		save_event_target_as = partisan_state
+		ROOT = {
+			set_state_controller = event_target:partisan_state
+				
+			set_partisan_techs_and_templates = yes
+			
+			event_target:partisan_state = {
+				spawn_partisan_division = yes
+			}
+			
+			random_other_country = {
+				limit = { 
+					original_tag = SPR 
+				}
+				set_state_controller = event_target:partisan_state	
+			}
+		}
+	}
+}
+
+calculate_PRC_partisan_state = {
+	random_state = {
+		limit = {
+			is_fully_controlled_by = PRC
+			is_owned_by = PRC
+			is_on_continent = asia
+		}
+		save_event_target_as = partisan_state
+		random_country = {
+			limit = {
+				original_tag = SPR
+				has_government = fascism
+			}
+			set_state_controller = event_target:partisan_state
+				
+			set_partisan_techs_and_templates = yes
+			
+			event_target:partisan_state = {
+				spawn_partisan_division = yes
+			}
+			
+			random_other_country = {
+				limit = { 
+					original_tag = SPR					
+				}
+				set_state_controller = event_target:partisan_state	
+			}
+		}
+	}
+}
+
+calculate_partisan_states = {
+	every_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			set_temp_variable = { resistance_trigger = 0.5 }
+			add_to_temp_variable = { resistance_trigger = Root.modifier@production_speed_partisan_trigger_factor }
+			check_variable = { resistance > resistance_trigger }
+			
+			NOT = {
+				is_owned_by = ROOT
+				has_state_flag = recent_uprising
+			}
+		}	
+		set_state_flag = {
+			flag = recent_uprising
+			value = 1
+			days = 90
+		}
+		save_event_target_as = partisan_state
+		ROOT = {
+			random_other_country = {
+				limit = { 
+					owns_state = PREV.PREV 
+					#is_ai = yes
+				}
+				set_state_controller = PREV.PREV 
+				
+				set_partisan_techs_and_templates = yes
+					
+				event_target:partisan_state = {
+					spawn_partisan_division = yes
+				}
+			}
+			set_state_controller = PREV
+		}
+	}
+}
+
 sabotage_effect = {
 	set_temp_variable = { var = target_state_strength_temp value = guerilla_strength }
 	set_temp_variable = { var = target_state_strength_cost_temp value = 0 }

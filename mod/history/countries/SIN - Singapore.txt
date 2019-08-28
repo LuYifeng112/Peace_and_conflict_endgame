@@ -1,6 +1,6 @@
 ﻿capital = 336
 
-oob = "SIA_1936"
+oob = ""
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "SIA_1936_naval_mtg"
@@ -83,6 +83,8 @@ set_convoys = 250
 
 add_ideas = {
 	SIN_public_order_act
+	four_asian_tigers
+	SIN_singapore_model
 }
 
 2030.1.1 = {
@@ -216,7 +218,9 @@ create_country_leader = {
 	picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
 	ideology = socialism
 	traits = {
-		#
+		accomplised_military_background
+		Strategic_Framework_Agreement
+		PRC_cooperation
 	}
 }
 

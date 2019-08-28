@@ -1,5 +1,145 @@
 leader_traits = {
 
+	westerniser = {
+		random =no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	accomplised_military_background = { #Lee Hsien Loong
+		random = no
+		conscription = 0.05
+		planning_speed = 0.10
+		army_morale_factor = 0.025
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	Strategic_Framework_Agreement ={
+		random = no
+		ai_strategy = {
+			type = befriend
+			id = "USA"			
+			value = 200
+		}
+		ai_strategy = {
+			type = alliance
+			id = "USA"			
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "ISS"			
+			value = 600
+		}
+		ai_strategy = {
+			type = consider_weak
+			id = "ISS"			
+			value = 600
+		}
+	}
+
+	PRC_cooperation ={
+		random = no
+		ai_strategy = {
+			type = befriend
+			id = "PRC"			
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "CHI"			
+			value = 600
+		}
+		ai_strategy = {
+			type = consider_weak
+			id = "CHI"			
+			value = 600
+		}
+	}
+
+	former_lawyer = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	minister_of_law = {
+		random = no
+		political_power_gain = 0.02
+		political_advisor_cost_factor = 0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	manpower_minister = {
+		random = no
+		conscription_factor = 0.1
+		production_factory_max_efficiency_factor = 0.05
+		local_building_slots_factor = 0.05
+	}
+
+	global_cooperater = {
+		random = no
+		trade_opinion_factor = 0.4
+		opinion_gain_monthly_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	veteran_politician = {
+		random = no
+		political_power_gain = 0.05
+		ai_get_ally_desire_factor = 200
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	former_military = {
+		random = no
+		army_leader_start_level = 1
+		army_leader_start_attack_level= 1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	trade_minister = {
+		random = no
+		trade_opinion_factor = 0.25
+		economy_cost_factor = 0.25
+		license_purchase_cost = -0.15
+	}
+	PI_liberalism = {
+		random = no
+		opinion_gain_monthly_factor = 0.15
+		democratic_acceptance = 85
+		socialist_acceptance = 85
+		liberalism_acceptance = 85
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PI_paternalistic = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	Look_East_Policy = {     #Mahathir for Malaysia
 		random = no
 		ai_strategy = {
@@ -613,6 +753,25 @@ leader_traits = {
 		random = no
 		production_speed_infrastructure_factor = 0.25
 		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	minister_of_infrastrucure = { 
+		random = no
+		production_speed_infrastructure_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	distrust_of_media = {
+		random = no
+		drift_defence_factor = 0.25
+		enemy_partisan_effect = -0.1
+
 		ai_will_do = {
 			factor = 1
 		}

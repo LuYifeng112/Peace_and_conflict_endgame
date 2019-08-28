@@ -2,7 +2,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "money_topbar_container"
-		position = { x = 1450 y = 4 }
+		position = { x = 965 y = 4 }
 
 		buttonType = {
 			name = "open_money_window"
