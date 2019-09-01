@@ -37,22 +37,6 @@ if = {
 set_convoys = 20
 
 2030.1.1 = {
-	
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		complete_national_focus = RAJ_lessons_of_the_great_war
-		complete_national_focus = RAJ_vickers_berthier_gun
-		complete_national_focus = RAJ_army_motorization
-		complete_national_focus = RAJ_british_pilot_training
-		complete_national_focus = RAJ_great_indian_peninsula_railway
-		complete_national_focus = RAJ_east_india_railways
-		complete_national_focus = RAJ_found_scindia_shipyard
-		complete_national_focus = RAJ_industrial_expansion
-		complete_national_focus = RAJ_ishapore_arsenal
-	}
-
 	add_political_power = 1198
 	oob = "RAJ_1939"
 
@@ -146,7 +130,7 @@ set_convoys = 20
 create_country_leader = {
 	name = "Ram Nath Kovind"
 	desc = "POLITICS_RAM_KOVIND_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+	picture = "gfx/leaders/RAJ/RAJ_Ram_nath_Kovind.dds"
 	ideology = far_right_conservative
 	traits = {
 		

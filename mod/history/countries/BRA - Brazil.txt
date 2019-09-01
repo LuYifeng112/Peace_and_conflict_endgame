@@ -146,7 +146,7 @@ set_country_flag = monroe_doctrine
 create_country_leader = {
 	name = "Jair Bolsonaro"
 	desc = "POLITICS_JAIR_BOLSONARO_DESC"
-	picture = "Portrait_Brazil_Getulio_Vargas.dds"
+	picture = "gfx/leaders/BRA/BRA_Jair_Bolosonaro.dds"
 	ideology = Far_right_conservative
 	traits = {
 		#

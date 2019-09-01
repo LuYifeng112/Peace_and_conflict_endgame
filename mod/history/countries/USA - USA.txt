@@ -261,6 +261,7 @@ USA = { diplomatic_relation = { country = LIT relation = military_access active 
 USA = { diplomatic_relation = { country = ROM relation = military_access active = yes } }   #Romania
 USA = { diplomatic_relation = { country = SLO relation = military_access active = yes } }   #Slovakia
 USA = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
+USA = { diplomatic_relation = { country = JAP relation = military_access active = yes } }   #Japan
 
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }

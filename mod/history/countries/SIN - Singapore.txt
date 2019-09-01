@@ -1,4 +1,4 @@
-﻿capital = 336
+﻿capital = 336 
 
 oob = ""
 if = {
@@ -223,6 +223,58 @@ create_country_leader = {
 		PRC_cooperation
 	}
 }
+
+#create_corps_commander = {
+#	name = "Neo Kian Hong"
+#	desc = "MILITARY_NEO_KIAN_HONG_DESC"
+#	#picture = "Portrait_Germany_Walter_Kruger.dds"
+#	traits = { armor_officer trait_reckless politically_connected}
+#	skill = 3
+#	id = 15
+#	attack_skill = 3
+#	defense_skill = 3
+#	planning_skill = 1
+#	logistics_skill = 3
+#}
+
+create_corps_commander = {
+	name = "Frederick Choo"
+	desc = "MILITARY_FREDERICK_CHOO_DESC"
+	#picture = "Portrait_Germany_Heinz_Guderian.dds"
+	traits = { trickster brilliant_strategist armor_officer career_officer }
+	skill = 2
+	id = 6
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Lee Yi Jin"
+	desc = "MILITARY_LEE_YI_JIN_DESC"
+	#picture = "Portrait_Germany_Wilhelm_List.dds"
+	traits = { career_officer inflexible_strategist }
+	skill = 2
+	id = 7
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Chua Jin Kiat"
+	desc = "MILITARY_CHUA_JIN_KIAT_DESC"
+	#picture = "Portrait_Germany_Ewald_von_Kleist.dds"
+	traits = { army_infantry_1 trait_cautious }
+	skill = 2
+	id = 8
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+
 
 2030.1.1 = {
 	set_popularities = {

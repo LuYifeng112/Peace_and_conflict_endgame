@@ -43,6 +43,8 @@ create_country_leader = {
 	ideology = sub_progressive
 	traits = {
 	sunshine_policy
+	hero_of_the_north_korean_crisis
+	chaebol_reformer
 	}
 }
 
@@ -78,3 +80,345 @@ create_country_leader = {
 		#
 	}
 }
+
+create_corps_commander = {
+		name = "Han Min-goo"
+		id = 33000
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_corps_commander = {
+		name = "Jeong Seung-jo"
+		id = 33001
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Kim Kwan-jin"
+		id = 33002
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Lee Sang-hoon"
+		id = 33003
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+	create_corps_commander = {
+		name = "Lee Soon-jin"
+		id = 33004
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Kim Yong-woo"
+		traits = { }
+		id = 33005
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Lee Sun-jin"
+		traits = {  }
+		id = 33006
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+	create_navy_leader = {
+		name = "Um Hyun-Seong"
+		traits = { }
+		id = 33007
+	}
+	create_field_marshal = {
+		name = "Jang Jun-Kyu"
+		traits = { old_guard offensive_doctrine }
+		id = 33008
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
+
+	create_field_marshal = {
+		name = "Jeong Kyung-Doo"
+		traits = { logistics_wizard }
+		id = 33009
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
+
+	create_field_marshal = {
+		name = "Park Chan-Ju"
+		traits = { thorough_planner }
+		id = 33010
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
+
+	create_field_marshal = {
+		name = "Chung Kyung-Seok"
+		traits = { fast_planner }
+		id = 33011
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
+
+	create_field_marshal = {
+		name = "Koo Hong-Moo"
+		traits = { defensive_doctrine }
+		id = 33012
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Kim Seok-Jin"
+		traits = {  }
+		id = 33013
+		skill = 1
+		attack_skill = 1
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 1
+	}
+
+	create_corps_commander = {
+		name = "Jo Jong-Seol"
+		traits = { commando urban_assault_specialist }
+		id = 33014
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Kim Byung-Joo"
+		traits = { trait_mountaineer }
+		id = 33015
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Han Gi-Ho"
+		traits = { fortress_buster }
+		id = 33016
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Lee Jung-Geun"
+		traits = { trait_engineer }
+		id = 33017
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Yong Sung-Hwan"
+		traits = { ranger }
+		id = 33018
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Lee Jin-Seong"
+		traits = { trickster }
+		id = 33019
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Kim Yeong-Sik"
+		traits = { panzer_leader ranger }
+		id = 33020
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
+
+	create_corps_commander = {
+		name = "Kim Un-Yeong"
+		traits = { hill_fighter }
+		id = 33021
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Park Han-Ki"
+		traits = { swamp_fox }
+		id = 33022
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Na Sang-Woong"
+		traits = { panzer_leader }
+		id = 33023
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Yom Gi-Hak"
+		traits = { panzer_leader ranger }
+		id = 33024
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+	}
+
+	create_corps_commander = {
+		name = " Kim Seon-Ho"
+		traits = { ranger trickster }
+		id = 33025
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_corps_commander = {
+		name = "Chun Yung-Gu"
+		traits = { commando naval_invader }
+		id = 33026
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Choi Chang-Ryong"
+		traits = { naval_invader trait_engineer }
+		id = 33027
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+	create_navy_leader = {
+		name = "Jeong Jin-Seob"
+		traits = { ironside }
+		id = 33028
+	}
+
+	create_navy_leader = {
+		name = "Kim Chang-Kyu"
+		traits = { air_controller }
+		id = 33029
+	}
+
+	create_navy_leader = {
+		name = "Yoon Jeong-Sang"
+		traits = { seawolf }
+		id = 33030
+	}
+	create_navy_leader = {
+		name = "Jung Ho-sub"
+		id = 33031
+	}
+	create_navy_leader = {
+		picture = "admirals/Lee_Ki_Sik.dds"
+		id = 33032
+	}
+
+	create_navy_leader = {
+		name = "Sim Seung-Seop"
+		traits = { fly_swatter }
+		id = 33033
+	}
+
+	create_navy_leader = {
+		name = "Moon Byung-Ok"
+		picture = "Portrait_Moon_Byung_Ok.dds"
+		traits = { blockade_runner }
+		id = 33034
+	}
+
+	create_navy_leader = {
+		name = "Park Dong-Sun"
+		traits = { blockade_runner }
+		id = 33035
+	}
+
+	create_navy_leader = {
+		name = "Park Seong-Soo"
+		traits = { ironside }
+		id = 33036
+	}

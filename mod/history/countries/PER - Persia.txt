@@ -94,7 +94,7 @@ set_convoys = 10
 create_country_leader = {
 	name = "Ali Khamenei"
 	desc = "POLITICS_ALI_KHAMENEI_DESC"
-	picture = "Portrait_Iran_Reza_Shah_Pahlavi.dds"
+	picture = "gfx/leaders/PER/PER_Ali_Khamenei.dds"
 	ideology = islamic_democracy
 	traits = {
 		#

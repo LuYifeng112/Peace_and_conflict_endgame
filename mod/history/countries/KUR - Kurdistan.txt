@@ -102,7 +102,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Nechirvan Barzani"
 	desc = "POLITICS_NECHVIRAN_BARZANI_DESC"
-	picture = "GFX_portrait_iraq_ghazi"
+	picture = "gfx/leaders/KUR/KUR_Nechirvan_Barzani.dds"
 	ideology = kurdish_nationalism
 	traits = {
 		#

@@ -3,6 +3,38 @@
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	support_weapons = 1
+	gw_artillery = 1
+
+	#doctrines
+	air_superiority = 1
+	grand_battle_plan = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	battlefleet_concentration = 1
+	convoy_sailing = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	construction1 = 1
+	construction2 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+}
+
+add_ideas = {
+		RWA_article_54
+		RWA_strong_economy
 }
 
 set_convoys = 0
@@ -74,7 +106,7 @@ set_convoys = 0
 	}
 	set_politics = {
 	ruling_party = nationalism
-	last_election = "1936.1.1"
+	last_election = "2017.8.17"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -82,10 +114,12 @@ create_country_leader = {
 	
 	name = "Paul Kagame"
 	desc = "POLITICS_PAUL_KAGAME_DESC"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	picture = "gfx/leaders/RWA/RWA_Paul_Kagame.dds"
 	ideology = national_democrat
 	traits = {
-		#
+		vision_2020
+		accomplised_military_background
+		veteran_politician_RWA
 	}
 }
 2030.1.1 = {

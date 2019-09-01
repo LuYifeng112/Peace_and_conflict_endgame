@@ -90,7 +90,7 @@ set_convoys = 10
 create_country_leader = {
 	name = "Nicolás Maduro"
 	desc = "POLITICS_NICOLAS_MADURO_DESC"
-	picture = "Portrait_Venezuela_Elezar_Lopez_Contreras.dds"
+	picture = "gfx/leaders/VEN/VEN_Nicolas_maduro.dds"
 	ideology = communist_democrat
 	traits = {
 		#

@@ -80,7 +80,7 @@ create_country_leader = {
 	picture = "gfx/leaders/INS/Joko.dds"
 	ideology = Pancasila
 	traits = {
-		
+		INS_thousand_friend_zero_enemies
 	}
 }
 
@@ -128,10 +128,7 @@ create_country_leader = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
+
 	create_field_marshal = {
 		name = "Hein ter Poorten"
 		gfx = "GFX_portrait_hol_hein_ter_poorten"

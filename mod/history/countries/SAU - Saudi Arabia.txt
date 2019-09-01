@@ -88,7 +88,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Salman bin Abdulaziz Al Saud"
 	desc = "POLITICS_ABDULAZIZ_SAUD_DESC"
-	picture = "Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
+	picture = "gfx/leaders/SAU/SAU_Mohammad_Bin_abas.dds"
 	ideology = absolute_monarchist
 	traits = {
 		#

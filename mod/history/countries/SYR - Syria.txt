@@ -85,7 +85,7 @@ set_convoys = 5
 create_country_leader = {
 	name = "Bashar al-Assad"
 	desc = "POLITICS_BASHAR_AL_ASSAD_DESC"
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_navy_1.dds"
+	picture = "gfx/leaders/SYR/SYR_Bashar_al_assad.dds"
 	ideology = arab_nationalism
 	traits = {
 		#
