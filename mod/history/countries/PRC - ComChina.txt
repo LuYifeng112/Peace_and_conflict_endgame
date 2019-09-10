@@ -15,7 +15,7 @@ set_technology = {
 	early_fighter = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
-	cv_CAS1 = 1
+	cv_CAS1 = 1 
 	naval_bomber1 = 1
 	CAS1 = 1
 	early_bomber = 1
@@ -38,57 +38,6 @@ add_ideas = {
 	PRC_corporate_irregulation
 }
 2030.1.1 = {
-
-	add_political_power = 1198
-	oob = "PRC_1939"
-
-	if = {
-		limit = {
-			has_dlc = "Waking the Tiger"
-		}
-		complete_national_focus = PRC_strengthen_the_central_secretariat
-		complete_national_focus = PRC_land_redistribution
-		complete_national_focus = PRC_enforce_the_three_rules
-		complete_national_focus = PRC_agrarian_socialism
-		complete_national_focus = PRC_the_yanan_base_area
-		complete_national_focus = PRC_focus_on_china
-		complete_national_focus = PRC_infiltration
-		complete_national_focus = PRC_revolutionary_military_commission
-		complete_national_focus = PRC_literacy_programs
-		complete_national_focus = CHI_mission_to_the_soviet_union
-		complete_national_focus = PRC_ban_the_opium_trade
-		complete_national_focus = PRC_military_intelligence_department
-		complete_national_focus = PRC_prepare_for_war_with_japan
-		complete_national_focus = PRC_anti_japanese_expedition
-		complete_national_focus = PRC_provoke_japan
-		complete_national_focus = PRC_mobile_warfare
-
-		set_research_slots = 5
-
-		add_ideas = {
-			PRC_revolutionary_military_commission
-			PRC_low_popular_support_3
-			PRC_the_long_march_2
-			PRC_mobile_warfare
-			PRC_focus_on_china
-		}
-		remove_ideas = {
-			PRC_low_popular_support_1
-			PRC_the_long_march_1
-		}
-		else = {
-			#generic focuses
-			complete_national_focus = army_effort
-			complete_national_focus = equipment_effort
-			complete_national_focus = motorization_effort
-			complete_national_focus = aviation_effort
-			complete_national_focus = naval_effort
-			complete_national_focus = flexible_navy
-			complete_national_focus = industrial_effort
-			complete_national_focus = construction_effort
-			complete_national_focus = production_effort
-		}
-	}
 
 	add_ideas = {
 		#laws
@@ -134,11 +83,6 @@ create_import = {
 		exporter = KOR
 }
 create_import = {
-		resource = aluminium
-		factories = 2
-		exporter = USA
-}
-create_import = {
 		resource = steel
 		factories = 1
 		exporter = JAP
@@ -154,6 +98,19 @@ create_import = {
 		exporter = AST
 }
 ################################political##########################################################
+
+set_country_flag = permanent_member_of_UNSC
+set_country_flag = nuclear_state
+
+set_autonomy = {
+		target = HKG
+		autonomous_state = autonomy_puppet
+	}
+set_autonomy = {
+		target = MCU
+		autonomous_state = autonomy_puppet
+	}
+
 	set_popularities = {
 		democratic = 0
 		fascism = 0
@@ -172,6 +129,11 @@ create_import = {
 		imperialism = 0
 		liberalism = 0
 		Chinese_socialism = 100
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = Chinese_socialism
@@ -236,6 +198,69 @@ create_country_leader = {
 	anti_democrat
 	dictator
 	}
+}
+
+create_country_leader = {
+	name = "Hao Mingjin"
+	desc = "POLITCS_HAO_MINGJIN_DESC"
+	#picture = "Hao_Mingjin.dds"
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Chen Changzhi"
+	desc = "POLITICS_CHEN_CHANGZHI_DESC"
+	#picture = "Chen_Changzhi.dds"
+	ideology = libertarian
+}
+
+create_country_leader = {
+	name = "Hao Mingjin"
+	desc = "POLITICS_HAO_MINGJIN_DESC"
+	#picture = "Hao_Mingjin.dds"
+	ideology = sub_progressive
+}
+
+create_country_leader = {
+	name = "Wan Exiang"
+	desc = "POLITICS_WAN_EXIANG_DESC"
+	#picture = "Wan_Exiang.dds"
+	ideology = democratic_socialist
+}
+
+create_country_leader = {
+	name = "Ma Houzhi"
+	desc = "POLITICS_MA_HOUZHI_DESC"
+	#picture = "ma_houzhi.dds"
+	ideology = maoism
+}
+
+create_country_leader = {
+	name = "Ding Zhong Li"
+	desc = "POLITICS_DING_ZHONG_LI_DESC"
+	#picture = "ding_zhong_li.dds"
+	ideology = chinese_nationalism
+}
+
+create_country_leader = {
+	name = "Chen Zhu"
+	desc = "POLITICS_CHEN_ZHU_DESC"
+	#picture = "chen_zhu.dds"
+	ideology = progressivism
+}
+
+create_country_leader = {
+	name = "Jin Yuzhang"
+	desc = "POLITICS_JIN_YUZHANG_DESC"
+	#picture = "Jin_Yuzhang.dds"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
+	name = "Cai Dafeng"
+	desc = "POLITICS_CAI_DAFENG_DESC"
+	#picture = "Cai_Dafeng.dds"
+	ideology = social_demo
 }
 ###############################################Miiitary leaders#########################
 create_field_marshal = {

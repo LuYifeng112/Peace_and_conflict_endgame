@@ -74,6 +74,10 @@ set_technology = {
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
 	}
 	set_politics = {
 	ruling_party = conservative
@@ -94,7 +98,7 @@ create_country_leader = {
 
 
 create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
+	name = "Bismillah Waziri"
 	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
 	traits = { desert_fox }
 	skill = 4
@@ -103,3 +107,65 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 3
 }
+
+create_corps_commander = {
+	name = "Zafar Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Abdul Hadi Tarin"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	planning_skill = 1
+	}
+
+create_corps_commander = {
+	name = "Muhammad Afzal"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	defense_skill = 1
+	}
+create_corps_commander = {
+	name = "Raheem Wardak"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	planning_skill = 1
+	}
+create_corps_commander = {
+	name = "Mohammad Mangal"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	attack_skill = 1
+	}
+create_corps_commander = {
+	name = " Dawood Shah Wafadar"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 1
+	attack_skill = 1
+	}
+create_corps_commander = {
+	name = " Taj Mohammad Jahid"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 1
+	defense_skill = 1
+	}
+create_corps_commander = {
+	name = "Amanullah Mobin"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 1
+	defense_skill = 1
+	}

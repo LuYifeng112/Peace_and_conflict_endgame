@@ -4,7 +4,7 @@ ideologies = {
 	
 		types = {
 			
-			conservatism = {
+			social_demo = {
 			}
 
 			green = {
@@ -41,7 +41,7 @@ ideologies = {
 			units_deployed_to_overlord = yes
 		}
 		
-		can_host_government_in_exile = yes
+		can_host_government_in_exile = yes 
 		
 		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
 		faction_impact_on_world_tension = 0.1
@@ -89,6 +89,9 @@ ideologies = {
 			}
 
 			ho_chi_minh_thought = {
+			}
+
+			maoism = {
 			}
 		}
 		
@@ -377,6 +380,9 @@ ideologies = {
 
 			arab_nationalism = {
 			}
+
+			chinese_nationalism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -572,7 +578,7 @@ ideologies = {
 		
 		types = {
 		
-			libertarian = {
+			progressvism = {
 			}
 
 			radical_liberal = {
@@ -662,9 +668,6 @@ ideologies = {
 			}
 
 			libertarian_socialist = {
-			}
-
-			democratic_socialist = {
 			}
 
 			socialism = {
@@ -967,4 +970,209 @@ ideologies = {
 		}
 		can_be_boosted = yes
 	}			
+##################################################################
+anarchism = {
+		ai_fascist = yes
+		types = {
+		
+			anarcho_syndiclist = {
+			}
+
+			green_anarchism = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHISM_1"
+			"FACTION_NAME_ANARCHISM_2"
+			"FACTION_NAME_ANARCHISM_3"
+			"FACTION_NAME_ANARCHISM_4"
+			"FACTION_NAME_ANARCHISM_5"
+			"FACTION_NAME_ANARCHISM_6"
+		}
+		
+		color = { 0 0 0 }
+		
+		war_impact_on_world_tension = 10
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_boost_other_ideologies = no
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 0.1
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 0.50
+			take_states_cost_factor = 0.75
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = -0.50 #plus 50% trade opinion
+		}
+		can_be_boosted = yes
+	}	
+####################################################################################################
+liberal_conservatism = { 
+	
+		types = {
+			
+			liberal_conservatism = {
+			}
+			
+			conservative_liberalism = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 4 0 129 } 
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = no
+			can_boost_other_ideologies = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 1.0
+			
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.50
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+		can_be_boosted = no
+	}
+###################################################################
+social_liberal = { 
+	
+		types = {
+			social_liberal = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 0 166 238 } 
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = no
+			can_boost_other_ideologies = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 1.0
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.50
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+		can_be_boosted = no
+	}
+#################################################################
+ market_liberal = {
+		
+		types = {
+		
+			libertarian = {
+			}
+			
+			anarcho_capitalist = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		
+		color = { 225 215 0 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_boost_other_ideologies = yes
+			can_create_factions = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}		
 }

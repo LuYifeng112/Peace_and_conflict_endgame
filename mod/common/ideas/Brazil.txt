@@ -3,7 +3,7 @@ ideas = {
 		BRA_high_crime_3 = {
 
 			allowed = {
-				always = no
+				original_tag = "BRA"
 			}
 
 			picture = generic_army_war_college
@@ -16,23 +16,26 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.4
-				political_advisor_cost_factor = -0.1
-				army_chief_cost_factor = -0.05
-				air_chief_cost_factor = -0.05
-				navy_chief_cost_factor = -0.05
-				high_command_cost_factor = -0.05
-				theorist_cost_factor = -0.05
-				aircraft_manufacturer_cost_factor = -0.05
-				economy_cost_factor = -0.2
-				trade_laws_cost_factor = -0.25
-				mobilization_laws_cost_factor = -0.2
-				industrial_concern_cost_facto = -0.2
+				attrition = 0.01
+				political_power_factor = -0.15
+				resistance_tick = -0.05
+				local_resources_factor = -0.025
+				local_non_core_manpower = -0.01
+				local_supplies = -0.05
+				stability_factor = -0.05
+				research_speed_factor = -0.1
+				supply_consumption_factor = 0.05
+				out_of_supply_factor = 0.05
+				global_building_slots_factor = -0.1
+				line_change_production_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
 			}
 		}
 		BRA_strong_economy = {
 
 			allowed = {
-				always = yes
+				original_tag = BRA
 			}
 
 			picture = generic_disjointed_gov

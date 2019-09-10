@@ -32,7 +32,7 @@
 			focuses = {
 				ENG_imperial_federation
 				ENG_the_kings_party
-				ENG_organize_the_blackshirts
+				ENG_organize_the_blackshirts 
 			}
 		}
 		"ENG"={
@@ -108,7 +108,7 @@
 		}
 		"JAP"={
 			history = "PACE_JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = liberalism
 			ideas = {
 				state_shintoism
 				JAP_zaibatsus
@@ -281,6 +281,14 @@
 		
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
+			ideas = {
+			idea_united_nations_security_council_member
+			idea_eu_member
+			asean_member
+			}
+			focuses = {
+
+			}
 		}
 
 		

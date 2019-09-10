@@ -71,6 +71,7 @@ ideas = {
 				line_change_production_efficiency_factor = -0.05
 				production_factory_efficiency_gain_factor = -0.05
 				production_factory_max_efficiency_factor = -0.05
+				surrender_limit = -0.75
 			}
 
 		}
@@ -104,6 +105,7 @@ ideas = {
 				line_change_production_efficiency_factor = -0.1
 				production_factory_efficiency_gain_factor = -0.1
 				production_factory_max_efficiency_factor = -0.1
+				surrender_limit = -0.80
 			}
 		}
 		
@@ -138,6 +140,7 @@ ideas = {
 				line_change_production_efficiency_factor = -0.15
 				production_factory_efficiency_gain_factor = -0.15
 				production_factory_max_efficiency_factor = -0.15
+				surrender_limit = 0.85
 			}
 		}
 		
@@ -172,6 +175,7 @@ ideas = {
 				line_change_production_efficiency_factor = -0.2
 				production_factory_efficiency_gain_factor = -0.2
 				production_factory_max_efficiency_factor = -0.2
+				surrender_limit = -0.9
 			}
 		}
 		
@@ -206,6 +210,7 @@ ideas = {
 				line_change_production_efficiency_factor = -0.25
 				production_factory_efficiency_gain_factor = -0.25
 				production_factory_max_efficiency_factor = -0.25
+				surrender_limit = -0.99
 			}
 		}
 		

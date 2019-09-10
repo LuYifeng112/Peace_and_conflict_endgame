@@ -12,8 +12,8 @@ spriteTypes = {
 	#Singapore_GFX
 
 	SpriteType = {
-		name = "GFX_idea_ST_Engrineering"
-		texturefile = "gfx/interface/ideas/SIN_ST_Engineering_company.dds"
+		name = "GFX_idea_STEngineering"
+		texturefile = "gfx/interface/ideas/SIN_ST_Engineering_company.tga"
 	}
 
 	### new tfv nat spirit icons

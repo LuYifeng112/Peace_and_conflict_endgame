@@ -39,8 +39,6 @@ ideas = {
 			modifier = {
 				fascism_drift = -0.10
 				communism_drift = -0.10
-				imperialist_drift = -0.10
-				salafist_drit = -0.10
 			}
 		}
 

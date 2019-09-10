@@ -43,6 +43,11 @@ set_convoys = 5
 		dispersed_industry2 = 1
 	}
 }
+
+#################ORG#####################
+set_country_flag = shanghai_corps
+
+
 	set_popularities = {
 		democratic = 5 
 		fascism = 0
@@ -61,6 +66,11 @@ set_convoys = 5
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = authoritarianism

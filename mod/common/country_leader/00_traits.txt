@@ -1,5 +1,96 @@
 leader_traits = {
 
+	hero_of_the_north_korean_crisis = {
+		random = no
+		stability_factor = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	chaebol_reformer = {
+		random = no
+
+		industrial_capacity_factory = 0.2
+		consumer_goods_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	INS_thousand_friend_zero_enemies = {
+		random = no
+		opinion_gain_monthly_factor = 0.30
+		ai_strategy = {
+			type = pp_spend_priority
+			id = relation
+			value = 300
+		}
+		ai_strategy = {
+			type = befriend
+			id = "PRC"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "USA"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "JAP"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "SAU"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "SOV"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "SIN"			
+			value = 200
+		}
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	vision_2020 = {
+		random = no
+
+		ai_strategy = {
+			type = befriend
+			id = "PRC"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "SIN"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "SIA"			
+			value = 200
+		}
+		production_speed_infrastructure_factor = 0.2
+		ai_focus_defense_factor = 0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	westerniser = {
 		random =no
 
@@ -48,7 +139,7 @@ leader_traits = {
 		ai_strategy = {
 			type = befriend
 			id = "PRC"			
-			value = 200
+			value = 400
 		}
 		ai_strategy = {
 			type = antagonize
@@ -100,6 +191,13 @@ leader_traits = {
 		political_power_gain = 0.05
 		ai_get_ally_desire_factor = 200
 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	veteran_politician_RWA = {
+		random = no
+		political_power_gain = 0.05
 		ai_will_do = {
 			factor = 1
 		}
@@ -590,7 +688,7 @@ leader_traits = {
 		ai_strategy = {
 		type = consider_weak
 		id = "CHI"
-		value = 100
+		value = 900
 		}
 		ai_strategy = {
 		type = antagonize

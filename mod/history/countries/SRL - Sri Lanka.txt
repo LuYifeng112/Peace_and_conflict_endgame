@@ -61,6 +61,11 @@ set_convoys = 5
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = democratic

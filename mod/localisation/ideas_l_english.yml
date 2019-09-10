@@ -831,14 +831,6 @@
  #ROM_generic_democratic_reformer:0 "Iuliu Maniu"
  ROM_iuliu_maniu:0 "Iuliu Maniu"
  #ROM_generic_communist_revolutionary:0 "Gheorghe Gheorghiu-Dej"
- #SIN_singapore ideas
- SIN_public_order_act:0 "Public Order Act"
- SIN_public_order_act_desc:0 "An Act to regulate assemblies and processions in public places, to provide powers necessary for preserving public order and the safety of individuals at special event areas, to supplement other laws relating to the preservation and maintenance of public order in public places. \n This law has become controverisal despite it's effectivness against the rise of extreme ideologies and keeps the stability of internal and domestic politics intact and balanced. Despite the recent controversies it seems the act is here to stay."
- four_asian_tigers:0 "Four Asian Tigers"
- four_asian_tigers_desc:0 "The four asian tigers are the economies of Hong Kong, Singapore, South Korea and Taiwan, which underwent rapid industrialization and maintained exceptionally high growth rates between the early 1960s (mid-1950s for Hong Kong) and 1990s. By the early 21st century, all four had developed into high-income economies (developed countries), specializing in areas of competitive advantage."
- SIN_singapore_model:0 "Singapore model"
- SIN_singapore_model_desc:0 "Singapore's unique combination of a strong almost authoritarian government with an emphasis on meritocracy and good governance is known as the "Singapore model", and is regarded as a key factor behind Singapore's political stability, economic growth, and harmonious social order."
-
  ROM_gheorghe_gheorghiu_dej:0 "Gheorghe Gheorghiu-Dej"
  ROM_armand_calinescu:0 "Armand Calinescu"
  ROM_gheorghe_argeseanu:0 "Gheorghe Argeseanu"
@@ -2601,7 +2593,28 @@
  GER_julius_leber:0 "Julius Leber"
  GER_theodor_heuss:0 "Theodor Heuss"
 
-
+#SIN_singapore ideas
+ SIN_public_order_act:0 "Public Order Act"
+ SIN_public_order_act_desc:0 "An Act to regulate assemblies and processions in public places, to provide powers necessary for preserving public order and the safety of individuals at special event areas, to supplement other laws relating to the preservation and maintenance of public order in public places. \n This law has become controverisal despite it's effectivness against the rise of extreme ideologies and keeps the stability of internal and domestic politics intact and balanced. Despite the recent controversies it seems the act is here to stay."
+ four_asian_tigers:0 "Four Asian Tigers"
+ four_asian_tigers_desc:0 "The four asian tigers are the economies of Hong Kong, Singapore, South Korea and Taiwan, which underwent rapid industrialization and maintained exceptionally high growth rates between the early 1960s (mid-1950s for Hong Kong) and 1990s. By the early 21st century, all four had developed into high-income economies (developed countries), specializing in areas of competitive advantage."
+ SIN_singapore_model:0 "Singapore model"
+ SIN_singapore_model_desc:0 "Singapore's unique combination of a strong almost authoritarian government with an emphasis on meritocracy and good governance is known as the "Singapore model", and is regarded as a key factor behind Singapore's political stability, economic growth, and harmonious social order."
+ SIN_ST_kinetics:0 "Singapore Technology Kintetics"
+ SIN_ST_marines:0 "Singapore Technology Marines"
+ SIN_ST_aerospace:0 "Singapore Technology Aerospace"
+ SIN_ST_engineering:0 "Singapore Technology Engineering"
+ SIN_US_flextronics:0 "Flextronics"
+ SIN_creative_technology:0 "Creative Technology"
+ SIN_singapore_power:0 "Singapore Power"
+ SIN_China_oil_aviation:0 "China Oil Aviation"
+ Vivian_Balakrishnan:0 "Vivian Balakrishnan"
+ Chan_Chun_sing:0 "Chan Chun Sing"
+ Josephine_teo:0 "Josephine Teo"
+ Kasiviswanathan_Shanmugam:0 "Kasiviswanathan Shanmugam"
+ Khaw_Boon_Wan:0 "Khaw Boon Wan"
+ Tharman_Shanmugaratnam:0 "Tharman Shanmugaratnam"
+ Teo_Chee_Hean:0 "Teo Chee Hean" 
  #KOR
  KOR_N_war_conscription:0 "Korean Draft for national defense"
  KOR_N_war_conscription_desc:0 ""
@@ -2617,5 +2630,17 @@ CHI_authoritarian_past:0 "Belief in Democracy"
 #BRA
 BRA_high_crime_3:0 "Extreme Crime rate"
 BRA_high_crime_3_desc:0 ""
-BRA_strong_economy:0 "Strong improving Economy"
+BRA_strong_economy:0 "Strong standing Brazilian Economy"
 BRA_strong_economy_desc:0 ""
+
+#RWA
+RWA_article_54:0 "Article 54"
+RWA_article_54_desc:0 "Article 54 states that "political organizations are prohibited from basing themselves on race, ethnic group, tribe, clan, region, sex, religion or any other division which may give rise to discrimination".The government has also enacted laws criminalising genocide ideology, which can include intimidation, defamatory speeches, genocide denial and mocking of victims. This is in due to the events of the Rwandan Genocide which have impacted the country greatly and all measures will be taken to prevent another happening against the criticisms that this article is used to enact a policy of one party state."
+RWA_strong_economy:0 "Emerging Rwandan Economy"
+RWA_strong_economy_desc:0 "Rwanda is a country of few natural resources, and the economy is heavily dependent on subsistence agriculture, with an estimated 90% of the working population engaged in farming. Under Kagame's presidency, the service sector has grown strongly. In 2010, it became the country's largest sector by economic output.In spite of the genocide's legacy, Kagame's achievement of peace and security means the country is increasingly perceived internationally as a safe destination in the first half of 2011 for business security and tourism."
+
+#INS
+INS_fall_of_the_new_order:0 "Legacy of the Fall of the New Order"
+INS_fall_of_the_new_order_desc:0 "After the 1990s brought an end to the Cold War, Western concern over communism waned, and Suharto's human rights record came under greater international scrutiny. Since the fall of Suharto’s New Order regime, a variety of state-sponsored initiatives have been implemented to address mass violations of human rights. In these efforts, research shows that senior government officials consistently failed to achieve truth, accountability, institutional reform and reparations for the most serious crimes. The fall of the New Order has opened up Indonesian politics and pushed a huge change in the structure of authority in the nation."
+INS_newly_industrialised_country:0 "Emerging Indonesian Economy"
+INS_newly_industrialised_country_desc:0 ""

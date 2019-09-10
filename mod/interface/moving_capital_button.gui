@@ -1,0 +1,35 @@
+guiTypes = {
+	containerWindowType = {
+		name = "moving_capital_button_container"
+		position = {x=0 y=80}
+		size = { width=270 height=280 }
+
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_BPT_areadef_conf_bg"
+		}
+
+		instantTextboxType = {
+			name = "title"
+			position = {x=14 y=6}
+			font = "hoi_18mbs"
+			text = "[This.GetName]"
+			maxWidth = 340
+			maxHeight = 23
+			format = left
+		}
+		
+		buttonType = {
+			name = "move_your_capital" 
+			position = {x=20 y=35}
+			shortcut = "ctrl+m"
+			spriteType = "GFX_decision_generic_form_nation"
+			pdx_tooltip = "MOVE_YOUR_CAPITAL_TOOLTIP"
+			scale = 1.1
+		}
+	}
+}

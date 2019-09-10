@@ -90,7 +90,8 @@ set_convoys = 20
 
 
 add_opinion_modifier = { target = RAJ modifier = hostile_status }
-
+##########################ORG###############################
+set_country_flag = shanghai_corps
 
 	set_popularities = {
 		democratic = 5
@@ -110,6 +111,11 @@ add_opinion_modifier = { target = RAJ modifier = hostile_status }
 		imperialism = 0
 		liberalism = 0
 		Chinese_socialism = 8
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = nationalism

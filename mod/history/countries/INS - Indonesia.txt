@@ -65,6 +65,11 @@ set_convoys = 25
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = nationalism
@@ -132,7 +137,7 @@ create_country_leader = {
 	create_field_marshal = {
 		name = "Hein ter Poorten"
 		gfx = "GFX_portrait_hol_hein_ter_poorten"
-		traits = { inspirational_leader logistics_wizard }
+		traits = { inspirational_leader logistics_wizard } 
 		skill = 3
 		attack_skill = 2
 		defense_skill = 3
@@ -140,6 +145,60 @@ create_country_leader = {
 		logistics_skill = 3
 	}
 }
+create_corps_commander = {
+	name = "Gatot Nurmantyo"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Rudi Yulianto"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	attack_skill = 2
+}
+create_corps_commander = {
+	name = "Wahyu Sapto Nugroho"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	defense_skill = 2
+}
+create_corps_commander = {
+	name = "Arip Rahman"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 1
+	planning_skill = 2
+}
+create_corps_commander = {
+	name = "Joko Warsito"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 1
+	planning_skill = 2
+}
+create_corps_commander = {
+	name = "Mohammad Munib"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 1
+	planning_skill = 2
+}
+create_corps_commander = {
+	name = "Sunarto"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 1
+	planning_skill = 2
+}
+
+
 
 2030.1.1 = {
 	add_political_power = 1198

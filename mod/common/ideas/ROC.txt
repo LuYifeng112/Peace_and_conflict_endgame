@@ -39,8 +39,47 @@ ideas = {
 			modifier = {
 				fascism_drift = -0.10
 				communism_drift = -0.10
-				imperialist_drift = -0.10
-				salafist_drit = -0.10
+			}
+		}
+				CHI_low_legitimacy_5 = {
+
+			name = CHI_low_legitimacy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = CHI
+			}
+
+			removal_cost = -1
+
+			picture = man_low_legitimacy
+
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.25
+			}
+		}
+		CHI_independance_war = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = chi_war_of_resistance
+
+			targeted_modifier = {
+				tag = PRC
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
 			}
 		}
 

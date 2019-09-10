@@ -122,6 +122,36 @@ if = {
 	}
 }
 
+#NATO
+
+set_country_flag = NATO_member
+
+NOR = { diplomatic_relation = { country = FRA relation = military_access active = yes } }   #France
+NOR = { diplomatic_relation = { country = CAN relation = military_access active = yes } }   #Canada
+NOR = { diplomatic_relation = { country = HOL relation = military_access active = yes } }   #Netherlands
+NOR = { diplomatic_relation = { country = BEL relation = military_access active = yes } }   #Belgium
+NOR = { diplomatic_relation = { country = LUX relation = military_access active = yes } }   #Luxemborg
+NOR = { diplomatic_relation = { country = ITA relation = military_access active = yes } }   #Italy 
+NOR = { diplomatic_relation = { country = ICE relation = military_access active = yes } }   #Iceland
+NOR = { diplomatic_relation = { country = USA relation = military_access active = yes } }   #USA
+NOR = { diplomatic_relation = { country = DEN relation = military_access active = yes } }   #Denmark
+NOR = { diplomatic_relation = { country = ENG relation = military_access active = yes } }   #UK
+NOR = { diplomatic_relation = { country = POR relation = military_access active = yes } }   #Portugal
+NOR = { diplomatic_relation = { country = GER relation = military_access active = yes } }   #Germany
+NOR = { diplomatic_relation = { country = TUR relation = military_access active = yes } }   #Turket
+NOR = { diplomatic_relation = { country = GRE relation = military_access active = yes } }   #Greece
+NOR = { diplomatic_relation = { country = SPR relation = military_access active = yes } }   #Spain
+NOR = { diplomatic_relation = { country = CZE relation = military_access active = yes } }   #Czech Republic
+NOR = { diplomatic_relation = { country = HUN relation = military_access active = yes } }   #Hungary
+NOR = { diplomatic_relation = { country = POL relation = military_access active = yes } }   #Poland
+NOR = { diplomatic_relation = { country = BUL relation = military_access active = yes } }   #Bulgaria
+NOR = { diplomatic_relation = { country = EST relation = military_access active = yes } }   #Estonia
+NOR = { diplomatic_relation = { country = LAT relation = military_access active = yes } }   #Latvia
+NOR = { diplomatic_relation = { country = LIT relation = military_access active = yes } }   #Lithuania
+NOR = { diplomatic_relation = { country = ROM relation = military_access active = yes } }   #Romania
+NOR = { diplomatic_relation = { country = SLO relation = military_access active = yes } }   #Slovakia
+NOR = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
+
 set_convoys = 200		# biggest merchant marine in the world
 set_stability = 0.7
 
@@ -143,6 +173,11 @@ set_stability = 0.7
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = democratic

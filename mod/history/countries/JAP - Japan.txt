@@ -8,19 +8,6 @@ set_war_support = 0.4
 set_research_slots = 5
 set_fuel_ratio = 1.0
 
-if = {
-	limit = { has_dlc = "Waking the Tiger" }
-	add_ideas = {
-		JAP_interservice_rivalry_balanced		
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = MTG_naval_treaty_adherent
-}
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -261,6 +248,11 @@ set_convoys = 400
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = liberalism

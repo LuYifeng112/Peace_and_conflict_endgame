@@ -256,6 +256,8 @@ if = {
 }
 
 
+
+
 set_convoys = 50
 
 	set_popularities = {
@@ -276,6 +278,11 @@ set_convoys = 50
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = conservative
@@ -284,14 +291,19 @@ set_convoys = 50
 	elections_allowed = yes
 }
 
+set_country_flag = permanent_member_of_UNSC
+set_country_flag = nuclear_state
+
 create_faction = CTSO
 add_to_faction = SOV
 add_to_faction = KAZ
-add_to_faction = UKR
+add_to_faction = KYR
+add_to_faction = ARM
+add_to_faction = TAJ
 
 
+set_country_flag = shanghai_corps
 add_ideas = {
-	trotskyite_plot
 	home_of_revolution
 }
 

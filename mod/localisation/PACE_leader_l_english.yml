@@ -28,11 +28,15 @@ POLITICS_ASHRAD_GHANI_DESC:0 "From 1974 to 1977 Ghani taught anthropology at Kab
  POLITICS_MILORAD_DODRIK_DESC:0 ""
  POLITICS_MOKGWEETSI_MASISI_DESC:0 ""
 
+#DRK
+POLITICS_KIM_JONG_UN_DESC:0 ""
+
+#INS
+POLITICS_JOKO_WIDODO_DESC:0 "Joko Widodo (born 21 June 1961), also known as Jokowi, is an Indonesian politician who is the seventh president of Indonesia. Elected in July 2014 as the first Indonesian president to not come from an elite political or military background.As president, Jokowi has primarily focused on infrastructure, introducing or restarting long-delayed programs to build highways, high-speed rail, airports and other facilities to improve connectivity in the Indonesian archipelago. On foreign policy, his administration has emphasised "protecting Indonesia’s sovereignty", with the sinking of illegal foreign fishing vessels and the prescription of capital punishment for drug smugglers, despite intense pressure from foreign powers including Australia and France. Before Jokowi's election, Indonesia's foreign policy under former President SBY was moulded by the mission statement, "A thousand friends and zero enemies".[140] Jokowi has mandated a three-pronged policy of maintaining Indonesia’s sovereignty, enhancing the protection of Indonesian citizens, and intensifying economic diplomacy."
 
 
-
-
-
+#KOR
+POLITICS_MOON_JAE_IN_DESC:0 "Moon Jae-in (born January 24, 1953) is a South Korean politician serving as President of South Korea since 2017. He was elected after the impeachment of Park Geun-hye as the candidate of the Democratic Party of Korea.As President, Moon Jae-in has met with North Korean chairman Kim Jong-un at inter-Korean summits in April, May, and September 2018 making him the third South Korean president to meet their North Korean counterpart. On June 30, 2019, Moon met with both North Korean chairman Kim Jong-un and United States president Donald Trump at the Korean Demilitarized Zone. Moon has favored a peaceful reunification between the two Koreas. He was both widely criticized and widely praised for his comments stating that his first visit if elected president would be to visit North Korea, a visit that would be not unlike Roh Moo-hyun's visit to the country in 2007. Similarly, Moon's foreign policy towards North Korea is considered to closely align with the Sunshine Policy embraced by former liberal presidents Kim Dae-jung and Roh Moo-hyun."
 
 
 
@@ -40,6 +44,8 @@ POLITICS_ASHRAD_GHANI_DESC:0 "From 1974 to 1977 Ghani taught anthropology at Kab
 POLITICS_LEE_LOONG_DESC:0 "Lee Hsien Loong is a Singaporean politician. He is the current and third Prime Minister of Singapore since 2004.He took over the leadership of the People's Action Party (PAP) when former Prime Minister Goh Chok Tong stepped down from the position to become the new Senior Minister. Lee is the eldest son of Singapore's first Prime Minister, Lee Kuan Yew.Lee graduated from Trinity College, Cambridge University, as Senior Wrangler in 1974 (gaining a Diploma in Computer Science with distinction as well) and later earned a Master of Public Administration at Harvard's Kennedy School of Government. From 1971 to 1984, he served in the Singapore Armed Forces where he rose to the rank of brigadier general. He won his first election for Member of Parliament in 1984, contesting as a member of the People's Action Party. Under Singapore's second prime minister, Goh Chok Tong, Lee served as the Minister for Trade and Industry, Minister for Finance and Deputy Prime Minister. Lee proposed the establishment of a China-ASEAN Free Trade Zone, enacted the Strategic Framework Agreement with then President George W. Bush, and vouched for a one China policy in the favour of the People's Republic of China."
 
 
+#RWA
+POLITICS_PAUL_KAGAME_DESC:0 "Paul Kagame (born 23 October 1957) is a Rwandan politician and former military leader. He is currently the President of Rwanda, having taken office in 2000 when his predecessor, Pasteur Bizimungu, resigned. Kagame previously commanded the rebel force that ended the 1994 Rwandan genocide. He was considered Rwanda's de facto leader when he served as Vice President and Minister of Defence from 1994 to 2000. He has been described as the "most impressive" and "among the most repressive" African leaders. Rwanda's economy has grown rapidly under Kagame's presidency, with per-capita gross domestic product (purchasing power parity) estimated at $1,592 in 2013, compared with $567 in 2000.Annual growth between 2004 and 2010 averaged 8% per year.Kagame's economic policy is based on liberalising the economy, privatising state owned industries, reducing red tape for businesses, and transforming the country from an agricultural to a knowledge-based economy. In September 2010, the British political magazine New Statesman named Kagame one of its 50 most influential figures for that year, placing him in 49th place."
 
 
 
@@ -53,7 +59,10 @@ POLITICS_LEE_LOONG_DESC:0 "Lee Hsien Loong is a Singaporean politician. He is th
 
 
 
-
-
-
+#PRC
 POLITICS_XI_JIN_PING_DESC:0 "Born in 1953 to a Chinese Communist Party (CCP) leader, Xi Jinping worked his way up the party ranks to become a major player in the Chinese Politburo. By 2013, Xi was elected General Secretary of the Communist Party, Chair of the Military Commission and President of the People’s Republic of China.As part of his goal to establish China as a 21st century global superpower, Xi has pushed for military reform to upgrade naval and air forces. Already chairman of the Central Military Commission, in 2016 he added the title of commander in chief of its joint battle command center.In October 2017, during a meeting of the 19th National Congress of the Communist Party, delegates voted to add the words 'Xi Jinping Thought for the New Era of Socialism with Chinese Special Characteristics' to the party constitution. The addition was meant to serve as a guiding principle for the party moving forward, with Xi's vision paving the way for global leadership in the years to come.In a speech to close the 16-day legislative session, Xi spoke of forging unification with Taiwan, promoting 'high-quality' development that values innovation and expanding his signature Belt and Road foreign policy initiative. 'The new era belongs to everyone, and everyone is a witness, pioneer and builder of the new era,' he said. 'As long as we are united and struggle together, there will be no power to stop the Chinese people from realizing their dreams.' "
+POLITCS_HAO_MINGJIN_DESC:0 ""
+POLITICS_CHEN_CHANGZHI_DESC:0 ""
+POLITICS_WAN_EXIANG_DESC:0 ""
+POLITICS_JIN_YUZHANG_DESC:0 ""
+POLITICS_CAI_DAFENG_DESC:0 ""

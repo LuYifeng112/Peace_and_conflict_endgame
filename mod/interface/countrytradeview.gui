@@ -102,6 +102,7 @@ guiTypes = {
 			position = { x = 11 y = 75 }	
 			size = { width = 518 height = 156 }
 			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
 
 			iconType = {
 				name ="resources_bg"

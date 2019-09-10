@@ -60,7 +60,6 @@ ideas = {
 
 			modifier = {
 				political_power_gain = 0.5
-				mobilization_laws_cost_factor = 0.25
 				surrender_limit = 0.4
 				command_power_gain = 0.5
 				improve_relations_maintain_cost_factor = -0.75
@@ -71,12 +70,12 @@ ideas = {
 
 	# TECHNOLOGY
 
-	material_manufacturer = {
+	materiel_manufacturer = {
 
 		designer = yes
 
 		SIN_ST_kinetics = {
-			picture = ST_Engineering
+			picture = STEngineering
 			
 			allowed = {
 				original_tag = SIN
@@ -100,7 +99,7 @@ ideas = {
 		designer = yes 
 
 		SIN_ST_marines = {
-			picture = ST_Engineering
+			picture = STEngineering
 			
 			allowed = {
 				original_tag = SIN
@@ -128,7 +127,7 @@ ideas = {
 		designer = yes
 		
 		SIN_ST_aerospace = {
-		picture = ST_Engineering
+		picture = STEngineering
 			allowed = {
 				original_tag = SIN
 			}
@@ -172,7 +171,7 @@ ideas = {
 	industrial_concern = {
 
 		SIN_ST_engineering = {
-		picture = ST_Engineering
+		picture = STEngineering
 			available = {
 				always = no
 			}
@@ -202,7 +201,7 @@ ideas = {
 		}
 
 		SIN_US_flextronics = {	
-			picture = ST_Engineering
+			picture = STEngineering
 			available = {
 				always = no
 			}

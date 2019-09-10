@@ -3,7 +3,7 @@ state={
 	name="STATE_982"
 	state_category = small_island
 	provinces={
-		4088 
+		13238 
 	}
 	history = {
 	owner = CHI
@@ -11,14 +11,14 @@ state={
 	add_core_of = PRC
 	buildings = {
 		infrastructure = 2
-		4088 = {
+		13238 = {
 			naval_base = 1
 			bunker  = 2
 			coastal_bunker =2
 		}
 	}
 	victory_points = {
-			4088 3
+			13238 3
 	}
 	}
 	manpower=138567

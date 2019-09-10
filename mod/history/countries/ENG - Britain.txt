@@ -279,6 +279,38 @@ create_country_leader = {
 	set_convoys = 200
 }
 
+#NATO
+
+set_country_flag = NATO_member
+set_country_flag = permanent_member_of_UNSC
+set_country_flag = nuclear_state
+
+ENG = { diplomatic_relation = { country = FRA relation = military_access active = yes } }   #France
+ENG = { diplomatic_relation = { country = CAN relation = military_access active = yes } }   #Canada
+ENG = { diplomatic_relation = { country = HOL relation = military_access active = yes } }   #Netherlands
+ENG = { diplomatic_relation = { country = BEL relation = military_access active = yes } }   #Belgium
+ENG = { diplomatic_relation = { country = LUX relation = military_access active = yes } }   #Luxemborg
+ENG = { diplomatic_relation = { country = ITA relation = military_access active = yes } }   #Italy 
+ENG = { diplomatic_relation = { country = ICE relation = military_access active = yes } }   #Iceland
+ENG = { diplomatic_relation = { country = NOR relation = military_access active = yes } }   #Norway
+ENG = { diplomatic_relation = { country = DEN relation = military_access active = yes } }   #Denmark
+ENG = { diplomatic_relation = { country = USA relation = military_access active = yes } }   #USA
+ENG = { diplomatic_relation = { country = POR relation = military_access active = yes } }   #Portugal
+ENG = { diplomatic_relation = { country = GER relation = military_access active = yes } }   #Germany
+ENG = { diplomatic_relation = { country = TUR relation = military_access active = yes } }   #Turket
+ENG = { diplomatic_relation = { country = GRE relation = military_access active = yes } }   #Greece
+ENG = { diplomatic_relation = { country = SPR relation = military_access active = yes } }   #Spain
+ENG = { diplomatic_relation = { country = CZE relation = military_access active = yes } }   #Czech Republic
+ENG = { diplomatic_relation = { country = HUN relation = military_access active = yes } }   #Hungary
+ENG = { diplomatic_relation = { country = POL relation = military_access active = yes } }   #Poland
+ENG = { diplomatic_relation = { country = BUL relation = military_access active = yes } }   #Bulgaria
+ENG = { diplomatic_relation = { country = EST relation = military_access active = yes } }   #Estonia
+ENG = { diplomatic_relation = { country = LAT relation = military_access active = yes } }   #Latvia
+ENG = { diplomatic_relation = { country = LIT relation = military_access active = yes } }   #Lithuania
+ENG = { diplomatic_relation = { country = ROM relation = military_access active = yes } }   #Romania
+ENG = { diplomatic_relation = { country = SLO relation = military_access active = yes } }   #Slovakia
+ENG = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
+
 	set_popularities = {
 		democratic = 5 
 		fascism = 0
@@ -297,6 +329,11 @@ create_country_leader = {
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = democratic
@@ -314,8 +351,7 @@ create_country_leader = {
 	name = "Winston Churchill"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
 	picture = "Portrait_Britain_Winston_Churchill.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_demo
 	traits = {
 		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
 	}
@@ -327,7 +363,7 @@ create_country_leader = {
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
 	expire = "1938.1.1"
-	ideology = conservatism
+	ideology = social_demo
 	traits = {
 		conservative_grandee
 	}

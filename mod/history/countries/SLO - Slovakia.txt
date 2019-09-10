@@ -58,6 +58,36 @@ set_technology = {
 	}
 }
 
+#NATO
+
+set_country_flag = NATO_member
+
+SLO = { diplomatic_relation = { country = FRA relation = military_access active = yes } }   #France
+SLO = { diplomatic_relation = { country = CAN relation = military_access active = yes } }   #Canada
+SLO = { diplomatic_relation = { country = HOL relation = military_access active = yes } }   #Netherlands
+SLO = { diplomatic_relation = { country = BEL relation = military_access active = yes } }   #Belgium
+SLO = { diplomatic_relation = { country = LUX relation = military_access active = yes } }   #Luxemborg
+SLO = { diplomatic_relation = { country = ITA relation = military_access active = yes } }   #Italy 
+SLO = { diplomatic_relation = { country = ICE relation = military_access active = yes } }   #Iceland
+SLO = { diplomatic_relation = { country = NOR relation = military_access active = yes } }   #Norway
+SLO = { diplomatic_relation = { country = DEN relation = military_access active = yes } }   #Denmark
+SLO = { diplomatic_relation = { country = ENG relation = military_access active = yes } }   #UK
+SLO = { diplomatic_relation = { country = POR relation = military_access active = yes } }   #Portugal
+SLO = { diplomatic_relation = { country = GER relation = military_access active = yes } }   #Germany
+SLO = { diplomatic_relation = { country = TUR relation = military_access active = yes } }   #Turket
+SLO = { diplomatic_relation = { country = GRE relation = military_access active = yes } }   #Greece
+SLO = { diplomatic_relation = { country = SPR relation = military_access active = yes } }   #Spain
+SLO = { diplomatic_relation = { country = CZE relation = military_access active = yes } }   #Czech Republic
+SLO = { diplomatic_relation = { country = HUN relation = military_access active = yes } }   #Hungary
+SLO = { diplomatic_relation = { country = POL relation = military_access active = yes } }   #Poland
+SLO = { diplomatic_relation = { country = BUL relation = military_access active = yes } }   #Bulgaria
+SLO = { diplomatic_relation = { country = EST relation = military_access active = yes } }   #Estonia
+SLO = { diplomatic_relation = { country = LAT relation = military_access active = yes } }   #Latvia
+SLO = { diplomatic_relation = { country = LIT relation = military_access active = yes } }   #Lithuania
+SLO = { diplomatic_relation = { country = ROM relation = military_access active = yes } }   #Romania
+SLO = { diplomatic_relation = { country = USA relation = military_access active = yes } }   #USA
+SLO = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
+
 	set_popularities = {
 		democratic = 5 
 		fascism = 0
@@ -76,6 +106,11 @@ set_technology = {
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = socialist

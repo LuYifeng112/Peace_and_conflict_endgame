@@ -222,6 +222,11 @@ set_convoys = 300
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = democratic
@@ -231,14 +236,40 @@ set_convoys = 300
 }
 
 
-add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	FRA_protected_by_the_maginot_line
-	limited_conscription
-}
+#NATO
 
-#give_guarantee = CZE
+set_country_flag = NATO_member
+
+FRA = { diplomatic_relation = { country = USA relation = military_access active = yes } }   #USA
+FRA = { diplomatic_relation = { country = CAN relation = military_access active = yes } }   #Canada
+FRA = { diplomatic_relation = { country = HOL relation = military_access active = yes } }   #Netherlands
+FRA = { diplomatic_relation = { country = BEL relation = military_access active = yes } }   #Belgium
+FRA = { diplomatic_relation = { country = LUX relation = military_access active = yes } }   #Luxemborg
+FRA = { diplomatic_relation = { country = ITA relation = military_access active = yes } }   #Italy 
+FRA = { diplomatic_relation = { country = ICE relation = military_access active = yes } }   #Iceland
+FRA = { diplomatic_relation = { country = NOR relation = military_access active = yes } }   #Norway
+FRA = { diplomatic_relation = { country = DEN relation = military_access active = yes } }   #Denmark
+FRA = { diplomatic_relation = { country = ENG relation = military_access active = yes } }   #UK
+FRA = { diplomatic_relation = { country = POR relation = military_access active = yes } }   #Portugal
+FRA = { diplomatic_relation = { country = GER relation = military_access active = yes } }   #Germany
+FRA = { diplomatic_relation = { country = TUR relation = military_access active = yes } }   #Turket
+FRA = { diplomatic_relation = { country = GRE relation = military_access active = yes } }   #Greece
+FRA = { diplomatic_relation = { country = SPR relation = military_access active = yes } }   #Spain
+FRA = { diplomatic_relation = { country = CZE relation = military_access active = yes } }   #Czech Republic
+FRA = { diplomatic_relation = { country = HUN relation = military_access active = yes } }   #Hungary
+FRA = { diplomatic_relation = { country = POL relation = military_access active = yes } }   #Poland
+FRA = { diplomatic_relation = { country = BUL relation = military_access active = yes } }   #Bulgaria
+FRA = { diplomatic_relation = { country = EST relation = military_access active = yes } }   #Estonia
+FRA = { diplomatic_relation = { country = LAT relation = military_access active = yes } }   #Latvia
+FRA = { diplomatic_relation = { country = LIT relation = military_access active = yes } }   #Lithuania
+FRA = { diplomatic_relation = { country = ROM relation = military_access active = yes } }   #Romania
+FRA = { diplomatic_relation = { country = SLO relation = military_access active = yes } }   #Slovakia
+FRA = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
+FRA = { diplomatic_relation = { country = JAP relation = military_access active = yes } }   #Japan
+
+
+set_country_flag = permanent_member_of_UNSC
+set_country_flag = nuclear_state
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {

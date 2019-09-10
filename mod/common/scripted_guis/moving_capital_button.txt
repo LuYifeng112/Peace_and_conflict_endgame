@@ -1,0 +1,42 @@
+scripted_gui = {
+	moving_capital_button = {
+	
+		context_type = selected_state_context
+		
+		window_name = "moving_capital_button_container"
+		
+		visible = {
+			ROOT = { controls_state = PREV }
+			PREV = { is_core_of = ROOT }
+			NOT = { is_capital = yes }
+		}
+		
+		effects = {
+			move_your_capital_click = {
+				ROOT = { 
+					add_political_power = -100
+				}
+				ROOT = { set_capital = PREV }
+			}
+		}
+		triggers = {
+			move_your_capital_click_enabled = {
+				check_variable = { ROOT.political_power > 99.99 }
+			}
+		}
+		        
+		ai_check = {
+			check_variable = { ROOT.political_power > 99.99 }
+			check_variable = { ai_random > 0.65 }
+		}
+		
+		ai_weights = {
+			move_your_capital_click = {
+				ai_will_do = {
+					factor = 0
+				}
+			}
+		}
+	}
+}
+

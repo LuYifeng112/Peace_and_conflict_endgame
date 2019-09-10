@@ -103,6 +103,11 @@ set_convoys = 0
 		imperialism = 0
 		liberalism = 20
 		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = nationalism
@@ -133,7 +138,7 @@ create_country_leader = {
 		monarchist = 0
 		reactionary = 0
 		conservative = 30
-		progressive = 40
+		progressive = 40 
 		centrist = 0
 		socialist = 5
 		Novusism = 0
@@ -148,4 +153,54 @@ create_country_leader = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+}
+
+create_corps_commander = {
+	name = "Paul Kagame"
+	portrait_path = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	traits = { desert_fox }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Marcel Gatsinzi"
+	portrait_path = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	traits = { desert_fox }
+	skill = 1
+	attack_skill = 2
+	planning_skill = 3
+}
+create_corps_commander = {
+	name = " James Kabarebe"
+	portrait_path = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	traits = { desert_fox }
+	skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = " Albert Murasira"
+	portrait_path = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	traits = { desert_fox }
+	skill = 1
+	defense_skill = 2
+}
+create_corps_commander = {
+	name = "Charles Kayonga"
+	portrait_path = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	traits = { desert_fox }
+	skill = 2
+	defense_skill = 2
+}
+create_corps_commander = {
+	name = " Patrick Nyamvumba"
+	portrait_path = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	traits = { desert_fox }
+	skill = 2
+	defense_skill = 2
+	planning_skill = 3
 }
