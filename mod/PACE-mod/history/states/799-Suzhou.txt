@@ -1,0 +1,25 @@
+state={
+	id=799
+	name="STATE_799"
+	state_category = city
+
+	resources = {
+		oil = 1
+	}
+	provinces={
+		1089 7120 10076 
+	}
+	history = {
+	owner = PRC
+	buildings = {
+		infrastructure = 9
+		industrial_complex = 6
+		air_base = 7
+	}
+	victory_points = {
+		10076 25
+	}
+	}
+	manpower=4330000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,87 @@
+﻿capital = 525 #South Korea - Seoul or Busan
+
+oob = "KOR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_convoys = 20
+
+	set_popularities = {
+		democratic = 0 
+		fascism = 0
+		communism = 86
+		neutrality = 0
+		salafist = 0
+		nationalism = 4
+		monarchist = 0
+		reactionary = 0
+		conservative = 0
+		progressive = 0
+		centrist = 0
+		socialist = 10
+		Novusism = 0
+		authoritarianism = 0 
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = communism
+	last_election = "2017.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+	limited_exports
+
+	#add generic ideas?
+	DRK_sanctions_idea
+	DRK_juche_idea
+	DRK_nomenklatura_idea
+	DRK_social_change_demand_idea
+}
+
+create_country_leader = {
+	name = "Kim Jong-Un"
+	desc = "POLITICS_KIM_JONG_UN_DESC"
+	picture = "gfx/leaders/MAN/kim_jong_un.dds"
+	expire = "2030.1.1"
+	ideology = juche
+	traits = {
+	dictator
+	stout_defender
+	nationalist_symbol
+	}
+}
+
+create_country_leader = {
+	name = "Yi Kang"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Yi Un"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

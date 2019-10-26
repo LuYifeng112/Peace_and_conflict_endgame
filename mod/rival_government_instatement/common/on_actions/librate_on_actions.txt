@@ -1,0 +1,38 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				capital_scope = {
+					set_state_flag = capital_invalid
+				}
+			}
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			every_country = {
+				capital_scope = {
+					set_state_flag = capital_invalid
+				}
+			}
+		}
+	}
+	on_liberate = {
+		effect = {
+			every_country = {
+				capital_scope = {
+					set_state_flag = capital_invalid
+				}
+			}
+		}
+	}
+	on_puppet = {
+		effect = {
+			every_country = {
+				capital_scope = {
+					set_state_flag = capital_invalid
+				}
+			}
+		}
+	}
+}

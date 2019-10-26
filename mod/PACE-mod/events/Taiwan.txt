@@ -1,0 +1,91 @@
+﻿###########################
+# Republic of China events
+###########################
+
+add_namespace = chi
+# UN recognition of CHI
+country_event = {
+	id = chi.1
+	title = chi.1.t
+	desc = chi.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = chi.1.a
+		set_global_flag = CHI_INDEPENDANT
+		ai_chance = {
+			factor = 1
+		}
+	#news_event = { hours = 6 id = CHI.5 }
+	}
+
+	option = {
+		ai_chance = {
+			factor = 1
+		}
+		name = chi.1.b
+		set_global_flag = CHI_REJECTS_INDEPENDANCE
+		#news_event = { hours = 6 id = CHI.4 }
+	}
+}
+
+#Talks with PRC
+
+country_event = {
+	id = chi.2
+	title = chi.2.t
+	desc = chi.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = chi.2.a
+		ai_chance = {
+			factor = 1
+		}
+		#news_event = { hours = 6 id = CHI.3 }
+	}
+
+	option = {
+		ai_chance = {
+			factor = 15
+		}
+		name = chi.2.b	
+	}
+}
+
+#Talks with PRC news
+news_event = {
+	id = chi.3
+	title = chi.3.t
+	desc = chi.3.d
+	#picture = 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CHI.3.o.a
+		trigger = {
+			NOT = {
+				tag = CHI
+				tag = PRC
+				tag = USA
+			}
+		}
+	}
+	option = {
+		name = CHI.3.o.c
+		trigger = { tag = CHI }
+	}
+	option = {
+		name = CHI.3.o.d
+		trigger = { tag = USA }
+	}
+	option = {
+		name = CHI.3.o.e
+		trigger = { tag = PRC }
+	}
+}

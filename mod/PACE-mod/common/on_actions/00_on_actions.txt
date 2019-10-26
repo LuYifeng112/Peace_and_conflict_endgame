@@ -1,0 +1,300 @@
+on_actions = {
+	# country 
+	
+	on_new_term_election = {
+	}
+
+
+	# Ace pilots
+	# country, FROM = ace
+	on_ace_promoted = {
+	}
+
+	# country, FROM = ace, PREV = enemy ace 
+	# This event fires twice, once for each ace.
+	on_aces_killed_each_other = {
+	}
+	
+	# country, FROM = our ace, 
+	# PREV = enemy ace, has killed FROM
+	on_ace_killed_by_ace = {
+	}
+
+	# country, FROM = our ace, 
+	# PREV = enemy ace, killed by FROM
+	on_ace_killed_other_ace = {
+	}
+
+	# country, FROM = ace
+	on_ace_killed = {
+	}
+
+	# During justifying wargoals
+	# triggered daily, so make sure there is a sink somewhere not firing events
+	# country, FROM = target nation
+	on_justifying_wargoal_pulse = {
+	}
+
+	on_wargoal_expire = {
+	}
+
+	on_nuke_drop = {
+	}
+
+	on_border_war_lost = {
+	}
+	
+	on_leave_faction = {
+		effect = {
+			PREV = {
+				add_opinion_modifier = {
+					modifier = faction_traitor
+					target = ROOT
+					days = 365
+				}
+			
+				add_opinion_modifier = {
+					modifier = faction_traitor_trade
+					target = ROOT
+					days = 365
+				}
+			}
+		}
+	}
+
+	#PREV is the one that joins the faction
+	on_create_faction = {
+		
+	}
+
+	#PREV is country getting invited. #FROM in the add_to_faction effect because that's the scope you should use...
+	on_offer_join_faction = {
+	}
+
+	#PREV is faction leader on join faction requests.
+	on_join_faction = {
+		effect = {
+			if = {
+			    limit = {
+		            PREV = { original_tag = USA }
+			    }
+			    news_event = factions.1
+		    }
+		}
+	}
+
+	#FROM is war target
+	on_declare_war = {
+	}
+	
+	# When a new faction is formed
+	#on_faction_formed = {
+		
+	#}
+	
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = {
+	}
+
+	on_government_change = {
+	}
+
+	on_coup_succeeded = {
+	}
+
+	#ROOT is winner #FROM gets annexed
+	on_civil_war_end = {
+	}
+
+	#Not run on a specific country.
+	on_startup = {
+		effect = {
+			every_country = { #Democracies must love each other.
+				limit = { has_democratic_form_of_government = yes }
+				country_event = ideology.4
+			}
+			every_country = {
+				limit = {
+					OR = {
+					has_idea = idea_united_nations_security_council_member
+					has_country_flag = permanent_member_of_UNSC
+					}
+				}
+				set_permanent_UNSC_members_effect = yes
+			}
+			every_country = {
+				limit = {
+					has_idea = idea_united_nations_NP_security_council_member
+				}
+				set_temp_unsc_member_effect = yes
+			}
+			every_country = {
+				limit = {
+					has_war = yes
+				}
+				set_country_at_war_effect = yes
+			}
+			#every_country = {
+			#	limit = {
+			#		NOT = { has_country_flag = has_coalition }
+			#	}
+			#	country_event = election.1000
+			#}
+			#every_country = {
+			#	limit = {
+			#		has_country_flag = has_coalition
+			#	}
+			#	country_event = election.999
+			#}
+			every_country = {
+				country_event = money.1
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = RULE_DISABLE_STARTING_FACTIONS
+						option = ENABLED
+					}
+				}
+				every_country = {
+				    dismantle_faction = yes
+			    }
+			}
+			SOV = { add_nuclear_bombs = 6490 }
+			USA = { add_nuclear_bombs = 6185 }
+			FRA = { add_nuclear_bombs = 300 }
+			PRC = { add_nuclear_bombs = 280 }
+			ENG = { add_nuclear_bombs = 215 }
+			PAK = { add_nuclear_bombs = 150 }
+			RAJ = { add_nuclear_bombs = 130 }
+			ISR = { add_nuclear_bombs = 80 }
+			DRK = { add_nuclear_bombs = 20 }
+		}
+	}
+	
+	on_daily = {
+		
+	}
+	
+	on_unit_leader_level_up = {
+		
+	}
+	
+	# From is owner country
+	on_army_leader_daily = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = { random < 0.02 }
+					NOT = { has_trait = sick }
+					set_temp_variable = { temp = sum_unit_terrain_modifier@sickness_chance }
+					divide_temp_variable = { temp = num_units }
+					check_variable = { temp > 0.75 }
+					NOT = { has_unit_leader_flag = recently_sick }
+				}
+				add_timed_unit_leader_trait = {
+					trait = sick
+					days = 30
+				}
+				unit_leader_event = { id = generic.17 }
+			}
+		}
+	}
+	
+	# From is owner country
+	on_army_leader_won_combat = {
+		effect = {
+			if = {
+				limit = {
+					set_temp_variable = { chance = 0.001 }
+					set_temp_variable = { factor = 1.0 }
+					add_to_temp_variable = { factor = leader_modifier@wounded_chance_factor } 
+					multiply_temp_variable = { chance = factor }
+					check_variable = { random < chance }
+					NOT = { has_trait = wounded }
+				}
+				add_timed_unit_leader_trait = {
+					trait = wounded
+					days = 90
+				}
+				unit_leader_event = { id = generic.18 }
+			}
+		}
+	}
+	
+	# From is owner country
+	on_army_leader_lost_combat = {
+		effect = {
+			if = {
+				limit = {
+					set_temp_variable = { chance = 0.005 }
+					set_temp_variable = { factor = 1.0 }
+					add_to_temp_variable = { factor = leader_modifier@wounded_chance_factor } 
+					multiply_temp_variable = { chance = factor }
+					check_variable = { random < chance }
+					NOT = { has_trait = wounded }
+				}
+				add_timed_unit_leader_trait = {
+					trait = wounded
+					days = 90
+				}
+				unit_leader_event = { id = generic.18 }
+			}
+		}
+	}
+	
+	
+	on_army_leader_promoted = {
+		effect = {
+			add_timed_unit_leader_trait = {
+				trait = recently_promoted
+				days = 100
+			}
+		}
+	}
+	
+ on_capitulation = {
+    effect = {
+        if = {
+            limit = {
+                TAG = KOR
+                FROM = { TAG = DRK }
+            }
+            DRK = {
+				annex_country = {
+					target = KOR
+					transfer_troops = no
+				}				
+				every_country = {
+					news_event = north_korea_news.3
+				}	
+			}
+        }
+    }
+}
+
+ on_capitulation = {
+    effect = {
+        if = {
+            limit = {
+                TAG = DRK
+                FROM = { TAG = KOR }
+            }
+            KOR = {
+				annex_country = {
+					target = DRK
+					transfer_troops = no
+				}				
+				every_country = {
+					news_event = south_korea_news.5
+				}	
+			}
+        }
+    }
+}
+
+
+	# Scope is the country owner of the PotF, FROM is the country of the killer
+	on_pride_of_the_fleet_sunk = {
+	}
+}
