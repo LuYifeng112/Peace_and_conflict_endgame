@@ -1,7 +1,0 @@
-liberation_efforts = {
-	icon = generic_propaganda
-
-	visible = {
-
-	}
-}
