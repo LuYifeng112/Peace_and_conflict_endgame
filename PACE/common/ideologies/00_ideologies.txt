@@ -7,7 +7,7 @@ ideologies = {
 			social_demo = {
 			}
 
-			green = {
+			green = { 
 			}
 		}
 		
@@ -160,6 +160,9 @@ ideologies = {
 
 			neo_nazism = {
 			}
+
+			hindutva = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -260,6 +263,8 @@ ideologies = {
 		    islamic_democracy = {
 		    }		
 			
+			khomeinist = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -479,6 +484,12 @@ ideologies = {
 			
 			aristocracy = {
 			}
+
+			anti_left = {
+			}
+
+			military_junta = {
+			}
 			
 		}
 		
@@ -587,7 +598,7 @@ ideologies = {
 
 			radical_liberal = {
 			}
-			
+
 		}
 		
 		dynamic_faction_names = {
@@ -626,9 +637,6 @@ ideologies = {
 		types = {
 		
 			centrist = {
-			}
-
-			centrism = {
 			}
 			
 			liberalist = {
@@ -777,12 +785,13 @@ ideologies = {
 	authoritarianism = {
 		
 		types = {
+
+			authoritarianism = { #for declare emergency
+			}
 		
 			military_law = {
 			}
 			
-			Reactionary = {
-			}
 			
 			old_guard = {
 			}
@@ -790,7 +799,7 @@ ideologies = {
 			post_communist = {
 			}
 
-			emerging_strucutralist = {
+			emerging_structuralist = {
 			}
 			
 		}
@@ -896,9 +905,6 @@ ideologies = {
 
 			liberal_demo = {
 
-			}
-
-			liberalism = {
 			}
 		}
 		

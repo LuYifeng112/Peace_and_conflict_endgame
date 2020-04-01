@@ -1,0 +1,43 @@
+
+sudan_belt_and_road = {
+	visible = {
+		original_tag = PRC
+		original_tag = SUD
+	}
+}
+
+hongkong_maritime_base = {
+		visible = {
+			original_tag = PRC
+			original_tag = HKG
+		}
+}
+
+Indonesia_high_speed_railroads = {
+		visible = {
+			original_tag = PRC
+			original_tag = INS
+		}
+}
+
+LAO_vientiene_boten_railway = {
+		visible = {
+			original_tag = PRC
+			original_tag = LAO
+		}
+}
+
+Pakistan_economic_corridor = {
+		visible = {
+			original_tag = PRC
+			original_tag = PAK
+		}
+}
+
+SIA_rayong_industrial_zone = {
+		visible = {
+			original_tag = PRC
+			original_tag = SIA
+		}
+}
+

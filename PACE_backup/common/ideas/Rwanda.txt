@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		RWA_article_54 = {
+
+			allowed = {
+				original_tag = RWA
+			}
+
+			picture = HUN_treaty_of_triannon
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.1
+				fascism_drift = -0.2
+				political_power_gain = 0.5
+				foreign_subversive_activites = -0.40
+			}
+		}
+		RWA_strong_economy = {
+
+			allowed = {
+				original_tag = RWA
+			}
+
+			picture = generic_disjointed_gov
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				local_resources_factor = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+	}
+
+	
+}

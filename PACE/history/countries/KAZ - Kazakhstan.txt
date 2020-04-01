@@ -60,25 +60,25 @@ if = {
 	}
 }
 #################ORG##########################
-set_country_flag = shanghai_corps
+set_country_flag = SH_CO
 
 	set_popularities = {
-		democratic = 5 
+		democratic = 0 
 		fascism = 0
 		communism = 0
 		neutrality = 0
 		salafist = 0
-		nationalism = 0
+		nationalism = 20
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 0
+		progressive = 0
 		centrist = 0
-		socialist = 5
+		socialist = 0
 		Novusism = 0
-		authoritarianism = 0
+		authoritarianism = 75
 		imperialism = 0
-		liberalism = 20
+		liberalism = 5
 		Chinese_socialism = 0
 		anarchism = 0
 		liberal_conservatism = 0
@@ -88,15 +88,15 @@ set_country_flag = shanghai_corps
 	}
 	set_politics = {
 	ruling_party = authoritarianism
-	last_election = "1936.1.1"
-	election_frequency = 48
+	last_election = "2019.1.1"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Kassym-Jomart Tokayev"
 	desc = "POLITICS_KASSYM_TOKAYEV"
-	picture = "Portrait_KAZ_Nikolay_Skvortsov.dds"
+	picture = "gfx/leaders/KAZ/KAZ_KASSYM.dds"
 	ideology = post_communist
 	traits = {
 		
@@ -104,16 +104,24 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ilyas Zhansugurov"
-	desc = ""
-	picture = "Portrait_KAZ_Ilyas_Zhansugurov.dds"
-	expire = "1953.3.1"
-	ideology = social_demo
+	name = "Amirjan Qosanov"
+	desc = "POLITICS_AMIRJAN_QOSANOV_DESC"
+	#picture = "Portrait_KAZ_Ilyas_Zhansugurov.dds"
+	ideology = national_democrat
 	traits = {
 		
 	}
 }
 
+create_country_leader = {
+	name = "Dania Espaeva"
+	desc = "POLITICS_DANIA_ESPAEVA_DESC"
+	#picture = "gfx/leaders/KAZ/KAZ_KASSYM.dds"
+	ideology = national_liberalism
+	traits = {
+		
+	}
+}
 
 
 

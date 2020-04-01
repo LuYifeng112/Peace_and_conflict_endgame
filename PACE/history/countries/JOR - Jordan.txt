@@ -54,7 +54,10 @@ set_convoys = 5
 		dispersed_industry2 = 1
 	}
 }
-
+############################ ORG ###########################
+set_country_flag = AL_LEAGUE
+set_country_flag = MNNA
+############################################################
 
 	set_popularities = {
 		democratic = 5 
@@ -84,13 +87,13 @@ set_convoys = 5
 	ruling_party = monarchist
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
 	name = " King Abdullah II"
 	desc = "POLITICS_ABDULLAH_II_DESC"
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
+	picture = "gfx/leaders/JOR/JOR_King_Abdullah.dds"
 	ideology = absolute_monarchist
 	traits = {
 		#

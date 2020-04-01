@@ -1,0 +1,55 @@
+﻿capital = 554
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+set_convoys = 5
+############################ ORG ###########################
+set_country_flag = AL_LEAGUE
+
+############################################################
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = nationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Bashar al-Assad"
+	desc = "POLITICS_BASHAR_AL_ASSAD_DESC"
+	picture = "gfx/leaders/SYR/SYR_Bashar_al_assad.dds"
+	ideology = arab_nationalism
+	traits = {
+		SYR_cling_power
+		SYR_stubborn_war
+		support_from_extremism
+	}
+}

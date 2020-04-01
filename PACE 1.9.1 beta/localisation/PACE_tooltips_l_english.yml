@@ -1,0 +1,70 @@
+﻿l_english:
+ 
+ #BRA
+ BRA_CRIME_tt:0 "§RCrime takes a toll on our effeicency and government and leads to mafia infuence and obstruction.§!"
+
+ #BRM
+ BRM_GENOCIDE_tt:0 "§RPersecution of these groups will lead to refugees for neighboring countries. \nIt will also conflict with international relations.§!"
+ BRM_NATIONALITY_LAW_tt:0 "§RThis law will continue racial classifying and persecution of minorities and thus will be unpopular with foreign nations.§!"
+ 
+ #CAM
+ CAM_RELIANCE_tt:0 "§RWe have to balance receving aid to keep centralisation but also guard ourself against Chinese influence...§!"
+ #COL
+ COL_MIGRANT_tt:0 "§CColombia recevies many migrants and regugess due to Venezuela's crisis.§! \n§RThis will be removed when Venezuela rectifies the crisis.§!"
+ COL_SEC_POLICY_tt:0 "§CThis is a policy to ensure stability in Colombia and to counter insurgency and drg cartel influence.§! \n§RThis is important.§! "
+ CAM_FARC_THREAT_tt:0 "§R FARC is a national threat. We must dismantle them before out governance is endangered. An uprising is possible...§!"
+
+ #DRK
+ DRK_JUCHE_tt:0 "§RThis influences isolationist policies and managing the country internally before it breaks down.§!"
+ DRK_NOMENKALTURA_tt:0 "§CIf Stability falls too low or the government collapses then the Nomenklatura will gain more power and hinder centralisation.§!"
+ DRK_BIG_MILITARY_tt:0 "§RBecause of its size, the Korean People's Army is ineffective at plannng. The length of conscription also lowers population growth as family options are denied.§!"
+ DRK_ASYMETRIC_MILITARY_tt:0 "§RThis will focus on Asymetric warfare rather than conventional military equipement.§!"
+ 
+ #GER
+ GER_ROMMEL_tt:0 "§RRommel is an excellant general in offensive warfare and his role model allows to concede free speech restrictions but this also affects Neo-Nazism...§!"
+ GER_RESTRICTIONS_tt:0 "§RGermany cannot claim its land in the East and its military is limited to 370,000 personell. It can join factions but cannot declare war.§!"
+ GER_NUCLEAR_OUT_tt:0 "§RNuclear buildings will be removed and construction of new nuclear instituitions will not be premitted. This will reduce pollution.§!"
+ GER_EXTREMISTS_tt:0 "§RExtremists in the German Kommando Spezialkräfte have threatened the stability of government with plots such as Day X. Military loyalty is an important issue...§!"
+ GER_TERRORISM_tt:0 "§RThe GSG-9 is a buffer to Right Wing terrorism and coordinated extremists. They are an important department of civilian security.§!"
+
+ #JAP
+ JAP_ROYALTY_tt:0 "§RDue to the consituition the royal family is not emblemic nor influential in right wing movements.§!"
+ JAP_NATIONALISM_tt:0 "Japanese Nationalism = §G-0.1§G"
+ JAP_ZAINICHI_tt:0 "§CThis can become a hot bed of North Korean infiltration but being too harsh can suffer diplomatic pressure.§! \n§R This is important.§!"
+ JAP_ARTICLE_9_tt:0 "§RThe article of Japan does not allow us to declare war but it does allow us to be called to war. It also curbs militarism."
+ JAP_MERGERS_tt:0 "§RWeak Banks can't loan out money for comapanies leading to mergerships, this won't allow conglomerates to form..§!"
+ JAP_MUTUAL_DEFENCE_tt:0 "§R America will withdraw support if we conflict them or change alliance. Their security is important! §!"
+ 
+ #KOR
+ KOR_MUTUAL_DEFENCE_tt:0 "§R America will withdraw support if we conflict with Japan or them or change alliance. Their security is important. §!"
+ KOR_OWN_PATH_tt:0 "§RThe USA will noq terminate our military cooperation, they will not guarantee our security and will not station troops in Korea.§!"
+ 
+ #RAJ
+ RAJ_CASTE_tt:0 "§RThis is not a law as of now, yet it affects centralisation. \nThis is important.§!"
+ RAJ_JANMU_tt:0 "§RMilitant Groups have a desire to rise and liberate Janmu-Kashmir, thus having a chance of an uprising...§!"
+ RAJ_MAOIST_tt:0 "§RMilitant Maoists are waging insurgency that may as well have a chance of an uprising...§!"
+ RAJ_SSS_tt:0 "§RMilitnt groups wish to liberate many of the North East indian states and have a chance of an uprising...§!"
+ RAJ_IDENTITY_tt:0 "§RLack of a national identity and unification of language can lead to decentralization of power.§!"
+ RAJ_HINDUTVA_tt:0 "§RThis will lead to slight increases in ultra-nationalism and militarism.§!"
+
+ #PRC
+ PRC_DIPLOMACY_DOCTRINE_tt:0 "§CChina follows this diplomacy to avoid another cold war.§! \n§RThis is important.§!"
+ PRC_ONE_CHINA_POLICY:0 "§CChina is the sole recognised government of all Chinese autonomous governments.§C \n§R Foreign governments can only recognise them or China.§!"
+ PRC_XITHOUGHT_tt:0 "§CXi-Jin-Ping thought is embodied by China's Chairman and is a key policy in China's new rise.§! \n§R Removing Xi will lead to China's alternative violent rise.§!"
+ PRC_UNTOUCHABLES_tt:0 "§CFormation of the untouchables greatly reduces corruption.§! \n§REffective agaisnt Taiwanese infiltration.§!"
+ PRC_FALUN_WEAK_tt:0 "§CTHis is a growing non government organisation that threatens our stability and thus must be persecuted and curbed.§! \n§R War and instability will raise Falun Gong influence.§!"
+ PRC_MONARCHY_tt:0 "§RThis will give the new China legitimacy in the world diplomacy of nations...§!"
+ PRC_PAX_SINICA_tt:0 "§RThis allows us to have economic partnerships and good trade relations in order to make up for our undemocratic govenrment. Breaking our peace will deteriorate our trade capability.§!"
+ #SPR
+ SPR_CATALONIA_INDEPENDANCE_tt:0 "§CCatalonian independance has been strong and measures to not adress it might cause instability or future conflict.§!"
+
+ #VEN
+ VEN_MADURO_DIET_tt:0 "§CThe shortages of food will lead to an increase in Anarchism and Mafia influence and possibly famine if left unattended.§C"
+ VEN_HYPERINFLATION_tt:0 "§RThis slows down industrialisation and construction and makes the national treasury worthless. §R"
+ VEN_MIGRANT_CRISIS_tt:0 "§RColombia will now gain migrants and refugees, Catatumbo and it's militant occupiers will also gain strength.§R"
+ VEN_PIRATES_tt:0 "§R Due to rampant piracy in coastal areas, mafia influence increases and limits on coastal state resource effeciency are placed.§R"
+
+ #USA
+ USA_MILITARISM_tt:0 "§CThis keeps USA and it's allies safe but at the cost of humanitarian and developed social instituitions.§!\n§R Change of leadership will steer away from this policy.§!"
+ USA_MILITARY_COMPLEX_tt:0 "§CThe Influence of the Military industrial complex will reduce political power and centralisation.§! \n§RThis is important.§!"
+ USA_BEAR_GUNS_tt:0 "§CIf a dictatorship is formed or a foreign invasion occurs then the American people will rise up and §!§Rfight.t§!"

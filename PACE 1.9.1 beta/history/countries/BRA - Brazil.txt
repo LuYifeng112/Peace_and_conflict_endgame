@@ -1,0 +1,143 @@
+﻿capital = 500
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+	
+}
+#########################################################################################                                                                                       
+  ####   #####    ####     ##    #    #  #   ####     ##    #####  #   ####   #    #   ####  
+ #    #  #    #  #    #   #  #   ##   #  #  #        #  #     #    #  #    #  ##   #  #      
+ #    #  #    #  #       #    #  # #  #  #   ####   #    #    #    #  #    #  # #  #   ####  
+ #    #  #####   #  ###  ######  #  # #  #       #  ######    #    #  #    #  #  # #       # 
+ #    #  #   #   #    #  #    #  #   ##  #  #    #  #    #    #    #  #    #  #   ##  #    # 
+  ####   #    #   ####   #    #  #    #  #   ####   #    #    #    #   ####   #    #   ####  
+ ##########################################################################################
+set_country_flag = IMF
+ add_to_array = {
+    array = IMF
+    value = BRA
+}
+ set_country_flag = MNNA
+ add_to_array = {
+    array = MNNA
+    value = BRA
+}
+set_country_flag = WHO
+ add_to_array = {
+    array = WHO
+    value = BRA
+}
+set_country_flag = WTO
+ add_to_array = {
+    array = WTO
+    value = BRA
+}
+set_country_flag = UN
+ add_to_array = {
+ 	array = UN
+ 	value = BRA
+ }
+set_country_flag = OAS
+ add_to_array = {
+ 	array = OAS
+ 	value = BRA
+ }
+ set_country_flag = NON_AL
+ add_to_array = {
+ 	array = NON_AL
+ 	value = BRA
+ }
+ ###############################################################################################
+
+ ######                                                    
+ #     #   ####   #    #  ######   ####   #####  #   ####  
+ #     #  #    #  ##  ##  #       #         #    #  #    # 
+ #     #  #    #  # ## #  #####    ####     #    #  #      
+ #     #  #    #  #    #  #            #    #    #  #      
+ #     #  #    #  #    #  #       #    #    #    #  #    # 
+ ######    ####   #    #  ######   ####     #    #   ####  
+###############################################################
+set_variable = {
+	corruption = 35
+}
+set_variable = {
+	anarchism = 72
+}
+##################################################################
+  
+  ######                                               
+ #     #   ####   #       #  #####  #   ####    ####  
+ #     #  #    #  #       #    #    #  #    #  #      
+ ######   #    #  #       #    #    #  #        ####  
+ #        #    #  #       #    #    #  #            # 
+ #        #    #  #       #    #    #  #    #  #    # 
+ #         ####   ######  #    #    #   ####    ####  
+ ###################################################################   
+
+
+	set_popularities = {
+		democratic = 45 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 0
+		progressive = 0
+		centrist = 0
+		socialist = 0
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 55
+	}
+	set_politics = {
+	ruling_party = radical_right
+	last_election = "2018.11.7"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+	BRA_high_crime_3
+}
+
+create_country_leader = {
+	name = "Jair Bolsonaro"
+	desc = "POLITICS_JAIR_BOLSONARO_DESC"
+	picture = "gfx/leaders/BRA/BRA_Jair_Bolsonaro.dds"
+	ideology = Far_right_conservative
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fernando Haddad"
+	desc = "POLTICIS_FERNANDO_HADDAD_DESC"
+	#picture
+	ideology = social_demo
+	traits = {
+
+	}
+}
+
+
+set_convoys = 40
+

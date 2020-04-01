@@ -1,0 +1,14 @@
+state={
+	id=909
+	name="STATE_909"
+	provinces={
+		4359 12191 
+	}
+	state_category = town
+	history = {
+	owner = CAM
+	add_core_of = CAM
+	}
+	manpower=26650
+	buildings_max_level_factor=1.000
+}

@@ -40,12 +40,7 @@ add_ideas = {
 }
 2030.1.1 = {
 
-	add_ideas = {
-		#laws
-		partial_economic_mobilisation
-		service_by_requirement
-		closed_economy
-	}
+	
 	
 	set_technology = {
 		tech_mountaineers = 1
@@ -129,7 +124,8 @@ create_import = {
 
 set_country_flag = permanent_member_of_UNSC
 set_country_flag = nuclear_state
-
+set_country_flag = SH_CO
+set_country_flag = UN
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
@@ -147,6 +143,11 @@ if = {
 		puppet = MCU
 	}
 }
+	diplomatic_relation = {
+		country = DJI
+		relation = military_access
+		active = yes
+	}
 
 	diplomatic_relation = {
 		country = PAK
@@ -226,11 +227,7 @@ if = {
 }
 }
 
-add_ideas = {
-	closed_economy
-	service_by_requirement
-	partial_economic_mobilisation
-}
+
 
 ############################################Diplomacy############################################
 add_opinion_modifier = { target = CHI modifier = hostile_status }

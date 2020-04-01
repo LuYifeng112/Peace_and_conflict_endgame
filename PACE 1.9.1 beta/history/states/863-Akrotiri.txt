@@ -1,0 +1,15 @@
+state={
+	id=863
+	name="STATE_863"
+	state_category = town
+	provinces={
+		13224 
+	}
+	history = {
+	owner = ENG
+	add_core_of = ENG
+	add_core_of = CYP
+	}
+	manpower=3300
+	buildings_max_level_factor=1.000
+}

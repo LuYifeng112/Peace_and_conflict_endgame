@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		SPR_catalan_independance = {
+			
+			allowed = {
+				controls_state = 165
+			}
+
+			allowed_civil_war = {
+				controls_state = 165
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				custom_modifier_tooltip = SPR_CATALONIA_INDEPENDANCE_tt
+			}
+
+		}
+	}
+}

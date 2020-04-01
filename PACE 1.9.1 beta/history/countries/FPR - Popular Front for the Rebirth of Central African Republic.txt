@@ -1,0 +1,52 @@
+﻿capital = 779
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.1
+set_technology = {
+	infantry_weapons = 1
+	
+}
+############################################# SET UP VARIABLES ###############################################
+
+set_variable = { corruption = 35 }
+set_variable = { anarchism = 97 }
+
+
+##############################################                   ##############################################
+
+add_opinion_modifier = { target = CAR modifier = rival }
+add_opinion_modifier = { target = CAR modifier = rival_trade }
+#add_opinion_modifier = { target = UPC modifier = rival }
+#add_opinion_modifier = { target = UPC modifier = rival_trade }
+#add_opinion_modifier = { target = ABL modifier = rival }
+#add_opinion_modifier = { target = ABL modifier = rival_trade }
+
+#declare_war_on = {
+	#target = UPC
+	#type = civil_war
+#}
+
+#declare_war_on = {
+	#target = CAR
+	#type = civil_war
+#}
+set_politics = {	
+	ruling_party = authoritarianism
+	last_election = "2018.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    reactionary = 100
+}
+
+create_country_leader = {
+	name = "Noureddine Adam"
+	picture = "Noureddine_Adam.dds"
+	ideology = military_junta
+	traits = {
+		#warlord
+	}
+}

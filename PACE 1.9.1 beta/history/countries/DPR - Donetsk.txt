@@ -1,0 +1,55 @@
+﻿capital = 227
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.5
+set_war_support = 1.0
+set_technology = {
+	infantry_weapons = 1
+}
+############################################# SET UP VARIABLES ###############################################
+
+set_variable = { corruption = 58 }
+set_variable = { anarchism = 51 }
+
+
+##############################################                   ##############################################
+
+declare_war_on = {
+	target = UKR
+	type = annex_everything
+}
+give_military_access = SOV
+
+
+
+
+set_politics = {	
+	ruling_party = reactionary 
+	last_election = "2018.11.11"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    nationalism = 26
+    reactionary = 74
+}
+
+create_country_leader = {
+	name = "Alexander Zakharchenko"
+	picture = "Alexander_Zakharchenko.dds"
+	ideology = anti_left
+}
+
+create_country_leader = {
+	name = "Yuri Sivokonenko"
+	picture = "Yuri_Sivokonenko.dds"
+	ideology = national_democrat
+}
+
+create_corps_commander = {
+	name = "Aleksandar Zakharchenko"
+	picture = "generals/Aleksandar_Zakharchenko.dds"
+	skill = 3
+}

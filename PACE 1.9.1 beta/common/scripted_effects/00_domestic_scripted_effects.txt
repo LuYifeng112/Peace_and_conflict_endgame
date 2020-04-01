@@ -1,0 +1,318 @@
+
+########################################################### COVID_19 ##################################################################
+
+
+covid_clamp = {
+	if = {
+		limit = {
+			has_country_flag = infected
+			any_state = {
+				has_variable = infected_pop
+			}
+			
+		}
+	}
+	clamp_variable = {
+		var = infected_pop
+		min = 0
+		max = state_population
+	}
+}
+
+set_covid_day_count = {
+	meta_effect = {
+		text = {
+			 set_global_flag = [tag]_is_infected
+		}
+		tag = "[?original_tag]"
+	}
+	set_variable = {
+		var = spread_r
+		value = 1.1
+	}
+}
+
+
+
+######################################################### FOOD FOR HUMANS #################################################################
+
+init_housing_size = {
+	
+	if = {
+		limit = {
+			has_manpower < 500000 
+		}
+		set_variable = {
+			var = housing_size
+			value = 1000
+		}
+	}
+	if = {
+		limit = {
+			has_manpower < 2500000
+		}
+		set_variable = {
+			var = housing_size
+			value = 25000
+		}
+	}
+	if = {
+		limit = {
+			has_manpower < 5000000
+		}
+		set_variable = {
+			var = housing_size
+			value = 25000
+		}
+	}
+	if = {
+		limit = {
+			has_manpower < 10000000
+		}
+		set_variable = {
+			var = housing_size
+			value = 100000
+		}
+	}
+	if = {
+		limit = {
+			has_manpower < 20000000
+		}
+		set_variable = {
+			var = housing_size
+			value = 500000
+		}
+	}
+	if = {
+		limit = {
+			has_manpower < 50000000
+		}
+		set_variable = {
+			var = housing_size
+			value = 1000000
+		}
+	}
+	if = {
+		limit = {
+			has_manpower < 100000000
+		}
+		set_variable = {
+			var = housing_size
+			value = 5000000
+		}
+	}
+
+}
+
+init_housing = {
+	set_variable = {
+		var = population
+		value = state_population_k
+	}
+	set_variable = {
+		var = housing
+		value = building_level@housing_district
+	}
+	multiply_variable = {
+		var = housing
+		value = housing_size
+	}
+}
+
+init_food = {
+	set_variable = {
+		var = food_need
+		value = building_level@housing_district
+	}
+	multiply_variable = {
+		var = food_need
+		value = 5
+	}
+	set_variable = {
+		var = food_stock
+		value = building_level@farm
+	}
+	add_to_variable = {
+		var = food_stock
+		value = building_level@fishery
+	}
+	multiply_variable = {
+		var = food_stock
+		value = 15
+	}
+}
+
+
+
+average_global_state_growth_effect = {
+		every_state = {
+			add_state_modifier = {
+    			modifier = {
+       				MONTHLY_POPULATION = 0.01
+    			}
+			}
+		}
+}
+
+
+########################################################## Protestors ########################################################################
+set_protest = {	
+	set_country_flag = protests_active
+	set_temp_variable = {
+		var = protest_popualtion
+		value = manpower_per_military_factory
+	}
+	divide_temp_variable = {
+		var = protest_population
+		value = 100
+	}
+	set_temp_variable = {
+		var = instability
+		value = modifier@party_popularity_stability_factor
+	}
+	subtract_from_temp_variable = {
+		var = instability
+		value = 1
+	}
+	multiply_temp_variable = {
+		var = instability
+		value = 100
+	}
+	set_variable = {
+		var = protest
+		value = protest_population
+	}
+	set_variable = {
+		var = population
+		value = manpower
+	}
+	clamp_variable = {
+		var = protest
+		min = 0
+		max = population
+	}
+	set_variable = {
+		var = protest_anger
+		value = instability
+	}
+	
+}
+
+clear_protest = {
+	clear_variable = protest
+	clear_variable = protest_anger
+	clear_variable = protest_intensity
+	clr_country_flag = protests_active
+}
+
+
+calc_protest = {
+	add_to_variable = {
+		var = protest_intensity
+		value = protest_anger
+	}
+	add_to_variable = {
+		var = protest_intensity
+		value = protest
+	}
+    divide_variable = {
+	 	var = protest_intensity
+	 	value = 2
+	}
+	clamp_variable = {
+		var = protest_intensity
+		min = 0
+		max = 100
+	}
+	set_variable = {
+		var = protest_negative_int
+		value = protest_intensity
+	}
+	multiply_variable = {
+		var = protest_negative_int
+		value = -0.01
+	}
+	clamp_variable = {
+		var = protest_negative_int
+		min = 0
+		max = 1
+	}
+}
+
+
+############################## INDEPENDANCE EFFECTS ###############################################################
+
+#Remove Cores when an exiled group or faction is dissolved
+
+#ROOT_give_up = {
+#	every_state = {
+#		is_core_of = ROOT
+#	}
+#	remove_core_of = ROOT
+#}
+
+
+#################### CORRUPTION AND INSTABILITY EFFECTS ##############################################################
+
+set_high_instability_corruption = {
+		set_variable = { corruption = 21 }
+		set_variable = { anarchism = 100 }
+}
+
+declare_emergency_effect = {
+	add_to_variable = { corruption = 3 }
+	subtract_from_variable = { anarchism = 10 }
+}
+
+raise_corruption = {
+	subtract_from_variable = { corruption = 1 }
+}
+
+decrease_corruption = {
+	add_to_variable = { corruption = 1 }
+}
+
+backup_addon = {
+	if = {
+		limit = {
+			NOT = { has_variable = corruption }
+		}
+	}
+	set_variable = { corruption = 40 }
+	if = {
+		limit = {
+			NOT = { has_variable = anarchism }
+		}
+	}
+	set_variable = { anarchism = 40 }
+}
+
+
+
+election_reward = {
+	set_variable = { federalism = num_of_owned_states }
+	multiply_variable = { federalism = 100 }
+	add_political_power = var:federalism
+}
+
+init_army_support = {
+		set_variable = { ROOT.army_support = war_support }
+		add_to_variable = { ROOT.army_support = command_power }
+		divide_variable = { ROOT.army_support = 2 }
+}
+
+init_police_support = {
+		set_variable = { ROOT.police_support = stability }
+		multiply_variable = { ROOT.police_support = 100 }
+		subtract_from_variable = { ROOT.police_support = ROOT.anarchism }
+}
+
+init_mafia_support = {
+		set_variable = { joint_PC_support = ROOT.police_support }
+		add_to_variable = { joint_PC_support = ROOT.corruption }
+		set_variable = { MAXOUT_suport = 100 }
+		subtract_from_variable = { MAXOUT_support = joint_PC_support }
+		set_variable = { ROOT.mafia_support = MAXOUT_support }
+		subtract_from_variable = { ROOT.mafia_support = ROOT.anarchism }
+}
+

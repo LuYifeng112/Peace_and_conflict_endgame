@@ -13,6 +13,8 @@
  autonomy_wtt_imperial_protectorate:0 "Imperial Protectorate"
  autonomy_wtt_imperial_subject:1 "Imperial Subject"
  autonomy_special_administrative_region:0 "Special Adminstrative Region"
+ insurgent_militia:0 "Backed Insurgency group"
+ supervised_government:0 "Start up Government"
  AUTONOMY_CAN_TAKE_DESC:1 "$OWNER|UH$ can become $NEXTLEVEL|H$"
  AUTONOMY_CANT_TAKE_DESC:1 "$OWNER|UH$ can not become $NEXTLEVEL|H$ yet"
  AUTONOMY_CAN_LOSE_DESC:1 "$OWNER|UH$ can be reduced to $PREVLEVEL|H$"

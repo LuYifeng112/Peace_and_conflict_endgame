@@ -132,6 +132,14 @@ if = {
 	set_autonomy = {
 		target = SDF
 		autonomous_state = autonomy_puppet
+	} 
+	declare_war_on = {
+		target = KUR
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = ROJ
+		type = annex_everything
 	}
 
 #########################################################################
@@ -167,34 +175,46 @@ TUR = { diplomatic_relation = { country = SLO relation = military_access active 
 TUR = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
 
 	set_popularities = {
-		democratic = 5 
+		democratic = 30 
 		fascism = 0
 		communism = 0
 		neutrality = 0
 		salafist = 0
-		nationalism = 0
+		nationalism = 50
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 0
+		progressive = 0
 		centrist = 0
-		socialist = 5
+		socialist = 0
 		Novusism = 0
 		authoritarianism = 0
 		imperialism = 0
-		liberalism = 20
+		liberalism = 0
 		Chinese_socialism = 0
 		anarchism = 0
-		liberal_conservatism = 0
+		liberal_conservatism = 20
 		social_liberal = 0
 		market_liberal = 0
 		radical_right = 0
 	}
 	set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = conservative
+	last_election = "2019.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+create_country_leader = {
+	name = "Recep Tayyip Erdoğan"
+	desc = "POLITICS_RECEP_TAYYIP_ERDOGAN_DESC"
+	picture = "gfx/leaders/TUR/TUR_recep.dds"
+	ideology = national_conservatism
+	traits = {
+		paranoid_of_pkk
+		anti_semitic_leader
+		crackdown_on_seperatists_TUR
+		kill_ROJ
+	}
 }
 
 set_convoys = 20
@@ -221,64 +241,14 @@ set_stability = 0.55
 		Chinese_socialism = 0
 	}
 	set_politics = {
-	ruling_party = salafist
+	ruling_party = conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 }
-create_country_leader = {
-	name = "Recep Tayyip Erdoğan"
-	desc = "POLITICS_RECEP_TAYYIP_ERDOGAN_DESC"
-	picture = "Portrait_Turkey_Ismet_Inonu.dds"
-	ideology = islamic_democracy
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Mustafa Kemal Atatürk"
-	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
-	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
-	expire = "1938.11.10"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Sefik Hüsnü"
-	desc = "POLITICS_SEFIK_HUSNU_DESC"
-	picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Celâl Bayar"
-	desc = "POLITICS_CELAL_BAYAR_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = social_demo
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Fevzi Çakmak"
-	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
 
 create_corps_commander = {
 	name = "Cemil Cahit Toydemir"

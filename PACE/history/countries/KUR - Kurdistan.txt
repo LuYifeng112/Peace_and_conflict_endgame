@@ -68,28 +68,28 @@ set_convoys = 5
 	}
 }
 #############################################war##############################################
-	set_autonomy = {
-		target = ROJ
-		autonomous_state = autonomy_puppet
-	}
+	#set_autonomy = {
+	#	target = ROJ
+	#	autonomous_state = autonomy_puppet
+	#}
 ####################################popularity##################################
 	set_popularities = {
-		democratic = 5 
+		democratic = 30 
 		fascism = 0
 		communism = 0
 		neutrality = 0
 		salafist = 0
-		nationalism = 0
+		nationalism = 70
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 0
+		progressive = 0
 		centrist = 0
-		socialist = 5
+		socialist = 0
 		Novusism = 0
 		authoritarianism = 0
 		imperialism = 0
-		liberalism = 20
+		liberalism = 0
 		Chinese_socialism = 0
 		anarchism = 0
 		liberal_conservatism = 0
@@ -99,7 +99,7 @@ set_convoys = 5
 	}
 	set_politics = {
 	ruling_party = nationalism
-	last_election = "1936.1.1"
+	last_election = "2020.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -110,7 +110,10 @@ create_country_leader = {
 	picture = "gfx/leaders/KUR/KUR_Nechirvan_Barzani.dds"
 	ideology = kurdish_nationalism
 	traits = {
-		#
+		westerniser
+		IRQ_cooperation
+		KUR_international_diplomacy_effort
+		PI_liberalism
 	}
 }
 

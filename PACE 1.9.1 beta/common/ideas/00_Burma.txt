@@ -1,0 +1,48 @@
+ideas = {
+		
+	country = {
+		
+		BRM_rohingya_genocide = {
+
+			allowed = {
+				if = {
+					authoritarianism > 0.25
+				}
+			}
+
+			allowed_civil_war = {
+				has_democratic_form_of_government = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.2
+				non_core_manpower = -0.2
+				opinion_gain_monthly_factor = -0.3
+				trade_opinion_factor = -0.25
+				custom_modifier_tooltip = BRM_GENOCIDE_tt
+			}
+		}
+
+		BRM_nationality_law = {
+
+			allowed = {
+				if = {
+					authoritarianism > 0.1
+				}
+			}
+
+			allowed_civil_war = {
+				has_democratic_form_of_government = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				custom_modifier_tooltip = BRM_NATIONALITY_LAW_tt
+			}
+		}
+				
+	}
+}

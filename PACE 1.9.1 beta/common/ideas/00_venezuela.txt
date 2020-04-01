@@ -1,0 +1,110 @@
+ideas = {
+
+	country = {
+
+		VEN_maduro_diet = {
+
+			allowed = {
+				original_tag = VEN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				weekly_manpower = -1000
+				conscription = -0.15
+				MONTHLY_POPULATION = -0.005
+				production_speed_buildings_factor = -0.15
+				stability_factor = -0.10
+				custom_modifier_tooltip = VEN_MADURO_DIET_tt
+			}
+		}
+		
+		VEN_hyperinflation = {
+
+			allowed = {
+				original_tag = VEN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				stability_factor = -0.10
+				custom_modifier_tooltip = VEN_HYPERINFLATION_tt
+			}
+		}
+
+		VEN_migrant_crisis = {
+
+			allowed = {
+				original_tag = VEN
+				country_exists = COL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				weekly_manpower = -200
+				conscription = -0.025
+				MONTHLY_POPULATION = -0.001
+				custom_modifier_tooltip = VEN_MIGRANT_CRISIS_tt
+			}
+		}
+
+		VEN_coastal_piracy = {
+
+			on_add = {
+   				add_resource = {
+   				type = oil
+   				amount = -20
+   				state = 489
+				}
+				add_resource = {
+    			type = oil
+    			amount = -30
+    			state = 307
+				}
+ 			}
+			allowed = {
+				original_tag = VEN
+				VEN = {
+					any_owned_state = {
+    					is_coastal = yes
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = -0.15
+				no_supply_grace = -6
+				convoy_escort_efficiency = -0.25
+				stability_factor = -0.1
+				custom_modifier_tooltip = VEN_PIRATES_tt
+			}
+		}
+
+
+
+	
+	}
+
+}	

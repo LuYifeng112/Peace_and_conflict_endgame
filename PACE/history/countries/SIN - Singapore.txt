@@ -71,6 +71,7 @@ add_ideas = {
 	SIN_public_order_act
 	four_asian_tigers
 	SIN_singapore_model
+	MAL_SIN_1990_dispute
 }
 
 2030.1.1 = {
@@ -169,6 +170,9 @@ add_ideas = {
 		}
 	}
 }
+################### ORG #########################
+set_country_flag = ASEAN
+###############################################
 
 	set_popularities = {
 		democratic = 14
@@ -305,7 +309,7 @@ create_corps_commander = {
 	#picture = "Portrait_Germany_Heinz_Guderian.dds"
 	traits = { trickster brilliant_strategist armor_officer career_officer }
 	skill = 2
-	id = 101
+	id = 104
 	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 2

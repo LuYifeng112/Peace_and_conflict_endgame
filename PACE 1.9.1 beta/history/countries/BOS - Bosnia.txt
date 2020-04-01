@@ -1,0 +1,59 @@
+﻿capital = 104
+
+set_research_slots = 3
+
+# Starting tech
+# clone of Yugoslavia
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	
+}
+
+	set_popularities = {
+		democratic = 40 
+		fascism = 10
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 40
+		monarchist = 0
+		reactionary = 0
+		conservative = 10
+		progressive = 0
+		centrist = 0
+		socialist = 0
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "2018.10.7"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	
+	name = "Zoran Tegeltija"
+	desc = "POLITICS_ZORAN_TEGELTIJA_DESC"
+	picture = "gfx/leaders/BOS/BOS_zoran.dds"
+	ideology = social_demo
+	traits = {
+		#
+	}
+}

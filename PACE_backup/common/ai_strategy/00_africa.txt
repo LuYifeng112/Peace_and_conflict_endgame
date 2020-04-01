@@ -1,0 +1,1408 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# alliance
+# ignore
+# invade
+
+british_sierra_leone_relationship = {
+	enable = {
+		tag = ENG
+		ENG = { has_democratic_form_of_government = yes }
+		country_exists = SIE
+		SIE = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = SIE }
+			SIE = { has_democratic_form_of_government = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SIE"
+		value = 200
+	}
+	ai_strategy = {
+		type = protect
+		id = "SIE"
+		value = 200
+	}	
+}
+
+british_NGRerian_relationship = {
+	enable = {
+		tag = ENG
+		ENG = { has_democratic_form_of_government = yes }
+		country_exists = NGR
+		NGR = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+			NGR = { has_democratic_form_of_government = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "NGR"
+		value = 200
+	}
+}
+
+british_south_african_relationship = {
+	enable = {
+		tag = ENG
+		ENG = { has_democratic_form_of_government = yes }
+		country_exists = SAF
+		SAF = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = SAF }
+			SAF = { has_democratic_form_of_government = no }
+			date > 2010.6.15 # Visa restrictions
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SAF"
+		value = 200
+	}
+}
+
+british_somali_relationship = {
+	enable = {
+		tag = ENG
+		ENG = { has_democratic_form_of_government = yes }
+		country_exists = SOM
+		SOM = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = SOM }
+			SOM = { has_democratic_form_of_government = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SOM"
+		value = 200
+	}
+}
+
+#british_somaliland_relationship = {
+#	enable = {
+#		tag = ENG
+#		ENG = { has_democratic_form_of_government = yes }
+#		country_exists = SML
+#		SML = { has_democratic_form_of_government = yes }
+#	}
+#	abort = {
+#		OR = {
+#			NOT = { country_exists = SML }
+#			SML = { has_democratic_form_of_government = no }
+#		}
+#	}
+#	
+#	ai_strategy = {
+#		type = befriend
+#		id = "SML"
+#		value = 200
+#	}
+#}
+
+
+british_sudanese_relationship = {
+	enable = {
+		tag = ENG
+		ENG = { has_democratic_form_of_government = yes }
+		country_exists = SUD
+		SUD = {
+			OR = {
+				has_democratic_form_of_government = yes
+				has_government = islamist
+			}
+		}
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = SUD }
+			NOT = {
+				OR = {
+					has_democratic_form_of_government = yes
+					has_government = islamist
+				}
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SUD"
+		value = 200
+	}
+}
+
+
+NGReria_angola_mutual_relationship = {
+	enable = {
+		tag = NGR
+		country_exists = NGR
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = ANG }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "ANG"
+		value = 50
+	}	
+}
+
+NGReria_cameroon_border_tension = {
+	enable = {
+		tag = NGR
+		country_exists = CMR
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = CMR }
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAM"
+		value = 100
+	}	
+}
+
+NGReria_ghana_mutual_relationship = {
+	enable = {
+		tag = NGR
+		NGR = { has_democratic_form_of_government = yes }
+		country_exists = GHA
+		GHA = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = GHA }
+			NGR = { has_democratic_form_of_government = no }
+			GHA = { has_democratic_form_of_government = no }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "GHA"
+		value = 50
+	}	
+}
+
+NGReria_NGRer_mutual_relationship = {
+	enable = {
+		tag = NGR
+		NGR = { has_democratic_form_of_government = yes }
+		country_exists = NGR
+		NGR = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+			NGR = { has_democratic_form_of_government = no }
+			NGR = { has_democratic_form_of_government = no }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "NGR"
+		value = 50
+	}	
+}
+
+NGReria_pakistan_mutual_relationship = {
+	enable = {
+		tag = NGR
+		country_exists = PAK
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = PAK }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "PAK"
+		value = 50
+	}	
+}
+
+NGReria_uk_relationship = {
+	enable = {
+		tag = NGR
+		country_exists = ENG
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = ENG }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "ENG"
+		value = 50
+	}	
+}
+
+
+NGReria_barbados_unilateral_relationship = {
+	enable = {
+		tag = NGR
+		country_exists = BRB
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = BRB }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "BRB"
+		value = 100
+	}	
+}
+
+NGReria_equatorial_guinea_tension = {
+	enable = {
+		tag = NGR
+		country_exists = EQU
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = EQU }
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "EQU"
+		value = 50
+	}	
+}
+
+libya_egypt_relationship = {
+	enable = {
+		tag = LBA
+		country_exists = EGY
+	}
+	abort = {
+		NOT = { country_exists = EGY }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "EGY"
+		value = 200
+	}
+}
+
+libya_pakistan_relationship = {
+	enable = {
+		tag = LBA
+		country_exists = PAK
+	}
+	abort = {
+		NOT = { country_exists = PAK }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "PAK"
+		value = 200
+	}
+}
+
+
+
+libya_NGRer_border_friction = {
+	enable = {
+		tag = LBA
+		country_exists = NGR
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "NGR"
+		value = 50
+	}
+}
+
+angolan_COG_stability_relationship = {
+	enable = {
+		tag = ANG
+		country_exists = COG
+		OR = {
+			country_exists = MLC
+			country_exists = RCD
+		}
+		COG = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = COG }
+			COG = { has_democratic_form_of_government = no }
+			NOT = {
+				country_exists = MLC
+				country_exists = RCD
+			}
+			date > 2009.6.15 #Border explusions
+		}
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "COG"
+		value = 200
+	}
+}
+
+angolan_saf_relationship = {
+	enable = {
+		tag = ANG
+		ANG = { has_democratic_form_of_government = yes }
+		country_exists = SAF
+		SAF = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = SAF }
+			SAF = { has_democratic_form_of_government = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SAF"
+		value = 200
+	}
+}
+
+angolan_namibian_relationship = {
+	enable = {
+		tag = ANG
+		country_exists = NAM
+	}
+	abort = {
+		NOT = { country_exists = NAM }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "NAM"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "NAM"
+		value = 200
+	}
+}
+
+angolan_cape_verde_relationship = {
+	enable = {
+		tag = ANG
+		country_exists = CAB
+	}
+	abort = {
+		NOT = { country_exists = CAB }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "CAB"
+		value = 200
+	}
+}
+
+NGReria_angola_mutual_relationship = {
+	enable = {
+		tag = ANG
+		country_exists = NGR
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "NGR"
+		value = 50
+	}	
+}
+
+algeria_tunisia_relationship = {
+	enable = {
+		tag = ALG
+		country_exists = TUN
+	}
+	abort = {
+		NOT = { country_exists = TUN }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "TUN"
+		value = 200
+	}
+}
+
+algeria_morocco_western_sahara_relationship = {
+	enable = {
+		tag = ALG
+		country_exists = MOR
+		country_exists = WSH
+	}
+	abort = {
+		NOT = { country_exists = MOR }
+		NOT = { country_exists = WSH }
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "MOR"
+		value = 200
+	}
+}
+
+algeria_western_sahara_relationship = {
+	enable = {
+		tag = ALG
+		country_exists = WSH
+	}
+	abort = {
+		NOT = { country_exists = WSH }
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "WSH"
+		value = 200
+	}
+}
+
+algeria_france_relationship = {
+	enable = {
+		tag = ALG
+		country_exists = FRA
+	}
+	abort = {
+		NOT = { country_exists = FRA }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "FRA"
+		value = 200
+	}
+}
+
+algeria_greece_relationship = {
+	enable = {
+		tag = ALG
+		country_exists = GRE
+	}
+	abort = {
+		NOT = { country_exists = GRE }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "GRE"
+		value = 200
+	}
+}
+
+algeria_pakistan_relationship = {
+	enable = {
+		tag = ALG
+		country_exists = PAK
+	}
+	abort = {
+		NOT = { country_exists = PAK }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "PAK"
+		value = 200
+	}
+}
+
+algeria_us_relationship = {
+	enable = {
+		tag = ALG
+		country_exists = USA
+		date > 2001.9.11
+	}
+	abort = {
+		NOT = { country_exists = USA }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "USA"
+		value = 200
+	}
+}
+
+NGReria_ghana_mutual_relationship = {
+	enable = {
+		tag = GHA
+		GHA = { has_democratic_form_of_government = yes }
+		country_exists = NGR
+		NGR = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+			GHA = { has_democratic_form_of_government = no }
+			NGR = { has_democratic_form_of_government = no }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "NGR"
+		value = 50
+	}
+}
+
+ghana_burkina_faso_mutual_relationship = {
+		enable = {
+		tag = GHA
+		GHA = { has_democratic_form_of_government = yes }
+		country_exists = VOL
+		VOL = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = VOL }
+			GHA = { has_democratic_form_of_government = no }
+			VOL = { has_democratic_form_of_government = no }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "VOL"
+		value = 150
+	}
+}
+
+ghana_togo_tension = {
+	enable = {
+		tag = GHA
+		country_exists = TOG
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = TOG }
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TOG"
+		value = 50
+	}	
+}
+
+ghana_china_mutual_relationship = {
+		enable = {
+		tag = GHA
+		country_exists = PRC
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = PRC }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "PRC"
+		value = 50
+	}
+}
+
+ghana_japan_mutual_relationship = {
+		enable = {
+		tag = GHA
+		country_exists = JAP
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = JAP }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "JAP"
+		value = 50
+	}
+}
+
+
+NGReria_NGRer_mutual_relationship = {
+	enable = {
+		tag = NGR
+		NGR = { has_democratic_form_of_government = yes }
+		country_exists = NGR
+		NGR = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+			NGR = { has_democratic_form_of_government = no }
+			NGR = { has_democratic_form_of_government = no }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "NGR"
+		value = 50
+	}
+}
+
+DAHin_NGRer_mutual_relationship = {
+	enable = {
+		tag = NGR
+		NGR = { has_democratic_form_of_government = yes }
+		country_exists = DAH
+		DAH = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = DAH }
+			NGR = { has_democratic_form_of_government = no }
+			DAH = { has_democratic_form_of_government = no }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "DAH"
+		value = 100
+	}
+}
+
+france_NGRer_mutual_relationship = {
+	enable = {
+		tag = NGR
+		country_exists = FRA
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = FRA }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "FRA"
+		value = 50
+	}
+}
+
+
+mali_NGRer_mutual_relationship = {
+	enable = {
+		tag = NGR
+		country_exists = MAL
+		NGR = { has_democratic_form_of_government = yes }
+		MAL = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = MAL }
+			NGR = { has_democratic_form_of_government = no }
+			MAL = { has_democratic_form_of_government = no }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "MAL"
+		value = 100
+	}
+}
+
+egypt_libya_relationship = {
+	enable = {
+		tag = EGY
+		country_exists = LBA
+	}
+	abort = {
+		NOT = { country_exists = LBA }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "LBA"
+		value = 200
+	}
+}
+
+egypt_morocco_relationship = {
+	enable = {
+		tag = EGY
+		country_exists = MOR
+	}
+	abort = {
+		NOT = { country_exists = MOR }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "MOR"
+		value = 200
+	}
+}
+
+egypt_somalia_relationship = {
+	enable = {
+		tag = EGY
+		country_exists = SOM
+	}
+	abort = {
+		NOT = { country_exists = SOM }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SOM"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "SOM"
+		value = 200
+	}
+}
+
+egypt_sudan_relationship = {
+	enable = {
+		tag = EGY
+		country_exists = SUD
+	}
+	abort = {
+		NOT = { country_exists = SUD }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SUD"
+		value = 200
+	}
+}
+
+egypt_usa_relationship = {
+	enable = {
+		tag = EGY
+		country_exists = USA
+	}
+	abort = {
+		NOT = { country_exists = USA }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "USA"
+		value = 200
+	}
+}
+
+morocco_western_sahara_relationship = {
+	enable = {
+		tag = MOR
+		country_exists = WSH
+	}
+	abort = {
+		NOT = { country_exists = WSH }
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "WSH"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "WSH"
+		value = 200
+	}
+}
+
+morocco_algeria_WSH_relationship = {
+	enable = {
+		tag = MOR
+		country_exists = ALG
+		country_exists = WES
+	}
+	abort = {
+		NOT = { country_exists = ALG }
+		NOT = { country_exists = WES }
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "ALG"
+		value = 200
+	}
+}
+
+morocco_france_relationship = {
+	enable = {
+		tag = MOR
+		country_exists = FRA
+	}
+	abort = {
+		NOT = { country_exists = FRA }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "FRA"
+		value = 200
+	}
+}
+
+morocco_us_relationship = {
+	enable = {
+		tag = MOR
+		country_exists = USA
+	}
+	abort = {
+		NOT = { country_exists = USA }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "USA"
+		value = 200
+	}
+}
+
+rwandan_COG_instability_relationship = {
+	enable = {
+		tag = RWA
+		country_exists = COG
+		COG = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = COG }
+			COG = { has_democratic_form_of_government = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "COG"
+		value = 200
+	}
+}
+
+rwandan_RCD_support = {
+	enable = {
+		tag = RWA
+		country_exists = RCD
+	}
+	abort = {
+		NOT = { country_exists = RCD }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "RCD"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = influence
+		id = "RCD"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "RCD"
+		value = 200
+	}
+}
+
+
+rwandan_burundi_border_tension = {
+	enable = {
+		tag = RWA
+		country_exists = BUR
+	}
+	abort = {
+		NOT = { country_exists = BUR }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "BUR"
+		value = 200
+	}
+}
+zambian_COG_stability_relationship = {
+	enable = {
+		tag = ZAM
+		country_exists = COG
+		OR = {
+			country_exists = MLC
+			country_exists = RCD
+		}
+		COG = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = COG }
+			COG = { has_democratic_form_of_government = no }
+			NOT = {
+				country_exists = MLC
+				country_exists = RCD
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "COG"
+		value = 200
+	}
+}
+
+zambian_saf_relationship = {
+	enable = {
+		tag = ZAM
+		ZAM = { has_democratic_form_of_government = yes }
+		country_exists = SAF
+		SAF = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = SAF }
+			SAF = { has_democratic_form_of_government = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "SAF"
+		value = 200
+	}
+}
+french_gabon_relationship = {
+	enable = {
+		tag = FRA
+		FRA = { has_democratic_form_of_government = yes }
+		country_exists = GAB
+		GAB = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = GAB }
+			GAB = { has_democratic_form_of_government = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "GAB"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "GAB"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = garrison
+		id = "GAB"
+		value = 200
+	}
+}
+
+
+france_NGRer_relationship = {
+	enable = {
+		tag = FRA
+		country_exists = NGR
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "NGR"
+		value = 100
+	}
+	ai_strategy = {
+		type = protect
+		id = "NGR"
+		value = 50
+	}
+}
+portugese_angola_relationship = {
+	enable = {
+		tag = POR
+		POR = { has_democratic_form_of_government = yes }
+		country_exists = ANG
+		ANG = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = ANG }
+			ANG = { has_democratic_form_of_government = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "ANG"
+		value = 200
+	}
+}
+
+portugese_mozambique_relationship = {
+	enable = {
+		tag = POR
+		POR = { has_democratic_form_of_government = yes }
+		country_exists = MZB
+		MZB = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = MZB }
+			MZB = { has_democratic_form_of_government = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "MZB"
+		value = 200
+	}
+}
+ugandan_COG_instability_relationship = {
+	enable = {
+		tag = UGA
+		country_exists = COG
+		COG = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = COG }
+			COG = { has_democratic_form_of_government = no }
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "COG"
+		value = 200
+	}
+}
+
+rwandan_MLC_support = {
+	enable = {
+		tag = UGA
+		country_exists = MLC
+	}
+	abort = {
+		NOT = { country_exists = MLC }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "MLC"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = influence
+		id = "MLC"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = protect
+		id = "MLC"
+		value = 200
+	}
+}
+#liberia_guinea_ruf_tensions = {
+#	enable = {
+#		tag = LIB
+#		has_government = reactionary
+#		country_exists = GUI
+#	}
+#	abort = {
+#		OR = {
+#			NOT = { country_exists = GUI }
+#			NOT = { has_government = reactionary }
+#		}
+#	}
+#	ai_strategy = {
+#		type = antagonize
+#		id = "GUI"
+#		value = 200
+#	}
+#}
+
+liberia_sierra_leone_ruf_tensions = {
+	enable = {
+		tag = LIB
+		has_government = reactionary
+		country_exists = SIE
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = SIE }
+			NOT = { has_government = reactionary }
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIE"
+		value = 200
+	}
+}
+
+ghana_burkina_faso_mutual_relationship = {
+		enable = {
+		tag = VOL
+		VOL = { has_democratic_form_of_government = yes }
+		country_exists = GHA
+		GHA = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = GHA }
+			VOL = { has_democratic_form_of_government = no }
+			GHA = { has_democratic_form_of_government = no }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "GHA"
+		value = 150
+	}
+}
+Mali_NGRer_mutual_relationship = {
+	enable = {
+		tag = MLI
+		country_exists = NGR
+		NGR = { has_democratic_form_of_government = yes }
+		MLI = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+			NGR = { has_democratic_form_of_government = no }
+			MLI = { has_democratic_form_of_government = no }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "NGR"
+		value = 100
+	}
+}
+DAHin_NGRer_mutual_relationship = {
+	enable = {
+		tag = DAH
+		DAH = { has_democratic_form_of_government = yes }
+		country_exists = NGR
+		NGR = { has_democratic_form_of_government = yes }
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+			DAH = { has_democratic_form_of_government = no }
+			NGR = { has_democratic_form_of_government = no }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "NGR"
+		value = 100
+	}
+}
+tunisia_algeria_relationship = {
+	enable = {
+		tag = TUN
+		country_exists = ALG
+	}
+	abort = {
+		NOT = { country_exists = ALG }
+	}
+	
+	ai_strategy = {
+		type = befriend
+		id = "ALG"
+		value = 200
+	}
+}
+liberia_sierra_leone_ruf_tensions = {
+	enable = {
+		tag = SIE
+		LIB = { has_government = reactionary }
+		country_exists = LIB
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = LIB }
+			NOT = { LIB = { has_government = reactionary } }
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "LIB"
+		value = 200
+	}
+}
+liberia_guinea_ruf_tensions = {
+	enable = {
+		tag = GNA
+		LIB = { has_government = reactionary }
+		country_exists = LIB
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = LIB }
+			NOT = { LIB = { has_government = reactionary } }
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "LIB"
+		value = 200
+	}
+}
+NGReria_cameroon_border_tension = {
+	enable = {
+		tag = CMR
+		country_exists = NGR
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "NGR"
+		value = 100
+	}	
+}
+NGReria_pakistan_mutual_relationship = {
+	enable = {
+		tag = PAK
+		country_exists = NGR
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "NGR"
+		value = 50
+	}	
+}
+NGReria_equatorial_guinea_tension = {
+	enable = {
+		tag = EQG
+		country_exists = NGR
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = NGR }
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "NGR"
+		value = 50
+	}	
+}
+ghana_china_mutual_relationship = {
+		enable = {
+		tag = PRC
+		country_exists = GHA
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = GHA }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "GHA"
+		value = 200
+	}
+}
+ghana_japan_mutual_relationship = {
+	enable = {
+		tag = JAP
+		country_exists = GHA
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = GHA }
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "GHA"
+		value = 50
+	}
+}
+ghana_togo_tension = {
+	enable = {
+		tag = TOG
+		country_exists = GHA
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = GHA }
+		}
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GHA"
+		value = 50
+	}	
+}

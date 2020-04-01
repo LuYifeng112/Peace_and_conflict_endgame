@@ -1,0 +1,203 @@
+﻿capital = 100 #Iceland
+
+oob = "ICE_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+	disarmed_nation
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	tech_recon = 1
+}
+
+2030.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "ICE_1939"
+	set_technology = {
+		gw_artillery = 1
+		interwar_artillery = 1
+		interwar_antiair = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		submarine_operations = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+#NATO
+
+set_country_flag = NATO_member
+
+ICE = { diplomatic_relation = { country = FRA relation = military_access active = yes } }   #France
+ICE = { diplomatic_relation = { country = CAN relation = military_access active = yes } }   #Canada
+ICE = { diplomatic_relation = { country = HOL relation = military_access active = yes } }   #Netherlands
+ICE = { diplomatic_relation = { country = BEL relation = military_access active = yes } }   #Belgium
+ICE = { diplomatic_relation = { country = LUX relation = military_access active = yes } }   #Luxemborg
+ICE = { diplomatic_relation = { country = ITA relation = military_access active = yes } }   #Italy 
+ICE = { diplomatic_relation = { country = USA relation = military_access active = yes } }   #USA
+ICE = { diplomatic_relation = { country = NOR relation = military_access active = yes } }   #Norway
+ICE = { diplomatic_relation = { country = DEN relation = military_access active = yes } }   #Denmark
+ICE = { diplomatic_relation = { country = ENG relation = military_access active = yes } }   #UK
+ICE = { diplomatic_relation = { country = POR relation = military_access active = yes } }   #Portugal
+ICE = { diplomatic_relation = { country = GER relation = military_access active = yes } }   #Germany
+ICE = { diplomatic_relation = { country = TUR relation = military_access active = yes } }   #Turket
+ICE = { diplomatic_relation = { country = GRE relation = military_access active = yes } }   #Greece
+ICE = { diplomatic_relation = { country = SPR relation = military_access active = yes } }   #Spain
+ICE = { diplomatic_relation = { country = CZE relation = military_access active = yes } }   #Czech Republic
+ICE = { diplomatic_relation = { country = HUN relation = military_access active = yes } }   #Hungary
+ICE = { diplomatic_relation = { country = POL relation = military_access active = yes } }   #Poland
+ICE = { diplomatic_relation = { country = BUL relation = military_access active = yes } }   #Bulgaria
+ICE = { diplomatic_relation = { country = EST relation = military_access active = yes } }   #Estonia
+ICE = { diplomatic_relation = { country = LAT relation = military_access active = yes } }   #Latvia
+ICE = { diplomatic_relation = { country = LIT relation = military_access active = yes } }   #Lithuania
+ICE = { diplomatic_relation = { country = ROM relation = military_access active = yes } }   #Romania
+ICE = { diplomatic_relation = { country = SLO relation = military_access active = yes } }   #Slovakia
+ICE = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
+
+set_convoys = 30
+set_stability = 0.75
+
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+2030.1.1 = {
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+}
+
+create_country_leader = {
+	name = "Guðni Th. Jóhannesson"
+	desc = "POLITICS_GUONI_JOHANESSON_DESC"
+	picture = "portrait_ice_sveinn_bjornsson.dds"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Johannes Valurson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haraldur Gudmunsson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = centrist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Einar Olgeirsson"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,104 @@
+﻿capital = 112
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+}
+#########################################################################################                                                                                       
+  ####   #####    ####     ##    #    #  #   ####     ##    #####  #   ####   #    #   ####  
+ #    #  #    #  #    #   #  #   ##   #  #  #        #  #     #    #  #    #  ##   #  #      
+ #    #  #    #  #       #    #  # #  #  #   ####   #    #    #    #  #    #  # #  #   ####  
+ #    #  #####   #  ###  ######  #  # #  #       #  ######    #    #  #    #  #  # #       # 
+ #    #  #   #   #    #  #    #  #   ##  #  #    #  #    #    #    #  #    #  #   ##  #    # 
+  ####   #    #   ####   #    #  #    #  #   ####   #    #    #    #   ####   #    #   ####  
+ ##########################################################################################
+ set_country_flag = OBOR
+ add_to_array = {
+    array = OBOR
+    value = POR
+}
+
+#NATO
+
+set_country_flag = NATO_member
+
+POR = { diplomatic_relation = { country = FRA relation = military_access active = yes } }   #France
+POR = { diplomatic_relation = { country = CAN relation = military_access active = yes } }   #Canada
+POR = { diplomatic_relation = { country = HOL relation = military_access active = yes } }   #Netherlands
+POR = { diplomatic_relation = { country = BEL relation = military_access active = yes } }   #Belgium
+POR = { diplomatic_relation = { country = LUX relation = military_access active = yes } }   #Luxemborg
+POR = { diplomatic_relation = { country = ITA relation = military_access active = yes } }   #Italy 
+POR = { diplomatic_relation = { country = ICE relation = military_access active = yes } }   #Iceland
+POR = { diplomatic_relation = { country = NOR relation = military_access active = yes } }   #Norway
+POR = { diplomatic_relation = { country = DEN relation = military_access active = yes } }   #Denmark
+POR = { diplomatic_relation = { country = ENG relation = military_access active = yes } }   #UK
+POR = { diplomatic_relation = { country = USA relation = military_access active = yes } }   #USA
+POR = { diplomatic_relation = { country = GER relation = military_access active = yes } }   #Germany
+POR = { diplomatic_relation = { country = TUR relation = military_access active = yes } }   #Turket
+POR = { diplomatic_relation = { country = GRE relation = military_access active = yes } }   #Greece
+POR = { diplomatic_relation = { country = SPR relation = military_access active = yes } }   #Spain
+POR = { diplomatic_relation = { country = CZE relation = military_access active = yes } }   #Czech Republic
+POR = { diplomatic_relation = { country = HUN relation = military_access active = yes } }   #Hungary
+POR = { diplomatic_relation = { country = POL relation = military_access active = yes } }   #Poland
+POR = { diplomatic_relation = { country = BUL relation = military_access active = yes } }   #Bulgaria
+POR = { diplomatic_relation = { country = EST relation = military_access active = yes } }   #Estonia
+POR = { diplomatic_relation = { country = LAT relation = military_access active = yes } }   #Latvia
+POR = { diplomatic_relation = { country = LIT relation = military_access active = yes } }   #Lithuania
+POR = { diplomatic_relation = { country = ROM relation = military_access active = yes } }   #Romania
+POR = { diplomatic_relation = { country = SLO relation = military_access active = yes } }   #Slovakia
+POR = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
+
+set_convoys = 50
+	set_popularities = {
+		democratic = 40 
+		fascism = 0
+		communism = 10
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 0
+		progressive = 0
+		centrist = 0
+		socialist = 10
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 30
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = democratic
+	last_election = "2019.10.6"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_convoys = 100
+set_stability = 0.75
+
+
+create_country_leader = {
+	name = "António Costa"
+	desc = "POLITICS_ANTONIO_COSTA_DESC"
+	picture = "gfx/leaders/POR/POR_antonio.dds"
+	ideology = social_demo
+	traits = {
+		#
+	}
+}

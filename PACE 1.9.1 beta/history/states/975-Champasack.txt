@@ -1,0 +1,14 @@
+state={
+	id=975
+	name="STATE_975"
+	provinces={
+		1563 1592 10453 
+	}
+	state_category = city
+	history = {
+	owner = LAO
+	add_core_of = LAO
+	}
+	manpower=694023
+	buildings_max_level_factor=1.000
+}

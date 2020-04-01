@@ -43,6 +43,10 @@ set_convoys = 5
 		dispersed_industry2 = 1
 	}
 }
+############################ ORG ###########################
+set_country_flag = AL_LEAGUE
+set_country_flag = MNNA
+############################################################
 	set_popularities = {
 		democratic = 5 
 		fascism = 0
@@ -78,8 +82,7 @@ create_country_leader = {
 	
 	name = "Sabah al-Ahmad al-Jabir al- Sabah"
 	desc = "POLITICS_SABAH_DESC"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-	expire = "1965.1.1"
+	picture = "gfx/leaders/KUW/KUW_SABAH.dds"
 	ideology = constitutional_monarchist
 	traits = {
 		#

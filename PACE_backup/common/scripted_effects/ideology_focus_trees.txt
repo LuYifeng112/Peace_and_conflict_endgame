@@ -1,0 +1,15 @@
+
+#Countries change ideologies change focus trees as well and colour
+
+
+#any communist country should become red, this makes it easier to see them, 
+
+the_communists_rock = {
+	if = {
+		limit = {
+			has_government = communism
+			has_government = Chinese_socialism
+		}
+		set_cosmetic_tag = communist_nation_generic
+	}
+}

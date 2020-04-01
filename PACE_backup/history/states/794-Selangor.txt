@@ -1,0 +1,26 @@
+state={
+	id=794
+	name="STATE_794"
+	state_category = city
+	provinces={
+		10297 
+	}
+	history = {
+	owner = MAL
+	buildings = {
+		infrastructure = 5
+		industrial_complex = 2
+		arms_factory = 1
+		dockyard = 3
+		air_base = 2
+		10297 = {
+			naval_base = 4
+		}
+	}
+	victory_points = {
+		10297 35 #Kuala Lumpur
+	}
+	}
+	manpower=5790000
+	buildings_max_level_factor=1.000
+}

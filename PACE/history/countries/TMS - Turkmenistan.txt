@@ -44,22 +44,22 @@ set_convoys = 5
 	}
 }
 	set_popularities = {
-		democratic = 5 
+		democratic = 0 
 		fascism = 0
 		communism = 0
 		neutrality = 0
 		salafist = 0
-		nationalism = 0
+		nationalism = 100
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 0
+		progressive = 0
 		centrist = 0
-		socialist = 5
+		socialist = 0
 		Novusism = 0
 		authoritarianism = 0
 		imperialism = 0
-		liberalism = 20
+		liberalism = 0
 		Chinese_socialism = 0
 		anarchism = 0
 		liberal_conservatism = 0
@@ -69,8 +69,8 @@ set_convoys = 5
 	}
 	set_politics = {
 	ruling_party = nationalism
-	last_election = "1936.1.1"
-	election_frequency = 48
+	last_election = "2017.1.1"
+	election_frequency = 144
 	elections_allowed = yes
 }
 
@@ -78,10 +78,11 @@ create_country_leader = {
 	
 	name = "Gurbanguly Berdimuhamedow"
 	desc = "POLITICS_GURBANGULY_BERDIMUHAMEDOW_DESC"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	picture = "gfx/leaders/TMS/TMS_GURBAN.dds"
 	ideology = national_democrat
 	traits = {
-		#
+		#horse lover
+		#kleptocrat
 	}
 }
 

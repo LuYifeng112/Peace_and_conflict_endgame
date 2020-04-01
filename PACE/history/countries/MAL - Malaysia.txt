@@ -36,6 +36,12 @@ set_technology = {
 	radio_detection = 1
 }
 
+add_ideas = {
+MAL_sultan_states
+MAL_SIN_1990_dispute
+MAL_one_malay_program
+}
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
@@ -69,35 +75,38 @@ if = {
 set_convoys = 25
 
 
-
+################### ORG #########################
+set_country_flag = ASEAN
+set_country_flag = federalism
+###############################################
 	set_popularities = {
-		democratic = 5 
+		democratic = 0 
 		fascism = 0
 		communism = 0
 		neutrality = 0
-		salafist = 0
+		salafist = 15
 		nationalism = 0
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 35
+		progressive = 0
 		centrist = 0
-		socialist = 5
+		socialist = 0
 		Novusism = 0
 		authoritarianism = 0
 		imperialism = 0
-		liberalism = 20
+		liberalism = 0
 		Chinese_socialism = 0
 		anarchism = 0
 		liberal_conservatism = 0
 		social_liberal = 0
-		market_liberal = 0
+		market_liberal = 50
 		radical_right = 0
 	}
 	set_politics = {
 	ruling_party = market_liberal
-	last_election = "1936.1.1"
-	election_frequency = 48
+	last_election = "2018.5.9"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
@@ -120,26 +129,36 @@ create_country_leader = {
 	ideology = libertarian
 	traits = {
 	Look_East_Policy
+	PRC_cooperation
+	highly_credential
 	}
 }
 
 create_country_leader = {
-	name = "Lai Teck"
-	desc = ""
+	name = "Abdullah of Pahang"
+	desc = "POLITICS_ABDULLAH_OF_PAHANG_DESC"
+	picture = "GFX_portrait_malaya_shenton_thomas"
+	ideology = absolute_monarchist
+	traits = {
+	Look_East_Policy
+	}
+}
+
+create_country_leader = {
+	name = "Madius Tangau"
+	desc = "POLITICS_MADIUS_TANGAU_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = marxism
+	ideology = national_democrat
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Ibrahim Hj Yaacob" #this guy supported Japanese during the war, and was imprisoned for it, could be made fascist?
-	desc = ""
+	name = "Ahmad Zahid Hamidi" 
+	desc = "POLITICS_ZAHID_HAMIDI_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = social_conservatism
 	traits = {
 		
 	}

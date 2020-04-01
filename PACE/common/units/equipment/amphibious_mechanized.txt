@@ -1,6 +1,6 @@
 equipments = {
 
-	amphibious_mechanized_equipment_p = {
+	amphibious_mechanized_equipment = {
 		year = 2045
 
 		is_archetype = yes
@@ -46,7 +46,7 @@ equipments = {
 	}
 
 	# ~1941
-	amphibious_mechanized_equipment_1p = {
+	amphibious_mechanized_equipment_1 = {
 		year = 2047
 
 		archetype = amphibious_mechanized_equipment
@@ -55,7 +55,7 @@ equipments = {
 	}
 
 	# ~1943
-	amphibious_mechanized_equipment_2p = {
+	amphibious_mechanized_equipment_2 = {
 		year = 2050
 
 		archetype = amphibious_mechanized_equipment

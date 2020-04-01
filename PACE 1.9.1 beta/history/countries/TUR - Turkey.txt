@@ -1,0 +1,122 @@
+﻿capital = 49
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+#########################################################################################                                                                                       
+  ####   #####    ####     ##    #    #  #   ####     ##    #####  #   ####   #    #   ####  
+ #    #  #    #  #    #   #  #   ##   #  #  #        #  #     #    #  #    #  ##   #  #      
+ #    #  #    #  #       #    #  # #  #  #   ####   #    #    #    #  #    #  # #  #   ####  
+ #    #  #####   #  ###  ######  #  # #  #       #  ######    #    #  #    #  #  # #       # 
+ #    #  #   #   #    #  #    #  #   ##  #  #    #  #    #    #    #  #    #  #   ##  #    # 
+  ####   #    #   ####   #    #  #    #  #   ####   #    #    #    #   ####   #    #   ####  
+ ##########################################################################################
+ set_country_flag = OBOR
+ add_to_array = {
+    array = OBOR
+    value = TUR
+}
+
+####################################war#############################
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = SDF
+		autonomous_state = autonomy_puppet
+	} 
+}
+else = {
+	puppet = SDF	
+}
+
+#########################################################################
+
+#NATO
+
+set_country_flag = NATO_member
+
+TUR = { diplomatic_relation = { country = FRA relation = military_access active = yes } }   #France
+TUR = { diplomatic_relation = { country = CAN relation = military_access active = yes } }   #Canada
+TUR = { diplomatic_relation = { country = HOL relation = military_access active = yes } }   #Netherlands
+TUR = { diplomatic_relation = { country = BEL relation = military_access active = yes } }   #Belgium
+TUR = { diplomatic_relation = { country = LUX relation = military_access active = yes } }   #Luxemborg
+TUR = { diplomatic_relation = { country = ITA relation = military_access active = yes } }   #Italy 
+TUR = { diplomatic_relation = { country = ICE relation = military_access active = yes } }   #Iceland
+TUR = { diplomatic_relation = { country = NOR relation = military_access active = yes } }   #Norway
+TUR = { diplomatic_relation = { country = DEN relation = military_access active = yes } }   #Denmark
+TUR = { diplomatic_relation = { country = ENG relation = military_access active = yes } }   #UK
+TUR = { diplomatic_relation = { country = POR relation = military_access active = yes } }   #Portugal
+TUR = { diplomatic_relation = { country = GER relation = military_access active = yes } }   #Germany
+TUR = { diplomatic_relation = { country = USA relation = military_access active = yes } }   #USA
+TUR = { diplomatic_relation = { country = GRE relation = military_access active = yes } }   #Greece
+TUR = { diplomatic_relation = { country = SPR relation = military_access active = yes } }   #Spain
+TUR = { diplomatic_relation = { country = CZE relation = military_access active = yes } }   #Czech Republic
+TUR = { diplomatic_relation = { country = HUN relation = military_access active = yes } }   #Hungary
+TUR = { diplomatic_relation = { country = POL relation = military_access active = yes } }   #Poland
+TUR = { diplomatic_relation = { country = BUL relation = military_access active = yes } }   #Bulgaria
+TUR = { diplomatic_relation = { country = EST relation = military_access active = yes } }   #Estonia
+TUR = { diplomatic_relation = { country = LAT relation = military_access active = yes } }   #Latvia
+TUR = { diplomatic_relation = { country = LIT relation = military_access active = yes } }   #Lithuania
+TUR = { diplomatic_relation = { country = ROM relation = military_access active = yes } }   #Romania
+TUR = { diplomatic_relation = { country = SLO relation = military_access active = yes } }   #Slovakia
+TUR = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
+
+	set_popularities = {
+		democratic = 30 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 50
+		monarchist = 0
+		reactionary = 0
+		conservative = 0
+		progressive = 0
+		centrist = 0
+		socialist = 0
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 20
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = conservative
+	last_election = "2019.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+create_country_leader = {
+	name = "Recep Tayyip Erdoğan"
+	desc = "POLITICS_RECEP_TAYYIP_ERDOGAN_DESC"
+	picture = "gfx/leaders/TUR/TUR_recep.dds"
+	ideology = national_conservatism
+	traits = {
+		paranoid_of_pkk
+		anti_semitic_leader
+		crackdown_on_seperatists_TUR
+		kill_ROJ
+	}
+}
+
+set_convoys = 20
+set_stability = 0.55

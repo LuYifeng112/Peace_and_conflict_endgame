@@ -1,0 +1,52 @@
+ideas = {
+
+	country = {
+
+		HOL_flooding_threat = {
+
+			allowed = {
+				original_tag = HOL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				local_building_slots_factor = -0.5
+			}
+		}
+
+		HOL_monarchy = {
+
+			allowed = {
+				original_tag = HOL
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+				NOT = {
+					any_other_country = {
+						original_tag = HOL
+						has_democratic_form_of_government = yes
+						NOT = {
+							tag = ROOT
+						}
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			traits = {	
+				popular_figurehead
+			}
+		}
+
+
+	}
+}

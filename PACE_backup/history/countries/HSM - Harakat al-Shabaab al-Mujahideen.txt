@@ -1,0 +1,61 @@
+﻿capital = 934
+
+oob = "HSM_2018"
+
+set_research_slots = 1
+set_convoys = 1
+set_stability = 0.2
+
+set_war_support = 1.0
+
+set_country_flag = country_language_arabic
+
+set_technology = {
+	infantry_weapons = 1
+	
+}
+
+set_country_flag = dominant_religion_islam
+set_country_flag = sunni_islam
+
+set_politics = {	
+	ruling_party = salafist
+	last_election = "2020.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    salafist = 100
+}
+
+
+#declare_war_on = {
+	#target = SOM
+	#type = annex_everything
+#}
+
+############################################# SET UP VARIABLES ###############################################
+
+set_variable = { corruption = 22 }
+set_variable = { anarchism = 100 }
+
+
+##############################################                   ##############################################
+
+create_country_leader = {
+	name = "Ahmad Umar"
+	desc = "POLITICS_AHMAAD_UMAR_DESC"
+	picture = "gfx/leaders/HSM/HSM_AHMAD_UMAR.dds"
+	ideology = islamic_radical
+	traits = {
+		anti_semitic_leader
+	}
+}
+
+
+create_corps_commander = {
+	name = "Abdulkadir Mohamed Abdulkadir"
+	picture = "Abdulkadir_Mohamed_Abdulkadir.dds"	
+	skill = 2
+}

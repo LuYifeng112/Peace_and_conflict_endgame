@@ -75,7 +75,9 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
+################### ORG #########################
+set_country_flag = ASEAN
+###############################################
 	set_popularities = {
 		democratic = 5 
 		fascism = 0
@@ -102,14 +104,14 @@ if = {
 	}
 	set_politics = {
 	ruling_party = communism
-	last_election = "1936.1.1"
+	last_election = "2016.3.16"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 create_country_leader = {
 	name = "Bounnhang Vorachith"
 	desc = "POLITICS_BOUNNHANG_VORAVITCH_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	picture = "gfx/leaders/LAO/LAO_Bounhang_vorachith.dds"
 	ideology = marxism
 	traits = {
 		

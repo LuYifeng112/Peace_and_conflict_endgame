@@ -55,7 +55,10 @@ set_convoys = 5
 	}
 }
 
+############################ ORG ###########################
+set_country_flag = AL_LEAGUE
 
+############################################################
 	set_popularities = {
 		democratic = 5 
 		fascism = 0
@@ -93,7 +96,9 @@ create_country_leader = {
 	picture = "gfx/leaders/SYR/SYR_Bashar_al_assad.dds"
 	ideology = arab_nationalism
 	traits = {
-		#
+		SYR_cling_power
+		SYR_stubborn_war
+		support_from_extremism
 	}
 }
 

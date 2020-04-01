@@ -4,8 +4,7 @@ oob = "INS_1936"
 
 set_research_slots = 2
 
-# Starting tech
-# clone of Holland
+
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1		
@@ -17,53 +16,40 @@ set_technology = {
 	fuel_silos = 1
 }
 
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		early_submarine = 1
-		basic_destroyer = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-	}
-}
 
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		early_ship_hull_submarine = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		basic_battery = 1
-	}
-}
 
 set_convoys = 25
+add_ideas = {
+	INS_fall_of_the_new_order
+	INS_newly_industrialised_country
+}
+############################################# SET UP VARIABLES ###############################################
 
+set_variable = { corruption = 38 }
+set_variable = { anarchism = 70 }
+
+
+##############################################                   ##############################################
+################### ORG #########################
+set_country_flag = ASEAN
+###############################################
 	set_popularities = {
-		democratic = 5 
+		democratic = 0 
 		fascism = 0
 		communism = 0
 		neutrality = 0
 		salafist = 0
-		nationalism = 0
+		nationalism = 55
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 45
+		progressive = 0
 		centrist = 0
-		socialist = 5
+		socialist = 0
 		Novusism = 0
 		authoritarianism = 0
 		imperialism = 0
-		liberalism = 20
+		liberalism = 0
 		Chinese_socialism = 0
 		anarchism = 0
 		liberal_conservatism = 0
@@ -73,8 +59,8 @@ set_convoys = 25
 	}
 	set_politics = {
 	ruling_party = nationalism
-	last_election = "1936.1.1"
-	election_frequency = 48
+	last_election = "2019.4.17"
+	election_frequency = 60
 	elections_allowed = yes
 }
 

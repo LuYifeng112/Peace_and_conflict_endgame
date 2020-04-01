@@ -4,6 +4,54 @@ buildings = {
 	#	if provincial = yes, then show_on_map = X is amount per each province
 	#	if provincial = no, then show_on_map = X is amount per state
 
+	farm = {
+		show_on_map = 0
+		provincial = no
+		disabled_in_dmz = no
+		local_resources_food = 10
+		max_level = 5
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+	fishery = {
+		show_on_map = 0 
+		provincial = yes
+		disabled_in_dmz = no
+		local_resources_food = 10
+		max_level = 20
+		only_costal = yes
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+
+	housing_district = {
+		show_on_map = 0
+		provincial = yes
+		disabled_in_dmz = no
+		local_resources_food = -10
+		local_resources_electricity = -25
+		local_resources_water = -15
+		max_level = 20
+		shares_slots = yes
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+
+	military_base = {
+		show_on_map = 0
+		provincial = no
+		disabled_in_dmz = yes
+		base_cost = 10000
+		local_resources_food = -10
+		local_resources_electricity = -25
+		local_resources_water = -10
+		max_level = 1
+		shares_slots = yes
+		value = 15
+		infrastructure_construction_effect = yes
+	}
 
 
 
@@ -104,5 +152,35 @@ buildings = {
 		shares_slots = yes
 		value = 10
 		infrastructure_construction_effect = yes
+	}
+	windmills = {
+		show_on_map = 0 
+		base_cost = 20000
+		local_resources_electricity = 10
+		refinery = yes
+		max_level = 5
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
 	}	
+	solar_conversion = {
+		show_on_map = 0 
+		base_cost = 25000
+		local_resources_electricity = 10
+		refinery = yes
+		max_level = 3
+		shares_slots = yes
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+	hydro = {
+		show_on_map = 0 
+		base_cost = 30000
+		local_resources_electricity = 20
+		local_resources_water = -10
+		max_level = 2
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
 }

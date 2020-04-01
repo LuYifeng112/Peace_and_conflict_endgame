@@ -1,0 +1,422 @@
+ideas = {
+	country = {
+		
+		PRC_8_point_doctrine = {
+
+			 allowed = {
+			 	always = no
+			 }
+
+			 allowed_civil_war = {
+			 	NOT = {
+			 		has_country_flag = abandoned_doctrine
+			 	}
+			 }
+
+			 removal_cost = -1
+
+			 modifier = {
+			 	trade_opinion_factor = 0.25
+			 	send_volunteer_size = 25
+			 	research_speed_factor = 0.05
+			 	custom_modifier_tooltip = PRC_DIPLOMACY_DOCTRINE_tt
+			 }
+		}
+
+		PRC_XISM = { 
+
+			allowed = {
+				original_tag = PRC
+				has_country_leader = {
+    			name = "Xi Jin Ping"
+   				ruling_only = yes
+				}
+			}
+
+			allowed_civil_war = {
+				has_government = Chinese_socialism
+				has_country_leader = {
+    			name = "Xi Jin Ping"
+   				ruling_only = yes
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.05
+				Chinese_socialism_drift = 0.15
+				stability_factor = 0.2
+				war_support_factor = 0.2
+				army_org_factor = 0.2
+				custom_modifier_tooltip = PRC_XITHOUGHT_tt
+			}
+		}
+
+		PRC_one_china_policy = {
+
+			allowed = {
+				always = no
+			}
+
+			picture = chi_chinese_unity
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				conscription_factor = 0.1
+				subversive_activites_upkeep = -0.2
+				political_power_gain = 0.5
+				foreign_subversive_activites = -0.75
+				custom_modifier_tooltip = PRC_ONE_CHINA_POLICY
+			}
+		}
+
+		PRC_the_chinese_dream = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.4
+				political_power_gain = 0.5
+				
+			}
+		}
+
+		PRC_falun_gong_weak = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government =  Chinese_socialism
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.025
+				custom_modifier_tooltip = PRC_FALUN_WEAK_tt
+			}
+		}
+
+		PRC_Chinese_untouchables = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				custom_modifier_tooltip = PRC_UNTOUCHABLES_tt
+			}
+		}
+
+		PRC_pax_sinica = { 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.1
+				custom_modifier_tooltip = PRC_PAX_SINICA_tt
+			}
+		}
+		
+		PRC_consitutional_monarchy = {
+
+			allowed = {
+				original_tag = PRC
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+					has_government = Chinese_socialism
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				custom_modifier_tooltip = PRC_MONARCHY_tt
+			}
+		}
+	}
+
+	hidden_ideas = {
+      reward_hong_kong = {
+
+      	available = {
+      		HKG = {
+      			has_idea = HKG_basic_law_article_22_BR
+      		}
+      	}
+                targeted_modifier = {
+				tag = HKG
+				cic_to_target_factor = 0.1
+				mic_to_target_factor = 0.1
+				extra_trade_to_target_factor = 0.5
+				trade_cost_for_target_factor = -0.35
+				}
+      }
+ }
+
+
+	# TECHNOLOGY
+
+	materiel_manufacturer = {
+
+		designer = yes 
+			
+		PRC_comapany = {
+			
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+
+			cost = 200
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes 
+
+		PRC_navy = {
+			
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+
+			cost = 500
+			
+			traits = { 
+			coastal_defence_naval_manufacturer
+			}
+			
+			modifier = {
+			}
+		}
+	}
+	
+	aircraft_manufacturer = { #
+			
+		designer = yes
+		
+		PRC_air = {
+
+			picture = generic_air_manufacturer_3
+
+			allowed = {
+				always = no
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+
+			cost = 300
+			
+			traits = { medium_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	industrial_concern = {
+
+		PRC_factory = {
+
+			picture = generic_industrial_concern_3	#add logo soon	
+			
+			available = {
+				always = no
+			}
+
+			allowed = {
+				original_tag = PRC
+			}
+
+			cost = 150
+			
+			ai_will_do = {
+				factor = 1
+			}
+
+			research_bonus = {
+				industry = 0.15
+				air_doctrine = 0.08
+			}
+
+			traits = {
+				industrial_concern
+			}
+
+			modifier = {
+				
+			}
+		}
+
+		PRC_US_flextronics = {
+
+			picture = generic_industrial_concern_3	#add logo soon	
+			
+			available = {
+				always = no
+			}
+
+			allowed = {
+				OR = {
+				original_tag = PRC
+				original_tag = USA
+				}
+			}
+
+			cost = 150
+			
+			ai_will_do = {
+				factor = 1
+			}
+
+			research_bonus = {
+				electronics = 0.15
+			}
+
+			traits = {
+				electronics_concern
+			}
+
+			modifier = {
+		}
+
+	}
+		PRC_creative_technology = {
+
+			picture = generic_industrial_concern_3	#add logo soon	
+			
+			available = {
+				always = no
+			}
+
+			allowed = {
+				original_tag = PRC
+			}
+
+			cost = 150
+			
+			ai_will_do = {
+				factor = 1
+			}
+
+			research_bonus = {
+				electronics = 0.2
+			}
+
+			traits = {
+				electronics_concern
+			}
+
+			modifier = {
+		}
+
+	}
+
+		PRC_singapore_power = {
+
+			picture = generic_industrial_concern_3	#add logo soon	
+			
+			available = {
+				always = no
+			}
+
+			allowed = {
+				original_tag = PRC
+			}
+
+			cost = 150
+			
+			ai_will_do = {
+				factor = 1
+			}
+
+			research_bonus = {
+				
+			}
+
+			traits = {
+				electronics_concern
+			}
+
+			modifier = {
+			#makes electriicty
+		}
+
+	}
+
+
+
+		PRC_China_oil_aviation = {
+			
+			
+			allowed = {
+				original_tag = PRC
+			}
+			
+			picture = generic_industrial_concern_3	#add logo soon
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			modifier = {
+			trade_opinion_factor = 0.25
+			}
+		}
+	}
+
+}

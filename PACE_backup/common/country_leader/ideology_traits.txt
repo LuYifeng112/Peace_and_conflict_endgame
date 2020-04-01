@@ -1,0 +1,255 @@
+leader_traits = {
+
+	islamist_politician = {
+		random = no
+		
+		salafist_drift = 0.10
+		
+		sprite = 10
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	fascist_politician = {
+		random = no
+		
+		fascism_drift = 0.10
+		
+		sprite = 13
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	nationalism_politician = {
+		random = no
+		
+		nationalism_drift = 0.10
+		
+		sprite = 28
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	monarchist_politician = {
+		random = no
+		
+		monarchist_drift = 0.10
+		
+		sprite = 29
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	reactionary_politician = {
+		random = no
+		
+		reactionary_drift = 0.10
+		
+		sprite = 27
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	conservative_politician = {
+		random = no
+		
+		conservative_drift = 0.10
+		
+		sprite = 27
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	market_liberal_politician = {
+		random = no
+		
+		market_liberal_drift = 0.10
+		
+		sprite = 27
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	social_liberal_politician = {
+		random = no
+		
+		social_liberal_drift = 0.10
+		
+		sprite = 27
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	social_democrat_politician = {
+		random = no
+		
+		democratic_drift = 0.10
+		
+		sprite = 27
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	progressive_politician = {
+		random = no
+		
+		Progressive_drift = 0.10
+		
+		sprite = 27
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	democratic_socialist_politician = {
+		random = no
+		
+		socialist_drift = 0.10
+		
+		sprite = 27
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	communist_politician = {
+		random = no
+		
+		communism_drift = 0.10
+		
+		sprite = 12
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	islamist_party_membership = {
+		#sprite = 1
+	
+		salafist_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	fascist_party_membership = {
+		#sprite = 1
+		
+		fascism_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	nationalism_party_membership = {
+		#sprite = 1
+		
+		nationalism_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarchist_party_membership = {
+		#sprite = 1
+		
+		monarchist_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reactionary_party_membership = {
+		#sprite = 1
+		
+		reactionary_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	conservative_party_membership = {
+		#sprite = 1
+		
+		conservative_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	market_liberal_party_membership = {
+		#sprite = 1
+		
+		market_liberal_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	social_liberal_party_membership = {
+		#sprite = 1
+		
+		social_liberal_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	social_democrat_party_membership = {
+		#sprite = 1
+		
+		democratic_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	progressive_party_membership = {
+		#sprite = 1
+		
+		Progressive_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	democratic_socialist_party_membership = {
+		#sprite = 1
+		
+		socialist_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	communist_party_membership = {
+		#sprite = 1
+		
+		communism_drift = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

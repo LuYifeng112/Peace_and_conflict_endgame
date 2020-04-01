@@ -1,0 +1,26 @@
+state={
+	id=982
+	name="STATE_982"
+	state_category = small_island
+	provinces={
+		13238 
+	}
+	history = {
+	owner = CHI
+	add_core_of = CHI
+	add_core_of = PRC
+	buildings = {
+		infrastructure = 2
+		13238 = {
+			naval_base = 1
+			bunker  = 2
+			coastal_bunker =2
+		}
+	}
+	victory_points = {
+			13238 3
+	}
+	}
+	manpower=138567
+	buildings_max_level_factor=1.000
+}

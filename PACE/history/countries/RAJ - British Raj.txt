@@ -26,10 +26,9 @@ set_technology = {
 	add_ideas = {
 		RAJ_princely_states
 		RAJ_marginalized_muslim_community
-		RAJ_agrarian_society
-		RAJ_risk_of_famine
+		
 	}
-	add_to_tech_sharing_group = commonwealth_research
+	#add_to_tech_sharing_group = commonwealth_research
 
 
 set_convoys = 20
@@ -98,7 +97,8 @@ set_convoys = 20
 	}
 }
 
-set_country_flag = shanghai_corps
+set_country_flag = SH_CO
+set_country_flag = federalism
 
 	set_popularities = {
 		democratic = 30
@@ -133,33 +133,33 @@ set_country_flag = shanghai_corps
 
 
 create_country_leader = {
-	name = "Ram Nath Kovind"
-	desc = "POLITICS_RAM_KOVIND_DESC"
+	name = "Narendra Modi"
+	desc = "POLITICS_NARENDRA_MODI_DESC"
 	picture = "gfx/leaders/RAJ/RAJ_Ram_nath_Kovind.dds"
 	ideology = far_right_conservative
 	traits = {
-		
+		hindu_nationalist
+		Rhetorician
+		high_approval_rating
 	}
 }
 
-# REVISIT Unclear if appropriate for this ideology
+
 create_country_leader = {
-	name = "V. D. Savarkar"
-	desc = "POLITICS_VD_SAVARKAR_DESC"
+	name = "Doraisamy Raja"
+	desc = "POLITICS_DORAISAMY_RAJA_DESC"
 	picture = "GFX_RAJ_veer_savarkar"
-	expire = "1965.1.1"
-	ideology = falangism
+	ideology = marxism
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "P. Krishna Pillai"
-	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
+	name = "Uddhav Thackeray"
+	desc = "POLITICS_UDDHAV_THACKERAY_DESC"
 	picture = "GFX_RAJ_krishna_pillai"
-	expire = "1965.1.1"
-	ideology = marxism
+	ideology = hindutva
 	traits = {
 		
 	}

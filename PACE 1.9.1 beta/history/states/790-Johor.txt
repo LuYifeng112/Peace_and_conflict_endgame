@@ -1,0 +1,25 @@
+state={
+	id=790
+	name="STATE_790"
+	state_category = town
+	resources = {
+		oil = 20
+	}
+	provinces={
+		4367 4424 10313 
+	}
+	history = {
+	owner = MAL
+	buildings = {
+		infrastructure = 6
+		industrial_complex = 2
+		arms_factory = 1
+		dockyard = 1
+	}
+	victory_points = {
+		4424 20 #Johor Bahru
+	}
+	}
+	manpower=3497000
+	buildings_max_level_factor=1.000
+}

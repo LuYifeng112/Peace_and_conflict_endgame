@@ -1,0 +1,64 @@
+﻿#capital = 
+
+set_convoys = 10
+###############################################################
+########  #### ########  ##        #######  ##     ##    ###     ######  ##    ## 
+##     ##  ##  ##     ## ##       ##     ## ###   ###   ## ##   ##    ##  ##  ##  
+##     ##  ##  ##     ## ##       ##     ## #### ####  ##   ##  ##         ####   
+##     ##  ##  ########  ##       ##     ## ## ### ## ##     ## ##          ##    
+##     ##  ##  ##        ##       ##     ## ##     ## ######### ##          ##    
+##     ##  ##  ##        ##       ##     ## ##     ## ##     ## ##    ##    ##    
+########  #### ##        ########  #######  ##     ## ##     ##  ######     ##    
+######################################################################################
+
+#military access
+UNW = { diplomatic_relation = { country = WES relation = military_access active = yes } }   #Western Sahara
+UNW = { diplomatic_relation = { country = SUD relation = military_access active = yes } }   #Sudan
+UNW = { diplomatic_relation = { country = COG relation = military_access active = yes } }   #Democratic Republic of Congo
+UNW = { diplomatic_relation = { country = SSD relation = military_access active = yes } }   #South Sudan
+UNW = { diplomatic_relation = { country = MLI relation = military_access active = yes } }   #Mali
+UNW = { diplomatic_relation = { country = CAR relation = military_access active = yes } }   #Central African Republic
+#UNW = { diplomatic_relation = { country = HAI relation = military_access active = yes } }   #Haiti
+UNW = { diplomatic_relation = { country = CYP relation = military_access active = yes } }   #Cyprus
+#UNW = { diplomatic_relation = { country = NCY relation = military_access active = yes } }   #Northern Cyprus
+
+
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = neutrality
+	last_election = "2020.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+	create_country_leader = {
+		name = "United Nations"
+		desc = "POLITICS_UNITED_NATIONS_DESC"
+		#picture = "gfx/leaders/DAH/DAH_Patrice_Talon.dds"
+		ideology = internationalism
+		traits = {
+			#
+		}
+	}

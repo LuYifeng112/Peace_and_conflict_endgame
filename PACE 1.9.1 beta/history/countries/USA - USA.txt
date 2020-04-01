@@ -1,0 +1,242 @@
+﻿capital = 361
+
+set_research_slots = 5
+set_stability = 0.75
+set_war_support = 0.3
+set_variable = { var = senators_support value = 48 }
+set_variable = { var = senators_total value = 96 }
+set_variable = { var = representatives_support value = 218 }
+set_variable = { var = representatives_total value = 435 }
+set_variable = { var = quorum_low value = 39 }
+set_variable = { var = quorum_medium value = 49 }
+set_variable = { var = quorum_high value = 58 }
+USA_recalc_congress_icon_frames = yes
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1 
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1 
+	early_fighter = 1
+	cv_early_fighter = 1 
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	superior_firepower = 1
+	base_strike = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
+}
+
+set_country_flag = permanent_member_of_UNSC
+set_country_flag = nuclear_state
+
+set_country_flag = QSD
+ add_to_array = {
+    array = QSD
+    value = AST
+}
+###############################################################
+########  #### ########  ##        #######  ##     ##    ###     ######  ##    ## 
+##     ##  ##  ##     ## ##       ##     ## ###   ###   ## ##   ##    ##  ##  ##  
+##     ##  ##  ##     ## ##       ##     ## #### ####  ##   ##  ##         ####   
+##     ##  ##  ########  ##       ##     ## ## ### ## ##     ## ##          ##    
+##     ##  ##  ##        ##       ##     ## ##     ## ######### ##          ##    
+##     ##  ##  ##        ##       ##     ## ##     ## ##     ## ##    ##    ##    
+########  #### ##        ########  #######  ##     ## ##     ##  ######     ##    
+######################################################################################
+
+#PRC
+add_opinion_modifier = { target = PRC modifier = PRC_undemocratic }
+#QSD
+add_opinion_modifier = { target = JAP modifier = USA_Quad_security_dialouge }
+reverse_add_opinion_modifier = { target = JAP modifier = USA_Quad_security_dialouge }
+add_opinion_modifier = { target = AST modifier = USA_Quad_security_dialouge }
+reverse_add_opinion_modifier = { target = AST modifier = USA_Quad_security_dialouge }
+add_opinion_modifier = { target = RAJ modifier = USA_Quad_security_dialouge }
+reverse_add_opinion_modifier = { target = RAJ modifier = USA_Quad_security_dialouge }
+add_opinion_modifier = { target = RAJ modifier = USA_Quad_security_dialouge }
+#CHI
+reverse_add_opinion_modifier = { target = CHI modifier = USA_de_facto_diplomatic_ties }
+add_opinion_modifier = { target = CHI modifier = USA_de_facto_diplomatic_ties }
+
+#guarantee
+USA = { diplomatic_relation = { country = JAP relation = guarantee  active = yes } }
+USA = { diplomatic_relation = { country = NZL relation = guarantee  active = yes } }
+USA = { diplomatic_relation = { country = KOR relation = guarantee  active = yes } }
+USA = { diplomatic_relation = { country = ISR relation = guarantee  active = yes } }   #Israel
+USA = { diplomatic_relation = { country = PHI relation = guarantee  active = yes } }   #Phillipines
+USA = { diplomatic_relation = { country = KUW relation = guarantee  active = yes } }   #Kuwait
+USA = { diplomatic_relation = { country = AST relation = guarantee  active = yes } }   #Australia
+USA = { diplomatic_relation = { country = SAU relation = guarantee  active = yes } }   #Saudi Arabia
+
+#Rio Pact
+USA = { diplomatic_relation = { country = PAR relation = guarantee  active = yes } }   #Paraguay
+USA = { diplomatic_relation = { country = ARG relation = guarantee  active = yes } }   #Argentina
+USA = { diplomatic_relation = { country = BAH relation = guarantee  active = yes } }   #Bahamas
+USA = { diplomatic_relation = { country = BRA relation = guarantee  active = yes } }   #Brazil
+USA = { diplomatic_relation = { country = CHL relation = guarantee  active = yes } }   #Chile
+USA = { diplomatic_relation = { country = COL relation = guarantee  active = yes } }   #Colombia
+USA = { diplomatic_relation = { country = COS relation = guarantee  active = yes } }   #Costa Rica
+USA = { diplomatic_relation = { country = DOM relation = guarantee  active = yes } }   #Dominican Republic
+USA = { diplomatic_relation = { country = ELS relation = guarantee  active = yes } }   #El Salvador
+USA = { diplomatic_relation = { country = GUA relation = guarantee  active = yes } }   #Guatemala
+USA = { diplomatic_relation = { country = HAI relation = guarantee  active = yes } }   #Haiti
+USA = { diplomatic_relation = { country = HON relation = guarantee  active = yes } }   #Honduras
+USA = { diplomatic_relation = { country = PAN relation = guarantee  active = yes } }   #Panama
+USA = { diplomatic_relation = { country = PER relation = guarantee  active = yes } }   #Peru
+USA = { diplomatic_relation = { country = TAT relation = guarantee  active = yes } }   #Trinidad and Tobago
+USA = { diplomatic_relation = { country = VEN relation = guarantee  active = yes } }   #Venezuela
+
+
+
+
+#military access
+USA = { diplomatic_relation = { country = JAP relation = military_access active = yes } }   #Japan
+USA = { diplomatic_relation = { country = KOR relation = military_access active = yes } }   #Korea
+USA = { diplomatic_relation = { country = JOR relation = military_access active = yes } }   #Jordan
+USA = { diplomatic_relation = { country = QAT relation = military_access active = yes } }   #Qatar
+USA = { diplomatic_relation = { country = SAU relation = military_access active = yes } }   #Saudi Arabia
+USA = { diplomatic_relation = { country = AFG relation = military_access active = yes } }   #Afghanistan
+USA = { diplomatic_relation = { country = PAK relation = military_access active = yes } }   #Pakistan
+USA = { diplomatic_relation = { country = IRQ relation = military_access active = yes } }   #Iraq
+USA = { diplomatic_relation = { country = ROJ relation = military_access active = yes } }   #Rojava
+USA = { diplomatic_relation = { country = RAJ relation = military_access active = yes } }   #India
+USA = { diplomatic_relation = { country = BRA relation = military_access active = yes } }   #Brazil
+#USA = { diplomatic_relation = { country = KOS relation = military_access active = yes } }   #Kosovo
+#NATO
+USA = { diplomatic_relation = { country = FRA relation = military_access active = yes } }   #France
+USA = { diplomatic_relation = { country = CAN relation = military_access active = yes } }   #Canada
+USA = { diplomatic_relation = { country = HOL relation = military_access active = yes } }   #Netherlands
+USA = { diplomatic_relation = { country = BEL relation = military_access active = yes } }   #Belgium
+USA = { diplomatic_relation = { country = LUX relation = military_access active = yes } }   #Luxemborg
+USA = { diplomatic_relation = { country = ITA relation = military_access active = yes } }   #Italy 
+USA = { diplomatic_relation = { country = ICE relation = military_access active = yes } }   #Iceland
+USA = { diplomatic_relation = { country = NOR relation = military_access active = yes } }   #Norway
+USA = { diplomatic_relation = { country = DEN relation = military_access active = yes } }   #Denmark
+USA = { diplomatic_relation = { country = ENG relation = military_access active = yes } }   #UK
+USA = { diplomatic_relation = { country = POR relation = military_access active = yes } }   #Portugal
+USA = { diplomatic_relation = { country = GER relation = military_access active = yes } }   #Germany
+USA = { diplomatic_relation = { country = TUR relation = military_access active = yes } }   #Turket
+USA = { diplomatic_relation = { country = GRE relation = military_access active = yes } }   #Greece
+USA = { diplomatic_relation = { country = SPR relation = military_access active = yes } }   #Spain
+USA = { diplomatic_relation = { country = CZE relation = military_access active = yes } }   #Czech Republic
+USA = { diplomatic_relation = { country = HUN relation = military_access active = yes } }   #Hungary
+USA = { diplomatic_relation = { country = POL relation = military_access active = yes } }   #Poland
+USA = { diplomatic_relation = { country = BUL relation = military_access active = yes } }   #Bulgaria
+USA = { diplomatic_relation = { country = EST relation = military_access active = yes } }   #Estonia
+USA = { diplomatic_relation = { country = LAT relation = military_access active = yes } }   #Latvia
+USA = { diplomatic_relation = { country = LIT relation = military_access active = yes } }   #Lithuania
+USA = { diplomatic_relation = { country = ROM relation = military_access active = yes } }   #Romania
+USA = { diplomatic_relation = { country = SLO relation = military_access active = yes } }   #Slovakia
+USA = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
+USA = { diplomatic_relation = { country = CRO relation = military_access active = yes } }   #Croatia
+
+
+#DOcking rights
+USA = { diplomatic_relation = { country = SIN relation = docking_rights active = yes } }   #Singapore
+USA = { diplomatic_relation = { country = MOR relation = docking_rights active = yes } }   #Morocco
+
+######################politics#######################################
+
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 10
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 20
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = conservative
+	last_election = "2016.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+	free_trade
+	home_of_the_free
+	USA_american_militarism
+	USA_Eishenhower_warning
+	USA_broken_american_dream
+	USA_second_amendment
+	two_party_dominance	
+	tax_controversy
+	USA_overcrowded_prisons
+}
+
+
+create_country_leader = {
+	name = "Donald John Trump"
+	desc = "POLITICS_DONALD_TRUMP_DESC"
+	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	ideology = social_conservatism
+	traits = {
+	narcissitic
+	classic_elitist
+	bootlicker
+	controversial_politician
+	propaganda_speaker
+	anti_communist
+	dealbroker
+	rearmer
+	}
+}
+
+create_country_leader = {
+	name = "Mitch McConell"
+	desc = "POLITICS_MITCH_MCONELL_DESC"
+	#picture = "Portrait_USA_William_Dudley_Pelley.dds"
+	ideology = Far_right_conservative
+	traits = {
+		anti_cuban_diplomacy
+		anti_iran_diplomacy
+	}
+}
+
+create_country_leader = {
+	name = "Bernie Sanders"
+	desc = "POLITICS_BERNIE_SANDERS_DESC"
+	#picture = "portrait_USA_earl_browder.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Mike Pence"
+	desc = "POLITICS_MIKE_PENCE_DESC"
+	#picture = "portrait_USA_earl_browder.dds"
+	ideology = marxism
+	traits = {
+		
+	}
+}

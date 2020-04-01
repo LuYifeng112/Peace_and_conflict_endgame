@@ -1,0 +1,7 @@
+subject_embargo_mission = {
+	icon = generic_prospect_for_resources
+	allowed = {
+	always = yes
+	}
+}
+

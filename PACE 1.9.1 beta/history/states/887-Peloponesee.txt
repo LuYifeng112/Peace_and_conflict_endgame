@@ -1,0 +1,14 @@
+state={
+	id=887
+	name="STATE_887"
+	state_category = city
+	provinces={
+		1173 4078 4178 7096 7211 11965 
+	}
+	history = {
+	owner = GRE
+	add_core_of = GRE
+	}
+	manpower=1155000
+	buildings_max_level_factor=1.000
+}

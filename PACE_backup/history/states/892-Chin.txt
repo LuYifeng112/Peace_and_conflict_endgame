@@ -1,0 +1,16 @@
+
+state={
+	id=892
+	name="STATE_892"
+	state_category = town
+	provinces={
+		7469 10486 12335 12492 
+	}
+	history = {
+	owner = BRM
+	add_core_of = BRM
+	}
+	manpower=478801
+	buildings_max_level_factor=1.000
+}
+

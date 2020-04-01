@@ -1,0 +1,197 @@
+ideas = {
+
+	country = {
+	
+		home_of_the_free = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+			rule = {
+				can_join_opposite_factions = no
+				can_create_factions = yes
+			}
+			modifier = {
+				drift_defence_factor = 0.2
+				ai_badass_factor = 0.03 # cares for 3% of normal threat
+			}
+		}
+		two_party_dominance = {
+
+			allowed = {
+				has_democratic_form_of_government = yes
+			}
+
+			allowed_civil_war = {
+				has_democratic_form_of_government = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conservative_drift = 0.05
+				liberalism_drift = 0.05
+			}
+		}	
+
+		no_public_healthcare = {
+
+			allowed = {
+				has_democratic_form_of_government = yes
+			}
+
+			allowed_civil_war = {
+				has_democratic_form_of_government = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+
+		tax_controversy = { #GFX
+
+			allowed = {
+				has_democratic_form_of_government = yes
+			}
+
+			allowed_civil_war = {
+				has_democratic_form_of_government = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+			}
+		}	
+
+		wealth_gap = { #GFX
+
+			allowed = {
+				has_democratic_form_of_government = yes
+			}
+
+			allowed_civil_war = {
+				has_democratic_form_of_government = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+
+		USA_american_militarism = {
+		
+			allowed = { 
+				original_tag = USA 
+			}
+			allowed_civil_war = { always = yes }
+			
+			removal_cost = -1
+			
+			modifier = {
+				custom_modifier_tooltip = USA_MILITARISM_tt
+				stability_factor = 0.05
+				conscription_factor = 0.1
+				send_volunteer_size = 25
+				army_leader_start_level = 1
+				experience_gain_army = 0.01
+				experience_gain_navy = 0.01
+				experience_gain_air = 0.01
+			}
+		}
+
+		USA_broken_american_dream = {
+
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				mobilization_speed = -0.05
+				research_speed_factor = -0.5
+			}
+		}
+
+		USA_Eishenhower_warning = {
+
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				production_speed_arms_factory_factor = 0.25
+				production_speed_radar_station_factor = 0.15
+				experience_gain_army_factor = 0.15
+				custom_modifier_tooltip = USA_MILITARY_COMPLEX_tt
+			}
+		}
+
+		USA_second_amendment = {
+
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				drift_defence_factor = 0.2
+				surrender_limit = 0.6
+				recruitable_population_factor = 0.4
+				custom_modifier_tooltip = USA_BEAR_GUNS_tt
+			}
+		}
+
+		USA_overcrowded_prisons = {
+
+			allowed = {
+				original_tag = USA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+	
+	}
+	
+}

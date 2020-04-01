@@ -1,6 +1,6 @@
 equipments = {
 	
-	guided_missile_equipment_p = {
+	guided_missile_equipment = {
 		year = 2020
 
 		is_archetype = yes
@@ -32,7 +32,7 @@ equipments = {
 		fuel_consumption = 0
 	}
 
-	guided_missile_equipment_1p = {
+	guided_missile_equipment_1 = {
 		year = 2022
 
 		archetype = guided_missile_equipment
@@ -48,7 +48,7 @@ equipments = {
 		# build_cost_ic = 36
 	}
 
-	guided_missile_equipment_2p = {
+	guided_missile_equipment_2 = {
 		year = 2025
 
 		archetype = guided_missile_equipment
@@ -63,7 +63,7 @@ equipments = {
 		air_bombing = 450
 	}
 	
-	guided_missile_equipment_3p = {
+	guided_missile_equipment_3 = {
 		year = 2027
 
 		archetype = guided_missile_equipment

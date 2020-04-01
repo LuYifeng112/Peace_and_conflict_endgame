@@ -2,7 +2,7 @@
 
 oob = "JAP_1936"
 
-set_stability = 0.4 #baseline, THE EMPEROR PROTECTS
+set_stability = 0.7 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.4
 
 set_research_slots = 5
@@ -35,56 +35,7 @@ set_technology = {
 	synth_oil_experiments = 1
 	fuel_refining = 1
 }
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		basic_torpedo = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_heavy_battery = 1
-		basic_medium_battery = 1
-		improved_ship_torpedo_launcher = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_ship_hull_heavy = 1
-		early_ship_hull_carrier = 1
-		basic_ship_hull_carrier = 1
-		mtg_transport = 1
-		coastal_defense_ships = 1
-		basic_secondary_battery = 1
-		basic_depth_charges = 1
-		basic_cruiser_armor_scheme = 1
-		cruiser_submarines = 1
-	}
-	set_naval_oob = "JAP_1936_naval"
-}
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		early_carrier = 1
-		basic_carrier = 1
-		transport = 1
-	}
-	set_naval_oob = "JAP_1936_naval_legacy"
-}
+
 
 create_import = {
 		resource = oil
@@ -98,19 +49,7 @@ create_import = {
 	
 
 	#adding ministers
-	add_ideas = {
-		JAP_mitsumasa_yonai
-		minoru_genda
-		hajime_sugiyama
-		soemu_toyoda
-		fushimi_hiroyasu
-		kawasaki
-
-		#laws
-		tot_economic_mobilisation
-		service_by_requirement
-		closed_economy
-	}
+	
 
 	#declare_war_on = {
 	#	target = CHI
@@ -204,6 +143,16 @@ create_import = {
 
 set_convoys = 400
 
+############################################# SET UP VARIABLES ###############################################
+
+set_variable = { corruption = 73 }
+set_variable = { anarchism = 34 }
+
+
+##############################################                   ##############################################
+
+###############ORG##################
+set_country_flag = MNNA
 
 
 	set_popularities = {
@@ -232,7 +181,7 @@ set_convoys = 400
 	}
 	set_politics = {
 	ruling_party = liberalism
-	last_election = "1936.1.1"
+	last_election = "2017.10.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -273,9 +222,8 @@ create_country_leader = {
 	expire = "2075.1.1"
 	ideology = fascism_ideology
 	traits = {
-		warrior_code
 		emperor_showa
-		imperial_sanction
+		tenno
 	}
 	id = 700 #Hirohito
 }

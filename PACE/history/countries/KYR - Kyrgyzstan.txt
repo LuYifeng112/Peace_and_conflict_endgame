@@ -21,7 +21,7 @@ set_convoys = 5
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	set_technology = {
+	set_technology = { 
 
 		#doctrines
 		grand_battle_plan = 1
@@ -45,10 +45,10 @@ set_convoys = 5
 }
 
 ###################ORG##############################
-set_country_flag = shanghai_corps
+set_country_flag = SH_CO
 
 	set_popularities = {
-		democratic = 5 
+		democratic = 55 
 		fascism = 0
 		communism = 0
 		neutrality = 0
@@ -56,14 +56,14 @@ set_country_flag = shanghai_corps
 		nationalism = 0
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 45
+		progressive = 0
 		centrist = 0
-		socialist = 5
+		socialist = 0
 		Novusism = 0
 		authoritarianism = 0
 		imperialism = 0
-		liberalism = 20
+		liberalism = 0
 		Chinese_socialism = 0
 		anarchism = 0
 		liberal_conservatism = 0
@@ -72,8 +72,8 @@ set_country_flag = shanghai_corps
 		radical_right = 0
 	}
 	set_politics = {
-	ruling_party = socialist
-	last_election = "1936.1.1"
+	ruling_party = democratic
+	last_election = "2017.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -82,16 +82,24 @@ create_country_leader = {
 	
 	name = "Sooronbay Jeenbekov"
 	desc = "POLITICS_SOORONBAY_JEENBEKOV"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-	ideology = socialism
+	picture = "gfx//leaders//KYR/KYR_SOORONBAY.dds"
+	ideology = social_demo
 	traits = {
 		#
 	}
 }
 
 
+create_country_leader = {
+	
+	name = "Ömürbek Babanov"
+	desc = "POLITICS_OMURBEK_BABANOV_DESC"
+	#picture = "gfx//leaders//KYR/KYR_SOORONBAY.dds"
+	ideology = national_conservatism
+	traits = {
+		#
+	}
 }
-
 
 2030.1.1 = {
 	set_popularities = {

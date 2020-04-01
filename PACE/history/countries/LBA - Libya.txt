@@ -55,7 +55,10 @@ set_convoys = 20
 		dispersed_industry2 = 1
 	}
 }
+############################ ORG ###########################
+set_country_flag = AL_LEAGUE
 
+############################################################
 
 	set_popularities = {
 		democratic = 5 
@@ -83,7 +86,7 @@ set_convoys = 20
 	}
 	set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "2020.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -91,8 +94,8 @@ set_convoys = 20
 create_country_leader = {
 	name = "Fayez al-Sarraj"
 	desc = "POLITICS_FAYEZ_SARRAJ_DESC"
-	picture = "Portrait_Arabia_Generic_democratic1.dds"
-	ideology = socialism
+	picture = "gfx/leaders/LBA/LBA_FAYEZ.dds"
+	ideology = social_demo
 	traits = {
 		#
 	}

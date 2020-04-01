@@ -1,0 +1,92 @@
+ideas = {
+	country = {
+	
+		RAJ_caste_system_idea = {
+			allowed = {
+				original_tag = RAJ
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				custom_modifier_tooltip = RAJ_CASTE_tt
+			}
+		}
+
+		RAJ_Janmu_kashmir_terrorism = {
+			allowed = {
+				original_tag = RAJ
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				custom_modifier_tooltip = RAJ_JANMU_tt
+			}
+		}
+
+		RAJ_naxalite_terrorism = {
+			allowed = {
+				original_tag = RAJ
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				custom_modifier_tooltip = RAJ_MAOIST_tt
+			}
+		}
+
+		RAJ_northeast_terrorism = {
+			allowed = {
+				original_tag = RAJ
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				custom_modifier_tooltip = RAJ_SSS_tt
+			}
+		}
+
+		RAJ_Hindutva_medium = {
+			allowed = {
+				original_tag = RAJ
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				fascism_acceptance = 50
+				nationalism_acceptance = 50
+				radical_right_acceptance= 50
+				custom_modifier_tooltip = RAJ_HINDUTVA_tt
+			}
+		}
+
+		RAJ_need_one_identity = {
+			picture = GFX_idea_raj_all_india_forward_bloc
+			allowed = {
+				original_tag = RAJ
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				custom_modifier_tooltip = RAJ_IDENTITY_tt
+			}
+		}
+}
+	
+
+	

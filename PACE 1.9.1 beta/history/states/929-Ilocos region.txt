@@ -1,0 +1,14 @@
+state={
+	id=929
+	name="STATE_929"
+	provinces={
+		1415 4350 4368 10241 10280 12253 
+	}
+	state_category = city
+	history = {
+	owner = PHI
+	add_core_of = PHI
+	}
+	manpower=5026128
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,1458 @@
+focus_tree = { 
+id = PRC_2020
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = DRK
+} 
+}  
+continuous_focus_position = { x = 133 y = 2075 }
+#Focus for State Juche
+#focus = { 
+#id = MAN_statejuche
+#icon = GFX_goal_unknown
+#x = 0
+#y = 0
+#cost = 10
+#available_if_capitulated = yes 
+#ai_will_do = { 
+# factor = 1
+# } 
+#
+# } 
+
+
+focus = {
+	id = DRK_closer_to_PRC
+	icon = GFX_focus_chi_cooperation_with_the_communists
+	x = 3
+	y = 6
+	#relative_position_id = 
+	cost = 10
+	available = {
+		OR = {
+			has_completed_focus = DRK_personality_cult
+			has_completed_focus = DRK_liberalisation
+		}
+	}
+	mutually_exclusive = {
+		focus = DRK_distance_from_PRC
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		add_popularity = {
+    	ideology = Chinese_socialism
+   	 	popularity = 0.05
+		}
+		add_popularity = {
+    	ideology = communism
+   	 	popularity = -0.05
+		}
+	}
+}
+
+focus = {
+	id = DRK_distance_from_PRC
+	icon = GFX_focus_generic_support_the_left_right
+	x = 4
+	y = 0
+	relative_position_id = DRK_closer_to_PRC
+	cost = 10
+	available = {
+		OR = {
+			has_completed_focus = DRK_personality_cult
+			has_completed_focus = DRK_new_radicalism
+			has_completed_focus = DRK_liberalisation
+		}
+	}
+	mutually_exclusive = {
+		focus = DRK_closer_to_PRC
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_follow_PRC
+	icon = GFX_focus_prc_proclaim_the_peoples_republic
+	x = -2
+	y = 1
+	relative_position_id = DRK_closer_to_PRC
+	cost = 10
+	prerequisite = { focus = DRK_closer_to_PRC }
+	mutually_exclusive = {
+		focus = DRK_realpolitik
+	}
+	available = {
+		OR = {
+			has_completed_focus = DRK_liberalise_chinese_model
+			has_completed_focus = DRK_personality_cult
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_denounce_ROC
+	icon = GFX_focus_attack_china
+	x = -1
+	y = 1
+	relative_position_id = DRK_follow_PRC
+	cost = 10
+	prerequisite = { focus = DRK_follow_PRC }
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_ally_PRC
+	icon = GFX_focus_chi_cooperation_with_the_communists
+	x = 0
+	y = 1
+	relative_position_id = DRK_denounce_ROC
+	cost = 10
+	prerequisite = { focus = DRK_denounce_ROC }
+	available = {
+		has_completed_focus = DRK_belt_and_road_work 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_increase_trade_PRC
+	icon = GFX_goal_generic_trade
+	x = 1
+	y = 1
+	relative_position_id = DRK_follow_PRC
+	cost = 10
+	prerequisite = { focus = DRK_follow_PRC }
+	mutually_exclusive = { focus = DRK_diversify_trade }
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_special_economic_zones_PRC
+	icon = GFX_goal_generic_trade
+	x = 0
+	y = 1
+	relative_position_id = DRK_increase_trade_PRC
+	cost = 10
+	prerequisite = { focus = DRK_increase_trade_PRC }
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_roads_to_PRC
+	icon = GFX_goal_generic_construct_infrastructure
+	x = -1
+	y = 1
+	relative_position_id = DRK_special_economic_zones_PRC
+	cost = 10
+	prerequisite = { focus = DRK_special_economic_zones_PRC }
+	mutually_exclusive = {
+		#focus =
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		create_random_factory_CIV_2 = yes
+	}
+}
+
+focus = {
+	id = DRK_PRC_economic_privlege
+	icon = GFX_focus_generic_concessions
+	x = -2
+	y = 2
+	relative_position_id = DRK_special_economic_zones_PRC
+	cost = 10
+	prerequisite = { focus = DRK_special_economic_zones_PRC }
+	mutually_exclusive = { focus = DRK_international_trade_RUS }
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_PRC_free_trade
+	icon = GFX_focus_chi_cooperation_with_the_communists
+	x = 0
+	y = 1
+	relative_position_id = DRK_PRC_economic_privlege
+	cost = 10
+	prerequisite = { focus = DRK_PRC_economic_privlege }
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_realpolitik
+	icon = GFX_goal_tripartite_pact
+	x = 2
+	y = 1
+	relative_position_id = DRK_closer_to_PRC
+	cost = 10
+	prerequisite = { focus = DRK_closer_to_PRC focus = DRK_distance_from_PRC }
+	mutually_exclusive = {
+		focus = DRK_follow_PRC
+		focus = DRK_denounce_PRC
+	}
+	available = {
+		OR = {
+			has_completed_focus = DRK_liberalise_western_model
+			has_completed_focus = DRK_personality_cult
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_subcontinent_politics
+	icon = GFX_focus_RAJ_two_nation_theory
+	x = -1
+	y = 1
+	relative_position_id = DRK_realpolitik
+	cost = 10
+	prerequisite = { focus = DRK_realpolitik }
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_diversify_trade
+	icon = GFX_goal_generic_trade
+	x = 1
+	y = 1
+	relative_position_id = DRK_realpolitik
+	cost = 10
+	prerequisite = { focus = DRK_realpolitik focus = DRK_denounce_PRC }
+	mutually_exclusive = {
+		focus = DRK_increase_trade_PRC
+		focus = DRK_decrease_trade
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		clr_global_flag = hermit_kingdom
+	}
+}
+
+focus = {
+	id = DRK_special_economic_zones_international
+	icon = GFX_goal_generic_trade
+	x = 0
+	y = 1
+	relative_position_id = DRK_diversify_trade
+	cost = 10
+	prerequisite = { focus = DRK_diversify_trade }
+	mutually_exclusive = {
+	#	focus = DRK_special_economic_zones_KOR
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_international_trade_east
+	icon = GFX_focus_usa_focus_on_asia
+	x = -3
+	y = 1
+	relative_position_id = DRK_special_economic_zones_international
+	cost = 10
+	prerequisite = { focus = DRK_special_economic_zones_international focus = DRK_special_economic_zones_PRC }
+	mutually_exclusive = {
+		focus = DRK_international_trade_west
+		focus = DRK_full_autarky
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_international_trade_RUS
+	icon = GFX_focus_ger_strike_at_the_source
+	x = 0
+	y = 1
+	relative_position_id = DRK_international_trade_east
+	cost = 10
+	prerequisite = { focus = DRK_international_trade_east }
+	mutually_exclusive = {
+		focus = DRK_PRC_economic_privlege
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_international_trade_3rd_world
+	icon = GFX_goal_generic_national_unity
+	x = -1
+	y = 1
+	relative_position_id = DRK_international_trade_RUS
+	cost = 10
+	prerequisite = { focus = DRK_international_trade_RUS focus = DRK_international_trade_west_smuggling focus = DRK_PRC_economic_privlege }
+	mutually_exclusive = {
+	#	focus = 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_belt_and_road_work
+	icon = GFX_goal_generic_soviet_construction
+	x = 1
+	y = 1
+	relative_position_id = DRK_PRC_free_trade
+	cost = 10
+	prerequisite = { focus = DRK_PRC_free_trade }
+	prerequisite = { focus = DRK_roads_to_PRC }
+	prerequisite = { focus = DRK_international_trade_3rd_world }
+	mutually_exclusive = {
+	#	focus = 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_friends_in_CSTO
+	icon = GFX_focus_ger_great_red_menace
+	x = 0
+	y = 2
+	relative_position_id = DRK_international_trade_RUS
+	cost = 10
+	prerequisite = { focus = DRK_international_trade_RUS }
+	prerequisite = { focus = DRK_international_trade_3rd_world }
+	mutually_exclusive = {
+	#	focus = 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_international_trade_west
+	icon = GFX_focus_usa_focus_on_europe
+	x = 0
+	y = 1
+	relative_position_id = DRK_special_economic_zones_international
+	cost = 10
+	prerequisite = { focus = DRK_special_economic_zones_international }
+	mutually_exclusive = {
+		focus = DRK_international_trade_east
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_international_trade_west_smuggling
+	icon = GFX_focus_renounce_the_treaty_of_trianon
+	x = 1
+	y = 1
+	relative_position_id = DRK_international_trade_west
+	cost = 10
+	prerequisite = { focus = DRK_international_trade_west focus = DRK_synthetic_resources }
+	mutually_exclusive = {
+		focus = DRK_international_trade_west_negotiate
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_international_trade_west_negotiate
+	icon = GFX_focus_generic_concessions
+	x = -1
+	y = 1
+	relative_position_id = DRK_international_trade_west
+	cost = 10
+	prerequisite = { focus = DRK_international_trade_west }
+	mutually_exclusive = {
+		focus = DRK_international_trade_west_smuggling
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_international_trade_USA
+	icon = GFX_focus_chi_mission_to_the_us
+	x = -1
+	y = 1
+	relative_position_id = DRK_international_trade_west_negotiate
+	cost = 10
+	prerequisite = { focus = DRK_international_trade_west_negotiate }
+	mutually_exclusive = {
+	#	focus = 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_friends_in_NATO
+	icon = GFX_focus_usa_build_the_pentagon
+	x = 1
+	y = 1
+	relative_position_id = DRK_international_trade_USA
+	cost = 10
+	prerequisite = { focus = DRK_international_trade_USA }
+	prerequisite = { focus = DRK_international_trade_europe }
+	mutually_exclusive = {
+	#	focus = 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_international_trade_europe
+	icon = GFX_focus_hun_elect_a_king
+	x = -1
+	y = 1
+	relative_position_id = DRK_international_trade_west_smuggling
+	cost = 10
+	prerequisite = { focus = DRK_international_trade_west_smuggling focus = DRK_international_trade_west_negotiate }
+	mutually_exclusive = {
+		focus = DRK_full_autarky
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_trade_defying_USA
+	icon = GFX_focus_hol_united_netherlands
+	x = 0
+	y = 2
+	relative_position_id = DRK_international_trade_west_smuggling
+	cost = 10
+	prerequisite = { focus = DRK_international_trade_west_smuggling }
+	prerequisite = { focus = DRK_international_trade_europe focus = DRK_full_autarky }
+	mutually_exclusive = {
+	#	focus = 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_denounce_PRC
+	icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+	x = 2
+	y = 1
+	relative_position_id = DRK_distance_from_PRC
+	cost = 10
+	prerequisite = { focus = DRK_distance_from_PRC }
+	mutually_exclusive = {
+		focus = DRK_realpolitik
+	}
+	available = {
+		OR = {
+			has_completed_focus = DRK_liberalise_western_model
+			has_completed_focus = DRK_new_radicalism
+			has_completed_focus = DRK_personality_cult
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_decrease_trade
+	icon = GFX_goal_generic_trade
+	x = -1
+	y = 1
+	relative_position_id = DRK_denounce_PRC
+	cost = 10
+	prerequisite = { focus = DRK_denounce_PRC }
+	mutually_exclusive = {
+		focus = DRK_diversify_trade
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_close_special_economic_zones
+	icon = GFX_goal_generic_trade
+	x = 0
+	y = 1
+	relative_position_id = DRK_decrease_trade
+	cost = 10
+	prerequisite = { focus = DRK_decrease_trade }
+	mutually_exclusive = { 
+	#focus = DRK_special_economic_zones_KOR 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_synthetic_resources
+	icon = GFX_goal_generic_soviet_construction
+	x = 0
+	y = 1
+	relative_position_id = DRK_close_special_economic_zones
+	cost = 10
+	prerequisite = { focus = DRK_close_special_economic_zones }
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_every_bit_and_scrap
+	icon = GFX_goal_generic_consumer_goods
+	x = 1
+	y = 1
+	relative_position_id = DRK_synthetic_resources
+	cost = 10
+	prerequisite = { focus = DRK_synthetic_resources }
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_full_autarky
+	icon = GFX_goal_generic_defence
+	x = -1
+	y = 1
+	relative_position_id = DRK_every_bit_and_scrap
+	cost = 10
+	prerequisite = { focus = DRK_every_bit_and_scrap }
+	mutually_exclusive = { 
+	focus = DRK_international_trade_east 
+	focus = DRK_international_trade_europe
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_real_CHI
+	icon = GFX_focus_chi_cooperation_with_the_nationalists
+	x = 2
+	y = 2
+	relative_position_id = DRK_denounce_PRC
+	cost = 10
+	prerequisite = { focus = DRK_denounce_PRC }
+	available = {
+		OR = {
+			AND = {
+				custom_trigger_tooltip = {
+					tooltip = CHI_is_anti_american_tt
+					always = no
+					
+				}
+				has_completed_focus = DRK_work_with_enemies_of_USA
+			}
+			has_completed_focus = DRK_turn_american_allies
+			has_completed_focus = DRK_american_satellite
+			has_completed_focus = DRK_american_ally
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_india_friend
+	icon = GFX_focus_RAJ_all_india_forward_bloc
+	x = 1
+	y = 1
+	relative_position_id = DRK_denounce_PRC
+	cost = 10
+	prerequisite = { focus = DRK_denounce_PRC }
+	mutually_exclusive = {
+	#	focus = 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+
+##############################################################################################
+
+
+focus = {
+	id = DRK_yet_another_summit
+	icon = GFX_goal_generic_intelligence_exchange
+	x = 20
+	y = 6
+	#relative_position_id = 
+	cost = 10
+	#prerequisite = { focus =  }
+	mutually_exclusive = {
+		focus = DRK_anti_american_sentiment
+	}
+	available = {
+		OR = {
+			AND = {
+				has_completed_focus = DRK_follow_PRC
+				custom_trigger_tooltip = {
+					tooltip = PRC_is_not_anti_american_tt
+					always = no
+				}
+			}
+			has_completed_focus = DRK_realpolitik
+			AND = {
+				has_completed_focus = DRK_denounce_PRC
+				NOT = {
+					has_completed_focus = DRK_new_radicalism
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		custom_effect_tooltip = DRK_yet_another_summit_tt
+		
+	}
+}
+
+focus = {
+	id = DRK_anti_american_sentiment
+	icon = GFX_focus_generic_strike_at_democracy2
+	x = -5
+	y = 0
+	relative_position_id = DRK_yet_another_summit
+	cost = 10
+	mutually_exclusive = {
+		focus = DRK_yet_another_summit
+	}
+	available = {
+		OR = {
+			
+			AND = {
+				has_completed_focus = DRK_follow_PRC
+				custom_trigger_tooltip = {
+					tooltip = PRC_is_anti_american_tt
+					always = no
+				}
+			}
+			AND = {
+				has_completed_focus = DRK_denounce_PRC
+				has_completed_focus = DRK_new_radicalism
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		custom_effect_tooltip = DRK_anti_american_sentiment_tt
+		
+	}
+}
+
+focus = {
+	id = DRK_groveling
+	icon = GFX_focus_generic_concessions
+	x = 1
+	y = 1
+	relative_position_id = DRK_yet_another_summit
+	cost = 10
+	prerequisite = { focus = DRK_yet_another_summit }
+	mutually_exclusive = {
+		focus = DRK_position_of_strenght
+	}
+	available = {
+		always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_cuck_on_nukes
+	icon = GFX_focus_rocketry
+	x = 1
+	y = 1
+	relative_position_id = DRK_groveling
+	cost = 10
+	prerequisite = { focus = DRK_groveling }
+	mutually_exclusive = {
+	#	focus = 
+	}
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_expand_DMZ
+	icon = GFX_goal_generic_dangerous_deal
+	x = -1
+	y = 1
+	relative_position_id = DRK_groveling
+	cost = 10
+	prerequisite = { focus = DRK_groveling focus = DRK_position_of_strenght }
+	available = {
+		OR = {
+			has_completed_focus = DRK_cuck_on_nukes
+			has_completed_focus = DRK_mutual_deescalation
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_position_of_strenght
+	icon = GFX_focus_eng_concessions_to_the_trade_unions
+	x = -1
+	y = 1
+	relative_position_id = DRK_yet_another_summit
+	cost = 10
+	prerequisite = { focus = DRK_yet_another_summit 
+		#focus = DRK_anti_american_sentiment 
+	}
+	mutually_exclusive = {
+		focus = DRK_groveling
+	}
+	available = {
+		always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_mutual_deescalation
+	icon = GFX_goal_generic_improve_relations
+	x = -1
+	y = 1
+	relative_position_id = DRK_position_of_strenght
+	cost = 10
+	prerequisite = { focus = DRK_position_of_strenght }
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_sanctions_lifted
+	icon = GFX_goal_generic_positive_trade_relations
+	x = 1
+	y = 1
+	relative_position_id = DRK_expand_DMZ
+	cost = 10
+	prerequisite = { focus = DRK_expand_DMZ }
+	prerequisite = { focus = DRK_cuck_on_nukes focus = DRK_mutual_deescalation }
+	mutually_exclusive = { focus = DRK_sanctions_eased }
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_american_ally
+	icon = GFX_focus_eng_unite_the_anglosphere
+	x = 1
+	y = 2
+	relative_position_id = DRK_sanctions_lifted
+	cost = 10
+	prerequisite = { focus = DRK_sanctions_lifted }
+	#prerequisite = { focus = DRK_cuck_on_nukes }
+	mutually_exclusive = { 
+	focus = DRK_american_satellite 
+	focus = DRK_going_our_own_way 
+	focus = DRK_double_crossed_by_burgers 
+	}
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_american_satellite
+	icon = GFX_focus_CZE_german_puppet
+	x = 0
+	y = 1
+	relative_position_id = DRK_sanctions_lifted
+	cost = 10
+	prerequisite = { focus = DRK_sanctions_lifted focus = DRK_sanctions_eased }
+	#prerequisite = { focus = DRK_cuck_on_nukes }
+	mutually_exclusive = { focus = DRK_american_ally focus = DRK_double_crossed_by_burgers focus = DRK_going_our_own_way }
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_sanctions_eased
+	icon = GFX_goal_generic_positive_trade_relations
+	x = -1
+	y = 1
+	relative_position_id = DRK_expand_DMZ
+	cost = 10
+	prerequisite = { focus = DRK_expand_DMZ }
+	prerequisite = { focus = DRK_cuck_on_nukes focus = DRK_mutual_deescalation }
+	mutually_exclusive = { focus = DRK_sanctions_lifted }
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_going_our_own_way
+	icon = GFX_goal_generic_demand_territory
+	x = -2
+	y = 1
+	relative_position_id = DRK_sanctions_lifted
+	cost = 10
+	prerequisite = { focus = DRK_sanctions_lifted focus = DRK_sanctions_eased }
+	#prerequisite = { focus = DRK_cuck_on_nukes }
+	mutually_exclusive = { focus = DRK_american_ally focus = DRK_double_crossed_by_burgers focus = DRK_american_satellite }
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_double_crossed_by_burgers
+	icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+	x = -1
+	y = 2
+	relative_position_id = DRK_sanctions_eased
+	cost = 10
+	prerequisite = { focus = DRK_sanctions_eased }
+	#prerequisite = { focus = DRK_cuck_on_nukes }
+	mutually_exclusive = { focus = DRK_american_satellite focus = DRK_going_our_own_way focus = DRK_american_ally }
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		complete_national_focus = DRK_moral_high_ground
+	}
+}
+
+focus = {
+	id = DRK_moral_high_ground
+	icon = GFX_focus_eng_crush_the_dream
+	x = 1
+	y = 1
+	relative_position_id = DRK_anti_american_sentiment
+	cost = 10
+	prerequisite = { focus = DRK_yet_another_summit focus = DRK_anti_american_sentiment }
+	mutually_exclusive = {
+	#	focus = 
+	}
+	available = {
+		always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_explosive_rethoric
+	icon = GFX_focus_generic_strike_at_democracy3
+	x = -1
+	y = 1
+	relative_position_id = DRK_anti_american_sentiment
+	cost = 10
+	prerequisite = { focus = DRK_anti_american_sentiment }
+	mutually_exclusive = {
+	#	focus = 
+	}
+	available = {
+		always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_nukes_uwu
+	icon = GFX_focus_wonderweapons
+	x = -2
+	y = 1
+	relative_position_id = DRK_moral_high_ground
+	cost = 10
+	prerequisite = { focus = DRK_moral_high_ground focus = DRK_explosive_rethoric }
+	mutually_exclusive = {
+		#focus = 
+	}
+	available = {
+		always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_accuse_america
+	icon = GFX_goal_generic_propaganda
+	x = 0
+	y = 1
+	relative_position_id = DRK_moral_high_ground
+	cost = 10
+	prerequisite = { focus = DRK_moral_high_ground }
+	mutually_exclusive = {
+		#focus = 
+	}
+	available = {
+		always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_turn_american_allies
+	icon = GFX_goal_generic_propaganda
+	x = 0
+	y = 1
+	relative_position_id = DRK_accuse_america
+	cost = 10
+	prerequisite = { focus = DRK_accuse_america }
+	mutually_exclusive = {
+		#focus = 
+	}
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_turn_KOR
+	icon = GFX_goal_generic_propaganda
+	x = 0
+	y = 1
+	relative_position_id = DRK_turn_american_allies
+	cost = 10
+	prerequisite = { focus = DRK_turn_american_allies }
+	mutually_exclusive = {
+		#focus = 
+	}
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_work_with_enemies_of_USA
+	icon = GFX_goal_generic_propaganda
+	x = 0
+	y = 1
+	relative_position_id = DRK_nukes_uwu
+	cost = 10
+	prerequisite = { focus = DRK_nukes_uwu }
+	prerequisite = { focus = DRK_accuse_america }
+	mutually_exclusive = {
+		#focus = 
+	}
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+focus = {
+	id = DRK_even_more_anti_USA_propaganda
+	icon = GFX_goal_generic_propaganda
+	x = 0
+	y = 1
+	relative_position_id = DRK_work_with_enemies_of_USA
+	cost = 10
+	prerequisite = { focus = DRK_work_with_enemies_of_USA }
+	#prerequisite = { focus =  }
+	mutually_exclusive = {
+		#focus = 
+	}
+	available = {
+		#always = no
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+	
+	}
+}
+
+
+##############################################################################################
+
+
+focus = {
+	id = DRK_new_leaf
+	icon = GFX_goal_generic_national_unity
+	x = 8
+	y = 0
+	cost = 10
+	#prerequisite = { focus =  }
+	mutually_exclusive = {
+		focus = DRK_personality_cult
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_liberalisation
+	icon = GFX_goal_generic_national_unity
+	x = -3
+	y = 1
+	relative_position_id = DRK_new_leaf
+	cost = 10
+	prerequisite = { focus = DRK_new_leaf }
+	mutually_exclusive = {
+		focus = DRK_new_radicalism
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_liberalise_chinese_model
+	icon = GFX_focus_chi_one_china_policy
+	x = -3
+	y = 1
+	relative_position_id = DRK_liberalisation
+	cost = 10
+	prerequisite = { focus = DRK_liberalisation }
+	mutually_exclusive = {
+		focus = DRK_liberalise_western_model 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_liberalise_western_model
+	icon = GFX_goal_support_democracy
+	x = 4
+	y = 0
+	relative_position_id = DRK_liberalise_chinese_model
+	cost = 10
+	prerequisite = { focus = DRK_liberalisation }
+	mutually_exclusive = {
+		focus = DRK_liberalise_chinese_model
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_new_leaf_social_stuff
+	icon = GFX_goal_support_democracy
+	x = 0
+	y = 2
+	relative_position_id = DRK_new_leaf
+	cost = 10
+	prerequisite = { focus = DRK_liberalisation focus = DRK_new_radicalism }
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_new_radicalism
+	icon = GFX_goal_generic_national_unity
+	x = 3
+	y = 1
+	relative_position_id = DRK_new_leaf
+	cost = 10
+	prerequisite = { focus = DRK_new_leaf }
+	mutually_exclusive = {
+		focus = DRK_liberalisation
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_personality_cult
+	icon = GFX_goal_generic_propaganda
+	x = 10
+	y = 0
+	relative_position_id = DRK_new_leaf
+	cost = 10
+	#prerequisite = { focus =  }
+	mutually_exclusive = {
+		focus = DRK_new_leaf
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_kim_social_issues
+	icon = GFX_goal_generic_propaganda
+	x = 0
+	y = 1
+	relative_position_id = DRK_personality_cult
+	cost = 10
+	prerequisite = { focus = DRK_personality_cult }
+	mutually_exclusive = {
+		#focus = 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_purge_nomenklatura
+	icon = GFX_focus_mex_arrest_general_cedillo
+	x = 2
+	y = 1
+	relative_position_id = DRK_new_radicalism
+	cost = 10
+	prerequisite = { focus = DRK_new_radicalism }
+	mutually_exclusive = {
+		focus = DRK_curb_their_excess 
+		focus = DRK_embrace_nomenklatura
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_curb_their_excess
+	icon = GFX_focus_rom_parties_end
+	x = 2
+	y = 0
+	relative_position_id = DRK_purge_nomenklatura
+	cost = 10
+	prerequisite = { focus = DRK_kim_social_issues }
+	mutually_exclusive = {
+		focus = DRK_purge_nomenklatura
+		focus = DRK_embrace_nomenklatura
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_embrace_nomenklatura
+	icon = GFX_focus_mex_support_general_cedillo
+	x = 4
+	y = 0
+	relative_position_id = DRK_purge_nomenklatura
+	cost = 10
+	prerequisite = { focus = DRK_kim_social_issues }
+	mutually_exclusive = {
+		focus = DRK_curb_their_excess 
+		focus = DRK_purge_nomenklatura
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_end_nepotism
+	icon = GFX_focus_generic_military_academy
+	x = 1
+	y = 1
+	relative_position_id = DRK_purge_nomenklatura
+	cost = 10
+	prerequisite = { focus = DRK_purge_nomenklatura focus = DRK_curb_their_excess }
+	mutually_exclusive = {
+		focus = DRK_loyal_clans
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+focus = {
+	id = DRK_loyal_clans
+	icon = GFX_goal_generic_improve_relations
+	x = 3
+	y = 1
+	relative_position_id = DRK_purge_nomenklatura
+	cost = 10
+	prerequisite = { focus = DRK_embrace_nomenklatura focus = DRK_curb_their_excess }
+	mutually_exclusive = {
+		focus = DRK_end_nepotism
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	completion_reward = {
+		
+	}
+}
+
+
+##############################################################################################
+
+
+
+#End of focuses 
+ }

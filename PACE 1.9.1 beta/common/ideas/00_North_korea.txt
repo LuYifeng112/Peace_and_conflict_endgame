@@ -1,0 +1,175 @@
+ideas = {
+	country = {
+		
+		DRK_sanctions_idea = {
+			picture = usa_great_depression_2
+			modifier = {
+				#MONTHLY_POPULATION = -0.2
+				#research_speed_factor = -0.05
+				#production_factory_max_efficiency_factor = -0.1 
+				#consumer_goods_factor = 0.1
+				#local_resources_factor = -0.25
+				#industrial_capacity_factory = -0.1 
+				#industrial_capacity_dockyard = -0.1 
+				#production_speed_buildings_factor = -0.1 
+			}
+		}
+		
+		DRK_severe_sanctions_idea = {
+			picture = usa_great_depression_3
+			modifier = {
+				#stuff
+			}
+		}
+
+		DRK_songun_idea = { 
+			allowed = {
+				original_tag = DRK
+			}
+
+			allowed_civil_war = {
+				original_tag = DRK
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.5
+				training_time_army_factor = -0.1
+				land_reinforce_rate = 0.1
+				army_org_factor = 0.05
+			}
+		}
+
+		DRK_oversized_military_idea = { 
+			allowed = {
+				original_tag = DRK
+			}
+
+			allowed_civil_war = {
+				original_tag = DRK
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				planning_speed = -0.15
+				max_planning = -0.25
+				army_speed_factor = -0.10
+				supply_consumption_factor = 0.20
+				custom_modifier_tooltip = DRK_BIG_MILITARY_tt
+			}
+		}
+
+		DRK_outdated_equipment_idea = { 
+			allowed = {
+				original_tag = DRK
+			}
+
+			allowed_civil_war = {
+				original_tag = DRK
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_infantry_attack_factor = -0.1
+				motorized_attack_factor = -0.05
+				motorized_defence_factor = -0.05
+				custom_modifier_tooltip = DRK_ASYMETRIC_MILITARY_tt
+			}
+		}
+
+		DRK_bad_infra_idea = { #GFX
+			allowed = {
+				original_tag = DRK
+			}
+
+			allowed_civil_war = {
+				original_tag = DRK
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_infrastructure_factor = -0.5
+				land_reinforce_rate = -0.2
+				#custom_modifier_tooltip = DRK_BAD_INFRA_tt
+			}
+		}
+
+		DRK_Chondoism_idea = { 
+			allowed = {
+				original_tag = DRK
+			}
+
+			allowed_civil_war = {
+				original_tag = DRK
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				custom_modifier_tooltip = DRK_CHONDOISM_tt
+			}
+		}
+		
+		DRK_juche_idea = {
+			picture = generic_victors_of_ww1
+			 available = {
+			 	original_tag = DRK
+			 }
+
+			 allowed_civil_war = {
+			 	AND = {
+			 		original_tag = DRK
+			 		has_government = communism
+			 	}
+			 }
+
+			modifier = {
+				drift_defence_factor = 0.5
+				conscription = 0.25
+				communism_drift = 0.1	
+				custom_modifier_tooltip = DRK_JUCHE_tt			
+			}
+		}
+		
+		DRK_new_juche_idea = { #new radicalism branch change
+			picture = generic_victors_of_ww1
+			modifier = {
+				
+			}
+		}
+		
+		DRK_nomenklatura_idea = {
+			allowed = {
+				original_tag = DRK
+			}
+
+			allowed_civil_war = {
+				original_tag = DRK
+				has_government = communism
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 1
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				custom_modifier_tooltip = DRK_NOMENKALTURA_tt
+			}
+		}
+		
+		DRK_social_change_demand_idea = {
+			picture = generic_disjointed_gov
+			modifier = {
+			
+			}
+		}
+	}
+}

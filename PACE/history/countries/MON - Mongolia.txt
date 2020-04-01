@@ -85,7 +85,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Khaltmaagiin Battulga"
 	desc = "POLITICS_KHALTMAAGIIIN_BATTULGA_DESC"
-	picture = GFX_portrait_mon_anandyn_amar
+	picture = "gfx/leaders/MON/MON_khaltmaagin.dds"
 	ideology = national_democrat
 	traits = {
 		#

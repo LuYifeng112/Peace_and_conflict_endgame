@@ -1,0 +1,18 @@
+state={
+	id=884
+	name="STATE_884"
+	state_category = city
+	provinces={
+		12029 
+	}
+	history={
+		owner = TUR
+		add_core_of = ROJ
+		add_core_of = SYR
+		add_core_of = SDF
+		add_core_of = ISS
+		add_core_of = TUR
+	}
+	manpower=1890000
+	buildings_max_level_factor=1.000
+}

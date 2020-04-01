@@ -1,4 +1,5 @@
 ﻿l_english:
+ 
  sunshine_policy:0 "Sunshine Policy"
  sunshine_policy_desc:0 "The Sunshine Policy is a less antagonising way to make way for a North korean unification."
  nordpolitik:0 "Nordpolitik Policy"
@@ -671,5 +672,57 @@
  vision_2020:0 "Vision 2020 National Developtment plan"
  veteran_politician_RWA:0 "Long Serving Leader of Rwanda"
  INS_thousand_friend_zero_enemies:0 "Thousand Friends Zero Enemies policy"
- hero_of_the_north_korean_crisi:0 "Hero of the 2017 North Korean crisis"
+hero_of_the_north_korean_crisis:0 "Hero of the 2017 North Korean crisis"
  chaebol_reformer:0 "Chaebol Cooperator"
+ manpower_minister:0 "Manpower Minister"
+ westerniser:0 "Pro Western ideals"
+ taiwanese_independance:0 "Supporter of Taiwanese Independance"
+ socialist_system_drk:0 "Socialist Corporate Responsible Management System"
+ reformist_drk:0 "Reformer of the People's Democratic Republic of Korea"
+ good_samaritian:0 "Welfare Support"
+ crackdown_on_seperatists_HKG:0 "Crackdown on Hong Kong Seperatists"
+ tenno:0 "Tenno: Emperor of Japan"
+ hindu_nationalist:0 "Belief in Hindutva"
+ high_approval_rating:0 "High Approval Rating"
+ highly_credential:0 "Highly Credentialed"
+ good_samaritan:0 "Good Samaritan"
+ supreme_leader_PER:0 "Supreme Leader of Iran"
+ anti_american_leader:0 "Resistor of American influence"
+ anti_semitic_leader:0 "Anti Semitic Rhetoric"
+
+ saudi_vision_2030:0 "Saudi-Vision 2030"
+ SAU_cultural_reformist:0 "Supporter of Cultural liberalisation"
+ qatar_diplomatic_crisis:0 "Supporter of the Qatar Diplomatic Crisis"
+ SAU_crown_prince:0 "Deputy Crown Prince of Saudi Arabia"
+
+ kurd_sympathiser:0 "Supports the Kurds"
+ condemned_tur_IRQ:0 "Condemned the 2019 TUrkish Offensive into North East Syria"
+ IRQ_cooperation:0 "Cooperation with the Baghdad Government"
+ KUR_international_diplomacy_effort:0 "International Diplomacy effort"
+ PI_liberalism:0 "Popular Liberal Leader"
+
+ SYR_cling_power:0 "Undying Cling to Power"
+ SYR_stubborn_war:0 "Stubborn War participant"
+
+ paranoid_of_pkk:0 "Paranoia over the Partiya Karkerên Kurdistanê‎"
+ crackdown_on_seperatists_TUR:0 "Crackdown on Government Dissidents"
+ kill_ROJ:0 " Supports the creation of a Safe Zone in North East Syria"
+ support_from_extremism:0 "Support from the extreme Ideoloigical organisations"
+
+ former_kgb:0 "Former Komitet Gosudarstvennoy Bezopasnosti Foreign Intelligence Officer"
+ demorcatic_backsliding:0 "Demoratic Backsliding"
+ long_serving_SOV:0 "Long Serving Leader of the Russian Federation"
+
+ christian_values:0 "Christian Values"
+ popular_democratic_leader:0 "Popular Democratic Leader"
+ pro_immigrant:0 "Supports immigrants and refugees"
+ stubborn:0 "Stubborn Leader"
+
+ narcissitic:0 "Narcissistic Billionaire"
+ classic_elitist:0 "Classic Gilded Elitist"
+ bootlicker:0 "Corporate Bootlicker"
+
+ historical_revisionist:0 "Historical Revisionist"
+ pacifist:0 "Pro-Pacifist Foreign Policy"
+ controversial_union_man:0 "Controversial Trade Union Support"
+ 

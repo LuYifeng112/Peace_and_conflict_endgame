@@ -1,0 +1,74 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_gcg_minimal_global_radiation"
+		textureFile = "gfx/interface/GFX_gcg_minimal_global_radiation_medium.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gcg_minor_global_radiation"
+		textureFile = "gfx/interface/GFX_gcg_minimal_global_radiation_medium.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gcg_moderate_global_radiation"
+		textureFile = "gfx/interface/GFX_gcg_minimal_global_radiation_medium.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gcg_medium_global_radiation"
+		textureFile = "gfx/interface/GFX_gcg_minimal_global_radiation_medium.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gcg_high_global_radiation"
+		textureFile = "gfx/interface/GFX_gcg_minimal_global_radiation_medium.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gcg_extreme_global_radiation"
+		textureFile = "gfx/interface/GFX_gcg_minimal_global_radiation_medium.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gcg_apocalypse_radiation"
+		textureFile = "gfx/interface/GFX_gcg_minimal_global_radiation_medium.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_gcg_radiation_cat"
+		texturefile = "gfx/interface/GFX_decision_gcg_radiation_cat.dds"
+	}
+	
+	spriteType = {
+	name = "GFX_gcg_nbc_minor_tech_medium"
+	texturefile = "gfx/interface/GFX_gcg_nbc_apocalypse_tech_medium.dds"		
+	}
+	
+	spriteType = {
+	name = "GFX_gcg_nbc_moderate_tech_medium"
+	texturefile = "gfx/interface/GFX_gcg_nbc_apocalypse_tech_medium.dds"		
+	}
+	
+	spriteType = {
+	name = "GFX_gcg_nbc_medium_tech_medium"
+	texturefile = "gfx/interface/GFX_gcg_nbc_apocalypse_tech_medium.dds"		
+	}
+	
+	spriteType = {
+	name = "GFX_gcg_nbc_high_tech_medium"
+	texturefile = "gfx/interface/GFX_gcg_nbc_apocalypse_tech_medium.dds"		
+	}
+	
+	spriteType = {
+	name = "GFX_gcg_nbc_extreme_tech_medium"
+	texturefile = "gfx/interface/GFX_gcg_nbc_apocalypse_tech_medium.dds"		
+	}
+	
+	spriteType = {
+	name = "GFX_gcg_nbc_apocalypse_tech_medium"
+	texturefile = "gfx/interface/GFX_gcg_nbc_apocalypse_tech_medium.dds"		
+	}
+
+	
+}

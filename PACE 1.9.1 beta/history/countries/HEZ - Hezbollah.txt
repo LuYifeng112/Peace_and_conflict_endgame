@@ -1,0 +1,38 @@
+﻿capital = 849
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.5
+
+set_technology = {
+	infantry_weapons = 1
+}
+give_guarantee = LEB
+give_military_access = LEB
+
+############################################# SET UP VARIABLES ###############################################
+
+set_variable = { corruption = 22 }
+set_variable = { anarchism = 100 }
+
+
+##############################################                   ##############################################
+set_politics = {	
+	ruling_party = salafist
+	last_election = "2020.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    salafist = 100
+}
+
+create_country_leader = {
+	name = "Hassan Nasrallah"
+	desc = "POLITICS_HASSAN_NASRALLAH_DESC"
+	#picture = "gfx/leaders/LEB/Hassan_Nasrallah.dds"
+	ideology = khomeinist
+	traits = { 
+	anti_semitic_leader
+	}
+}

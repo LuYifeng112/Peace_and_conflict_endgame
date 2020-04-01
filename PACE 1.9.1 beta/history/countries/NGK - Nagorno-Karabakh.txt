@@ -1,0 +1,29 @@
+﻿capital = 832
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.5
+
+set_technology = {
+	infantry_weapons = 1
+	
+}
+give_guarantee = ARM
+give_military_access = ARM
+
+set_politics = {	
+	ruling_party = reactionary
+	last_election = "2020.7.19"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+    reactionary = 100
+}
+
+create_country_leader = {
+	name = "Bako Sahakyan"
+	#picture = "Bako_Sahakyan.dds"
+	ideology = anti_left
+}

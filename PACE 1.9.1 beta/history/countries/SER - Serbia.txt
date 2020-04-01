@@ -1,0 +1,57 @@
+﻿capital = 107
+
+set_research_slots = 3
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	fuel_silos = 1
+}
+set_convoys = 0
+set_popularities = {
+		democratic = 20 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 20
+		monarchist = 0
+		reactionary = 0
+		conservative = 50
+		progressive = 0
+		centrist = 0
+		socialist = 0
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 10
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = conservative
+	last_election = "2016.4.24"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_stability = 0.6
+
+create_country_leader = {
+	name = "Ana Brnabić"
+	desc = "POLITICS_ANA_BRNABIC_DESC"
+	picture = "gfx/leaders/SER/SER_ana.dds"
+	ideology = national_conservatism
+	traits = {
+		anti_kosovo
+	}
+}

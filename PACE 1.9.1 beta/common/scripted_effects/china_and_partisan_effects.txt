@@ -1,0 +1,288 @@
+china_unites_china = {
+	#news_event = news.87
+	PRC = {
+		annex_country = {
+			target = CHI
+			transfer_troops = yes
+		}
+	}
+	#PRC = { country_event = china.28 }
+}
+
+taiwan_unites_china = {
+	#news_event = news.88
+	CHI = {
+		annex_country = {
+			target = PRC
+			transfer_troops = yes
+		}
+	}
+	#CHI = { country_event = taiwan.1 }
+}
+
+calculate_Taiwan_partisan_state = {
+	random_state = {
+		limit = {
+			is_fully_controlled_by = CHI
+			is_owned_by = CHI
+			is_on_continent = asia
+		}
+		save_event_target_as = partisan_state
+		ROOT = {
+			set_state_controller = event_target:partisan_state
+				
+			
+			
+			event_target:partisan_state = {
+			#	spawn_partisan_division = yes
+			}
+			
+			random_other_country = {
+				limit = { 
+					original_tag = PRC
+				}
+				set_state_controller = event_target:partisan_state	
+			}
+		}
+	}
+}
+
+calculate_PRC_partisan_state = {
+	random_state = {
+		limit = {
+			is_fully_controlled_by = PRC
+			is_owned_by = PRC
+			is_on_continent = asia
+		}
+		save_event_target_as = partisan_state
+		random_country = {
+			limit = {
+				original_tag = PRC
+				has_government = Chinese_socialism
+			}
+			set_state_controller = event_target:partisan_state
+				
+			
+			
+			event_target:partisan_state = {
+				#spawn_partisan_division = yes
+			}
+			
+			random_other_country = {
+				limit = { 
+					original_tag = CHI				
+				}
+				set_state_controller = event_target:partisan_state	
+			}
+		}
+	}
+}
+
+calculate_partisan_states = {
+	every_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			set_temp_variable = { resistance_trigger = 0.5 }
+			add_to_temp_variable = { resistance_trigger = Root.modifier@political_power_gain }
+			check_variable = { resistance > resistance_trigger }
+			
+			NOT = {
+				is_owned_by = ROOT
+				has_state_flag = recent_uprising
+			}
+		}	
+		set_state_flag = {
+			flag = recent_uprising
+			value = 1
+			days = 90
+		}
+		save_event_target_as = partisan_state
+		ROOT = {
+			random_other_country = {
+				limit = { 
+					owns_state = PREV.PREV 
+					#is_ai = yes
+				}
+				set_state_controller = PREV.PREV 
+				
+				#
+					
+				event_target:partisan_state = {
+					#spawn_partisan_division = yes
+				}
+			}
+			set_state_controller = PREV
+		}
+	}
+}
+
+sabotage_effect = {
+	set_temp_variable = { var = target_state_strength_temp value = guerilla_strength }
+	set_temp_variable = { var = target_state_strength_cost_temp value = 0 }
+	if = {
+		limit = {
+			check_variable = { target_state_infra_level_temp < target_state_strength_temp }
+		}
+		add_to_temp_variable = { var = target_state_strength_cost_temp value = infrastructure_level }
+		damage_building = {
+			type = infrastructure
+			damage = 10
+		}
+		subtract_from_temp_variable = { var = target_state_strength_temp value = target_state_infra_level_temp }
+		if = {
+			limit = {
+				arms_factory > 0
+				check_variable = { target_state_strength_temp > 1 }
+			}
+			damage_building = {
+				type = arms_factory
+				damage = 1
+			}
+			add_to_temp_variable = { var = target_state_strength_cost_temp value = 2 }
+			subtract_from_temp_variable = { var = target_state_strength_temp value = 2 }
+			if = {
+				limit = {
+					industrial_complex > 0
+					check_variable = { target_state_strength_temp > 1 }
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+				add_to_temp_variable = { var = target_state_strength_cost_temp value = 2 }
+				subtract_from_temp_variable = { var = target_state_strength_temp value = 2 }
+				if = {
+					limit = {
+						dockyard > 0
+						check_variable = { target_state_strength_temp > 1 }
+					}
+					damage_building = {
+						type = dockyard
+						damage = 1
+					}
+					add_to_temp_variable = { var = target_state_strength_cost_temp value = 2 }
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					check_variable = { target_state_strength_temp < 3 }
+				}
+				add_to_temp_variable = { var = target_state_strength_cost_temp value = target_state_strength_temp }
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+				else = {
+					if = {
+						limit = {
+							check_variable = { target_state_strength_temp < 4 }
+						}
+						add_to_temp_variable = { var = target_state_strength_cost_temp value = target_state_strength_temp }
+						damage_building = {
+							type = infrastructure
+							damage = 3
+						}
+						else = {
+							if = {
+								limit = {
+									check_variable = { target_state_strength_temp < 5 }
+								}
+								add_to_temp_variable = { var = target_state_strength_cost_temp value = target_state_strength_temp }
+								damage_building = {
+									type = infrastructure
+									damage = 4
+								}
+								else = {
+									if = {
+										limit = {
+											check_variable = { target_state_strength_temp < 6 }
+										}
+										add_to_temp_variable = { var = target_state_strength_cost_temp value = target_state_strength_temp }
+										damage_building = {
+											type = infrastructure
+											damage = 5
+										}
+										else = {
+											if = {
+												limit = {
+													check_variable = { target_state_strength_temp < 7 }
+												}
+												add_to_temp_variable = { var = target_state_strength_cost_temp value = target_state_strength_temp }
+												damage_building = {
+													type = infrastructure
+													damage = 6
+												}
+												else = {
+													if = {
+														limit = {
+															check_variable = { target_state_strength_temp < 8 }
+														}
+														add_to_temp_variable = { var = target_state_strength_cost_temp value = target_state_strength_temp }
+														damage_building = {
+															type = infrastructure
+															damage = 7
+														}
+														else = {
+															if = {
+																limit = {
+																	check_variable = { target_state_strength_temp < 9 }
+																}
+																add_to_temp_variable = { var = target_state_strength_cost_temp value = target_state_strength_temp }
+																damage_building = {
+																	type = infrastructure
+																	damage = 8
+																}
+																else = {
+																	if = {
+																		limit = {
+																			check_variable = { target_state_strength_temp < 10 }
+																		}
+																		add_to_temp_variable = { var = target_state_strength_cost_temp value = target_state_strength_temp }
+																		damage_building = {
+																			type = infrastructure
+																			damage = 9
+																		}
+																		add_to_temp_variable = { var = target_state_strength_cost_temp value = PRC_target_state_cell_strength_temp }
+																		else = {
+																			damage_building = {
+																				type = infrastructure
+																				damage = 10
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			air_base > 0
+		}
+		damage_building = {
+			type = air_base
+			damage = 1
+		}
+	}
+	set_temp_variable = { var = target_minus_strength_amount value = target_state_strength_cost_temp }
+	subtract_from_variable = { var = state_guerrilla_strength value = target_minus_strength_amount }
+	custom_effect_tooltip = target_state_minus_strength_tt
+}
+
+uprise_in_state_effect = {
+	
+						
+}

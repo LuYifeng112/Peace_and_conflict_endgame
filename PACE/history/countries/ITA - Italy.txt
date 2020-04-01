@@ -5,13 +5,7 @@ oob = "ITA_1936"
 set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
-add_ideas = {
-	victor_emmanuel
-	vittoria_mutilata
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
+
 
 
 # Starting tech
@@ -37,154 +31,16 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-	set_naval_oob = "ITA_1936_naval_legacy"
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		basic_depth_charges = 1
-		basic_torpedo = 1
-		basic_battery = 1
-		basic_secondary_battery = 1
-		basic_cruiser_armor_scheme = 1
-		basic_heavy_battery = 1
-		basic_medium_battery = 1
-		basic_light_battery = 1
-		improved_secondary_battery = 1
-		basic_heavy_armor_scheme = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_ship_hull_heavy = 1
-		mtg_transport = 1
-		coastal_defense_ships = 1
-	}
-	set_naval_oob = "ITA_1936_naval_mtg"
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = MTG_naval_treaty_adherent
-}
+############################################# SET UP VARIABLES ###############################################
 
-# DIPLOMACY / WAR 36
-2030.1.1 = {
-
-	add_political_power = 1198
-	
-	
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		remove_ideas = MTG_naval_treaty_adherent
-	}
-	#adding ministers
-	add_ideas = {
-		ITA_giovanni_marinelli
-		ITA_giacomo_acerbo
-		emilio_de_bono
-		vittorio_ambrosio
-		fiat
-		beretta
-
-		#laws
-		partial_economic_mobilisation
-		extensive_conscription
-	}
-	oob = "ITA_1939"
-	set_technology = {
-		fighter1 = 1
-		fighter2 = 1
-		tactical_bomber1 = 1
-		tactical_bomber2 = 1
-		improved_light_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		tech_recon = 1
-
-		#doctrines
-		grand_battle_plan = 1
-		prepared_defense = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
-		
-		#Air
-		force_rotation = 1
-		fighter_baiting = 1
-		low_echelon_support = 1
-		dispersed_fighting = 1
+set_variable = { corruption = 52 }
+set_variable = { anarchism = 44 }
 
 
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
+##############################################                   ##############################################
 
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		concentrated_industry = 1
-		concentrated_industry2 = 1
-		concentrated_industry3 = 1
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			basic_submarine = 1
-			basic_destroyer = 1
-			improved_destroyer = 1
-			basic_light_cruiser = 1
-			basic_battleship = 1
-			improved_battleship = 1
-		}
-		set_naval_oob = "ITA_1939_naval_legacy"
-	}
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_technology = {
-			improved_airplane_launcher = 1
-			
-		}
-		set_naval_oob = "ITA_1939_naval_mtg"
-	}
-	
-	set_stability = 0.8
-}
+
+
 #NATO
 
 set_country_flag = NATO_member
@@ -216,7 +72,9 @@ ITA = { diplomatic_relation = { country = SLO relation = military_access active 
 ITA = { diplomatic_relation = { country = SLV relation = military_access active = yes } }   #Slovenia
 
 set_convoys = 200
-
+################### ORG #########################
+set_country_flag = EU
+###############################################
 	set_popularities = {
 		democratic = 5 
 		fascism = 0
@@ -266,7 +124,7 @@ create_country_leader = {
 	name = "Sergio Mattarella"
 	desc = "POLITICS_SERGIO_MATTARELLA_DESC"
 	picture = "GFX_portrait_italy_ferruccio_parri"
-	ideology = socialism 
+	ideology = social_demo 
 	traits = {
 		
 	}

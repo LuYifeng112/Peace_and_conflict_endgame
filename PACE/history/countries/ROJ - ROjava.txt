@@ -72,6 +72,17 @@ declare_war_on = {
 		target = SYR
 		type = annex_everything
 	}
+diplomatic_relation = {
+		country = IRQ
+		relation = military_access
+		active = yes
+	}
+	
+	diplomatic_relation = {
+		country = KUR
+		relation = military_access
+		active = yes
+	}
 
 #############################politics##########################################
 	set_popularities = {
@@ -106,12 +117,12 @@ declare_war_on = {
 }
 
 create_country_leader = {
-	name = "Abdullah Öcalan"
-	desc = "POLITICS_ABDULLAH_OCALAN_DESC"
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
+	name = "Îlham Ehmed"
+	desc = "POLITICS_ILHAM_EHMED_DESC"
+	picture = "gfx/leaders/ROJ/ROJ_EHMED.dds"
 	ideology = libertarian_socialist
 	traits = {
-		#
+		PI_liberalism
 	}
 }
 

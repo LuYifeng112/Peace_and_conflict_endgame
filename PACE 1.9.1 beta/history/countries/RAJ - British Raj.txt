@@ -1,0 +1,213 @@
+﻿capital = 439
+
+set_stability = 0.6
+set_war_support = 0.1
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	transport = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	CAS1 = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+
+
+
+
+set_convoys = 20
+#########################################################################################                                                                                       
+  ####   #####    ####     ##    #    #  #   ####     ##    #####  #   ####   #    #   ####  
+ #    #  #    #  #    #   #  #   ##   #  #  #        #  #     #    #  #    #  ##   #  #      
+ #    #  #    #  #       #    #  # #  #  #   ####   #    #    #    #  #    #  # #  #   ####  
+ #    #  #####   #  ###  ######  #  # #  #       #  ######    #    #  #    #  #  # #       # 
+ #    #  #   #   #    #  #    #  #   ##  #  #    #  #    #    #    #  #    #  #   ##  #    # 
+  ####   #    #   ####   #    #  #    #  #   ####   #    #    #    #   ####   #    #   ####  
+ ##########################################################################################
+set_country_flag = QSD
+ add_to_array = {
+    array = QSD
+    value = RAJ
+}
+set_country_flag = SH_CO
+add_to_array = {
+	array = SH_CO
+	value = RAJ
+}
+set_country_flag = ASEAN
+add_to_array = {
+	array = ASEAN
+	value = RAJ
+}
+set_country_flag = NON_AL
+add_to_array = {
+	array = NON_AL
+	value = RAJ
+}
+set_country_flag = UN
+add_to_array = {
+		array = UN
+		value = RAJ
+}
+set_country_flag = federalism
+###############################################################################################
+
+ ######                                                    
+ #     #   ####   #    #  ######   ####   #####  #   ####  
+ #     #  #    #  ##  ##  #       #         #    #  #    # 
+ #     #  #    #  # ## #  #####    ####     #    #  #      
+ #     #  #    #  #    #  #            #    #    #  #      
+ #     #  #    #  #    #  #       #    #    #    #  #    # 
+ ######    ####   #    #  ######   ####     #    #   ####  
+###############################################################
+
+
+
+###############################################################
+########  #### ########  ##        #######  ##     ##    ###     ######  ##    ## 
+##     ##  ##  ##     ## ##       ##     ## ###   ###   ## ##   ##    ##  ##  ##  
+##     ##  ##  ##     ## ##       ##     ## #### ####  ##   ##  ##         ####   
+##     ##  ##  ########  ##       ##     ## ## ### ## ##     ## ##          ##    
+##     ##  ##  ##        ##       ##     ## ##     ## ######### ##          ##    
+##     ##  ##  ##        ##       ##     ## ##     ## ##     ## ##    ##    ##    
+########  #### ##        ########  #######  ##     ## ##     ##  ######     ##    
+###############################################################################
+#Guarantee
+RAJ = { diplomatic_relation = { country = MLD relation = guarantee  active = yes } } #Maldives
+RAJ = { diplomatic_relation = { country = BHU relation = guarantee  active = yes } } #Bhutan
+RAJ = { diplomatic_relation = { country = NEP relation = guarantee  active = yes } } #Nepal
+RAJ = { diplomatic_relation = { country = SRL relation = guarantee  active = yes } } #Sri Lanka
+
+#military access
+RAJ = { diplomatic_relation = { country = BHU relation = military_access  active = yes } } #Bhutan
+RAJ = { diplomatic_relation = { country = DJI relation = military_access  active = yes } } #Djibouti
+RAJ = { diplomatic_relation = { country = QAT relation = military_access  active = yes } } #Qatar
+RAJ = { diplomatic_relation = { country = TAJ relation = military_access  active = yes } } #Tajikistan
+#South Sudan peacekeeping
+
+#non-agression
+RAJ = { diplomatic_relation = { country = NEP relation = non_aggression_pact  active = yes } } #Nepal
+
+
+#docking rights
+RAJ = { diplomatic_relation = { country = SIN relation = docking_rights  active = yes } } #Singapore
+RAJ = { diplomatic_relation = { country = VIN relation = docking_rights  active = yes } } #Vietnam
+RAJ = { diplomatic_relation = { country = FRA relation = docking_rights  active = yes } } #France
+RAJ = { diplomatic_relation = { country = MZB relation = docking_rights  active = yes } } #Mozambique
+RAJ = { diplomatic_relation = { country = OMA relation = docking_rights  active = yes } } #Oman
+#RAJ = { diplomatic_relation = { country = SEY relation = docking_rights  active = yes } } #Seychelles
+
+######## ########     ###    ########  ######## 
+   ##    ##     ##   ## ##   ##     ## ##       
+   ##    ##     ##  ##   ##  ##     ## ##       
+   ##    ########  ##     ## ##     ## ######   
+   ##    ##   ##   ######### ##     ## ##       
+   ##    ##    ##  ##     ## ##     ## ##       
+   ##    ##     ## ##     ## ########  ######## 
+   ################################################
+
+
+##################################################################
+  
+  ######                                               
+ #     #   ####   #       #  #####  #   ####    ####  
+ #     #  #    #  #       #    #    #  #    #  #      
+ ######   #    #  #       #    #    #  #        ####  
+ #        #    #  #       #    #    #  #            # 
+ #        #    #  #       #    #    #  #    #  #    # 
+ #         ####   ######  #    #    #   ####    ####  
+ ###################################################################      
+	set_popularities = {
+		democratic = 30
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 0
+		progressive = 0 
+		centrist = 0
+		socialist = 12
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 58
+	}
+	set_politics = {
+	ruling_party = radical_right
+	last_election = "2019.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Narendra Modi"
+	desc = "POLITICS_NARENDRA_MODI_DESC"
+	picture = "gfx/leaders/RAJ/RAJ_Ram_nath_Kovind.dds"
+	ideology = far_right_conservative
+	traits = {
+		hindu_nationalist
+		neighbourhood_first_policy
+		Look_East_Policy
+		rhetoritician
+		high_approval_rating
+	}
+}
+
+add_ideas = {
+	RAJ_marginalized_muslim_community
+	RAJ_caste_system_idea
+	RAJ_Janmu_kashmir_terrorism
+	RAJ_naxalite_terrorism
+	RAJ_northeast_terrorism 
+	RAJ_need_one_identity
+	RAJ_Hindutva_medium 
+}
+
+
+create_country_leader = {
+	name = "Doraisamy Raja"
+	desc = "POLITICS_DORAISAMY_RAJA_DESC"
+	picture = "GFX_RAJ_veer_savarkar"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Uddhav Thackeray"
+	desc = "POLITICS_UDDHAV_THACKERAY_DESC"
+	picture = "GFX_RAJ_krishna_pillai"
+	ideology = hindutva
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "B. P. Sitaramayya"
+	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
+	picture = "GFX_RAJ_pattabhi_sitaramayya"
+	expire = "1965.1.1"
+	ideology = libertarian
+	traits = {
+		
+	}
+}

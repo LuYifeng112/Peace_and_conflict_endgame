@@ -1,0 +1,51 @@
+IMF = {
+	visible = {
+		has_country_flag = IMF
+	}
+}
+
+SH_CO = {
+	visible = {
+		has_country_flag = SH_CO
+	}
+}
+
+UN = {
+	visible = {
+		always = yes
+	}
+}
+
+UN_SC = {
+	visible = {
+		has_country_flag = UN_SC
+	}
+}
+
+WHO = {
+	visible = {
+		always = yes
+	}
+}
+
+WTO = {
+	visible = {
+		has_country_flag = WTO
+	}
+}
+
+NUKES = {
+	visible = {
+		has_country_flag = NUCLEAR
+	}
+}
+
+QSD = {
+	visible = {
+		tag = USA
+		tag = JAP
+		tag = AST
+		tag = RAJ
+	}
+}
+

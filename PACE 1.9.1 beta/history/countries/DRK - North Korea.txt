@@ -1,0 +1,66 @@
+﻿capital = 916 #South Korea - Seoul or Busan
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_convoys = 20
+
+	set_popularities = {
+		democratic = 0 
+		fascism = 0
+		communism = 86
+		neutrality = 0
+		salafist = 0
+		nationalism = 4
+		monarchist = 0
+		reactionary = 0
+		conservative = 0
+		progressive = 0
+		centrist = 0
+		socialist = 10
+		Novusism = 0
+		authoritarianism = 0 
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = communism
+	last_election = "2017.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+	limited_exports
+	DRK_sanctions_idea
+	DRK_juche_idea
+	DRK_nomenklatura_idea
+	DRK_songun_idea
+	DRK_oversized_military_idea
+	DRK_outdated_equipment_idea
+	DRK_bad_infra_idea
+	DRK_Chondoism_idea
+}
+
+create_country_leader = {
+	name = "Kim Jong-Un"
+	desc = "POLITICS_KIM_JONG_UN_DESC"
+	picture = "gfx/leaders/MAN/kim_jong_un.dds"
+	expire = "2030.1.1"
+	ideology = juche
+	traits = {
+	DRK_supreme_leader
+	triumvirate_leader
+	DRK_oppressor
+	DRK_powerful_personality_cult
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=893
+	name="STATE_893"
+	state_category = city
+	provinces={
+		11735 
+	}
+	history = {
+	owner = CRO
+	add_core_of = CRO
+}
+	manpower=208055
+	buildings_max_level_factor=1.000
+}

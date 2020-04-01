@@ -1,0 +1,14 @@
+state={
+	id=983
+	name="STATE_983"
+	state_category = small_island
+	provinces={
+		4088 
+	}
+	history = {
+	owner = UNW
+	add_core_of = UNW
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

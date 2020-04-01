@@ -1,0 +1,49 @@
+#internal distrubances
+
+PRC_guandong_uprising = {
+	visible = {
+		AND = {
+		tag = PRC
+		country_exists = CHI
+		country_exists = GXC 
+		PRC = {
+			has_war_with = CHI
+		}
+		}
+	}
+}
+
+PRC_hui_uprising = {
+	visible = {
+		AND = {
+		tag = PRC
+		country_exists = CHI
+		country_exists = XSM 
+		PRC = {
+			has_war_with = CHI
+		}
+		}
+	}
+}
+
+PRC_xinjiang_independance_war = {
+		visible = {
+		AND = {
+		tag = PRC
+		SIK = {
+			has_war_with = PRC
+		}
+		}
+	}
+}
+
+PRC_falun_gong = {
+	visible = {
+		tag = PRC
+		has_country_flag = PRC_falun_gong
+	}
+}
+
+
+
+

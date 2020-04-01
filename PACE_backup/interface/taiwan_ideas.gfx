@@ -1,0 +1,25 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_food_crop"
+		texturefile = "gfx/interface/ideas/food_storage.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_idea_limited_recognition_taiwan"
+		texturefile = "gfx/interface/ideas/LIMITED_REC.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_quasi_war_state"
+		texturefile = "gfx/interface/ideas/quasi_war_situation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_unawareness"
+		texturefile = "gfx/interface/ideas/unawareness.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_communist_infiltration"
+		texturefile = "gfx/interface/ideas/COMMUNIST_INFL.dds"
+	}
+	
+}

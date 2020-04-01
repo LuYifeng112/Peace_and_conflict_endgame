@@ -1,0 +1,25 @@
+
+state={
+	id=765
+	name="STATE_765"
+	manpower = 2639000
+	state_category = metropolis
+
+	history={
+		add_core_of = QAT
+		owner = QAT
+		victory_points = {
+			8051 30
+		}
+		buildings = {
+			infrastructure = 2
+			8051 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		8051
+	}
+}

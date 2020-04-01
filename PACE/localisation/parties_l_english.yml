@@ -10,8 +10,8 @@
  fascism_noun:0 "Fascism"
  fascism_desc:0 "Ultra-Nationalist Values"
  neutrality:0 "Neutrality"
- neutrality_noun:0 "Neutrality"
- neutrality_desc:0 "Neutrality Values"
+ neutrality_noun:0 "Big Tent"
+ neutrality_desc:0 "Populist Values"
  salafist:0 "Salafist"
  salafist_noun:0 "Salafism"
  salafist_desc:0 "Islamic Values"
@@ -87,7 +87,7 @@
  #juche:0 "Juche"
  #juche_desc:0 
  #communist_democrat:0 "Communist Democrat"
- ##communist_democrat_desc:0 
+ #communist_democrat_desc:0 
  #ho_chi_minh_though:0 "Ho Chi Minh Thought"
  #ho_chi_minh_thought_desc:0 ""
  #maoism:0 "Maoism"
@@ -278,6 +278,11 @@
 
 
  ###########################Countries- parties
+ #AQY
+ AQY_salafist_party:0 "Tanzim al-Qa'idah fi Jazirat al-Arab"
+
+ #ALG
+ ALG_nationalism_party:0 "abhatu l-Taḥrīri l-Waṭanī" 
 
  #BRA
  BRA_radical_right_party:0 "Partido Social Liberal"
@@ -288,23 +293,64 @@
  #DRK
  DRK_communism_party:0 "Chosŏn Rodongdang"
 
+ #EGY
+ EGY_liberalism_party:0 "izb al-Tayyār al-Maṣrī"
+
+ #GRE
+ liberal_conservatism_party:0 "Nea Dimokratia"
+
  #HKG
  HKG_Chinese_socialism_party:0 "Democratic Alliance for the Betterment and Progress of Hong Kong"
 
+ #HOU
+ HOU_salafist_party:0 "al-Majlis as-Siyāsiyy al-ʾAʿlā"
+
+ #HSM
+ HSM_salafist_party:0 "Ash-Shabaab, Hizbul Shabaab"
+
  #INS
  INS_nationalism_party:0 "Partai Demokrasi Indonesia Perjuangan"
+
+ #ISR
+ ISR_liberalism_party:0 "Likud"
  
  #ITA
  ITA_democratic_party:0 "Partito Democratico"
 
+ #IRQ
+ IRQ_nationalism_party:0 "Hizb al-Islami al-Iraqi"
+
  #JAP
  JAP_liberalism_party:0 "Jiyū-Minshutō"
+
+ #JOR
+ JOR_monarchist_party:0 "House of Hashim"
+
+ #LEB
+ LEB_liberalism_party:0 "at-Tayyār al-Waṭanī al-Horr"
+
+ #LBA
+ LBA_democratic_party:0 "Democratic Party"
+
+ #KAZ
+ KAZ_authoritarianism_party:0 "Nur Otan"
 
  #KOR
  KOR_liberalism_party:0 "Deobureominjudang"
 
  #KUR
  KUR_nationalism_party:0 "Partiya Demokrat a Kurdistanê"
+
+ #KYR
+ KYR_democratic_party:0 "Qırğızstan Sotsial-demokratiyalıq Partiyası"
+ #LAO
+ LAO_communism_party:0 "phakpasasonpativadlav"
+
+ #MAL
+ MAL_market_liberal_party:0 "Parti Pribumi Bersatu Malaysia"
+
+ #NEP
+ NEP_communism_party:0 "Nēpāla kamyuniṣṭa pārṭī"
 
  #PER
  PER_salafist_party:0 "Hezb-e E'tedāl va Towse'eh"
@@ -315,6 +361,9 @@
  #PRC
  PRC_Chinese_socialism_party:0 "Zhōngguó Gòngchǎndǎng"
  PRC_Chinese_socialism_party_long:0 "Zhōngguó Gòngchǎndǎng"
+
+ #QAT
+ QAT_monarchist:0 "House of Al Thani"
 
  #RAJ
  RAJ_radical_right_party:0 "Bharatiya Janata Party"
@@ -328,16 +377,42 @@
  
  #SIN
  SIN_conservative_party:0 "People's Action party"
-
+ SIN_democratic_party:0 "Worker's Party"
+ SIN_progressive_party:0 "Progress Singapore Party"
+ SIN_liberalism_party:0 "Singapore People's Party"
+ SIN_socialist_party:0 "Democratic Progressive Party"
+ SIN_market_liberal_party:0 "National Solidarity Party"
+ SIN_centrism_party:0 "Singaporeans First"
+ SIN_nationalism_party:0 "People's Voice"
+ SIN_salafist_party:0 "Pertubuhan Kebangsaan Melayu Singapura"
+ #STC
+ STC_authoritarianism_party:0 "al-Hirak al-Janoubi"
  #SYR
  SYR_nationalism_party:0 "hizb albaeth alearabiu alaishtirakiu - qutr suria"
 
  #SOV
  SOV_conservative_party:0 "Yedinaya Rossiya"
 
+ #TAJ
+ TAJ_nationalism_party:0 "Hizbi xalqii demokratii Tojikiston"
+
+ #TMS
+ TMS_nationalism_party:0 "Türkmenistanyň Demokratik partiýasy"
+ 
+ #TUR
+ TUR_conservative_party:0 "Adalet ve Kalkınma Partisi"
+ #UAE
+ UAE_monarchist_party:0 "House of Al Nahyan"
+
  #USA
  USA_conservative_party:0 "Republican Party"
 
+ #UZB
+ UZB_authoritarianism_party:0 "O'zbekistan Xalq Demokratik Partiyasi"
+
  #VEN
  VEN_communism_party:0 "Partido Socialista Unido de Venezuela"
+
+ #YEM
+ YEM_nationalism_party:0 "al-Hizb al-Ishtiraki al-Yamani"
  

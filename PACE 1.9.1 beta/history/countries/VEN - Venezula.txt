@@ -1,0 +1,135 @@
+﻿capital = 307
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+#########################################################################################                                                                                       
+  ####   #####    ####     ##    #    #  #   ####     ##    #####  #   ####   #    #   ####  
+ #    #  #    #  #    #   #  #   ##   #  #  #        #  #     #    #  #    #  ##   #  #      
+ #    #  #    #  #       #    #  # #  #  #   ####   #    #    #    #  #    #  # #  #   ####  
+ #    #  #####   #  ###  ######  #  # #  #       #  ######    #    #  #    #  #  # #       # 
+ #    #  #   #   #    #  #    #  #   ##  #  #    #  #    #    #    #  #    #  #   ##  #    # 
+  ####   #    #   ####   #    #  #    #  #   ####   #    #    #    #   ####   #    #   ####  
+ ##########################################################################################
+set_country_flag = IMF
+ add_to_array = {
+    array = IMF
+    value = VEN
+}
+set_country_flag = WHO
+ add_to_array = {
+    array = WHO
+    value = VEN
+}
+set_country_flag = WTO
+ add_to_array = {
+    array = WTO
+    value = VEN
+}
+set_country_flag = UN
+ add_to_array = {
+ 	array = UN
+ 	value = VEN
+ }
+set_country_flag = OAS
+ add_to_array = {
+ 	array = OAS
+ 	value = VEN
+ }
+ set_country_flag = NON_AL
+ add_to_array = {
+ 	array = NON_AL
+ 	value = VEN
+ }
+ ###############################################################################################
+
+ ######                                                    
+ #     #   ####   #    #  ######   ####   #####  #   ####  
+ #     #  #    #  ##  ##  #       #         #    #  #    # 
+ #     #  #    #  # ## #  #####    ####     #    #  #      
+ #     #  #    #  #    #  #            #    #    #  #      
+ #     #  #    #  #    #  #       #    #    #    #  #    # 
+ ######    ####   #    #  ######   ####     #    #   ####  
+###############################################################
+set_variable = {
+	corruption = 16
+}
+set_variable = {
+	anarchism = 90
+}
+set_country_flag = VEN_CRISIS
+##################################################################
+  
+  ######                                               
+ #     #   ####   #       #  #####  #   ####    ####  
+ #     #  #    #  #       #    #    #  #    #  #      
+ ######   #    #  #       #    #    #  #        ####  
+ #        #    #  #       #    #    #  #            # 
+ #        #    #  #       #    #    #  #    #  #    # 
+ #         ####   ######  #    #    #   ####    ####  
+ ###################################################################   
+
+ set_convoys = 10
+	set_popularities = {
+		democratic = 20 
+		fascism = 0
+		communism = 70
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 10
+		progressive = 0
+		centrist = 0
+		socialist = 0
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = communism
+	last_election = "2018.5.28"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+	VEN_maduro_diet
+	VEN_hyperinflation
+	VEN_migrant_crisis
+	VEN_coastal_piracy
+}
+
+create_country_leader = {
+	name = "Nicolás Maduro"
+	desc = "POLITICS_NICOLAS_MADURO_DESC"
+	picture = "gfx/leaders/VEN/VEN_Nicolas_maduro.dds"
+	ideology = communist_democrat
+	traits = {
+		VEN_decree
+ 		VEN_legitimacy_dispute
+	}
+}
+
+create_country_leader = {
+	name = "Diosdado Cabello"
+	desc = "POLITICS_DIOSDADO_CABELLO_DESC"
+	#picture
+	ideology = mafia
+	traits = {
+		
+	}
+}

@@ -1,0 +1,54 @@
+﻿capital = 658
+
+#Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+########################### ORG ###########################
+set_country_flag = AL_LEAGUE
+
+############################################################
+
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 100
+		reactionary = 0
+		conservative = 0
+		progressive = 0
+		centrist = 0
+		socialist = 0
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = monarchist
+	last_election = "2020.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	
+	name = "Khalifa bin Zayed Al Nahyan"
+	desc = "POLITICS_KHALIFA_BIN_ZAYED_AL_NAYHAN_DESC"
+	picture = "gfx/leaders/UAE/UAE_khalifa_bin_zayed.dds"
+	ideology = absolute_monarchist
+	traits = {
+		#
+	}
+}

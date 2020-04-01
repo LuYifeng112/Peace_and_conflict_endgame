@@ -1,0 +1,14 @@
+state={
+	id=842
+	name="STATE_842"
+	state_category = small_island
+	provinces={
+		1177 
+	}
+	history = {
+	owner = KOR
+	add_core_of = KOR
+	}
+	manpower=604771
+	buildings_max_level_factor=1.000
+}

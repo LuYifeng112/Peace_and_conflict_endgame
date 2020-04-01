@@ -1,0 +1,218 @@
+﻿capital = 267
+
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	basic_light_tank = 1
+}
+#########################################################################################                                                                                       
+  ####   #####    ####     ##    #    #  #   ####     ##    #####  #   ####   #    #   ####  
+ #    #  #    #  #    #   #  #   ##   #  #  #        #  #     #    #  #    #  ##   #  #      
+ #    #  #    #  #       #    #  # #  #  #   ####   #    #    #    #  #    #  # #  #   ####  
+ #    #  #####   #  ###  ######  #  # #  #       #  ######    #    #  #    #  #  # #       # 
+ #    #  #   #   #    #  #    #  #   ##  #  #    #  #    #    #    #  #    #  #   ##  #    # 
+  ####   #    #   ####   #    #  #    #  #   ####   #    #    #    #   ####   #    #   ####  
+ ##########################################################################################
+ set_country_flag = IMF #International Monetary Fund
+ add_to_array = {
+ 	array = IMF
+ 	value = AFG
+ }
+ set_country_flag = MNNA
+ add_to_array = {
+    array = MNNA
+    value = AFG
+}
+set_country_flag = NON_AL #Non-aligned movement
+add_to_array = {
+	array = NON_AL
+	value = AFG
+}
+set_country_flag = SH_CO #Shanghai Cooperation
+add_to_array = {
+	array = SH_CO
+	value = AFG
+}
+set_country_flag = UN #United Nations
+add_to_array = {
+	array = UN
+	value = AFG
+}
+set_country_flag = WHO #World Health organisation
+add_to_array = {
+	array = WHO
+	value = AFG
+}
+set_country_flag = WTO #World Trade organiation
+add_to_array = {
+	array = WTO
+	value = AFG
+}
+set_country_flag = IS_CO #Islamic cooperation
+add_to_array = {
+	array = IS_CO
+	value = AFG
+}
+###############################################################################################
+
+ ######                                                    
+ #     #   ####   #    #  ######   ####   #####  #   ####  
+ #     #  #    #  ##  ##  #       #         #    #  #    # 
+ #     #  #    #  # ## #  #####    ####     #    #  #      
+ #     #  #    #  #    #  #            #    #    #  #      
+ #     #  #    #  #    #  #       #    #    #    #  #    # 
+ ######    ####   #    #  ######   ####     #    #   ####  
+###############################################################
+set_variable = {
+	corruption = 16
+}
+set_variable = {
+	anarchism = 105
+}
+#USA = { #US Military access
+#	diplomatic_relation = { 
+#		country = AFG
+#		relation = military_access 
+#		active = yes 
+#	} 
+#}  
+#ENG = { #UK Military access
+#	diplomatic_relation = { 
+#		country = AFG
+#		relation = military_access 
+#		active = yes 
+#	} 
+#}
+
+##################################################################
+  
+  ######                                               
+ #     #   ####   #       #  #####  #   ####    ####  
+ #     #  #    #  #       #    #    #  #    #  #      
+ ######   #    #  #       #    #    #  #        ####  
+ #        #    #  #       #    #    #  #            # 
+ #        #    #  #       #    #    #  #    #  #    # 
+ #         ####   ######  #    #    #   ####    ####  
+ ###################################################################         
+	set_popularities = {
+		democratic = 5 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 30
+		progressive = 40
+		centrist = 0
+		socialist = 5
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 20
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+	}
+	set_politics = {
+	ruling_party = conservative
+	last_election = "2019.9.20"
+	election_frequency = 48
+	elections_allowed = yes
+	}
+
+create_country_leader = {
+	name = "Ashraf Ghani"
+	desc = "POLITICS_ASHRAD_GHANI_DESC"
+	picture = "gfx/leaders/AFG/Ashraf_Ghani.dds"
+	ideology = constitutionalist 
+	traits = {
+		#
+	}
+}
+########################################################
+ #     #                                             
+ ##   ##  #  #       #  #####    ##    #####   #   # 
+ # # # #  #  #       #    #     #  #   #    #   # #  
+ #  #  #  #  #       #    #    #    #  #    #    #   
+ #     #  #  #       #    #    ######  #####     #   
+ #     #  #  #       #    #    #    #  #   #     #   
+ #     #  #  ######  #    #    #    #  #    #    #   
+#########################################################                            
+
+
+create_corps_commander = {
+	name = "Bismillah Waziri"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Zafar Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Abdul Hadi Tarin"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	planning_skill = 1
+	}
+
+create_corps_commander = {
+	name = "Muhammad Afzal"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	defense_skill = 1
+	}
+create_corps_commander = {
+	name = "Raheem Wardak"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	planning_skill = 1
+	}
+create_corps_commander = {
+	name = "Mohammad Mangal"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 2
+	attack_skill = 1
+	}
+create_corps_commander = {
+	name = " Dawood Shah Wafadar"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 1
+	attack_skill = 1
+	}
+create_corps_commander = {
+	name = " Taj Mohammad Jahid"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 1
+	defense_skill = 1
+	}
+create_corps_commander = {
+	name = "Amanullah Mobin"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 1
+	defense_skill = 1
+	}

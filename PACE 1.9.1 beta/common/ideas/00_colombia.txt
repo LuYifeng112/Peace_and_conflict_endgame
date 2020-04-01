@@ -1,0 +1,71 @@
+ideas = {
+		
+
+	country = {
+		COL_migrants = {
+
+			allowed = {
+				original_tag = COL
+				country_exists = VEN
+				VEN = {
+					has_country_flag = VEN_CRISIS
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				weekly_manpower = 200
+				conscription = 0.025
+				MONTHLY_POPULATION = 0.001
+				custom_modifier_tooltip = COL_MIGRANT_tt
+			}
+		}
+
+		democratic_security = {
+
+			allowed = {
+				original_tag = COL
+				has_democratic_form_of_government = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				attrition = -0.1
+				land_reinforce_rate = 0.15
+				special_forces_attack_factor = 0.5
+				enemy_operative_intel_extraction_rate = 0.15
+				stability_factor = 0.05
+				custom_modifier_tooltip = COL_SEC_POLICY_tt
+			}
+		}
+
+		FARC_threat = {
+			 allowed = {
+			 	original_tag = COL
+			 }
+
+			 allowed_civil_war = {
+			 	always = yes
+			 }
+
+			 removal_cost = -1
+
+			 modifier = {
+			 	war_support_factor = 0.1
+			 	stability_factor = -0.1
+			 	max_planning = 0.25
+			 	custom_modifier_tooltip = CAM_FARC_THREAT_tt
+			 }
+		}
+	}
+}

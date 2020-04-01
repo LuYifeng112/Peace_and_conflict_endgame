@@ -376,6 +376,8 @@
  undisturbed_isolation:0 "Undisturbed Isolation"
  undisturbed_isolation_desc:0 "Still recovering from the Great Depression and the Dust Bowl famine, the nation is slowly rebuilding its infrastructure. America's industries are in most cases working at half capacity, and will keep doing so unless major events rouse the nation from torpor."
  isolation:0 "Isolation"
+ crashed_economy:0 "Broken Economy"
+ crashed_economy_desc:0 ""
  civilian_economy:0 "Civilian Economy"
  low_economic_mobilisation:0 "Early Mobilization"
  partial_economic_mobilisation:0 "Partial Mobilization"
@@ -671,8 +673,8 @@
  progress_cult_focus:0 "Progress Cult"
  socialist_science_focus:0 "Socialist Science"
  peoples_commissariat_focus:0 "People's Commissariat of Defense Industry"
- home_of_revolution:0 "Home of the Revolution"
- home_of_revolution_desc:0 "Comrades, with the defeat of the vile Trotskyite counter revolutionaries we were able to focus on defending the revolution. Our goal, our hope, our slogan is Socialism in One Country. We will build a bountiful socialist utopia here in the Soviet Union and the rest of the world will inevitably embrace it."
+ home_of_revolution:0 "Legacy of the USSR"
+ home_of_revolution_desc:0 "Our goal, our hope, our slogan was once known as Socialism in One Country. We built a bountiful illusionary socialist utopia here in the Soviet Union and after swaying the events of the world for a century here we are clinging to former glory."
  en_svensk_tiger:0 "En Svensk Tiger"
  en_svensk_tiger_desc:0 "If Sweden is to be like a tiger on the prowl then those who spy on us must not know what we do. In these time of conflict and strife it is the patriotic duty of every Swede to keep silent."
  state_shintoism:0 "State Shintoism"
@@ -2615,28 +2617,56 @@
  Khaw_Boon_Wan:0 "Khaw Boon Wan"
  Tharman_Shanmugaratnam:0 "Tharman Shanmugaratnam"
  Teo_Chee_Hean:0 "Teo Chee Hean"
+ 
+
  #KOR
  KOR_N_war_conscription:0 "Korean Draft for national defense"
- KOR_N_war_conscription_desc:0 ""
+ KOR_N_war_conscription_desc:0 "Conscription in South Korea has existed since 1957 and requires male citizens between the ages of 18 and 28 to perform compulsory military service. Women are not required to perform military service, but they may join the military. The basis for military conscription in South Korea is the Constitution of the Republic of Korea, which was promulgated on July 17, 1948. The constitution states in Article 39, "All citizens shall have the duty of national defense under the conditions as prescribed by Act.""
  KOR_authoritarian_past:0 "Authoritarian Past"
- KOR_authoritarian_past_desc:0 ""
+ KOR_authoritarian_past_desc:0 "South Korea's subsequent history is marked by alternating periods of democratic and autocratic rule. Civilian governments are conventionally numbered from the First Republic of Rhee Syngman to the contemporary Sixth Republic. The First Republic, arguably democratic at its inception, became increasingly autocratic until its collapse in 1960. The Second Republic was strongly democratic, but was overthrown in less than a year and replaced by an autocratic military regime. The Third, Fourth, and Fifth Republics were nominally democratic, but are widely regarded as the continuation of military rule. With the Sixth Republic, the country has gradually stabilized into a liberal democracy."
+ KOR_1953_mutual_defense_treaty:0 "Mutual Defense Treaty Between the United States and the Republic of Korea"
+ KOR_1953_mutual_defense_treaty_desc:0 "Mutual Defense Treaty Between the United States and the Republic of Korea is a treaty between South Korea and the United States signed on 1 October 1953, two months after the signing of the Korean Armistice Agreement which brought a halt to the fighting in the Korean War. The agreement commits the two nations to provide mutual aid if either faces external armed attack and allows the United States to station military forces in South Korea in consultation with the South Korean government."
+ KOR_anti_japanese:0 "Anti-Japanese Sentiment"
+ KOR_anti_japanese_desc:0 "After the annexation of Korea, Japan enforced a cultural assimilation policy. Koreans were angry over Japanese alteration and destruction of various Korean monuments including Gyeongbok Palace (경복궁, Gyeongbokgung) and the revision of documents that portrayed the Japanese in a negative light. "Today marks the declaration of Korean independence. There will be peaceful demonstrations all over Korea. If our meetings are orderly and peaceful, we shall receive the help of President Wilson and the great powers at Versailles, and Korea will be a free nation." Japan repressed the independence movement through military power. In one well attested incident, villagers were herded into the local church which was then set on fire. The official Japanese count of casualties include 553 killed, 1,409 injured, and 12,522 arrested, but the Korean estimates are much higher: over 7,500 killed, about 15,000 injured, and 45,000 arrested. Many other issues included the lack of a formal apology only fuel the anti-Japanese sentiment in Korea."
 
 
 #CHI
 CHI_mainland_threat:0 "Mainland Threat"
+CHI_mainland_threat_desc:0 "The Mainland Beijing Government is always at our doorstep. First in 1954 in the First Taiwan Straits Crisis, Secondly in 1958 in the Second Taiwan Straits Crisis and lastly in 1995 with the Third Taiwan Crisis. Alothough the Beijing Government isn't unruly as it was, it is powerful enough to invade and wipe us off the map. Hence this is a threat we must live with until it can be dealt with."
 CHI_authoritarian_past:0 "Belief in Democracy"
-
+CHI_authoritarian_past_desc:0 "After the release from brutal Japanese occupation The KMT retreated to Taiwan and declared Taipei the temporary capital of the ROC. For many years, the ROC and PRC each continued to claim in the diplomatic arena to be the sole legitimate government of "China". In 1987, martial law was lifted and Taiwan began the democratisation process beginning the abolition of the Temporary Provisions and culminating with the first direct president election in 1996. "
+CHI_black_money:0 "Black Money"
+CHI_black_money_desc:0 "Black gold is a term used in the Republic of China (Taiwan) to refer to political corruption. The term refers to the obtaining of money (the "gold") through a dark, secretive, and corrupt method. The Kuomintang has frequently been criticized in Taiwan for its connections to gangsters and black gold. \n In its early years, the KMT relied on support from organized crime, gangs, and unions and clan organizations with criminal ties in its efforts to consolidate power in war-torn post-imperial China. As a result, the party made concessions to local "crime bosses", such as the notorious Du Yuesheng in Shanghai, who were well-connected with its longtime leader, Chiang Kai-shek. During the Shanghai massacre of 1927, the KMT employed the Green Gang to exterminate suspected communists; the Green Gang also happened to be a major financial supporter of Chiang Kai-shek. The KMT's relationships with such organizations are believed to persist. "
+CHI_iron_vote:0 "Iron Vote"
+CHI_iron_vote_desc:0 "The "iron vote" is a political term for a voter that can be reliably counted on to vote for one party or another. This phrase was most notably used beginning as early as a decade ago in Asian democratic elections, specifically Taiwan. These usually include strong supporters of Taiwan independence or Chinese reunification. The Kuomintang (KMT) was defeated in 2000 elections by the loss of iron votes. The result shows that "iron vote" can only be taken as reference. People who strongly believe in their "iron vote" may have an unexpected outcome."
 #HKG
 HKG_basic_law_article_22_BR:0 "Broken Hong Kong Basic Law Article 22"
 HKG_basic_law_article_22_BR_desc:0 "The Basic Law of the Hong Kong Special Administrative Region of the People's Republic of China is the constitution of the Hong Kong Special Administrative Region and a national law of the People's Republic of China. THe document manages Relationship with central government, Fundamental rights and duties, Political structure and External affairs. Despite the existence of this document it is only dejure and without reimbursement from a willing leader it seems that Hong Kong's supposed independance is held at a standstill and imposed by the PRC. "
 HKG_basic_law_article_22:0 "Hong Kong Basic Law Article 22"
 HKG_basic_law_article_22_desc:0 ""
+HKG_iron_vote:0 "Iron Votes"
+HKG_iron_vote_desc:0 "The "iron vote" is a political term for a voter that can be reliably counted on to vote for one party or another. These typically contain supporters of Hong Kong's Pro democracy camp or Pro Beijing camp."
+HKG_protests:0 "Hong Kong Democracy protests"
+HKG_protests_desc:0 "The bill was proposed by the Hong Kong government in February 2019 to establish a mechanism for transfers of fugitives not only for Taiwan, but also for Mainland China and Macau, which are excluded in the existing laws. The introduction of the bill caused widespread criticism domestically and abroad from the legal profession, journalist organisations, business groups, and foreign governments fearing the erosion of Hong Kong's legal system and its built-in safeguards, as well as damage to Hong Kong's business climate. Largely, this fear is attributed to China's newfound ability through this bill to arrest voices of political dissent in Hong Kong. There have been multiple protests against the bill in Hong Kong and other cities abroad. On 9 June, protesters estimated to number from hundreds of thousands to more than a million marched in the streets and called for Chief Executive Carrie Lam to step down. Rallies began in March and April and evolved into mass movements in June."
 
 #BRA
 BRA_high_crime_3:0 "Extreme Crime rate"
-BRA_high_crime_3_desc:0 ""
+BRA_high_crime_3_desc:0 "" Subsequently, the protests have continued throughout the summer, escalating into increasingly violent confrontations involving the police, activists on both sides, suspected triad gangs, and local residents in all districts throughout the region.
 BRA_strong_economy:0 "Strong standing Brazilian Economy"
 BRA_strong_economy_desc:0 ""
+
+#MAL
+MAL_sultan_states:0 "Majlis Raja-Raja - Elective constituional monarchy"
+MAL_sultan_states_desc:0 "Every five years or when a vacancy occurs, the rulers convene as the Conference of Rulers (Malay- Majlis Raja-Raja) to elect among themselves the Yang di-Pertuan Agong, the federal constitutional monarch and head of state of Malaysia. As the Yang di-Pertuan Agong is elected among the rulers, Malaysia, as a whole, is also an elective monarchy. Nine of the states of Malaysia are constitutionally headed by traditional Malay rulers, collectively referred to as the Malay states. State constitutions limit eligibility for the thrones to male Malay Muslims of royal descent. Seven are hereditary monarchies based on agnatic primogeniture: Kedah, Kelantan, Johor, Perlis, Pahang, Selangor and Terengganu."
+MAL_SIN_1990_dispute:0 "Malaysia-Singapore disputes"
+MAL_SIN_1990_dispute_desc:0 "Malaysia and Singapore have still under their relative adminstrations not solved the issues of \n Malaysia-Singapore 1990 Points of Agreement. \n Disputes over Water prices. \n Proposed replacement of the Causeway bridge \n The dispute of Pedra Branca. \n Serious diplomatic initiative and negoations will be required to thaw the relations of either side for these disputes to end. For now they will keep being an obstacles until further cooperation."
+MAL_one_malay_program:0 "Satu Malaysia - One Malaysia Program"
+MAL_one_malay_program_desc:0 "Race plays a large role in Malaysian politics, and many Malaysian political parties are now ethnically based. The policies provide preferential treatment to Malays over non-Malays in employment, education, scholarships, business, and access to cheaper housing and assisted savings. While improving in the economic position of Malays, it is a source of resentment amongst non-Malays.Prime Minister Dato Sri Mohd Najib Tun Razak has claimed to attempt to close racial divides through the 1Malaysia initiative. The eight values of the concept are high performance culture, accuracy, knowledge, innovation, integrity, strong will, loyalty and wisdom."
+
+
+#PER
+Iran_Saudi_proxy_PER:0 "Iran-Saudi Cold War"
+Iran_Saudi_proxy_PER_desc:0 "The Iran–Saudi Arabia proxy conflict, sometimes also referred to as the Iran–Saudi Arabia Cold War, Middle East Cold War or Middle East Conflict, is the ongoing struggle for influence in the Middle East and surrounding regions between the Islamic Republic of Iran and the Kingdom of Saudi Arabia. The two countries have provided varying degrees of support to opposing sides in nearby conflicts, including the civil wars in Syria, Yemen and Iraq. The rivalry also extends to disputes in Bahrain, Lebanon, Qatar, Pakistan, Afghanistan, Nigeria, and Morocco, as well as broader competition in North and East Africa, parts of South Asia, Central Asia, and the Caucasus."
 
 #RWA
 RWA_article_54:0 "Article 54"
@@ -2644,8 +2674,12 @@ RWA_article_54_desc:0 "Article 54 states that "political organizations are prohi
 RWA_strong_economy:0 "Emerging Rwandan Economy"
 RWA_strong_economy_desc:0 "Rwanda is a country of few natural resources, and the economy is heavily dependent on subsistence agriculture, with an estimated 90% of the working population engaged in farming. Under Kagame's presidency, the service sector has grown strongly. In 2010, it became the country's largest sector by economic output.In spite of the genocide's legacy, Kagame's achievement of peace and security means the country is increasingly perceived internationally as a safe destination in the first half of 2011 for business security and tourism."
 
+#SAU
+Iran_Saudi_proxy_SAU:0 "Iran-Saudi Cold War"
+Iran_Saudi_proxy_SAU_desc:0 "The Iran–Saudi Arabia proxy conflict, sometimes also referred to as the Iran–Saudi Arabia Cold War, Middle East Cold War or Middle East Conflict, is the ongoing struggle for influence in the Middle East and surrounding regions between the Islamic Republic of Iran and the Kingdom of Saudi Arabia. The two countries have provided varying degrees of support to opposing sides in nearby conflicts, including the civil wars in Syria, Yemen and Iraq. The rivalry also extends to disputes in Bahrain, Lebanon, Qatar, Pakistan, Afghanistan, Nigeria, and Morocco, as well as broader competition in North and East Africa, parts of South Asia, Central Asia, and the Caucasus."
+
 #INS
 INS_fall_of_the_new_order:0 "Legacy of the Fall of the New Order"
 INS_fall_of_the_new_order_desc:0 "After the 1990s brought an end to the Cold War, Western concern over communism waned, and Suharto's human rights record came under greater international scrutiny. Since the fall of Suharto’s New Order regime, a variety of state-sponsored initiatives have been implemented to address mass violations of human rights. In these efforts, research shows that senior government officials consistently failed to achieve truth, accountability, institutional reform and reparations for the most serious crimes. The fall of the New Order has opened up Indonesian politics and pushed a huge change in the structure of authority in the nation."
 INS_newly_industrialised_country:0 "Emerging Indonesian Economy"
-INS_newly_industrialised_country_desc:0 ""
+INS_newly_industrialised_country_desc:0 "The economy of Indonesia is the largest in Southeast Asia and is one of the emerging market economies of the world. Indonesia is a member of G20 and classified as a newly industrialised country. It is the 16th largest economy in the world by nominal GDP and the 7th largest in terms of GDP (PPP). \nIn the aftermath of the 1997 Asian financial crisis, the government took custody of a significant portion of private sector assets through the acquisition of nonperforming bank loans and corporate assets through the debt restructuring process and the companies in custody were sold for privatisation several years later. Since 1999 the economy has recovered, and growth has accelerated to over 4–6% in recent years. \nIn 2012, Indonesia replaced India as the second-fastest-growing G-20 economy, behind China. Since then, the annual growth rate has slowed down and stagnates at a rate of 5%."

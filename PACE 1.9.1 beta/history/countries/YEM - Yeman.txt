@@ -1,0 +1,52 @@
+﻿capital = 293
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+set_convoys = 5
+############################ ORG ###########################
+set_country_flag = AL_LEAGUE
+
+############################################################
+	set_popularities = {
+		democratic = 0 
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 0
+		nationalism = 100
+		monarchist = 0
+		reactionary = 0
+		conservative = 0
+		progressive = 0
+		centrist = 0
+		socialist = 0
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 0
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = nationalism
+	last_election = "2020.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Abdrabbuh Mansur Hadi"
+	desc = "POLITICS_Abdrabbuh_hadi_DESC"
+	picture = "gfx/leaders/YEM/YEM_MANSUR.dds"
+	ideology = autocrat
+	traits = {
+		#
+	}
+}

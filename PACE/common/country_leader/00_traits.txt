@@ -1,6 +1,311 @@
 leader_traits = {
-
 	
+	#GER
+	 defacto_EU_leader = {
+	 	random = no
+
+	 	political_power_gain = 0.5
+
+	 	ai_will_do = {
+	 		factor = 1
+	 	}
+	 }
+
+	#FRA
+
+	effective_lawmaker = {
+		random =  no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	historical_revisionist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	pacifist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	controversial_union_man = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#TUR
+
+	 paranoid_of_pkk = {
+	 	random = no
+
+	 	ai_strategy = {
+	 		type = antagonize
+	 		id = ROJ
+	 		value = 100
+	 	}
+	 }
+
+	 crackdown_on_seperatists_TUR = {
+	 	random = no
+
+	 	foreign_subversive_activites = -0.50
+		subversive_activites_upkeep = -0.1
+		democratic_acceptance = -50
+
+	 	ai_will_do = {
+	 		factor = 1
+	 	}
+	 }
+
+	 kill_ROJ = {
+	 	random = no
+
+	 	ai_strategy = {
+	 		type = invade
+	 		id = ROJ
+	 		value = 200
+	 	}
+	 }
+
+	#SYR
+	SYR_cling_power = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	SYR_stubborn_war = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	support_from_extremism = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#SOV
+
+	former_kgb = {
+		random = no
+
+		decryption_factor = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	 demorcatic_backsliding = {
+	 	random = no
+
+	 	ai_will_do = {
+	 		factor = 1
+	 	}
+	 }
+
+	 long_serving_SOV = {
+	 	random = no
+
+	 	ai_will_do = {
+	 		factor = 1
+	 	}
+	 }
+
+	#RAJ
+
+	hindu_nationalist = {
+		random = no
+
+		nationalism_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	rhetoritician = {
+		random = no
+
+		political_power_gain = 0.25
+
+		ai_will_do = {
+		factor = 1
+		}
+	}
+
+	high_approval_rating = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	#PER
+	
+	supreme_leader_PER = {
+		random = no
+
+		political_power_gain = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_american_leader = {
+		random = no
+
+		ai_strategy = {
+			type = befriend
+			id = USA
+			value = 100
+		}
+
+		ai_strategy = {
+			type = antagonise
+			id = USA
+			value = 100
+		}
+	}
+	
+	#MAL
+
+	highly_credential = {
+		random = no
+
+		political_power_gain = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#KUR
+
+	 KUR_international_diplomacy_effort = {
+	 	random = no
+
+	 	ai_strategy = {
+			type = pp_spend_priority
+			id = relation
+			value = 300
+		}
+		ai_strategy = {
+			type = befriend
+			id = "PRC"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "USA"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "JAP"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "SAU"			
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "SIN"			
+			value = 200
+		}
+	 }
+
+	IRQ_cooperation = {
+		random = no
+
+		ai_strategy = {
+			type = befriend
+			id = IRQ
+			value = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	#IRQ
+
+	condemned_tur_IRQ = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kurd_sympathiser = {
+		random = no
+
+		ai_strategy = {
+			type = protect
+			id = KUR
+			value = 100
+		}
+
+		ai_strategy = {
+			type = befriend
+			id = KUR
+			value = 200
+		}
+
+		ai_strategy = {
+			type = support
+			id = KUR
+			value = 200
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Islam Generic 
+
+	anti_semitic_leader = {
+		random = no
+
+		 ai_strategy = {
+		 	type = antagonize
+		 	id = ISR
+		 	value = 100
+		 }
+
+		ai_will_do = {
+			factor = 
+		}
+	}
 	crackdown_on_seperatists_HKG = {
 		random = no
 

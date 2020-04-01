@@ -45,25 +45,25 @@ set_convoys = 5
 }
 
 ########################ORG############################
-set_country_flag = shanghai_corps
+set_country_flag = SH_CO
 
 	set_popularities = {
-		democratic = 5 
+		democratic = 0
 		fascism = 0
-		communism = 0
+		communism = 5
 		neutrality = 0
 		salafist = 0
-		nationalism = 0
+		nationalism = 65
 		monarchist = 0
 		reactionary = 0
-		conservative = 30
-		progressive = 40
+		conservative = 20
+		progressive = 0
 		centrist = 0
-		socialist = 5
+		socialist = 10
 		Novusism = 0
 		authoritarianism = 0
 		imperialism = 0
-		liberalism = 20
+		liberalism = 0
 		Chinese_socialism = 0
 		anarchism = 0
 		liberal_conservatism = 0
@@ -73,8 +73,8 @@ set_country_flag = shanghai_corps
 	}
 	set_politics = {
 	ruling_party = nationalism
-	last_election = "1936.1.1"
-	election_frequency = 48
+	last_election = "2013.1.1"
+	election_frequency = 84
 	elections_allowed = yes
 }
 
@@ -82,7 +82,7 @@ create_country_leader = {
 	
 	name = "Emomali Rahmon"
 	desc = "POLITICS_EMOMALI_RAHMON_DESC"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	picture = "gfx/leaders/TAJ/TAJ_RAHMON.dds"
 	ideology = national_democrat
 	traits = {
 		#

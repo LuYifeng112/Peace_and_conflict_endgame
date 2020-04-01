@@ -1,0 +1,18 @@
+﻿l_english:
+  trade_war:0 "US-China Trade War"
+  USA_PRC_pacific_hegemony:0 "Pacific Influence Rivalry"
+  USA_Quad_security_dialouge:0 "Quadrilateral Security Dialogue"
+  USA_de_facto_diplomatic_ties:0 "De-facto Taiwanese-American Diplomacy"
+
+  PRC_undemocratic:0 "Distrust Chinese authoritarianism"
+  PRC_territorial_disputes:0 "South China Sea terriotry Dispute"
+  PRC_BRB_military_coop:0 "Barbados-China Military Co-operation agreement"
+  PRC_BAN_military_coop:0 "Bangladeshi-Chinese Military Co-operation agreement"
+  PRC_SRI_military_coop:0 "Sri-Lankan-Chinese Military cooperation"
+  PRC_ARM_military_coop:0 "Armenian-Chinese Military Co-operation"
+
+  JAP_KOR_trade_dispute:0 "Japan–South Korea trade dispute"
+  JAP_KOR_trade_disputes_relation:0 "Japan–South Korea trade dispute"
+  JAP_cruel_sentiment:0 "Anti-Japanese Sentiment"
+  JAP_history:0 "Past Japanese War-Crimes"
+  JAP_right_wing_anti_KOR:0 "Right Wing Anti-Korean Sentiment"

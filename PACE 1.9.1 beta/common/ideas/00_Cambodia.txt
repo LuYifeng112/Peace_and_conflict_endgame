@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		
+		CAM_chinese_aid_reliance = {
+			allowed = {
+				country_exists = PRC
+				original_tag = CAM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -1
+				civilian_factory_use = 7
+				Chinese_socialism_acceptance = 80
+				custom_modifier_tooltip = CAM_RELIANCE_tt
+			}
+		}
+
+	}
+
+	
+}

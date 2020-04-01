@@ -1,0 +1,228 @@
+﻿capital = 336 
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	
+	
+	atomic_research = 1
+}
+set_research_slots = 4
+set_convoys = 250
+
+add_ideas = {
+	SIN_public_order_act
+	four_asian_tigers
+	SIN_singapore_model
+	MAL_SIN_1990_dispute
+}
+
+
+################### ORG #########################
+set_country_flag = ASEAN
+###############################################
+###############################################################
+########  #### ########  ##        #######  ##     ##    ###     ######  ##    ## 
+##     ##  ##  ##     ## ##       ##     ## ###   ###   ## ##   ##    ##  ##  ##  
+##     ##  ##  ##     ## ##       ##     ## #### ####  ##   ##  ##         ####   
+##     ##  ##  ########  ##       ##     ## ## ### ## ##     ## ##          ##    
+##     ##  ##  ##        ##       ##     ## ##     ## ######### ##          ##    
+##     ##  ##  ##        ##       ##     ## ##     ## ##     ## ##    ##    ##    
+########  #### ##        ########  #######  ##     ## ##     ##  ######     ##    
+###############################################################################
+
+#Guarantee
+SIN = { diplomatic_relation = { country = ENG relation = guarantee  active = yes } } #UK
+SIN = { diplomatic_relation = { country = AST relation = guarantee  active = yes } } #Austalia
+SIN = { diplomatic_relation = { country = MAL relation = guarantee  active = yes } } #Malaysia
+SIN = { diplomatic_relation = { country = NZL relation = guarantee  active = yes } } #New Zealand
+
+#Military access
+SIN = { diplomatic_relation = { country = USA relation = military_access  active = yes } } #America
+SIN = { diplomatic_relation = { country = BRU relation = military_access  active = yes } } #Brunei
+SIN = { diplomatic_relation = { country = CHI relation = military_access  active = yes } } #Taiwan
+#non aggression pact
+
+
+#docking rights
+SIN = { diplomatic_relation = { country = RAJ relation = docking_rights  active = yes } } #Brunei
+
+#################################################################################
+
+	set_popularities = {
+		democratic = 14
+		fascism = 0
+		communism = 0
+		neutrality = 0
+		salafist = 4
+		nationalism = 0
+		monarchist = 0
+		reactionary = 0
+		conservative = 70
+		progressive = 0
+		centrist = 2
+		socialist = 6
+		Novusism = 0
+		authoritarianism = 0
+		imperialism = 0
+		liberalism = 0
+		Chinese_socialism = 0
+		anarchism = 0
+		liberal_conservatism = 0
+		social_liberal = 4
+		market_liberal = 0
+		radical_right = 0
+	}
+	set_politics = {
+	ruling_party = conservative
+	last_election = "2015.7.11"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Lee Hsien Loong"
+	desc = "POLITICS_LEE_LOONG_DESC"
+	picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
+	ideology = constitutionalist
+	traits = {
+		accomplised_military_background
+		Strategic_Framework_Agreement
+		PRC_cooperation
+	}
+	id = 100
+}
+
+create_country_leader = {
+	name = "Wee Ka Siong"
+	desc = "POLITICS_WEE_KA_SIONG_DESC"
+	#picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
+	ideology = socialism_with_chinese_characterisitcs
+	traits = {
+		PRC_cooperation 
+	}
+	id = 110
+}
+
+create_country_leader = {
+	name = "Tan Jee Say"
+	desc = "POLITICS_TAN_JEE_SAY_DESC"
+	#picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
+	ideology = centrism
+	traits = {
+	}
+	id = 120
+}
+
+create_country_leader = {
+	name = "Low Thia Khiang"
+	desc = "POLITICS_LOW_THIA_KHIANG_DESC"
+	#picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
+	ideology = social_demo
+	traits = {
+	}
+	id = 130
+}
+
+create_country_leader = {
+	name = "Chee Soon Juan"
+	desc = "POLITICS_CHEE_SOON_JUAN_DESC"
+	#picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
+	ideology = soc_lib
+	traits = {
+	}
+	id = 150
+}
+
+create_country_leader = {
+	name = "Chiam See Tong"
+	desc = "POLITICS_CHIAM_SEE_TONG_DESC"
+	#picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
+	ideology = liberal_demo
+	traits = {
+	}
+	id = 160
+}
+
+create_country_leader = {
+	name = "Ibrahim Ariff"
+	desc = "POLITICS_IBRAHIM_ARIFF_DESC"
+	#picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
+	ideology = national_democrat
+	traits = {
+	}
+	id = 170
+}
+
+#create_country_leader = { #Should be added by event
+#	name = "Abu Mohamed"
+#	desc = "POLITICS_ABU_MOHAMED_DESC"
+#	#picture = "gfx/leaders/SIN/Lee_Hsien_Loong.dds"
+#	ideology = right_wing_conservative
+#	traits = {
+#	}
+#	id = 140
+#}
+
+
+#create_corps_commander = {
+#	name = "Neo Kian Hong"
+#	desc = "MILITARY_NEO_KIAN_HONG_DESC"
+#	#picture = "Portrait_Germany_Walter_Kruger.dds"
+#	traits = { armor_officer trait_reckless politically_connected}
+#	skill = 3
+#	id = 15
+#	attack_skill = 3
+#	defense_skill = 3
+#	planning_skill = 1
+#	logistics_skill = 3
+#}
+
+create_corps_commander = {
+	name = "Frederick Choo"
+	desc = "MILITARY_FREDERICK_CHOO_DESC"
+	#picture = "Portrait_Germany_Heinz_Guderian.dds"
+	traits = { trickster brilliant_strategist armor_officer career_officer }
+	skill = 2
+	id = 104
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Lee Yi Jin"
+	desc = "MILITARY_LEE_YI_JIN_DESC"
+	#picture = "Portrait_Germany_Wilhelm_List.dds"
+	traits = { career_officer inflexible_strategist }
+	skill = 2
+	id = 102
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Chua Jin Kiat"
+	desc = "MILITARY_CHUA_JIN_KIAT_DESC"
+	#picture = "Portrait_Germany_Ewald_von_Kleist.dds"
+	traits = { trait_cautious }
+	skill = 2
+	id = 103
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_equipment_variant = {
+		name = "FH-88"
+		type = artillery1
+		upgrades = {
+			
+		}
+		obsolete = yes
+	}

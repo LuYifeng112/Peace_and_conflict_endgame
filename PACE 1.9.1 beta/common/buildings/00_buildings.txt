@@ -1,0 +1,200 @@
+buildings = {
+
+	# show_on_map:
+	#	if provincial = yes, then show_on_map = X is amount per each province
+	#	if provincial = no, then show_on_map = X is amount per state
+
+	farm = {
+		show_on_map = 0
+		provincial = yes
+		disabled_in_dmz = no
+		local_resources_food = 10
+		max_level = 5
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+	fishery = {
+		show_on_map = 0 
+		provincial = yes
+		disabled_in_dmz = no
+		local_resources_food = 10
+		max_level = 20
+		only_costal = yes
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+
+	housing_district = {
+		base_cost = 20000              # Cost in CIC to build.
+    	base_cost_conversion = 15000    # Cost in CIC to convert to.
+   		per_level_extra_cost = 2000   # Added cost per building level.
+  		show_on_map = 0
+		damage_factor = 0.8
+		provincial = yes
+		disabled_in_dmz = no
+		local_resources_food = -5
+		local_resources_electricity = -25
+		local_resources_water = -15
+		max_level = 500
+		shares_slots = yes
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+
+	military_base = {
+		show_on_map = 0
+		provincial = no
+		disabled_in_dmz = yes
+		base_cost = 10000
+		local_resources_food = -5
+		local_resources_electricity = -25
+		local_resources_water = -10
+		max_level = 1
+		shares_slots = yes
+		value = 15
+		infrastructure_construction_effect = yes
+	}
+
+
+
+	air_base = {
+		show_on_map = 1
+		base_cost = 1750
+		icon_frame = 12
+		air_base = yes
+		max_level = 15
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+
+	naval_base = {
+		show_on_map = 1
+		show_on_map_meshes = 3
+		always_shown = yes
+		base_cost = 3200
+		provincial = yes
+		only_costal = yes
+		is_port = yes
+		icon_frame = 20
+		max_level = 20
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+
+	bunker = {
+		show_on_map = 1
+		has_destroyed_mesh = yes
+		base_cost = 1375
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 21
+		land_fort = 1
+		max_level = 10
+		value = 1
+	}
+
+	coastal_bunker = {
+		show_on_map = 1
+		has_destroyed_mesh = yes
+		base_cost = 1375
+		provincial = yes
+		disabled_in_dmz = yes
+		only_costal = yes
+		icon_frame = 22
+		naval_fort = 1
+		max_level = 10
+		value = 1
+	}
+
+	
+	anti_air_building = {
+		show_on_map = 3
+		base_cost = 2500
+		icon_frame = 13
+		anti_air = yes
+		disabled_in_dmz = yes
+		air_defence = 1
+		max_level = 16 # This is the max unlock level
+		damage_factor = 0.1
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+
+	radar_station = {
+		show_on_map = 1
+		base_cost = 3375
+		icon_frame = 14
+		radar = yes
+		#max_level = 0 # max: 5
+		max_level = 10 # This is the max unlock level
+		damage_factor = 0.5
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+
+	rocket_site = {
+		show_on_map = 1
+		base_cost = 20000
+		icon_frame = 15
+		rocket_production = 20
+		rocket_launch_capacity = 1
+		max_level = 10
+		shares_slots = no
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+	#POWER STUFF
+	coal_plant = {
+		show_on_map = 0
+		base_cost = 20000
+		icon_frame = 5
+		local_resources_electricity = 10
+		refinery = yes
+		max_level = 10 # This is the max unlock level
+		shares_slots = yes
+		value = 10
+		infrastructure_construction_effect = yes
+	}
+	windmills = {
+		show_on_map = 0 
+		base_cost = 20000
+		local_resources_electricity = 10
+		refinery = yes 
+		max_level = 5
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}	
+	solar_conversion = {
+		show_on_map = 0 
+		base_cost = 25000
+		local_resources_electricity = 10
+		refinery = yes
+		max_level = 3
+		shares_slots = yes
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+	nuclear_power_plant = {
+		show_on_map = 0 
+		base_cost = 25000
+		local_resources_electricity = 30
+		nuclear_reactor = yes
+		max_level = 3
+		shares_slots = yes
+		value = 4
+		infrastructure_construction_effect = yes
+	}
+	hydro = {
+		show_on_map = 0 
+		base_cost = 30000
+		local_resources_electricity = 20
+		local_resources_water = -10
+		max_level = 2
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+}

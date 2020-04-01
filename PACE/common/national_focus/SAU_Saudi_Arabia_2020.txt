@@ -1,0 +1,25 @@
+focus_tree = { 
+id = Saudi_Arabia_2020
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = SAU 
+} 
+} 
+#Focus for Purchase US equipment
+focus = { 
+id = SAU_purchaseusequipment
+icon = GFX_goal_unknown
+x = 12
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

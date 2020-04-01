@@ -1,0 +1,21 @@
+
+state={
+	id=885
+	name="STATE_885"
+
+	history={
+		owner = SDF
+		add_core_of = ROJ
+		add_core_of = SYR
+		add_core_of = SDF
+		add_core_of = ISS
+
+	}
+
+	provinces={
+		7140 7671 12473 
+	}
+	manpower=165000
+	buildings_max_level_factor=1.000
+	state_category=city
+}
