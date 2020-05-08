@@ -1,6 +1,0 @@
-﻿###########################
-# Kingdom of Saudi arabia Events
-###########################
-
-add_namespace = sau
-

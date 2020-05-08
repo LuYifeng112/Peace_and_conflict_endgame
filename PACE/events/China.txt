@@ -1,6 +1,0 @@
-﻿###########################
-# People's Republic of China Events
-###########################
-
-add_namespace = prc
-

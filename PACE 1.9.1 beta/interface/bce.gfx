@@ -1,6 +1,0 @@
-spriteTypes = {	
-	spriteType = {
-		name = "bce_border_war"
-		texturefile = "gfx/bce_border_war.dds"
-	}
-}

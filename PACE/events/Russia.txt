@@ -1,6 +1,0 @@
-﻿###########################
-# Russian Federation Events
-###########################
-
-add_namespace = sov
-

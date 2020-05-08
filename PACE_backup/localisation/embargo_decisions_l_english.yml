@@ -1,6 +1,0 @@
-﻿l_english:
-  embargo_country:0 "Embargo [From.GetName]"
-  release_embargo_country:0 "Cease Trade Embargo on [From.GetName]"
-  embargo_mission_subjects:0 "Embargo [From.GetName] alike our overlord."
-  cancel_embargo_mission_subjects:0 "Cease Trade Embargo on [From.GetName] alike our overlord."
-  subject_embargo_country:0 "Embargo [From.GetName] alike our overlord." 

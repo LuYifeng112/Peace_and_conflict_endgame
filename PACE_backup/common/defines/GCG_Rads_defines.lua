@@ -1,1 +1,0 @@
-NDefines.NMilitary.UNIT_UPKEEP_ATTRITION = 0.01
